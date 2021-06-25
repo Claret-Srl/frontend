@@ -1,3 +1,5 @@
+[![Release](https://github.com/Claret-Srl/frontend/actions/workflows/release.yaml/badge.svg)](https://github.com/Claret-Srl/frontend/actions/workflows/release.yaml)
+
 # Home Assistant Frontend
 
 This is the repository for the official [Home Assistant](https://home-assistant.io) frontend.
