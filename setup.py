@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 
 setup(
-    name="home-assistant-frontend",
+    name="drypatrick-frontend",
     version="20210603.0",
     description="The Home Assistant frontend",
     url="https://github.com/home-assistant/home-assistant-polymer",
