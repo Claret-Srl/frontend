@@ -5,13 +5,11 @@ on:
     branches:
       - dev
       - master
-      - claret
   pull_request:
     branches:
       - dev
       - master
-      - claret
-      
+
 jobs:
   lint:
     runs-on: ubuntu-latest
