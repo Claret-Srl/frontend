@@ -1,4 +1,4 @@
-[![Release](https://github.com/Claret-Srl/frontend/actions/workflows/release.yaml/badge.svg)](https://github.com/Claret-Srl/frontend/actions/workflows/release.yaml)
+[![Release](https://github.com/claret-srl/frontend/actions/workflows/release.yaml/badge.svg)](https://github.com/claret-srl/frontend/actions/workflows/release.yaml)
 
 # Home Assistant Frontend
 
