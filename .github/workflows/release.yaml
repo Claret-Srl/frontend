@@ -71,7 +71,7 @@ jobs:
           name: requirements
 
       - name: Build wheels
-        uses: claret-srl/wheels@claret
+        uses: claret-srl/wheels@master
         with:
           tag: ${{ env.WHEELS_TAG }}
           arch: ${{ matrix.arch }}
