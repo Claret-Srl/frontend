@@ -13,7 +13,7 @@ const ADDITIONAL_PREFERENCES = [
   {
     key: "usage",
     title: "Usage",
-    description: "Details of what you use with Safegate Pro",
+    description: "Details of what you use with Home Assistant",
   },
   {
     key: "statistics",

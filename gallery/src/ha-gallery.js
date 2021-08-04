@@ -70,7 +70,7 @@ class HaGallery extends PolymerElement {
               class$="[[_computeHeaderButtonClass(_demo)]]"
             ></ha-icon-button>
             <div main-title>
-              [[_withDefault(_demo, "Safegate Pro Gallery")]]
+              [[_withDefault(_demo, "Home Assistant Gallery")]]
             </div>
           </app-toolbar>
         </app-header>
@@ -95,7 +95,7 @@ class HaGallery extends PolymerElement {
 
                   <p>
                     Check
-                    <a href="https://www.safegatepro.it/lovelace"
+                    <a href="https://www.home-assistant.io/lovelace"
                       >the official website</a
                     >
                     for instructions on how to get started with Lovelace.

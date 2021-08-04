@@ -1,4 +1,4 @@
-// https://community.safegatepro.it/t/slate-a-new-dark-theme/86410
+// https://community.home-assistant.io/t/slate-a-new-dark-theme/86410
 export const demoThemeKernehed = () => ({
   "text-primary-color": "var(--primary-text-color)",
   "paper-item-icon-color": "var(--primary-text-color)",

@@ -88,11 +88,11 @@ class CloudLogin extends LocalizeMixin(
       <hass-subpage
         hass="[[hass]]"
         narrow="[[narrow]]"
-        header="Safegate Pro Cloud"
+        header="Home Assistant Cloud"
       >
         <div class="content">
           <ha-config-section is-wide="[[isWide]]">
-            <span slot="header">Safegate Pro Cloud</span>
+            <span slot="header">Home Assistant Cloud</span>
             <div slot="introduction">
               <p>[[localize('ui.panel.config.cloud.login.introduction')]]</p>
               <p>

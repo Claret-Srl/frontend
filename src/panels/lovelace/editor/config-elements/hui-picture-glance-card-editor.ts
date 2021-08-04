@@ -66,7 +66,7 @@ export class HuiPictureGlanceCardEditor
       this._config!.image ||
       (this._camera_image
         ? ""
-        : "https://www.safegatepro.it/images/merchandise/shirt-frontpage.png")
+        : "https://www.home-assistant.io/images/merchandise/shirt-frontpage.png")
     );
   }
 

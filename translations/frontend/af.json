@@ -343,7 +343,7 @@
                     "min": "Minimum lengte",
                     "mode": "Vertoon modus",
                     "password": "Wagwoord",
-                    "pattern": "Regex-patroon vir kliënt-kant validering",
+                    "pattern": "Regex-patroon vir kliÃ«nt-kant validering",
                     "text": "Teks"
                 },
                 "required_error_msg": "Hierdie veld word vereis"
@@ -439,7 +439,7 @@
                         "create_area": "SKEP GEBIED",
                         "header": "Areas",
                         "integrations_page": "Integrasies bladsy",
-                        "introduction": "Gebiede word gebruik om toestelle te organiseer gebaseer op waar hulle is. Hierdie inligting sal regdeur Safegate Pro gebruik word om u te help om u koppelvlak, toestemmings en integrasies met ander stelsels te organiseer.",
+                        "introduction": "Gebiede word gebruik om toestelle te organiseer gebaseer op waar hulle is. Hierdie inligting sal regdeur Home Assistant gebruik word om u te help om u koppelvlak, toestemmings en integrasies met ander stelsels te organiseer.",
                         "introduction2": "Om toestelle in 'n gebied te plaas, gebruik die skakel hieronder om na die integrasies bladsy toe te gaan en klik dan op 'n opgestelde integrasie om na die toestelkaarte toe te gaan.",
                         "no_areas": "Dit lyk asof jy nog geen gebiede het nie!"
                     }
@@ -454,7 +454,7 @@
                             "delete_confirm": "Is u seker u wil dit skrap?",
                             "duplicate": "Dupliseer",
                             "header": "Aksies",
-                            "introduction": "Die aksies is wat Safegate Pro sal doen wanneer die outomatisering geaktiveer word.",
+                            "introduction": "Die aksies is wat Home Assistant sal doen wanneer die outomatisering geaktiveer word.",
                             "learn_more": "Kom meer te wete oor aksies",
                             "name": "Aksie",
                             "type_select": "Aksie tipe",
@@ -489,7 +489,7 @@
                             "delete_confirm": "Is u seker u wil dit skrap?",
                             "duplicate": "Dupliseer",
                             "header": "Voorwaardes",
-                            "introduction": "Voorwaardes is 'n opsionele deel van 'n outomatiseringsreël en kan gebruik word om te verhoed dat 'n aksie plaasvind wanneer dit geaktiveer word. Voorwaardes lyk baie soos snellers maar is baie anders. 'n Sneller sal kyk na gebeure wat in die stelsel gebeur terwyl 'n voorwaarde net kyk hoe die stelsel lyk. Byvoorbeeld: 'n Sneller kan sien dat 'n skakelaar aangeskakel word. 'n Voorwaarde kan net sien of 'n skakelaar tans aan of af is.",
+                            "introduction": "Voorwaardes is 'n opsionele deel van 'n outomatiseringsreÃ«l en kan gebruik word om te verhoed dat 'n aksie plaasvind wanneer dit geaktiveer word. Voorwaardes lyk baie soos snellers maar is baie anders. 'n Sneller sal kyk na gebeure wat in die stelsel gebeur terwyl 'n voorwaarde net kyk hoe die stelsel lyk. Byvoorbeeld: 'n Sneller kan sien dat 'n skakelaar aangeskakel word. 'n Voorwaarde kan net sien of 'n skakelaar tans aan of af is.",
                             "learn_more": "Kom meer te wete oor voorwaardes",
                             "name": "Voorwaarde",
                             "type_select": "Voorwaarde tipe",
@@ -550,7 +550,7 @@
                             "delete_confirm": "Is u seker u wil dit skrap?",
                             "duplicate": "Dupliseer",
                             "header": "Snellers",
-                            "introduction": "Snellers is wat die prosessering van 'n outomatiseringsreël afskop. Dit is moontlik om verskeie snellers vir dieselfde reël te spesifiseer. Sodra 'n sneller begin, sal Safegate Pro die voorwaardes, indien enige, bevestig en die aksie roep.",
+                            "introduction": "Snellers is wat die prosessering van 'n outomatiseringsreÃ«l afskop. Dit is moontlik om verskeie snellers vir dieselfde reÃ«l te spesifiseer. Sodra 'n sneller begin, sal Home Assistant die voorwaardes, indien enige, bevestig en die aksie roep.",
                             "learn_more": "Kom meer te wete oor snellers",
                             "name": "Sneller",
                             "type_select": "Sneller tipe",
@@ -571,7 +571,7 @@
                                 },
                                 "homeassistant": {
                                     "event": "Gebeurtenis:",
-                                    "label": "Safegate Pro",
+                                    "label": "Home Assistant",
                                     "shutdown": "Staak",
                                     "start": "Begin"
                                 },
@@ -636,7 +636,7 @@
                         "delete_confirm": "Is u seker dat u hierdie outomatisering wil uitvee?",
                         "edit_automation": "Wysig outomatisering",
                         "header": "Outomatiseringsredakteur",
-                        "introduction": "Die outomatiseringsredakteur stel u in staat om outomatisasies te skep en te wysig. Volg die onderstaande skakel om die instruksies te lees om seker te maak dat u Safegate Pro korrek opgestel het.",
+                        "introduction": "Die outomatiseringsredakteur stel u in staat om outomatisasies te skep en te wysig. Volg die onderstaande skakel om die instruksies te lees om seker te maak dat u Home Assistant korrek opgestel het.",
                         "learn_more": "Kom meer te wete oor outomatisasies",
                         "no_automations": "Ons kon nie redigeerbare outomatisasies vind nie",
                         "only_editable": "Slegs automasies omskryf in outomatisering. yaml is redigeerbaar.",
@@ -653,7 +653,7 @@
                             "not_connected": "Nie gekoppel nie",
                             "remote_enabled": {
                                 "caption": "Verbind outomaties",
-                                "description": "Skakel hierdie opsie in om seker te maak dat u Safegate Pro-instansie altyd op afstand toeganklik is."
+                                "description": "Skakel hierdie opsie in om seker te maak dat u Home Assistent-instansie altyd op afstand toeganklik is."
                             }
                         }
                     },
@@ -663,7 +663,7 @@
                 },
                 "core": {
                     "caption": "Algemeen",
-                    "description": "Bevestig u opstellingslêer en beheer die bediener",
+                    "description": "Bevestig u opstellingslÃªer en beheer die bediener",
                     "section": {
                         "core": {
                             "core_config": {
@@ -672,7 +672,7 @@
                                 "elevation_meters": "Meter",
                                 "imperial_example": "Fahrenheit, pond",
                                 "latitude": "Breedtegraad",
-                                "location_name": "Naam van u Safegate Pro installasie",
+                                "location_name": "Naam van u Home Assistant installasie",
                                 "longitude": "Lengtegraad",
                                 "metric_example": "Celsius, kilogram",
                                 "save_button": "Stoor",
@@ -769,8 +769,8 @@
                         "headers": {
                             "status": "Status"
                         },
-                        "introduction": "Safegate Pro hou 'n register van al die vorige entiteite wat uniek geïdentifiseer kan word. Elk van hierdie entiteite sal 'n entiteit-ID hê wat vir hierdie entiteit gereserveer sal word.",
-                        "introduction2": "Gebruik die entiteitsregister om die naam te oorskryf, die entiteit ID te verander, of die inskrywing van Safegate Pro te verwyder. Let wel, die verwydering van die entiteit registerinskrywing sal nie die entiteit verwyder nie. Om dit te doen, volg die skakel hieronder en verwyder dit uit die integrasies bladsy.",
+                        "introduction": "Home Assistant hou 'n register van al die vorige entiteite wat uniek geÃ¯dentifiseer kan word. Elk van hierdie entiteite sal 'n entiteit-ID hÃª wat vir hierdie entiteit gereserveer sal word.",
+                        "introduction2": "Gebruik die entiteitsregister om die naam te oorskryf, die entiteit ID te verander, of die inskrywing van Home Assistant te verwyder. Let wel, die verwydering van die entiteit registerinskrywing sal nie die entiteit verwyder nie. Om dit te doen, volg die skakel hieronder en verwyder dit uit die integrasies bladsy.",
                         "remove_selected": {
                             "button": "Verwyder geselekteerde",
                             "confirm_text": "Entiteite kan slegs verwyder word as die integrasie nie meer die entiteite bied nie.",
@@ -785,7 +785,7 @@
                         }
                     }
                 },
-                "header": "Stel Safegate Pro op",
+                "header": "Stel Home Assistant op",
                 "helpers": {
                     "caption": "Helpers",
                     "description": "Elemente wat kan help met die opbou van outomatisering.",
@@ -825,7 +825,7 @@
                         "no_area": "Geen Gebied",
                         "options": "Opsies",
                         "rename": "Hernoem",
-                        "restart_confirm": "Herbegin Safegate Pro om hierdie integrasie te voltooi",
+                        "restart_confirm": "Herbegin Home Assistant om hierdie integrasie te voltooi",
                         "system_options": "Stelselopsies"
                     },
                     "config_flow": {
@@ -851,12 +851,12 @@
                     "ignore": {
                         "confirm_delete_ignore": "Dit sal die integrasie weer in u ontdekte integrasies laat verskyn wanneer dit ontdek word. Dit kan herbegin of 'n geruime tyd neem.",
                         "confirm_delete_ignore_title": "Hou op om {name} ignoreer?",
-                        "confirm_ignore": "Is u seker dat u nie hierdie integrasie wil instel nie? U kan dit ongedaan maak deur op die 'Wys geïgnoreerde integrasies' in die oorloopmenu regs bo te klik.",
+                        "confirm_ignore": "Is u seker dat u nie hierdie integrasie wil instel nie? U kan dit ongedaan maak deur op die 'Wys geÃ¯gnoreerde integrasies' in die oorloopmenu regs bo te klik.",
                         "confirm_ignore_title": "Ignoreer ontdekking van {name}?",
-                        "hide_ignored": "Verberg geïgnoreerde integrasies",
+                        "hide_ignored": "Verberg geÃ¯gnoreerde integrasies",
                         "ignore": "Ignoreer",
-                        "ignored": "Geïgnoreer",
-                        "show_ignored": "Toon geïgnoreerde integrasies",
+                        "ignored": "GeÃ¯gnoreer",
+                        "show_ignored": "Toon geÃ¯gnoreerde integrasies",
                         "stop_ignore": "Hou op ignoreer"
                     },
                     "integration_not_found": "Integrasie nie gevind nie.",
@@ -868,7 +868,7 @@
                     "rename_dialog": "Redigeer die naam van hierdie config-inskrywing",
                     "rename_input_label": "Inskrywingsnaam"
                 },
-                "introduction": "Hier is dit moontlik om u komponente en Safegate Pro op te stel. Tans kan alles in verband met die gebruikerskoppelvlak nog nie hier opgestel word nie, maar ons werk daaraan.",
+                "introduction": "Hier is dit moontlik om u komponente en Home Assistant op te stel. Tans kan alles in verband met die gebruikerskoppelvlak nog nie hier opgestel word nie, maar ons werk daaraan.",
                 "lovelace": {
                     "caption": "Lovelace Kontroleskerms",
                     "dashboards": {
@@ -876,7 +876,7 @@
                         "caption": "Kontroleskerms",
                         "conf_mode": {
                             "storage": "UI beheerde",
-                            "yaml": "YAML-lêer"
+                            "yaml": "YAML-lÃªer"
                         },
                         "confirm_delete": "Is u seker dat u hierdie dashboard wil uitvee?",
                         "detail": {
@@ -897,7 +897,7 @@
                             "add_dashboard": "voeg paneelbord by",
                             "headers": {
                                 "conf_mode": "Konfigurasie metode",
-                                "filename": "Lêernaam",
+                                "filename": "LÃªernaam",
                                 "require_admin": "Admin alleenlik",
                                 "sidebar": "Wys in Kantbalk",
                                 "title": "Titel"
@@ -933,7 +933,7 @@
                         "types": {
                             "css": "Styleblad",
                             "html": "HTML (verouderd)",
-                            "js": "JavaScript-lêer (verouderd)",
+                            "js": "JavaScript-lÃªer (verouderd)",
                             "module": "JavaScript-module"
                         }
                     }
@@ -948,7 +948,7 @@
                 },
                 "person": {
                     "caption": "Persone",
-                    "description": "Bestuur die persone wat Safegate Pro op spoor.",
+                    "description": "Bestuur die persone wat Home Assistant op spoor.",
                     "detail": {
                         "device_tracker_intro": "Kies die toestelle wat aan hierdie persoon behoort.",
                         "device_tracker_pick": "Kies toestel om op te spoor",
@@ -994,7 +994,7 @@
                         "introduction": "Die toneel redakteur kan jy om te skep en wysig skerms. Volg asseblief die skakel hieronder om die instruksies te lees om seker te maak dat jy het ingestel Huis Assistent korrek.",
                         "learn_more": "Kom meer te wete oor tonele",
                         "no_scenes": "Ons kon geen bewerkbare tonele vind nie",
-                        "only_editable": "Slegs tonele gedefinieër in tonele.yaml kan geredigeer word.",
+                        "only_editable": "Slegs tonele gedefinieÃ«r in tonele.yaml kan geredigeer word.",
                         "pick_scene": "Kies toneel om te redigeer",
                         "show_info_scene": "Wys inligting oor toneel"
                     }
@@ -1052,7 +1052,7 @@
                     },
                     "clusters": {
                         "header": "clusters",
-                        "introduction": "Clusters is die boustene vir Zigbee-funksionaliteit. Dit skei funksionaliteit in logiese eenhede. Daar is kliënt- en bedienertipes wat bestaan uit eienskappe en opdragte."
+                        "introduction": "Clusters is die boustene vir Zigbee-funksionaliteit. Dit skei funksionaliteit in logiese eenhede. Daar is kliÃ«nt- en bedienertipes wat bestaan uit eienskappe en opdragte."
                     },
                     "group_binding": {
                         "bind_button_help": "Bind die geselekteerde groep by die geselekteerde toestelgroeperings.",
@@ -1069,7 +1069,7 @@
                         "add_members": "Voeg lede by",
                         "caption": "Groepe",
                         "create": "Skep 'n groep",
-                        "create_group": "Zigbee Safegate Pro - Skep 'n groep",
+                        "create_group": "Zigbee Home Automation - Skep 'n groep",
                         "create_group_details": "Voer die nodige besonderhede in om 'n nuwe zigbeegroep te skep",
                         "creating_group": "Skep 'n groep",
                         "group_details": "Hier is al die besonderhede vir die geselekteerde Zigbee groep.",
@@ -1127,7 +1127,7 @@
                     "description": "Bestuur u Z-Wave netwerk",
                     "network_management": {
                         "header": "Bestuur Z-Wave Netwerk",
-                        "introduction": "Begin opdragte wat die Z-Wave-netwerk beïnvloed. U sal nie terugvoer kry of meeste opdragte slaag nie, maar u kan die OZW-logboek nagaan om dit uit te vind."
+                        "introduction": "Begin opdragte wat die Z-Wave-netwerk beÃ¯nvloed. U sal nie terugvoer kry of meeste opdragte slaag nie, maar u kan die OZW-logboek nagaan om dit uit te vind."
                     },
                     "network_status": {
                         "network_started": "Z-Wave Netwerk is Aangeskakel",
@@ -1165,7 +1165,7 @@
             },
             "custom": {
                 "external_panel": {
-                    "complete_access": "Dit sal toegang hê tot alle data in die Huisassistent.",
+                    "complete_access": "Dit sal toegang hÃª tot alle data in die Huisassistent.",
                     "hide_message": "Gaan dokumente na vir die panel_custom-komponent om hierdie boodskap te verberg",
                     "question_trust": "Vertrou u die eksterne paneel {name} by {link} ?"
                 }
@@ -1210,7 +1210,7 @@
                         "toggle": "Wissel {name}"
                     },
                     "safe-mode": {
-                        "description": "Safegate Pro het probleme ondervind tydens die laai van u konfigurasie en loop nou in 'n veilige modus. Kyk na die foutlogboek om te sien wat verkeerd geloop het.",
+                        "description": "Home Assistent het probleme ondervind tydens die laai van u konfigurasie en loop nou in 'n veilige modus. Kyk na die foutlogboek om te sien wat verkeerd geloop het.",
                         "header": "Die Veilige Modus Geaktiveer"
                     },
                     "shopping-list": {
@@ -1219,7 +1219,7 @@
                         "clear_items": "Maak die gemerkte items skoon"
                     },
                     "starting": {
-                        "description": "Safegate Pro begin tans, wag asseblief ..."
+                        "description": "Home Assistant begin tans, wag asseblief ..."
                     }
                 },
                 "changed_toast": {
@@ -1279,7 +1279,7 @@
                     "migrate": {
                         "header": "Opstellings Onversoenbaar",
                         "migrate": "Migreer opstellings",
-                        "para_migrate": "Druk die 'Migreer konfigurasie' knoppie as u wil hê Safegate Pro moet vir u ID's by al u kaarte en aansigte outomaties byvoeg.",
+                        "para_migrate": "Druk die 'Migreer konfigurasie' knoppie as u wil hÃª Home Assistant moet vir u ID's by al u kaarte en aansigte outomaties byvoeg.",
                         "para_no_id": "Hierdie element het nie 'n ID nie. Voeg asseblief 'n ID by vir hierdie element in 'ui-lovelace.yaml'."
                     },
                     "raw_editor": {
@@ -1301,7 +1301,7 @@
                         "cancel": "Toemaar",
                         "close": "maak toe",
                         "header": "Neem beheer van u Lovelace gebruikerskoppelvlak",
-                        "para": "Safegate Pro sal outomaties u gebruikerskoppelvlak handhaaf, dit opdateer wanneer nuwe entiteite of Lovelace-komponente beskikbaar raak. Alhoewel, as u beheer neem, sal Safegate Pro nie meer outomaties veranderings vir u doen nie.",
+                        "para": "Home Assistant sal outomaties u gebruikerskoppelvlak handhaaf, dit opdateer wanneer nuwe entiteite of Lovelace-komponente beskikbaar raak. Alhoewel, as u beheer neem, sal Home Assistant nie meer outomaties veranderings vir u doen nie.",
                         "para_sure": "Is u seker u wil beheer neem oor u gebruikerskoppelvlak?",
                         "save": "Neem beheer",
                         "yaml_config": "Om te help hier is die huidige konfigurasie van die paneelbord"
@@ -1343,7 +1343,7 @@
             },
             "page-authorize": {
                 "abort_intro": "Aanmelding gestaak",
-                "authorizing_client": "U is op die punt om {clientId} toegang te gee tot u Safegate Pro instansie.",
+                "authorizing_client": "U is op die punt om {clientId} toegang te gee tot u Home Assistant instansie.",
                 "form": {
                     "providers": {
                         "command_line": {
@@ -1438,8 +1438,8 @@
                 "cards": {
                     "demo": {
                         "demo_by": "deur {name}",
-                        "introduction": "Welkom tuis! U het die Safegate Pro demo bereik waar ons die beste UI's vertoon wat deur ons gemeenskap geskep is.",
-                        "learn_more": "Kom meer te wete oor Safegate Pro",
+                        "introduction": "Welkom tuis! U het die Home Assistant demo bereik waar ons die beste UI's vertoon wat deur ons gemeenskap geskep is.",
+                        "learn_more": "Kom meer te wete oor Home Assistant",
                         "next_demo": "Volgende demonstrasie"
                     }
                 },
@@ -1465,7 +1465,7 @@
                             "kitchen": "Kombuis",
                             "left": "Links",
                             "master_bedroom": "Hoofslaapkamer",
-                            "mirror": "Spieël",
+                            "mirror": "SpieÃ«l",
                             "patio": "Stoep",
                             "right": "Regs",
                             "upstairs": "Boontoe"
@@ -1481,17 +1481,17 @@
                 "core-config": {
                     "button_detect": "Ontdek",
                     "finish": "Volgende",
-                    "intro": "Hallo {name}, welkom by Safegate Pro. Hoe wil u u huis vernoem?",
+                    "intro": "Hallo {name}, welkom by Home Assistant. Hoe wil u u huis vernoem?",
                     "intro_location": "Ons wil graag weet waar u woon. Hierdie inligting sal help met die vertoon van inligting en die opstel van son-gebaseerde outomatisasies. Hierdie data word nooit buite u netwerk gedeel nie.",
                     "intro_location_detect": "Ons kan u help om hierdie inligting in te vul deur 'n eenmalige versoek aan 'n eksterne diens te rig.",
                     "location_name_default": "Tuis"
                 },
                 "integration": {
                     "finish": "Klaar",
-                    "intro": "Toestelle en dienste word as integrasies in Safegate Pro voorgestel. U kan dit nou opstel, of dit later doen vanaf die instellingskerm.",
+                    "intro": "Toestelle en dienste word as integrasies in Home Assistant voorgestel. U kan dit nou opstel, of dit later doen vanaf die instellingskerm.",
                     "more_integrations": "Meer"
                 },
-                "intro": "Is u gereed om u huis te ontwaak, u privaatheid te herwin en by 'n wêreldwye gemeenskap van peuters aan te sluit?",
+                "intro": "Is u gereed om u huis te ontwaak, u privaatheid te herwin en by 'n wÃªreldwye gemeenskap van peuters aan te sluit?",
                 "user": {
                     "create_account": "Skep Rekening",
                     "data": {
@@ -1539,7 +1539,7 @@
                     "create": "Skep Tekseenheid",
                     "create_failed": "Het misluk om die toegangs-tekseenheid te maak.",
                     "delete_failed": "Het misluk om die toegangs-tekseenheid te skrap.",
-                    "description": "Skep langlewende-toegangs-tekseenhede om u skripte in staat te stel om met u Safegate Pro-instansie te kommunikeer. Elke tekseenheid sal geldig wees vir 10 jaar vanaf die skepping. Die volgende langlewende-toegangs-tekseenheid is tans aktief.",
+                    "description": "Skep langlewende-toegangs-tekseenhede om u skripte in staat te stel om met u Home Assistant-instansie te kommunikeer. Elke tekseenheid sal geldig wees vir 10 jaar vanaf die skepping. Die volgende langlewende-toegangs-tekseenheid is tans aktief.",
                     "empty_state": "U het nog geen langlewende-toegangs-tekseenhede nie.",
                     "header": "Langlewende-toegangs-tekseenhede",
                     "learn_auth_requests": "Leer hoe om geverifieerde versoeke te maak.",

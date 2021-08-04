@@ -311,12 +311,12 @@ class HassioHostInfo extends LitElement {
       title: this.supervisor.localize(
         "confirm.update.title",
         "name",
-        "Safegate Pro Operating System"
+        "Home Assistant Operating System"
       ),
       text: this.supervisor.localize(
         "confirm.update.text",
         "name",
-        "Safegate Pro Operating System",
+        "Home Assistant Operating System",
         "version",
         this.supervisor.os.version_latest
       ),
@@ -338,7 +338,7 @@ class HassioHostInfo extends LitElement {
           title: this.supervisor.localize(
             "common.failed_to_update_name",
             "name",
-            "Safegate Pro Operating System"
+            "Home Assistant Operating System"
           ),
           text: extractApiErrorMessage(err),
         });

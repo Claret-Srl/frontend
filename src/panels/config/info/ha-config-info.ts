@@ -48,7 +48,7 @@ class HaConfigInfo extends LitElement {
               )}"
           /></a>
           <br />
-          <h2>Safegate Pro ${hass.connection.haVersion}</h2>
+          <h2>Home Assistant ${hass.connection.haVersion}</h2>
           <p>
             ${this.hass.localize(
               "ui.panel.config.info.path_configuration",
@@ -69,14 +69,14 @@ class HaConfigInfo extends LitElement {
             ${this.hass.localize("ui.panel.config.info.license")}<br />
             ${this.hass.localize("ui.panel.config.info.source")}
             <a
-              href="https://github.com/safegatepro/core"
+              href="https://github.com/home-assistant/core"
               target="_blank"
               rel="noreferrer"
               >${this.hass.localize("ui.panel.config.info.server")}</a
             >
             &mdash;
             <a
-              href="https://github.com/safegatepro/frontend"
+              href="https://github.com/home-assistant/frontend"
               target="_blank"
               rel="noreferrer"
               >${this.hass.localize("ui.panel.config.info.frontend")}</a

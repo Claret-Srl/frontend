@@ -54,7 +54,7 @@ const connProm = async (auth) => {
     // Clear auth data from url if we have been able to establish a connection
     if (location.search.includes("auth_callback=1")) {
       const searchParams = new URLSearchParams(location.search);
-      // https://github.com/safegatepro/home-assistant-js-websocket/blob/master/lib/auth.ts
+      // https://github.com/home-assistant/home-assistant-js-websocket/blob/master/lib/auth.ts
       // Remove all data from QueryCallbackData type
       searchParams.delete("auth_callback");
       searchParams.delete("code");

@@ -65,7 +65,7 @@ class SupervisorErrorScreen extends LitElement {
               </li>
               <li>
                 <a
-                  href="https://www.safegatepro.it/help/"
+                  href="https://www.home-assistant.io/help/"
                   target="_blank"
                   rel="noreferrer"
                 >

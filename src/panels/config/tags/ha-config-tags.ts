@@ -218,7 +218,7 @@ export class HaConfigTags extends SubscribeMixin(LitElement) {
             "ui.panel.config.tag.detail.usage",
             "companion_link",
             html`<a
-              href="https://companion.safegatepro.it/"
+              href="https://companion.home-assistant.io/"
               target="_blank"
               rel="noreferrer"
               >${this.hass!.localize(

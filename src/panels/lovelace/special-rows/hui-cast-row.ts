@@ -35,7 +35,7 @@ class HuiCastRow extends LitElement implements LovelaceRow {
 
     this._config = {
       icon: "hass:television",
-      name: "Safegate Pro Cast",
+      name: "Home Assistant Cast",
       ...config,
     };
   }

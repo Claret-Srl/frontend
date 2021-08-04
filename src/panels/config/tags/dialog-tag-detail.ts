@@ -110,7 +110,7 @@ class DialogTagDetail
                       "ui.panel.config.tag.detail.usage",
                       "companion_link",
                       html`<a
-                        href="https://companion.safegatepro.it/"
+                        href="https://companion.home-assistant.io/"
                         target="_blank"
                         rel="noreferrer"
                         >${this.hass!.localize(
@@ -220,7 +220,7 @@ class DialogTagDetail
   private async _generateQR() {
     const qrcode = await import("qrcode");
     const canvas = await qrcode.toCanvas(
-      `https://www.safegatepro.it/tag/${this._params!.entry!.id}`,
+      `https://www.home-assistant.io/tag/${this._params!.entry!.id}`,
       {
         width: 180,
         errorCorrectionLevel: "Q",

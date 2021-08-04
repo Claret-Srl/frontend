@@ -940,7 +940,7 @@ class HUIRoot extends LitElement {
           * flex-grow: 1 and flex-basis: 100% should make sure the view
           * stays full width.
           *
-          * https://github.com/safegatepro/home-assistant-polymer/pull/3806
+          * https://github.com/home-assistant/home-assistant-polymer/pull/3806
           */
           flex: 1 1 100%;
           max-width: 100%;

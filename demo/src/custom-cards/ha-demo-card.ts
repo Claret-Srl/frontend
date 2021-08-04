@@ -70,7 +70,7 @@ export class HADemoCard extends LitElement implements LovelaceCard {
           ${this.hass.localize("ui.panel.page-demo.cards.demo.introduction")}
         </div>
         <div class="actions small-hidden">
-          <a href="https://www.safegatepro.it" target="_blank">
+          <a href="https://www.home-assistant.io" target="_blank">
             <mwc-button>
               ${this.hass.localize("ui.panel.page-demo.cards.demo.learn_more")}
             </mwc-button>

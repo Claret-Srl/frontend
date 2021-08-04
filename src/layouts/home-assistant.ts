@@ -194,7 +194,7 @@ export class HomeAssistantAppEl extends QuickBarMixin(HassElement) {
       })
     );
     if (this.hass!.suspendWhenHidden !== false) {
-      // We close the connection to Safegate Pro after being hidden for 5 minutes
+      // We close the connection to Home Assistant after being hidden for 5 minutes
       this._hiddenTimeout = window.setTimeout(() => {
         this._hiddenTimeout = undefined;
         // setTimeout can be delayed in the background and only fire

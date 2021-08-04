@@ -11,11 +11,11 @@ documentContainer.setAttribute("style", "display: none;");
 documentContainer.innerHTML = `<custom-style>
   <style>
     /*
-      Safegate Pro default styles.
+      Home Assistant default styles.
 
       In Polymer 2.0, default styles should to be set on the html selector.
       (Setting all default styles only on body breaks shadyCSS polyfill.)
-      See: https://github.com/safegatepro/home-assistant-polymer/pull/901
+      See: https://github.com/home-assistant/home-assistant-polymer/pull/901
     */
     html {
       font-size: 14px;

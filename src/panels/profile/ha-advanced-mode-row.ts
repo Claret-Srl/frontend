@@ -26,7 +26,7 @@ class AdvancedModeRow extends LitElement {
         <span slot="description">
           ${this.hass.localize("ui.panel.profile.advanced_mode.description")}
           <a
-            href="https://www.safegatepro.it/blog/2019/07/17/release-96/#advanced-mode"
+            href="https://www.home-assistant.io/blog/2019/07/17/release-96/#advanced-mode"
             target="_blank"
             rel="noreferrer"
             >${this.hass.localize("ui.panel.profile.advanced_mode.link_promo")}

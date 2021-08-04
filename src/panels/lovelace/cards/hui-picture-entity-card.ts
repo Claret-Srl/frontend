@@ -51,7 +51,7 @@ class HuiPictureEntityCard extends LitElement implements LovelaceCard {
     return {
       type: "picture-entity",
       entity: foundEntities[0] || "",
-      image: "https://demo.safegatepro.it/stub_config/bedroom.png",
+      image: "https://demo.home-assistant.io/stub_config/bedroom.png",
     };
   }
 

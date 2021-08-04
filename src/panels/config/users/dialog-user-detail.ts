@@ -243,7 +243,7 @@ class DialogUserDetail extends LitElement {
     );
     if (!credential) {
       showAlertDialog(this, {
-        title: "No Safegate Pro credentials found.",
+        title: "No Home Assistant credentials found.",
       });
       return;
     }
