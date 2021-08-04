@@ -110,7 +110,7 @@ class DialogImportBlueprint extends LitElement {
                   "ui.panel.config.blueprint.add.import_introduction_link",
                   "community_link",
                   html`<a
-                    href="https://www.home-assistant.io/get-blueprints"
+                    href="https://www.safegatepro.it/get-blueprints"
                     target="_blank"
                     rel="noreferrer noopener"
                     >${this.hass.localize(

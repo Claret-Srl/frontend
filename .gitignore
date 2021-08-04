@@ -39,5 +39,5 @@ src/cast/dev_const.ts
 # asdf
 .tool-versions
 
-# Home Assistant config
+# Safegate Pro config
 /config

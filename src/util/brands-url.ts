@@ -3,6 +3,6 @@ export const brandsUrl = (
   type: "icon" | "logo",
   useFallback?: boolean
 ): string =>
-  `https://brands.home-assistant.io/${
+  `https://brands.safegatepro.it/${
     useFallback ? "_/" : ""
   }${domain}/${type}.png`;

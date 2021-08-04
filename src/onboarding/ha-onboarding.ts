@@ -178,8 +178,8 @@ class HaOnboarding extends litLocalizeLiteMixin(HassElement) {
     try {
       const response = await fetchDiscoveryInformation();
       this._supervisor = [
-        "Home Assistant OS",
-        "Home Assistant Supervised",
+        "Safegate Pro OS",
+        "Safegate Pro Supervised",
       ].includes(response.installation_type);
       if (this._supervisor) {
         // Only load if we have supervisor

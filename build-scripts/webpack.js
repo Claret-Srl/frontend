@@ -96,7 +96,7 @@ const createWebpackConfig = ({
           } catch (err) {
             // eslint-disable-next-line no-console
             console.error(
-              "Error in Home Assistant ignore plugin",
+              "Error in Safegate Pro ignore plugin",
               resource,
               context
             );

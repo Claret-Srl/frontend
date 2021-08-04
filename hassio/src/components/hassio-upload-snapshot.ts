@@ -53,7 +53,7 @@ export class HassioUploadSnapshot extends LitElement {
         title: "Snapshot file is too big",
         text: html`The maximum allowed filesize is 1GB.<br />
           <a
-            href="https://www.home-assistant.io/hassio/haos_common_tasks/#restoring-a-snapshot-on-a-new-install"
+            href="https://www.safegatepro.it/hassio/haos_common_tasks/#restoring-a-snapshot-on-a-new-install"
             target="_blank"
             >Have a look here on how to restore it.</a
           >`,
@@ -65,7 +65,7 @@ export class HassioUploadSnapshot extends LitElement {
     if (!["application/x-tar"].includes(file.type)) {
       showAlertDialog(this, {
         title: "Unsupported file format",
-        text: "Please choose a Home Assistant snapshot file (.tar)",
+        text: "Please choose a Safegate Pro snapshot file (.tar)",
         confirmText: "ok",
       });
       return;

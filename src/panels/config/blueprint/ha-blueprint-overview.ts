@@ -208,7 +208,7 @@ class HaBlueprintOverview extends LitElement {
           role="cell"
         >
           <a
-            href="https://www.home-assistant.io/get-blueprints"
+            href="https://www.safegatepro.it/get-blueprints"
             target="_blank"
             rel="noreferrer noopener"
           >
@@ -286,7 +286,7 @@ class HaBlueprintOverview extends LitElement {
     params.append("redirect", "blueprint_import");
     params.append("blueprint_url", blueprint.source_url);
     window.open(
-      `https://my.home-assistant.io/create-link/?${params.toString()}`
+      `https://my.safegatepro.it/create-link/?${params.toString()}`
     );
   }
 

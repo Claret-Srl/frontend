@@ -25,7 +25,7 @@ export class HuiPictureHeaderFooter
   public static getStubConfig(): Record<string, unknown> {
     return {
       image:
-        "https://www.home-assistant.io/images/lovelace/header-footer/balloons-header.png",
+        "https://www.safegatepro.it/images/lovelace/header-footer/balloons-header.png",
       tap_action: { action: "none" },
       hold_action: { action: "none" },
     };

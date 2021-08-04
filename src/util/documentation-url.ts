@@ -7,4 +7,4 @@ export const documentationUrl = (hass: HomeAssistant, path: string) =>
       : hass.config.version.includes("dev")
       ? "next"
       : "www"
-  }.home-assistant.io${path}`;
+  }.safegatepro.it${path}`;

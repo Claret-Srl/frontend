@@ -247,15 +247,15 @@ export class HcMain extends HassElement {
   private _getErrorMessage(error: number): string {
     switch (error) {
       case 1:
-        return "Unable to connect to the Home Assistant websocket API.";
+        return "Unable to connect to the Safegate Pro websocket API.";
       case 2:
         return "The supplied authentication is invalid.";
       case 3:
-        return "The connection to Home Assistant was lost.";
+        return "The connection to Safegate Pro was lost.";
       case 4:
         return "Missing hassUrl. This is required.";
       case 5:
-        return "Home Assistant needs to be served over https:// to use with Home Assistant Cast.";
+        return "Safegate Pro needs to be served over https:// to use with Safegate Pro Cast.";
       default:
         return "Unknown Error";
     }

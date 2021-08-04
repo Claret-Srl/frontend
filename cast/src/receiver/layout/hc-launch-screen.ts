@@ -12,7 +12,7 @@ class HcLaunchScreen extends LitElement {
     return html`
       <div class="container">
         <img
-          src="https://www.home-assistant.io/images/blog/2018-09-thinking-big/social.png"
+          src="https://www.safegatepro.it/images/blog/2018-09-thinking-big/social.png"
         />
         <div class="status">
           ${this.hass ? "Connected" : "Not Connected"}

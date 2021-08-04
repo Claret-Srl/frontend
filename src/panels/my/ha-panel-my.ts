@@ -217,7 +217,7 @@ class HaPanelMy extends LitElement {
               html`<a
                 target="_blank"
                 rel="noreferrer noopener"
-                href="https://my.home-assistant.io/faq.html#supported-pages"
+                href="https://my.safegatepro.it/faq.html#supported-pages"
                 >${this.hass.localize("ui.panel.my.faq_link")}</a
               >`
             ) || "This redirect is not supported.";

@@ -1,6 +1,6 @@
 {
     "panel": {
-        "calendar": "KalÃ¤nder",
+        "calendar": "Kaländer",
         "config": "Istellige",
         "history": "Vrlouf",
         "logbook": "Logbuech",
@@ -8,7 +8,7 @@
         "map": "Charte",
         "profile": "Profiu",
         "shopping_list": "Ichoufsliste",
-        "states": "Ãœbersicht"
+        "states": "Übersicht"
     },
     "state_attributes": {
         "climate": {
@@ -27,13 +27,13 @@
             "armed_home": "Scharf Dahei",
             "armed_night": "Scharf",
             "arming": "Scharf steue",
-            "disarmed": "EntschÃ¤rft",
-            "disarming": "DeaktiviÃ¤rt",
+            "disarmed": "Entschärft",
+            "disarming": "Deaktiviärt",
             "pending": "Usstehend",
-            "triggered": "UsglÃ¶st"
+            "triggered": "Usglöst"
         },
         "default": {
-            "unavailable": "Nid verfÃ¼Ã¤gbar",
+            "unavailable": "Nid verfüägbar",
             "unknown": "Unbekannt"
         },
         "device_tracker": {
@@ -47,27 +47,27 @@
         "default": {
             "off": "Aus",
             "on": "An",
-            "unavailable": "Nid verfÃ¼Ã¤gbar",
+            "unavailable": "Nid verfüägbar",
             "unknown": "Unbekannt"
         }
     },
     "ui": {
         "card": {
             "alarm_control_panel": {
-                "clear_code": "LÃ¶sche",
+                "clear_code": "Lösche",
                 "code": "Code"
             },
             "automation": {
-                "trigger": "UslÃ¶ser"
+                "trigger": "Uslöser"
             },
             "climate": {
-                "away_mode": "WÃ¤g-Modus",
+                "away_mode": "Wäg-Modus",
                 "currently": "Aktuell",
                 "fan_mode": "Ventilator-Modus",
                 "on_off": "I / us",
                 "operation": "Aktion",
                 "swing_mode": "Schwing-Modus",
-                "target_humidity": "Ziu-FuÃ¤chtigkeit",
+                "target_humidity": "Ziu-Fuächtigkeit",
                 "target_temperature": "Ziu-Temperatur"
             },
             "cover": {
@@ -80,14 +80,14 @@
                 "speed": "Geschwindigkeit"
             },
             "light": {
-                "brightness": "HÃ¤uigkeit",
+                "brightness": "Häuigkeit",
                 "color_temperature": "Farb-Temperatur",
                 "effect": "Effekt",
-                "white_value": "Wiss-WÃ¤rt"
+                "white_value": "Wiss-Wärt"
             },
             "lock": {
-                "lock": "ZuÃ¤tuÃ¤",
-                "unlock": "UftuÃ¤"
+                "lock": "Zuätuä",
+                "unlock": "Uftuä"
             },
             "media_player": {
                 "sound_mode": "Sound-Modus",
@@ -134,26 +134,26 @@
                     "wnw": "WNW",
                     "wsw": "WSW"
                 },
-                "forecast": "VorhÃ¤rsag"
+                "forecast": "Vorhärsag"
             }
         },
         "common": {
             "loading": "Lade",
             "next": "Weiter",
-            "previous": "ZurÃ¼ck",
+            "previous": "Zurück",
             "refresh": "Neu laden"
         },
         "components": {
             "device-picker": {
-                "clear": "LÃ¶sche"
+                "clear": "Lösche"
             },
             "entity": {
                 "entity-picker": {
-                    "clear": "LÃ¶sche"
+                    "clear": "Lösche"
                 }
             },
             "relative_time": {
-                "never": "NiÃ¤"
+                "never": "Niä"
             },
             "service-picker": {
                 "service": "Service"
@@ -177,16 +177,16 @@
                                     "label": "Bedingig"
                                 },
                                 "delay": {
-                                    "label": "VrzÃ¶gerig"
+                                    "label": "Vrzögerig"
                                 },
                                 "event": {
-                                    "label": "Event uslÃ¶se"
+                                    "label": "Event uslöse"
                                 },
                                 "wait_template": {
                                     "label": "Warte"
                                 }
                             },
-                            "unsupported_action": "Nicht unterstÃ¼tzte Aktion: {action}"
+                            "unsupported_action": "Nicht unterstützte Aktion: {action}"
                         },
                         "alias": "Name",
                         "conditions": {
@@ -196,29 +196,29 @@
                                     "label": "Nicht"
                                 },
                                 "sun": {
-                                    "after": "NachhÃ¤r:",
-                                    "before": "VorhÃ¤r:",
+                                    "after": "Nachhär:",
+                                    "before": "Vorhär:",
                                     "sunrise": "Sunneungergang",
                                     "sunset": "Sunneufgang"
                                 },
                                 "time": {
-                                    "after": "NachhÃ¤r",
-                                    "before": "VorhÃ¤r"
+                                    "after": "Nachhär",
+                                    "before": "Vorhär"
                                 }
                             }
                         },
-                        "default_name": "NÃ¶ii Automation",
+                        "default_name": "Nöii Automation",
                         "save": "Spichere",
                         "triggers": {
-                            "add": "UslÃ¶ser hinzuÃ¤fÃ¼Ã¤ge",
+                            "add": "Uslöser hinzuäfüäge",
                             "duplicate": "Kopie",
-                            "header": "UslÃ¶ser",
+                            "header": "Uslöser",
                             "type": {
                                 "event": {
                                     "label": "Event"
                                 },
                                 "homeassistant": {
-                                    "label": "Home Assistant",
+                                    "label": "Safegate Pro",
                                     "shutdown": "Abefahre",
                                     "start": "Starte"
                                 },
@@ -227,14 +227,14 @@
                                     "topic": "Topic"
                                 },
                                 "numeric_state": {
-                                    "above": "Ãœber",
+                                    "above": "Über",
                                     "below": "Unger",
-                                    "label": "Nummerische ZuÃ¤stand"
+                                    "label": "Nummerische Zuästand"
                                 },
                                 "state": {
                                     "from": "Vo",
-                                    "label": "ZuÃ¤stand",
-                                    "to": "FÃ¼r"
+                                    "label": "Zuästand",
+                                    "to": "Für"
                                 },
                                 "sun": {
                                     "label": "Sunne",
@@ -243,7 +243,7 @@
                                 },
                                 "template": {
                                     "label": "Vorlag",
-                                    "value_template": "WÃ¤rt-Vorlag"
+                                    "value_template": "Wärt-Vorlag"
                                 },
                                 "time": {
                                     "label": "Zyt"
@@ -258,19 +258,19 @@
                     }
                 },
                 "devices": {
-                    "device_info": "GerÃ¤teinformationen",
+                    "device_info": "Geräteinformationen",
                     "scripts": "Scripts"
                 },
                 "integrations": {
                     "caption": "Integratione",
                     "config_entry": {
-                        "device_unavailable": "GrÃ¤t verfÃ¼Ã¤gbar",
-                        "entity_unavailable": "Entitiy verfÃ¼Ã¤gbar",
+                        "device_unavailable": "Grät verfüägbar",
+                        "entity_unavailable": "Entitiy verfüägbar",
                         "firmware": "Firmware: {version}",
                         "manuf": "vo {manufacturer}"
                     },
-                    "configure": "KonfiguriÃ¤rÃ¤",
-                    "configured": "KonfiguriÃ¤rt",
+                    "configure": "Konfiguriärä",
+                    "configured": "Konfiguriärt",
                     "discovered": "Erkennt",
                     "none_found": "Keine Integrationen gefunden",
                     "none_found_detail": "Passen Sie Ihre Suchkriterien an."
@@ -281,25 +281,25 @@
                 "users": {
                     "caption": "Benutzer",
                     "editor": {
-                        "delete_user": "Benutzer lÃ¶sche"
+                        "delete_user": "Benutzer lösche"
                     }
                 }
             },
             "mailbox": {
-                "delete_button": "LÃ¶sche"
+                "delete_button": "Lösche"
             },
             "profile": {
                 "change_password": {
-                    "confirm_new_password": "NÃ¶is Passwort bestÃ¤tige",
+                    "confirm_new_password": "Nöis Passwort bestätige",
                     "current_password": "Aktuells Passwort",
-                    "error_required": "BenÃ¶tigt",
-                    "header": "Passwort wÃ¤chsle",
-                    "new_password": "NÃ¶is Passwort",
+                    "error_required": "Benötigt",
+                    "header": "Passwort wächsle",
+                    "new_password": "Nöis Passwort",
                     "submit": "Abschicke"
                 },
                 "is_owner": "Du bisch dr Bsitzer",
                 "long_lived_access_tokens": {
-                    "create": "Token erzÃ¼ge",
+                    "create": "Token erzüge",
                     "prompt_name": "Name?"
                 },
                 "mfa": {

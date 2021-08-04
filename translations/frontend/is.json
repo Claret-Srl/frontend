@@ -1,50 +1,50 @@
 {
     "config_entry": {
         "disabled_by": {
-            "device": "TÃ¦ki",
-            "integration": "SamÃ¾Ã¦tting",
+            "device": "Tæki",
+            "integration": "Samşætting",
             "user": "Notandi"
         }
     },
     "groups": {
         "owner": "Eigandi",
-        "system-admin": "StjÃ³rnendur",
-        "system-read-only": "Notendur meÃ° lesaÃ°gang",
+        "system-admin": "Stjórnendur",
+        "system-read-only": "Notendur meğ lesağgang",
         "system-users": "Notendur"
     },
     "panel": {
         "calendar": "Dagatal",
         "config": "Stillingar",
-        "developer_tools": "ÃrÃ³unarverkfÃ¦ri",
+        "developer_tools": "Şróunarverkfæri",
         "history": "Saga",
         "logbook": "Breytingarsaga",
-        "mailbox": "PÃ³sthÃ³lf",
+        "mailbox": "Pósthólf",
         "map": "Kort",
-        "profile": "PrÃ³fÃ­ll",
+        "profile": "Prófíll",
         "shopping_list": "Innkaupalisti",
         "states": "Yfirlit"
     },
     "state_attributes": {
         "climate": {
             "fan_mode": {
-                "auto": "SjÃ¡lfvirkt",
+                "auto": "Sjálfvirkt",
                 "off": "Af",
-                "on": "Ã"
+                "on": "Á"
             },
             "hvac_action": {
-                "cooling": "KÃ¦ling",
-                "drying": "Ãurrkun",
+                "cooling": "Kæling",
+                "drying": "Şurrkun",
                 "fan": "Vifta",
                 "heating": "Kynding",
-                "idle": "AÃ°gerÃ°alaus",
-                "off": "SlÃ¶kkt"
+                "idle": "Ağgerğalaus",
+                "off": "Slökkt"
             },
             "preset_mode": {
                 "activity": "Virkni",
                 "away": "Fjarverandi",
-                "boost": "UppÃ¶rvun",
-                "comfort": "ÃÃ¦gindi",
-                "eco": "SparnaÃ°ur",
+                "boost": "Uppörvun",
+                "comfort": "Şægindi",
+                "eco": "Sparnağur",
                 "home": "Heima",
                 "none": "Ekkert",
                 "sleep": "Svefn"
@@ -52,7 +52,7 @@
         },
         "humidifier": {
             "mode": {
-                "auto": "SjÃ¡lfvirkt",
+                "auto": "Sjálfvirkt",
                 "away": "Fjarverandi",
                 "home": "Heima"
             }
@@ -60,21 +60,21 @@
     },
     "state_badge": {
         "alarm_control_panel": {
-            "armed": "Ekki Ã¡ verÃ°i",
-            "armed_away": "Ã verÃ°i",
-            "armed_custom_bypass": "Ã verÃ°i",
-            "armed_home": "Ã verÃ°i",
-            "armed_night": "Ã verÃ°i",
-            "arming": "set Ã¡ vÃ¶rÃ°",
-            "disarmed": "Ekki Ã¡ verÃ°i",
-            "disarming": "tek af verÃ°i",
-            "pending": "Ã biÃ°",
+            "armed": "Ekki á verği",
+            "armed_away": "Á verği",
+            "armed_custom_bypass": "Á verği",
+            "armed_home": "Á verği",
+            "armed_night": "Á verği",
+            "arming": "set á vörğ",
+            "disarmed": "Ekki á verği",
+            "disarming": "tek af verği",
+            "pending": "Í biğ",
             "triggered": "Kveik"
         },
         "default": {
             "entity_not_found": "Eining fannst ekki",
             "error": "Villa",
-            "unknown": "Ã“Ã¾."
+            "unknown": "Óş."
         },
         "device_tracker": {
             "home": "Heima",
@@ -87,126 +87,126 @@
     },
     "state": {
         "default": {
-            "off": "SlÃ¶kkt",
-            "on": "Ã",
-            "unavailable": "Ekki tiltÃ¦kt",
-            "unknown": "Ã“Ã¾ekkt"
+            "off": "Slökkt",
+            "on": "Á",
+            "unavailable": "Ekki tiltækt",
+            "unknown": "Óşekkt"
         }
     },
     "supervisor": {
         "dialog": {
             "network": {
-                "connected_to": "Tengt viÃ° {ssid}",
+                "connected_to": "Tengt viğ {ssid}",
                 "dhcp": "DHCP",
-                "disabled": "Ã“virkt",
-                "dns_servers": "DNS Ã¾jÃ³nar",
-                "failed_to_change": "Ekki tÃ³kst aÃ° breyta netstillingum",
-                "gateway": "Vistfang gÃ¡ttar",
-                "ip_netmask": "IP vistfang/NetmÃ¶skvi",
-                "open": "OpiÃ°",
-                "scan_ap": "Leita aÃ° aÃ°gangsstÃ¶Ã°um",
-                "static": "FÃ¶st",
+                "disabled": "Óvirkt",
+                "dns_servers": "DNS şjónar",
+                "failed_to_change": "Ekki tókst ağ breyta netstillingum",
+                "gateway": "Vistfang gáttar",
+                "ip_netmask": "IP vistfang/Netmöskvi",
+                "open": "Opiğ",
+                "scan_ap": "Leita ağ ağgangsstöğum",
+                "static": "Föst",
                 "title": "Netstillingar",
-                "unsaved": "ÃÃº ert meÃ° Ã³vistaÃ°ar breytingar, Ã¾Ã¦r tÃ½nast ef Ã¾Ãº skiptir um flipa, viltu halda Ã¡fram?",
-                "warning": "Ef Ã¾Ãº ert aÃ° breyta Wi-Fi, IP eÃ°a gÃ¡ttarvistfÃ¶ngum gÃ¦tirÃ°u misst tenginguna!",
+                "unsaved": "Şú ert meğ óvistağar breytingar, şær tınast ef şú skiptir um flipa, viltu halda áfram?",
+                "warning": "Ef şú ert ağ breyta Wi-Fi, IP eğa gáttarvistföngum gætirğu misst tenginguna!",
                 "wep": "WEP",
                 "wpa": "WPA-PSK"
             },
             "registries": {
-                "password": "LykilorÃ°",
-                "remove": "FjarlÃ¦gja",
+                "password": "Lykilorğ",
+                "remove": "Fjarlægja",
                 "username": "Username"
             },
             "repositories": {
-                "add": "BÃ¦ta viÃ°",
-                "remove": "FjarlÃ¦gja",
-                "title": "StjÃ³rna viÃ°bÃ³targeymslum"
+                "add": "Bæta viğ",
+                "remove": "Fjarlægja",
+                "title": "Stjórna viğbótargeymslum"
             },
             "restart_addon": {
-                "confirm_text": "EndurrÃ¦sa viÃ°bÃ³t",
-                "text": "Ã aÃ° endurrÃ¦sa viÃ°bÃ³tina meÃ° breytingum Ã¾Ã­num?"
+                "confirm_text": "Endurræsa viğbót",
+                "text": "Á ağ endurræsa viğbótina meğ breytingum şínum?"
             },
             "update": {
-                "create_snapshot": "Stofna skyndimynd af {name} Ã¡Ã°ur en uppfÃ¦rt er",
+                "create_snapshot": "Stofna skyndimynd af {name} áğur en uppfært er",
                 "snapshot": "Skyndimynd",
-                "snapshotting": "BÃ½ til skyndimynd af {name}",
-                "updating": "UppfÃ¦ri {name} Ã­ ÃºtgÃ¡fu {version}"
+                "snapshotting": "Bı til skyndimynd af {name}",
+                "updating": "Uppfæri {name} í útgáfu {version}"
             }
         },
         "my": {
-            "error_addon_not_found": "ViÃ°bÃ³t fannst ekki"
+            "error_addon_not_found": "Viğbót fannst ekki"
         },
         "snapshot": {
-            "addons": "ViÃ°bÃ¦tur",
-            "available_snapshots": "TiltÃ¦kar skyndimyndir",
-            "could_not_create": "Ekki tÃ³kst aÃ° bÃºa til skyndimynd",
-            "create": "BÃºa til",
-            "create_blocked_not_running": "Ekki er hÃ¦gt aÃ° bÃºa til skyndimynd nÃºna Ã¾ar sem kerfiÃ° er Ã­ {state} stÃ¶Ã°u.",
-            "create_snapshot": "BÃºa til skyndimynd",
-            "description": "Skyndimyndir gera Ã¾Ã©r kleift aÃ° vinna meÃ° Ã¶ryggisafrit af gÃ¶gnum Ã¾essa tilviks af Home Assistant.",
-            "enter_password": "FÃ¦rÃ°u inn lykilorÃ°.",
+            "addons": "Viğbætur",
+            "available_snapshots": "Tiltækar skyndimyndir",
+            "could_not_create": "Ekki tókst ağ búa til skyndimynd",
+            "create": "Búa til",
+            "create_blocked_not_running": "Ekki er hægt ağ búa til skyndimynd núna şar sem kerfiğ er í {state} stöğu.",
+            "create_snapshot": "Búa til skyndimynd",
+            "description": "Skyndimyndir gera şér kleift ağ vinna meğ öryggisafrit af gögnum şessa tilviks af Safegate Pro.",
+            "enter_password": "Færğu inn lykilorğ.",
             "folder": {
-                "addons/local": "StaÃ°bundnar viÃ°bÃ¦tur",
-                "homeassistant": "Home Assistant stillingar",
+                "addons/local": "Stağbundnar viğbætur",
+                "homeassistant": "Safegate Pro stillingar",
                 "media": "Efni",
                 "share": "Deila",
                 "ssl": "SSL"
             },
-            "folders": "MÃ¶ppur",
+            "folders": "Möppur",
             "full_snapshot": "Full skyndimynd",
             "name": "Heiti",
-            "partial_snapshot": "Skyndimynd aÃ° hluta",
-            "password": "LykilorÃ°",
-            "password_protected": "variÃ° meÃ° lykilorÃ°i",
-            "password_protection": "VÃ¶rn meÃ° lykilorÃ°i",
-            "security": "Ã–ryggi",
-            "type": "GerÃ°",
-            "upload_snapshot": "HlaÃ°a upp skyndimynd"
+            "partial_snapshot": "Skyndimynd ağ hluta",
+            "password": "Lykilorğ",
+            "password_protected": "variğ meğ lykilorği",
+            "password_protection": "Vörn meğ lykilorği",
+            "security": "Öryggi",
+            "type": "Gerğ",
+            "upload_snapshot": "Hlağa upp skyndimynd"
         },
         "system": {
             "core": {
-                "cpu_usage": "Kjarni: Notkun Ã¶rgjÃ¶rva",
+                "cpu_usage": "Kjarni: Notkun örgjörva",
                 "ram_usage": "Kjarni: Notkun vinnsluminnis"
             },
             "host": {
                 "change": "Breyta",
-                "change_hostname": "Breyta vÃ©larheiti",
-                "confirm_reboot": "Ã Ã¶rugglega aÃ° endurrÃ¦sa vÃ©lina?",
-                "confirm_shutdown": "Ertu viss um aÃ° Ã¾Ãº viljir ganga frÃ¡ vÃ©linni?",
+                "change_hostname": "Breyta vélarheiti",
+                "confirm_reboot": "Á örugglega ağ endurræsa vélina?",
+                "confirm_shutdown": "Ertu viss um ağ şú viljir ganga frá vélinni?",
                 "deployment": "Dreifing",
-                "docker_version": "Docker ÃºtgÃ¡fa",
-                "emmc_lifetime_used": "eMMC lÃ­ftÃ­mi notaÃ°ur",
-                "failed_to_get_hardware_list": "Ekki tÃ³kst aÃ° sÃ¦kja vÃ©lbÃºnaÃ°arlista",
-                "failed_to_import_from_usb": "Ekki tÃ³kst aÃ° flytja inn Ãºr USB",
-                "failed_to_reboot": "Ekki tÃ³kst aÃ° endurrÃ¦sa vÃ©lina",
-                "failed_to_set_hostname": "Ekki tÃ³kst aÃ° breyta vÃ©larheiti",
-                "failed_to_shutdown": "Ekki tÃ³kst aÃ° ganga frÃ¡ vÃ©linni",
-                "hardware": "VÃ©lbÃºnaÃ°ur",
-                "hostname": "VÃ©larheiti",
-                "import_from_usb": "Flytja inn frÃ¡ USB",
+                "docker_version": "Docker útgáfa",
+                "emmc_lifetime_used": "eMMC líftími notağur",
+                "failed_to_get_hardware_list": "Ekki tókst ağ sækja vélbúnağarlista",
+                "failed_to_import_from_usb": "Ekki tókst ağ flytja inn úr USB",
+                "failed_to_reboot": "Ekki tókst ağ endurræsa vélina",
+                "failed_to_set_hostname": "Ekki tókst ağ breyta vélarheiti",
+                "failed_to_shutdown": "Ekki tókst ağ ganga frá vélinni",
+                "hardware": "Vélbúnağur",
+                "hostname": "Vélarheiti",
+                "import_from_usb": "Flytja inn frá USB",
                 "ip_address": "IP vistfang",
-                "new_hostname": "Vinsamlega slÃ¡Ã°u inn nÃ½tt vÃ©larheiti:",
-                "operating_system": "StÃ½rikerfi",
-                "reboot_host": "EndurrÃ¦sa vÃ©l",
-                "shutdown_host": "Ganga frÃ¡ vÃ©l",
-                "used_space": "NotaÃ° plÃ¡ss"
+                "new_hostname": "Vinsamlega sláğu inn nıtt vélarheiti:",
+                "operating_system": "Stırikerfi",
+                "reboot_host": "Endurræsa vél",
+                "shutdown_host": "Ganga frá vél",
+                "used_space": "Notağ pláss"
             },
             "supervisor": {
                 "unhealthy_reason": {
-                    "docker": "Docker umhverfiÃ° virkar ekki rÃ©tt",
-                    "privileged": "UmsjÃ³narkerfi hefur ekki Ã¡skilin rÃ©ttindi",
-                    "setup": "Uppsetning umsjÃ³narkerfis mistÃ³kst",
-                    "supervisor": "UmsjÃ³narkerfi tÃ³kst ekki aÃ° uppfÃ¦ra"
+                    "docker": "Docker umhverfiğ virkar ekki rétt",
+                    "privileged": "Umsjónarkerfi hefur ekki áskilin réttindi",
+                    "setup": "Uppsetning umsjónarkerfis mistókst",
+                    "supervisor": "Umsjónarkerfi tókst ekki ağ uppfæra"
                 },
                 "unsupported_reason": {
                     "dbus": "DBUS",
                     "docker_configuration": "Stillingar Docker",
-                    "docker_version": "Docker ÃºtgÃ¡fa",
-                    "job_conditions": "HunsuÃ° skilyrÃ°i verka",
+                    "docker_version": "Docker útgáfa",
+                    "job_conditions": "Hunsuğ skilyrği verka",
                     "lxc": "LXC",
-                    "network_manager": "NetstjÃ³ri",
-                    "os": "StÃ½rikerfis",
-                    "privileged": "UmsjÃ³narkerfi hefur ekki Ã¡skilin rÃ©ttindi",
+                    "network_manager": "Netstjóri",
+                    "os": "Stırikerfis",
+                    "privileged": "Umsjónarkerfi hefur ekki áskilin réttindi",
                     "systemd": "Systemd"
                 }
             }
@@ -214,39 +214,39 @@
     },
     "ui": {
         "auth_store": {
-            "ask": "Viltu vista Ã¾essa innskrÃ¡ningu?",
-            "confirm": "Vista innskrÃ¡ningu",
+            "ask": "Viltu vista şessa innskráningu?",
+            "confirm": "Vista innskráningu",
             "decline": "Nei takk"
         },
         "card": {
             "alarm_control_panel": {
-                "arm_away": "VÃ¶rÃ°ur Ãºti",
-                "arm_custom_bypass": "SÃ©rsniÃ°in hjÃ¡leiÃ°",
-                "arm_home": "VÃ¶rÃ°ur heima",
-                "arm_night": "VÃ¶rÃ°ur nÃ³tt",
+                "arm_away": "Vörğur úti",
+                "arm_custom_bypass": "Sérsniğin hjáleiğ",
+                "arm_home": "Vörğur heima",
+                "arm_night": "Vörğur nótt",
                 "clear_code": "Hreinsa",
-                "code": "KÃ³Ã°i",
-                "disarm": "Taka af verÃ°i"
+                "code": "Kóği",
+                "disarm": "Taka af verği"
             },
             "automation": {
-                "last_triggered": "SÃ­Ã°ast kveikt",
+                "last_triggered": "Síğast kveikt",
                 "trigger": "Kveikja"
             },
             "camera": {
-                "not_available": "Mynd ekki tiltÃ¦k"
+                "not_available": "Mynd ekki tiltæk"
             },
             "climate": {
                 "away_mode": "Fjarverandi hamur",
-                "cooling": "{name} kÃ¦ling",
-                "currently": "Er nÃºna",
+                "cooling": "{name} kæling",
+                "currently": "Er núna",
                 "fan_mode": "Viftuhamur",
                 "heating": "{name} hitun",
-                "on_off": "Kveikt / slÃ¶kkt",
-                "operation": "AÃ°gerÃ°",
+                "on_off": "Kveikt / slökkt",
+                "operation": "Ağgerğ",
                 "preset_mode": "Forstilling",
                 "swing_mode": "Sveifluhamur",
-                "target_humidity": "ViÃ°miÃ°unar rakastig",
-                "target_temperature": "ViÃ°miÃ°unar hitastig"
+                "target_humidity": "Viğmiğunar rakastig",
+                "target_temperature": "Viğmiğunar hitastig"
             },
             "counter": {
                 "actions": {
@@ -254,81 +254,81 @@
                 }
             },
             "cover": {
-                "position": "StaÃ°setning",
-                "tilt_position": "HallastaÃ°a"
+                "position": "Stağsetning",
+                "tilt_position": "Hallastağa"
             },
             "fan": {
-                "direction": "SnÃºningsÃ¡tt",
-                "forward": "Ãfram",
+                "direction": "Snúningsátt",
+                "forward": "Áfram",
                 "oscillate": "Sveiflast",
-                "reverse": "AfturÃ¡bak",
-                "speed": "HraÃ°i"
+                "reverse": "Afturábak",
+                "speed": "Hraği"
             },
             "humidifier": {
                 "mode": "Hamur",
-                "on_entity": "{name} Ã­ gangi"
+                "on_entity": "{name} í gangi"
             },
             "light": {
                 "brightness": "Birtustig",
                 "color_temperature": "Litastig",
-                "effect": "Ãhrif",
-                "white_value": "HvÃ­tt gildi"
+                "effect": "Áhrif",
+                "white_value": "Hvítt gildi"
             },
             "lock": {
-                "code": "KÃ³Ã°i",
-                "lock": "LÃ¦sa",
-                "unlock": "AflÃ¦sa"
+                "code": "Kóği",
+                "lock": "Læsa",
+                "unlock": "Aflæsa"
             },
             "media_player": {
-                "sound_mode": "HljÃ³Ã°hamur",
+                "sound_mode": "Hljóğhamur",
                 "source": "Uppruni",
-                "text_to_speak": "Texti yfir Ã­ tal"
+                "text_to_speak": "Texti yfir í tal"
             },
             "persistent_notification": {
-                "dismiss": "VÃ­sa frÃ¡"
+                "dismiss": "Vísa frá"
             },
             "scene": {
                 "activate": "Virkja"
             },
             "script": {
-                "cancel": "HÃ¦tta viÃ°",
-                "cancel_multiple": "HÃ¦tta viÃ° {number}"
+                "cancel": "Hætta viğ",
+                "cancel_multiple": "Hætta viğ {number}"
             },
             "service": {
                 "run": "Keyra"
             },
             "timer": {
                 "actions": {
-                    "cancel": "hÃ¦tta viÃ°",
-                    "finish": "lokiÃ°",
-                    "pause": "hlÃ©",
+                    "cancel": "hætta viğ",
+                    "finish": "lokiğ",
+                    "pause": "hlé",
                     "start": "byrja"
                 }
             },
             "vacuum": {
                 "actions": {
-                    "resume_cleaning": "Halda Ã¡fram aÃ° Ã¾rÃ­fa",
-                    "return_to_base": "Fara aftur Ã­ bryggju",
-                    "start_cleaning": "Byrja aÃ° Ã¾rÃ­fa",
-                    "turn_off": "SlÃ¶kkva Ã¡",
-                    "turn_on": "Kveikja Ã¡"
+                    "resume_cleaning": "Halda áfram ağ şrífa",
+                    "return_to_base": "Fara aftur í bryggju",
+                    "start_cleaning": "Byrja ağ şrífa",
+                    "turn_off": "Slökkva á",
+                    "turn_on": "Kveikja á"
                 }
             },
             "water_heater": {
                 "away_mode": "Fjarverandi hamur",
-                "currently": "Er nÃºna",
-                "on_off": "Kveikt / slÃ¶kkt",
-                "operation": "AÃ°gerÃ°",
-                "target_temperature": "ViÃ°miÃ°unarhitastig"
+                "currently": "Er núna",
+                "on_off": "Kveikt / slökkt",
+                "operation": "Ağgerğ",
+                "target_temperature": "Viğmiğunarhitastig"
             },
             "weather": {
                 "attributes": {
-                    "air_pressure": "LoftÃ¾rÃ½stingur",
+                    "air_pressure": "Loftşrıstingur",
                     "humidity": "Rakastig",
-                    "precipitation": "Ãšrkoma",
+                    "precipitation": "Úrkoma",
                     "temperature": "Hitastig",
                     "visibility": "Skyggni",
-                    "wind_speed": "VindhraÃ°i"
+                    "wind_speed": "Vindhraği"
                 },
                 "cardinal_direction": {
                     "e": "A",
@@ -349,51 +349,51 @@
                     "wsw": "VSV"
                 },
                 "day": "Dagur",
-                "forecast": "SpÃ¡",
-                "night": "NÃ³tt"
+                "forecast": "Spá",
+                "night": "Nótt"
             }
         },
         "common": {
             "and": "og",
             "back": "Til baka",
-            "cancel": "HÃ¦tta viÃ°",
+            "cancel": "Hætta viğ",
             "close": "Loka",
-            "continue": "Halda Ã¡fram",
-            "copied_clipboard": "AfritaÃ° Ã¡ klemmuspjald",
-            "delete": "EyÃ°a",
+            "continue": "Halda áfram",
+            "copied_clipboard": "Afritağ á klemmuspjald",
+            "delete": "Eyğa",
             "error_required": "Skilyrt",
-            "loading": "HleÃ°",
+            "loading": "Hleğ",
             "menu": "Valmynd",
-            "next": "NÃ¦sta",
+            "next": "Næsta",
             "no": "Nei",
-            "not_now": "Ekki nÃºna",
+            "not_now": "Ekki núna",
             "previous": "Fyrri",
-            "refresh": "EndurnÃ½ja",
+            "refresh": "Endurnıja",
             "rename": "Endurnefna",
             "save": "Vista",
             "skip": "Sleppa",
             "undo": "Afturkalla",
-            "yes": "JÃ¡"
+            "yes": "Já"
         },
         "components": {
             "area-picker": {
                 "add_dialog": {
-                    "add": "BÃ¦ta viÃ°",
-                    "failed_create_area": "Ekki tÃ³kst aÃ° stofna svÃ¦Ã°i.",
+                    "add": "Bæta viğ",
+                    "failed_create_area": "Ekki tókst ağ stofna svæği.",
                     "name": "Nafn"
                 },
-                "area": "SvÃ¦Ã°i",
+                "area": "Svæği",
                 "clear": "Hreinsa",
-                "show_areas": "Birta svÃ¦Ã°i"
+                "show_areas": "Birta svæği"
             },
             "blueprint-picker": {
-                "add_user": "BÃ¦ta viÃ° notanda",
-                "remove_user": "FjarlÃ¦gja notanda",
-                "select_blueprint": "Velja uppdrÃ¡tt"
+                "add_user": "Bæta viğ notanda",
+                "remove_user": "Fjarlægja notanda",
+                "select_blueprint": "Velja uppdrátt"
             },
             "calendar": {
-                "my_calendars": "DagatÃ¶lin mÃ­n",
-                "today": "Ã dag"
+                "my_calendars": "Dagatölin mín",
+                "today": "Í dag"
             },
             "data-table": {
                 "search": "Leita"
@@ -405,11 +405,11 @@
             },
             "device-picker": {
                 "clear": "Hreinsa",
-                "device": "TÃ¦ki",
-                "no_area": "Ekkert svÃ¦Ã°i",
-                "no_devices": "ÃÃº ert ekki meÃ° nein tÃ¦ki",
-                "no_match": "Engin samsvarandi tÃ¦ki fundust",
-                "show_devices": "SÃ½na tÃ¦ki"
+                "device": "Tæki",
+                "no_area": "Ekkert svæği",
+                "no_devices": "Şú ert ekki meğ nein tæki",
+                "no_match": "Engin samsvarandi tæki fundust",
+                "show_devices": "Sına tæki"
             },
             "entity": {
                 "entity-picker": {
@@ -419,149 +419,149 @@
                 }
             },
             "history_charts": {
-                "loading_history": "HleÃ° stÃ¶Ã°usÃ¶gu...",
-                "no_history_found": "Engin stÃ¶Ã°usaga fannst."
+                "loading_history": "Hleğ stöğusögu...",
+                "no_history_found": "Engin stöğusaga fannst."
             },
             "logbook": {
                 "messages": {
-                    "was_closed": "var lokaÃ°",
-                    "was_opened": "var opnaÃ°"
+                    "was_closed": "var lokağ",
+                    "was_opened": "var opnağ"
                 }
             },
             "media-browser": {
                 "choose_player": "Veldu spilara",
                 "class": {
-                    "music": "TÃ³nlist",
-                    "podcast": "HlaÃ°varp",
-                    "tv_show": "SjÃ³nvarpsÃ¾Ã¡ttur"
+                    "music": "Tónlist",
+                    "podcast": "Hlağvarp",
+                    "tv_show": "Sjónvarpsşáttur"
                 }
             },
             "related-items": {
-                "area": "SvÃ¦Ã°i",
-                "device": "TÃ¦ki",
-                "integration": "SamÃ¾Ã¦tting"
+                "area": "Svæği",
+                "device": "Tæki",
+                "integration": "Samşætting"
             },
             "relative_time": {
                 "duration": {
                     "day": "{count} {count, plural,\n  one {dagur}\n  other {dagar}\n}",
-                    "hour": "{count} {count, plural,\n  one {klukkutÃ­mi}\n  other {klukkutÃ­mar}\n}",
-                    "minute": "{count} {count, plural,\n  one {mÃ­nÃºta}\n  other {mÃ­nÃºtur}\n}",
-                    "second": "{count} {count, plural,\n  one {sekÃºnda}\n  other {sekÃºndur}\n}",
+                    "hour": "{count} {count, plural,\n  one {klukkutími}\n  other {klukkutímar}\n}",
+                    "minute": "{count} {count, plural,\n  one {mínúta}\n  other {mínútur}\n}",
+                    "second": "{count} {count, plural,\n  one {sekúnda}\n  other {sekúndur}\n}",
                     "week": "{count} {count, plural,\n  one {vika}\n  other {vikur}\n}"
                 },
-                "just_now": "RÃ©tt Ã­ Ã¾essu",
+                "just_now": "Rétt í şessu",
                 "never": "Aldrei"
             },
             "service-picker": {
-                "service": "ÃjÃ³nusta"
+                "service": "Şjónusta"
             },
             "target-picker": {
-                "add_area_id": "Velja svÃ¦Ã°i",
-                "add_device_id": "Velja tÃ¦ki",
+                "add_area_id": "Velja svæği",
+                "add_device_id": "Velja tæki",
                 "add_entity_id": "Velja einingu",
-                "remove_area_id": "FjarlÃ¦gja svÃ¦Ã°i",
-                "remove_device_id": "FjarlÃ¦gja tÃ¦ki",
-                "remove_entity_id": "FjarlÃ¦gja einingu"
+                "remove_area_id": "Fjarlægja svæği",
+                "remove_device_id": "Fjarlægja tæki",
+                "remove_entity_id": "Fjarlægja einingu"
             }
         },
         "dialogs": {
             "config_entry_system_options": {
-                "enable_new_entities_label": "Virkja einingar sem nÃ½lega var bÃ¦tt viÃ°",
+                "enable_new_entities_label": "Virkja einingar sem nılega var bætt viğ",
                 "title": "Kerfisvalkostir",
-                "update": "UppfÃ¦ra"
+                "update": "Uppfæra"
             },
             "entity_registry": {
-                "dismiss": "VÃ­sa frÃ¡",
+                "dismiss": "Vísa frá",
                 "editor": {
-                    "advanced": "Ãtarlegar stillingar",
-                    "delete": "EyÃ°a",
-                    "device_disabled": "TÃ¦ki Ã¾essarar einingar er Ã³virkt.",
-                    "enabled_cause": "AfvirkjaÃ° vegna {cause}.",
+                    "advanced": "Ítarlegar stillingar",
+                    "delete": "Eyğa",
+                    "device_disabled": "Tæki şessarar einingar er óvirkt.",
+                    "enabled_cause": "Afvirkjağ vegna {cause}.",
                     "enabled_label": "Virkja einingu",
                     "entity_id": "Kenni eingar",
-                    "icon": "Yfirskrifa tÃ¡knmynd",
+                    "icon": "Yfirskrifa táknmynd",
                     "name": "Yfirskrifa nafn",
-                    "open_device_settings": "Opna stillingar tÃ¦kis",
-                    "update": "UppfÃ¦ra"
+                    "open_device_settings": "Opna stillingar tækis",
+                    "update": "Uppfæra"
                 },
                 "related": "Tengt",
                 "settings": "Stillingar"
             },
             "generic": {
-                "cancel": "HÃ¦tta viÃ°",
+                "cancel": "Hætta viğ",
                 "close": "loka",
                 "default_confirmation_title": "Ertu viss?",
-                "ok": "Ã lagi"
+                "ok": "Í lagi"
             },
             "helper_settings": {
                 "generic": {
-                    "icon": "TÃ¡knmynd",
+                    "icon": "Táknmynd",
                     "name": "Nafn"
                 },
                 "input_datetime": {
                     "date": "Dagsetning",
-                    "datetime": "Dagsetning og tÃ­mi",
-                    "time": "TÃ­mi"
+                    "datetime": "Dagsetning og tími",
+                    "time": "Tími"
                 },
                 "input_number": {
-                    "box": "InnslÃ¡ttarreitur",
-                    "max": "HÃ¡marksgildi",
-                    "min": "LÃ¡gmarksgildi",
-                    "mode": "BirtingarmÃ¡ti",
-                    "unit_of_measurement": "MÃ¦lieining"
+                    "box": "Innsláttarreitur",
+                    "max": "Hámarksgildi",
+                    "min": "Lágmarksgildi",
+                    "mode": "Birtingarmáti",
+                    "unit_of_measurement": "Mælieining"
                 },
                 "input_select": {
-                    "add": "BÃ¦ta viÃ°",
-                    "add_option": "BÃ¦ta viÃ° valkosti",
+                    "add": "Bæta viğ",
+                    "add_option": "Bæta viğ valkosti",
                     "options": "Valkostir"
                 },
                 "input_text": {
-                    "max": "HÃ¡markslengd",
-                    "min": "LÃ¡gmarkslengd",
-                    "mode": "BirtingarmÃ¡ti",
-                    "password": "LykilorÃ°",
+                    "max": "Hámarkslengd",
+                    "min": "Lágmarkslengd",
+                    "mode": "Birtingarmáti",
+                    "password": "Lykilorğ",
                     "text": "Texti"
                 },
-                "required_error_msg": "Ã¾etta er skilyrtur reitur"
+                "required_error_msg": "şetta er skilyrtur reitur"
             },
             "more_info_control": {
                 "cover": {
-                    "close_cover": "Loka kÃ¡pu",
-                    "open_cover": "Opna kÃ¡pu"
+                    "close_cover": "Loka kápu",
+                    "open_cover": "Opna kápu"
                 },
                 "edit": "Breyta einingu",
                 "history": "Saga",
-                "last_changed": "SÃ­Ã°ast breytt",
+                "last_changed": "Síğast breytt",
                 "remote": {
-                    "activity": "NÃºverandi verkÃ¾Ã¡ttur"
+                    "activity": "Núverandi verkşáttur"
                 },
                 "restored": {
-                    "confirm_remove_title": "FjarlÃ¦gja einingu?",
-                    "remove_action": "FjarlÃ¦gja einingu"
+                    "confirm_remove_title": "Fjarlægja einingu?",
+                    "remove_action": "Fjarlægja einingu"
                 },
                 "script": {
-                    "last_action": "SÃ­Ã°asta aÃ°gerÃ°",
-                    "last_triggered": "SÃ­Ã°ast kveikt"
+                    "last_action": "Síğasta ağgerğ",
+                    "last_triggered": "Síğast kveikt"
                 },
                 "settings": "Stillingar fyrir einingu",
                 "sun": {
-                    "elevation": "HÃ¦kkun",
+                    "elevation": "Hækkun",
                     "rising": "Upprisa",
                     "setting": "Stillingar"
                 },
                 "updater": {
-                    "title": "UppfÃ¦rslu leiÃ°beiningar"
+                    "title": "Uppfærslu leiğbeiningar"
                 },
                 "vacuum": {
-                    "locate": "StaÃ°setja",
-                    "pause": "HlÃ©",
+                    "locate": "Stağsetja",
+                    "pause": "Hlé",
                     "start": "Byrja",
-                    "status": "StaÃ°a",
-                    "stop": "StÃ¶Ã°va"
+                    "status": "Stağa",
+                    "stop": "Stöğva"
                 }
             },
             "mqtt_device_debug_info": {
-                "deserialize": "Reyni aÃ° flokka MQTT skilaboÃ° sem JSON",
+                "deserialize": "Reyni ağ flokka MQTT skilaboğ sem JSON",
                 "entities": "Einingar",
                 "no_entities": "Engar einingar",
                 "show_as_yaml": "Birta sem YAML"
@@ -574,206 +574,206 @@
             "quick-bar": {
                 "commands": {
                     "navigation": {
-                        "areas": "SvÃ¦Ã°i",
-                        "automation": "SjÃ¡lfvirkni",
-                        "blueprint": "UppdrÃ¦ttir",
+                        "areas": "Svæği",
+                        "automation": "Sjálfvirkni",
+                        "blueprint": "Uppdrættir",
                         "core": "Almennt",
-                        "devices": "TÃ¦ki",
+                        "devices": "Tæki",
                         "entities": "Einingar",
-                        "helpers": "HjÃ¡lp",
-                        "info": "UpplÃ½singar",
-                        "integrations": "SamÃ¾Ã¦ttingar",
-                        "logs": "AtburÃ°askrÃ¡",
-                        "lovelace": "SkjÃ¡borÃ°",
-                        "person": "PersÃ³nur",
+                        "helpers": "Hjálp",
+                        "info": "Upplısingar",
+                        "integrations": "Samşættingar",
+                        "logs": "Atburğaskrá",
+                        "lovelace": "Skjáborğ",
+                        "person": "Persónur",
                         "scene": "Senur",
                         "script": "Skriftur",
                         "users": "Notendur",
-                        "zone": "SvÃ¦Ã°i"
+                        "zone": "Svæği"
                     },
                     "reload": {
-                        "homekit": "EndurhlaÃ°a HomeKit"
+                        "homekit": "Endurhlağa HomeKit"
                     },
                     "server_control": {
-                        "restart": "EndurrÃ¦sa",
-                        "stop": "StÃ¶Ã°va"
+                        "restart": "Endurræsa",
+                        "stop": "Stöğva"
                     }
                 }
             },
             "voice_command": {
-                "error": "Ãšbbs, villa kom upp",
-                "found": "Ã‰g fann eftirfarandi fyrir Ã¾ig:",
-                "how_can_i_help": "Hvernig get Ã©g aÃ°stoÃ°aÃ°?"
+                "error": "Úbbs, villa kom upp",
+                "found": "Ég fann eftirfarandi fyrir şig:",
+                "how_can_i_help": "Hvernig get ég ağstoğağ?"
             },
             "zha_device_info": {
                 "buttons": {
-                    "add": "BÃ¦ta viÃ° tÃ¦kjum",
-                    "reconfigure": "Endurstilla tÃ¦ki",
-                    "remove": "FjarlÃ¦gja tÃ¦ki"
+                    "add": "Bæta viğ tækjum",
+                    "reconfigure": "Endurstilla tæki",
+                    "remove": "Fjarlægja tæki"
                 },
-                "last_seen": "SÃ­Ã°ast sÃ©Ã°",
+                "last_seen": "Síğast séğ",
                 "manuf": "eftir {manufacturer}",
-                "no_area": "Ekkert svÃ¦Ã°i",
+                "no_area": "Ekkert svæği",
                 "power_source": "Orkugjafi",
                 "services": {
-                    "remove": "FjarlÃ¦gja tÃ¦ki af ZigBee neti."
+                    "remove": "Fjarlægja tæki af ZigBee neti."
                 },
-                "unknown": "Ã“Ã¾ekkt",
+                "unknown": "Óşekkt",
                 "zha_device_card": {
-                    "device_name_placeholder": "Breyta nafni Ã¡ tÃ¦ki"
+                    "device_name_placeholder": "Breyta nafni á tæki"
                 }
             }
         },
         "duration": {
             "day": "{count} {count, plural,\n  one {dagur}\n  other {dagar}\n}",
-            "hour": "{count} {count, plural,\n  one {klukkutÃ­mi}\n  other {klukkutÃ­mar}\n}",
-            "minute": "{count} {count, plural,\n  one {mÃ­nÃºta}\n  other {mÃ­nÃºtur}\n}",
-            "second": "{count} {count, plural,\n  one {sekÃºnda}\n  other {sekÃºndur}\n}",
+            "hour": "{count} {count, plural,\n  one {klukkutími}\n  other {klukkutímar}\n}",
+            "minute": "{count} {count, plural,\n  one {mínúta}\n  other {mínútur}\n}",
+            "second": "{count} {count, plural,\n  one {sekúnda}\n  other {sekúndur}\n}",
             "week": "{count} {count, plural,\n  one {vika}\n  other {vikur}\n}"
         },
         "errors": {
             "config": {
-                "edit_in_yaml_supported": "ÃÃº getur samt breytt stillingum Ã¾Ã­num Ã­ YAML.",
-                "editor_not_available": "Enginn ritill er tiltÃ¦kur fyrir gerÃ° \"{type}\".",
-                "editor_not_supported": "Ritill er ekki studdur fyrir Ã¾essar stillingar",
-                "error_detected": "Villur fundust Ã­ stillingum",
-                "key_missing": "NauÃ°synlegan lykil \"{key}\" vantar.",
-                "key_not_expected": "Ekki er bÃºist viÃ° lyklinum \"{key}\" eÃ°a hann er ekki studdur af ritlinum.",
-                "key_wrong_type": "UppgefiÃ° gildi fyrir \"{key}\" er ekki stutt af ritlinum. ViÃ° styÃ°jum ({type_correct}) en fengum ({type_wrong})."
+                "edit_in_yaml_supported": "Şú getur samt breytt stillingum şínum í YAML.",
+                "editor_not_available": "Enginn ritill er tiltækur fyrir gerğ \"{type}\".",
+                "editor_not_supported": "Ritill er ekki studdur fyrir şessar stillingar",
+                "error_detected": "Villur fundust í stillingum",
+                "key_missing": "Nauğsynlegan lykil \"{key}\" vantar.",
+                "key_not_expected": "Ekki er búist viğ lyklinum \"{key}\" eğa hann er ekki studdur af ritlinum.",
+                "key_wrong_type": "Uppgefiğ gildi fyrir \"{key}\" er ekki stutt af ritlinum. Viğ styğjum ({type_correct}) en fengum ({type_wrong})."
             }
         },
         "login-form": {
-            "log_in": "SkrÃ¡ inn",
-            "password": "LykilorÃ°",
+            "log_in": "Skrá inn",
+            "password": "Lykilorğ",
             "remember": "Muna"
         },
         "notification_drawer": {
-            "click_to_configure": "Smelltu Ã¡ hnappinn til aÃ° stilla {entity}",
+            "click_to_configure": "Smelltu á hnappinn til ağ stilla {entity}",
             "close": "Loka",
             "empty": "Engar tilkynningar",
             "title": "Tilkynningar"
         },
         "notification_toast": {
-            "connection_lost": "Tenging tapaÃ°ist. Tengist aftur...",
-            "service_call_failed": "Ekki tÃ³kst aÃ° kalla Ã¡ Ã¾jÃ³nustu {service}."
+            "connection_lost": "Tenging tapağist. Tengist aftur...",
+            "service_call_failed": "Ekki tókst ağ kalla á şjónustu {service}."
         },
         "panel": {
             "config": {
                 "areas": {
-                    "caption": "SvÃ¦Ã°askrÃ¡",
+                    "caption": "Svæğaskrá",
                     "data_table": {
-                        "area": "SvÃ¦Ã°i",
-                        "devices": "TÃ¦ki"
+                        "area": "Svæği",
+                        "devices": "Tæki"
                     },
-                    "description": "Yfirlit yfir Ã¶ll svÃ¦Ã°i Ã¡ heimilinu Ã¾Ã­nu.",
+                    "description": "Yfirlit yfir öll svæği á heimilinu şínu.",
                     "editor": {
                         "create": "STOFNA",
-                        "default_name": "NÃ½tt svÃ¦Ã°i",
-                        "delete": "EYÃA",
+                        "default_name": "Nıtt svæği",
+                        "delete": "EYĞA",
                         "name": "Nafn",
                         "name_required": "Nafn er skilyrt",
-                        "unknown_error": "Ã“Ã¾ekkt villa",
-                        "update": "UPPFÃ†RA"
+                        "unknown_error": "Óşekkt villa",
+                        "update": "UPPFÆRA"
                     },
                     "picker": {
-                        "header": "SvÃ¦Ã°askrÃ¡",
-                        "integrations_page": "SamÃ¾Ã¦ttingar sÃ­Ã°a",
-                        "introduction": "SvÃ¦Ã°i eru notuÃ° til aÃ° skipuleggja hvar tÃ¦ki eru staÃ°sett. Ãessar upplÃ½singar verÃ°a notaÃ°ar innan Home Assistant til aÃ° hjÃ¡lpa Ã¾Ã©r aÃ° skipuleggja viÃ°mÃ³tiÃ°, rÃ©ttindi og samÃ¾Ã¦ttingar viÃ° Ã¶nnur kerfi.",
-                        "introduction2": "Til aÃ° staÃ°setja tÃ¦ki inn Ã¡ tilteknu svÃ¦Ã°i Ã¾Ã¡ skal notast viÃ° hlekkinn hÃ©r fyrir neÃ°an til aÃ° vafra yfir Ã¡ samÃ¾Ã¦ttingarsÃ­Ã°u og Ã¾ar smella Ã¡ stillta samÃ¾Ã¦ttingu til aÃ° fÃ¡ upp spjaldiÃ° fyrir tÃ¦kiÃ°."
+                        "header": "Svæğaskrá",
+                        "integrations_page": "Samşættingar síğa",
+                        "introduction": "Svæği eru notuğ til ağ skipuleggja hvar tæki eru stağsett. Şessar upplısingar verğa notağar innan Safegate Pro til ağ hjálpa şér ağ skipuleggja viğmótiğ, réttindi og samşættingar viğ önnur kerfi.",
+                        "introduction2": "Til ağ stağsetja tæki inn á tilteknu svæği şá skal notast viğ hlekkinn hér fyrir neğan til ağ vafra yfir á samşættingarsíğu og şar smella á stillta samşættingu til ağ fá upp spjaldiğ fyrir tækiğ."
                     }
                 },
                 "automation": {
-                    "caption": "SjÃ¡lfvirkni",
-                    "description": "Stofna og breyta sjÃ¡lfvirkni",
+                    "caption": "Sjálfvirkni",
+                    "description": "Stofna og breyta sjálfvirkni",
                     "dialog_new": {
                         "blueprint": {
-                            "use_blueprint": "Nota uppdrÃ¡tt"
+                            "use_blueprint": "Nota uppdrátt"
                         },
-                        "header": "BÃºa til nÃ½ja sjÃ¡lfvirkni",
-                        "how": "Hvernig viltu bÃºa til nÃ½ju sjÃ¡lfvirknina?",
-                        "start_empty": "Byrja meÃ° tÃ³ma sjÃ¡lfvirkni",
+                        "header": "Búa til nıja sjálfvirkni",
+                        "how": "Hvernig viltu búa til nıju sjálfvirknina?",
+                        "start_empty": "Byrja meğ tóma sjálfvirkni",
                         "thingtalk": {
                             "create": "Stofna",
-                            "header": "LÃ½stu sjÃ¡lfvirkninni sem Ã¾Ãº vilt bÃºa til",
-                            "input_label": "HvaÃ° Ã¦tti Ã¾essi sjÃ¡lfvirkni aÃ° gera?",
-                            "intro": "Og viÃ° munum reyna aÃ° bÃºa Ã¾aÃ° til fyrir Ã¾ig. Til dÃ¦mis: SlÃ¶kktu ljÃ³sin Ã¾egar Ã©g fer."
+                            "header": "Lıstu sjálfvirkninni sem şú vilt búa til",
+                            "input_label": "Hvağ ætti şessi sjálfvirkni ağ gera?",
+                            "intro": "Og viğ munum reyna ağ búa şağ til fyrir şig. Til dæmis: Slökktu ljósin şegar ég fer."
                         }
                     },
                     "editor": {
                         "actions": {
-                            "add": "BÃ¦ta viÃ° aÃ°gerÃ°",
-                            "delete": "EyÃ°a",
-                            "delete_confirm": "Ertu viss um aÃ° Ã¾Ãº viljir eyÃ°a?",
-                            "duplicate": "FjÃ¶lfalda",
-                            "header": "AÃ°gerÃ°ir",
-                            "introduction": "AÃ°gerÃ°ir er Ã¾aÃ° sem Home Assistant mun gera Ã¾egar sjÃ¡lfvirkni er rÃ¦st.",
-                            "learn_more": "LÃ¦ra meira um aÃ°gerÃ°ir",
-                            "name": "AÃ°gerÃ°",
-                            "type_select": "GerÃ° aÃ°gerÃ°ar",
+                            "add": "Bæta viğ ağgerğ",
+                            "delete": "Eyğa",
+                            "delete_confirm": "Ertu viss um ağ şú viljir eyğa?",
+                            "duplicate": "Fjölfalda",
+                            "header": "Ağgerğir",
+                            "introduction": "Ağgerğir er şağ sem Safegate Pro mun gera şegar sjálfvirkni er ræst.",
+                            "learn_more": "Læra meira um ağgerğir",
+                            "name": "Ağgerğ",
+                            "type_select": "Gerğ ağgerğar",
                             "type": {
                                 "condition": {
-                                    "label": "SkilyrÃ°i"
+                                    "label": "Skilyrği"
                                 },
                                 "delay": {
-                                    "delay": "TÃ¶f",
-                                    "label": "TÃ¶f"
+                                    "delay": "Töf",
+                                    "label": "Töf"
                                 },
                                 "device_id": {
-                                    "action": "AÃ°gerÃ°",
+                                    "action": "Ağgerğ",
                                     "extra_fields": {
-                                        "code": "KÃ³Ã°i",
-                                        "message": "SkilaboÃ°",
+                                        "code": "Kóği",
+                                        "message": "Skilaboğ",
                                         "title": "Titill"
                                     },
-                                    "label": "TÃ¦ki"
+                                    "label": "Tæki"
                                 },
                                 "event": {
-                                    "event": "ViÃ°burÃ°ur:",
-                                    "label": "SkjÃ³ta viÃ°burÃ°i",
-                                    "service_data": "ÃjÃ³nustu gÃ¶gn"
+                                    "event": "Viğburğur:",
+                                    "label": "Skjóta viğburği",
+                                    "service_data": "Şjónustu gögn"
                                 },
                                 "scene": {
                                     "label": "Virkja senu"
                                 },
                                 "service": {
-                                    "label": "Kalla Ã­ Ã¾jÃ³nustu"
+                                    "label": "Kalla í şjónustu"
                                 },
                                 "wait_template": {
-                                    "label": "BiÃ°",
-                                    "timeout": "TÃ­mamÃ¶rk (valfrjÃ¡lst)",
-                                    "wait_template": "BiÃ° sniÃ°mÃ¡t"
+                                    "label": "Biğ",
+                                    "timeout": "Tímamörk (valfrjálst)",
+                                    "wait_template": "Biğ sniğmát"
                                 }
                             },
-                            "unsupported_action": "Ã“studd aÃ°gerÃ°: {action}"
+                            "unsupported_action": "Óstudd ağgerğ: {action}"
                         },
                         "alias": "Nafn",
                         "blueprint": {
-                            "blueprint_to_use": "UppdrÃ¡ttur sem skal nota",
-                            "header": "UppdrÃ¡ttur",
-                            "no_blueprints": "ÃÃº ert ekki meÃ° neina uppdrÃ¦tti",
-                            "no_inputs": "Ãessi uppdrÃ¡ttur er ekki meÃ° neinum inntÃ¶kum."
+                            "blueprint_to_use": "Uppdráttur sem skal nota",
+                            "header": "Uppdráttur",
+                            "no_blueprints": "Şú ert ekki meğ neina uppdrætti",
+                            "no_inputs": "Şessi uppdráttur er ekki meğ neinum inntökum."
                         },
                         "conditions": {
-                            "add": "BÃ¦ta viÃ° skilyrÃ°i",
-                            "delete": "EyÃ°a",
-                            "delete_confirm": "Ertu viss um aÃ° Ã¾Ãº viljir eyÃ°a?",
-                            "duplicate": "FjÃ¶lfalda",
-                            "header": "SkilyrÃ°i",
-                            "learn_more": "LÃ¦ra meira um skilyrÃ°i",
-                            "name": "SkilyrÃ°i",
-                            "type_select": "GerÃ° skilyrÃ°is",
+                            "add": "Bæta viğ skilyrği",
+                            "delete": "Eyğa",
+                            "delete_confirm": "Ertu viss um ağ şú viljir eyğa?",
+                            "duplicate": "Fjölfalda",
+                            "header": "Skilyrği",
+                            "learn_more": "Læra meira um skilyrği",
+                            "name": "Skilyrği",
+                            "type_select": "Gerğ skilyrğis",
                             "type": {
                                 "and": {
                                     "label": "Og"
                                 },
                                 "device": {
-                                    "condition": "SkilyrÃ°i",
+                                    "condition": "Skilyrği",
                                     "extra_fields": {
                                         "above": "Yfir",
                                         "below": "Undir",
-                                        "for": "TÃ­malengd"
+                                        "for": "Tímalengd"
                                     },
-                                    "label": "TÃ¦ki"
+                                    "label": "Tæki"
                                 },
                                 "not": {
                                     "label": "Ekki"
@@ -781,106 +781,106 @@
                                 "numeric_state": {
                                     "above": "Yfir",
                                     "below": "Undir",
-                                    "value_template": "GildissniÃ°mÃ¡t (valfrjÃ¡lst)"
+                                    "value_template": "Gildissniğmát (valfrjálst)"
                                 },
                                 "or": {
-                                    "label": "EÃ°a"
+                                    "label": "Eğa"
                                 },
                                 "state": {
-                                    "label": "StaÃ°a",
-                                    "state": "StaÃ°a"
+                                    "label": "Stağa",
+                                    "state": "Stağa"
                                 },
                                 "sun": {
                                     "after": "Eftir:",
-                                    "after_offset": "Eftir hliÃ°run (valfrjÃ¡lst)",
+                                    "after_offset": "Eftir hliğrun (valfrjálst)",
                                     "before": "Fyrir:",
-                                    "before_offset": "Fyrir hliÃ°run (valfrjÃ¡lst)",
-                                    "label": "SÃ³l",
-                                    "sunrise": "SÃ³larupprÃ¡s",
-                                    "sunset": "SÃ³lsetur"
+                                    "before_offset": "Fyrir hliğrun (valfrjálst)",
+                                    "label": "Sól",
+                                    "sunrise": "Sólarupprás",
+                                    "sunset": "Sólsetur"
                                 },
                                 "template": {
-                                    "label": "SniÃ°mÃ¡t",
-                                    "value_template": "GildissniÃ°mÃ¡t"
+                                    "label": "Sniğmát",
+                                    "value_template": "Gildissniğmát"
                                 },
                                 "time": {
                                     "after": "Eftir",
                                     "before": "Fyrir",
-                                    "label": "TÃ­mi",
+                                    "label": "Tími",
                                     "weekdays": {
-                                        "fri": "FÃ¶studagur",
-                                        "mon": "MÃ¡nudagur",
+                                        "fri": "Föstudagur",
+                                        "mon": "Mánudagur",
                                         "sat": "Laugardag",
                                         "sun": "Sunnudagur",
                                         "thu": "Fimmtudagur",
-                                        "tue": "ÃriÃ°judagur",
-                                        "wed": "MiÃ°vikudagur"
+                                        "tue": "Şriğjudagur",
+                                        "wed": "Miğvikudagur"
                                     }
                                 },
                                 "zone": {
-                                    "entity": "Eining meÃ° staÃ°setningu",
-                                    "label": "Ã–ryggissvÃ¦Ã°i",
-                                    "zone": "Ã–ryggissvÃ¦Ã°i"
+                                    "entity": "Eining meğ stağsetningu",
+                                    "label": "Öryggissvæği",
+                                    "zone": "Öryggissvæği"
                                 }
                             },
-                            "unsupported_condition": "SkilyrÃ°i ekki stutt: {condition}"
+                            "unsupported_condition": "Skilyrği ekki stutt: {condition}"
                         },
-                        "default_name": "NÃ½ sjÃ¡lfvirkni",
+                        "default_name": "Nı sjálfvirkni",
                         "description": {
-                            "label": "LÃ½sing",
-                            "placeholder": "ValfrjÃ¡ls lÃ½sing"
+                            "label": "Lısing",
+                            "placeholder": "Valfrjáls lısing"
                         },
-                        "edit_ui": "Breyta Ã­ viÃ°mÃ³ti",
+                        "edit_ui": "Breyta í viğmóti",
                         "edit_yaml": "Breyta sem YAML",
-                        "enable_disable": "Virkja/slÃ¶kkva Ã¡ sjÃ¡lfvirkni",
-                        "introduction": "NotaÃ°u sjÃ¡lfvirkni til aÃ° glÃ¦Ã°a hÃºsiÃ° Ã¾itt lÃ­fi",
-                        "load_error_not_editable": "EingÃ¶ngu er hÃ¦gt aÃ° breyta sjÃ¡lfvirkni Ã­ automations.yaml",
-                        "load_error_unknown": "Villa kom upp viÃ° aÃ° hlaÃ°a inn sjÃ¡lfvirkni  ({err_no}).",
+                        "enable_disable": "Virkja/slökkva á sjálfvirkni",
+                        "introduction": "Notağu sjálfvirkni til ağ glæğa húsiğ şitt lífi",
+                        "load_error_not_editable": "Eingöngu er hægt ağ breyta sjálfvirkni í automations.yaml",
+                        "load_error_unknown": "Villa kom upp viğ ağ hlağa inn sjálfvirkni  ({err_no}).",
                         "modes": {
                             "label": "Hamur",
-                            "restart": "EndurrÃ¦sa"
+                            "restart": "Endurræsa"
                         },
-                        "move_down": "FÃ¦ra niÃ°ur",
-                        "move_up": "FÃ¦ra upp",
+                        "move_down": "Færa niğur",
+                        "move_up": "Færa upp",
                         "save": "Vista",
                         "triggers": {
-                            "add": "BÃ¦ta viÃ° kveikju",
-                            "delete": "EyÃ°a",
-                            "delete_confirm": "Ert Ã¾Ãº viss um aÃ° Ã¾Ãº viljir eyÃ°a?",
-                            "duplicate": "FjÃ¶lfalda",
+                            "add": "Bæta viğ kveikju",
+                            "delete": "Eyğa",
+                            "delete_confirm": "Ert şú viss um ağ şú viljir eyğa?",
+                            "duplicate": "Fjölfalda",
                             "header": "Kveikjur",
-                            "introduction": "Kveikjur sjÃ¡ um aÃ° rÃ¦sa sjÃ¡lfvirkni reglur. ÃaÃ° er mÃ¶gulegt aÃ° tilgreina margar kveikjur fyrir sÃ¶mu regluna. Ãegar kveikja er rÃ¦st Ã¾Ã¡ mun Home Assistant sannreyna skilyrÃ°in ef einhver og kalla Ã¡ aÃ°gerÃ°ina.",
-                            "learn_more": "LÃ¦ra meira um kveikjur",
-                            "type_select": "GerÃ° kveikju",
+                            "introduction": "Kveikjur sjá um ağ ræsa sjálfvirkni reglur. Şağ er mögulegt ağ tilgreina margar kveikjur fyrir sömu regluna. Şegar kveikja er ræst şá mun Safegate Pro sannreyna skilyrğin ef einhver og kalla á ağgerğina.",
+                            "learn_more": "Læra meira um kveikjur",
+                            "type_select": "Gerğ kveikju",
                             "type": {
                                 "device": {
                                     "extra_fields": {
                                         "above": "Yfir",
                                         "below": "Undir",
-                                        "for": "TÃ­malengd",
-                                        "zone": "SvÃ¦Ã°i"
+                                        "for": "Tímalengd",
+                                        "zone": "Svæği"
                                     },
-                                    "label": "TÃ¦ki"
+                                    "label": "Tæki"
                                 },
                                 "event": {
                                     "context_user_pick": "Veldu notanda",
-                                    "event_data": "ViÃ°burÃ°argÃ¶gn",
-                                    "event_type": "GerÃ° viÃ°burÃ°ar",
-                                    "label": "ViÃ°burÃ°ur"
+                                    "event_data": "Viğburğargögn",
+                                    "event_type": "Gerğ viğburğar",
+                                    "label": "Viğburğur"
                                 },
                                 "geo_location": {
                                     "enter": "Koma",
-                                    "event": "ViÃ°burÃ°ur:",
-                                    "label": "StaÃ°setning",
-                                    "leave": "BrottfÃ¶r",
+                                    "event": "Viğburğur:",
+                                    "label": "Stağsetning",
+                                    "leave": "Brottför",
                                     "source": "Uppruni",
-                                    "zone": "Ã–ryggissvÃ¦Ã°i"
+                                    "zone": "Öryggissvæği"
                                 },
                                 "homeassistant": {
-                                    "event": "ViÃ°burÃ°ur:",
-                                    "label": "Home Assistant",
+                                    "event": "Viğburğur:",
+                                    "label": "Safegate Pro",
                                     "shutdown": "Lokun",
-                                    "start": "RÃ¦sing"
+                                    "start": "Ræsing"
                                 },
                                 "mqtt": {
                                     "label": "MQTT"
@@ -888,107 +888,107 @@
                                 "numeric_state": {
                                     "above": "Yfir",
                                     "below": "Undir",
-                                    "value_template": "GildissniÃ°mÃ¡t (valfrjÃ¡lst)"
+                                    "value_template": "Gildissniğmát (valfrjálst)"
                                 },
                                 "state": {
                                     "for": "Fyrir",
-                                    "from": "FrÃ¡",
-                                    "label": "StaÃ°a",
+                                    "from": "Frá",
+                                    "label": "Stağa",
                                     "to": "Til"
                                 },
                                 "sun": {
-                                    "event": "ViÃ°burÃ°ur:",
-                                    "label": "SÃ³l",
-                                    "sunrise": "SÃ³larupprÃ¡s",
-                                    "sunset": "SÃ³lsetur"
+                                    "event": "Viğburğur:",
+                                    "label": "Sól",
+                                    "sunrise": "Sólarupprás",
+                                    "sunset": "Sólsetur"
                                 },
                                 "template": {
-                                    "label": "SniÃ°mÃ¡t",
-                                    "value_template": "GildissniÃ°mÃ¡t"
+                                    "label": "Sniğmát",
+                                    "value_template": "Gildissniğmát"
                                 },
                                 "time_pattern": {
                                     "hours": "Klukkustundir",
-                                    "label": "TÃ­mamynstur",
-                                    "minutes": "MÃ­nÃºtur",
-                                    "seconds": "SekÃºndur"
+                                    "label": "Tímamynstur",
+                                    "minutes": "Mínútur",
+                                    "seconds": "Sekúndur"
                                 },
                                 "time": {
-                                    "at": "Ãann",
-                                    "label": "TÃ­mi"
+                                    "at": "Şann",
+                                    "label": "Tími"
                                 },
                                 "webhook": {
-                                    "label": "VefkrÃ³kur",
-                                    "webhook_id": "VefkrÃ³kur ID"
+                                    "label": "Vefkrókur",
+                                    "webhook_id": "Vefkrókur ID"
                                 },
                                 "zone": {
                                     "enter": "Koma",
-                                    "entity": "Eining meÃ° staÃ°setningu",
-                                    "event": "ViÃ°burÃ°ur:",
-                                    "label": "Ã–ryggissvÃ¦Ã°i",
-                                    "leave": "BrottfÃ¶r",
-                                    "zone": "SvÃ¦Ã°i"
+                                    "entity": "Eining meğ stağsetningu",
+                                    "event": "Viğburğur:",
+                                    "label": "Öryggissvæği",
+                                    "leave": "Brottför",
+                                    "zone": "Svæği"
                                 }
                             },
                             "unsupported_platform": "Vettvangur ekki studdur: {platform}"
                         },
-                        "unsaved_confirm": "ÃÃº ert meÃ° Ã³vistaÃ°ar breytingar. Ertu viss um aÃ° Ã¾Ãº viljir fara?"
+                        "unsaved_confirm": "Şú ert meğ óvistağar breytingar. Ertu viss um ağ şú viljir fara?"
                     },
                     "picker": {
-                        "add_automation": "BÃ¦ta viÃ° sjÃ¡lfvirkni",
-                        "delete_automation": "EyÃ°a sjÃ¡lfvirkni",
-                        "duplicate": "FjÃ¶lfalda",
-                        "duplicate_automation": "FjÃ¶lfalda sjÃ¡lfvirkni",
-                        "edit_automation": "Breyta sjÃ¡lfvirkni",
-                        "header": "SjÃ¡lfvirkniritill",
+                        "add_automation": "Bæta viğ sjálfvirkni",
+                        "delete_automation": "Eyğa sjálfvirkni",
+                        "duplicate": "Fjölfalda",
+                        "duplicate_automation": "Fjölfalda sjálfvirkni",
+                        "edit_automation": "Breyta sjálfvirkni",
+                        "header": "Sjálfvirkniritill",
                         "headers": {
                             "name": "Nafn"
                         },
-                        "learn_more": "LÃ¦ra meira um sjÃ¡lfvirkni",
-                        "no_automations": "ViÃ° fundum ekki neinar sjÃ¡lfvirkni-skilgreiningar sem hÃ¦gt er aÃ° breyta",
-                        "only_editable": "EingÃ¶ngu er hÃ¦gt aÃ° breyta sjÃ¡lfvirkni sem skilgreind er Ã­ automations.yaml",
-                        "pick_automation": "Veldu sjÃ¡lfvirkni sem Ã¡ aÃ° breyta",
-                        "show_info_automation": "SÃ½na upplÃ½singar um sjÃ¡lfvirkni"
+                        "learn_more": "Læra meira um sjálfvirkni",
+                        "no_automations": "Viğ fundum ekki neinar sjálfvirkni-skilgreiningar sem hægt er ağ breyta",
+                        "only_editable": "Eingöngu er hægt ağ breyta sjálfvirkni sem skilgreind er í automations.yaml",
+                        "pick_automation": "Veldu sjálfvirkni sem á ağ breyta",
+                        "show_info_automation": "Sına upplısingar um sjálfvirkni"
                     },
                     "thingtalk": {
-                        "create": "BÃºa til sjÃ¡lfvirkni",
+                        "create": "Búa til sjálfvirkni",
                         "task_selection": {
-                            "for_example": "Til dÃ¦mis:",
-                            "header": "BÃºa til nÃ½ja sjÃ¡lfvirkni",
-                            "language_note": "AthugiÃ°: AÃ°eins enska er studd Ã­ bili."
+                            "for_example": "Til dæmis:",
+                            "header": "Búa til nıja sjálfvirkni",
+                            "language_note": "Athugiğ: Ağeins enska er studd í bili."
                         }
                     }
                 },
                 "blueprint": {
                     "add": {
-                        "error_no_url": "FÃ¦rÃ°u inn vefslÃ³Ã° uppdrÃ¡ttarins",
-                        "file_name": "SlÃ³Ã° uppdrÃ¡ttar",
-                        "header": "Flytja inn uppdrÃ¡tt",
-                        "import_btn": "ForskoÃ°a uppdrÃ¡tt",
-                        "import_header": "UppdrÃ¡ttur \"{name}\"",
-                        "importing": "HleÃ° inn uppdrÃ¡tt...",
-                        "raw_blueprint": "Innihald uppdrÃ¡ttar",
-                        "save_btn": "Flytja inn uppdrÃ¡tt",
-                        "saving": "Flyt inn uppdrÃ¡tt...",
-                        "unsupported_blueprint": "Ãessi uppdrÃ¡ttur er ekki studdur",
-                        "url": "VefslÃ³Ã° uppdrÃ¡ttarins"
+                        "error_no_url": "Færğu inn vefslóğ uppdráttarins",
+                        "file_name": "Slóğ uppdráttar",
+                        "header": "Flytja inn uppdrátt",
+                        "import_btn": "Forskoğa uppdrátt",
+                        "import_header": "Uppdráttur \"{name}\"",
+                        "importing": "Hleğ inn uppdrátt...",
+                        "raw_blueprint": "Innihald uppdráttar",
+                        "save_btn": "Flytja inn uppdrátt",
+                        "saving": "Flyt inn uppdrátt...",
+                        "unsupported_blueprint": "Şessi uppdráttur er ekki studdur",
+                        "url": "Vefslóğ uppdráttarins"
                     },
-                    "caption": "UppdrÃ¦ttir",
-                    "description": "StjÃ³rna uppdrÃ¡ttum",
+                    "caption": "Uppdrættir",
+                    "description": "Stjórna uppdráttum",
                     "overview": {
-                        "add_blueprint": "Flytja inn uppdrÃ¡tt",
-                        "confirm_delete_header": "EyÃ°a Ã¾essum uppdrÃ¦tti?",
-                        "confirm_delete_text": "Ã Ã¶rugglega aÃ° eyÃ°a Ã¾essum uppdrÃ¦tti?",
-                        "delete_blueprint": "EyÃ°a uppdrÃ¦tti",
-                        "discover_more": "UppgÃ¶tva fleiri uppdrÃ¦tti",
-                        "header": "UppdrÃ¡ttarritill",
+                        "add_blueprint": "Flytja inn uppdrátt",
+                        "confirm_delete_header": "Eyğa şessum uppdrætti?",
+                        "confirm_delete_text": "Á örugglega ağ eyğa şessum uppdrætti?",
+                        "delete_blueprint": "Eyğa uppdrætti",
+                        "discover_more": "Uppgötva fleiri uppdrætti",
+                        "header": "Uppdráttarritill",
                         "headers": {
-                            "domain": "LÃ©n",
-                            "file_name": "SkrÃ¡arnafn",
+                            "domain": "Lén",
+                            "file_name": "Skráarnafn",
                             "name": "Nafn"
                         },
-                        "introduction": "StjÃ³rnun uppdrÃ¡tta gerir Ã¾Ã©r kleift aÃ° flytja inn og stjÃ³rna uppdrÃ¡ttunum Ã¾Ã­num.",
-                        "learn_more": "LÃ¦ra meira um hvernig nota Ã¡ uppdrÃ¦tti",
-                        "use_blueprint": "BÃºa til sjÃ¡lfvirkni"
+                        "introduction": "Stjórnun uppdrátta gerir şér kleift ağ flytja inn og stjórna uppdráttunum şínum.",
+                        "learn_more": "Læra meira um hvernig nota á uppdrætti",
+                        "use_blueprint": "Búa til sjálfvirkni"
                     }
                 },
                 "cloud": {
@@ -999,27 +999,27 @@
                             "title": "Alexa"
                         },
                         "connected": "Tengdur",
-                        "connection_status": "StaÃ°a tengingar viÃ° skÃ½iÃ°",
-                        "fetching_subscription": "SÃ¦ki Ã¡skrift...",
+                        "connection_status": "Stağa tengingar viğ skıiğ",
+                        "fetching_subscription": "Sæki áskrift...",
                         "google": {
-                            "enter_pin_error": "Ekki tÃ³kst aÃ° vista pin kÃ³Ã°a:",
-                            "security_devices": "Ã–ryggistÃ¦ki",
-                            "sync_entities": "Samstilla einingar viÃ° Google",
+                            "enter_pin_error": "Ekki tókst ağ vista pin kóğa:",
+                            "security_devices": "Öryggistæki",
+                            "sync_entities": "Samstilla einingar viğ Google",
                             "title": "Google Assistant"
                         },
-                        "integrations": "SamÃ¾Ã¦ttingar",
-                        "nabu_casa_account": "Nabu Casa aÃ°gangur",
+                        "integrations": "Samşættingar",
+                        "nabu_casa_account": "Nabu Casa ağgangur",
                         "not_connected": "Ekki tengdur",
                         "remote": {
-                            "certificate_info": "UpplÃ½singar skilrÃ­kis",
-                            "link_learn_how_it_works": "LÃ¦ra hvernig Ã¾etta virkar",
-                            "title": "FjarstÃ½ring"
+                            "certificate_info": "Upplısingar skilríkis",
+                            "link_learn_how_it_works": "Læra hvernig şetta virkar",
+                            "title": "Fjarstıring"
                         },
-                        "sign_out": "SkrÃ¡ Ãºt",
+                        "sign_out": "Skrá út",
                         "tts": {
-                            "default_language": "SjÃ¡lfgefiÃ° tungumÃ¡l",
+                            "default_language": "Sjálfgefiğ tungumál",
                             "dialog": {
-                                "header": "Reyna texta Ã­ tal",
+                                "header": "Reyna texta í tal",
                                 "play": "Spila",
                                 "target_browser": "Vafri"
                             },
@@ -1028,174 +1028,174 @@
                             "try": "Reyna"
                         },
                         "webhooks": {
-                            "loading": "HleÃ° ...",
-                            "no_hooks_yet2": " eÃ°a meÃ° Ã¾vÃ­ aÃ° stofna ",
+                            "loading": "Hleğ ...",
+                            "no_hooks_yet2": " eğa meğ şví ağ stofna ",
                             "title": "Webhooks"
                         }
                     },
                     "alexa": {
                         "title": "Alexa"
                     },
-                    "description_features": "StjÃ³rna heimili aÃ° heiman meÃ° Alexa og Google Assistant.",
-                    "description_login": "InnskrÃ¡Ã°(ur) sem {email}",
-                    "description_not_login": "Ekki skrÃ¡Ã°(ur) inn",
+                    "description_features": "Stjórna heimili ağ heiman meğ Alexa og Google Assistant.",
+                    "description_login": "Innskráğ(ur) sem {email}",
+                    "description_not_login": "Ekki skráğ(ur) inn",
                     "dialog_certificate": {
-                        "certificate_information": "UpplÃ½singar um skilrÃ­ki",
+                        "certificate_information": "Upplısingar um skilríki",
                         "close": "Loka",
-                        "fingerprint": "Fingrafar skilrÃ­kis:"
+                        "fingerprint": "Fingrafar skilríkis:"
                     },
                     "dialog_cloudhook": {
                         "close": "Loka",
-                        "confirm_disable": "Ertu viss um aÃ° Ã¾Ãº viljir afvirkja Ã¾ennan vefkrÃ³k?",
-                        "copied_to_clipboard": "AfritaÃ° Ã¡ klemmuspjald",
-                        "view_documentation": "SkoÃ°a skjÃ¶lun",
-                        "webhook_for": "VefkrÃ³kur fyrir {name}"
+                        "confirm_disable": "Ertu viss um ağ şú viljir afvirkja şennan vefkrók?",
+                        "copied_to_clipboard": "Afritağ á klemmuspjald",
+                        "view_documentation": "Skoğa skjölun",
+                        "webhook_for": "Vefkrókur fyrir {name}"
                     },
                     "forgot_password": {
                         "email": "Netfang",
-                        "email_error_msg": "Ã“gilt netfang",
-                        "subtitle": "GleymdirÃ°u lykilorÃ°inu Ã¾Ã­nu",
-                        "title": "Gleymt lykilorÃ°"
+                        "email_error_msg": "Ógilt netfang",
+                        "subtitle": "Gleymdirğu lykilorğinu şínu",
+                        "title": "Gleymt lykilorğ"
                     },
                     "google": {
-                        "disable_2FA": "Afvirkja tvÃ­Ã¾Ã¡tta auÃ°kenningu",
+                        "disable_2FA": "Afvirkja tvíşátta auğkenningu",
                         "title": "Google Assistant"
                     },
                     "login": {
-                        "alert_email_confirm_necessary": "ÃÃº Ã¾arft aÃ° staÃ°festa tÃ¶lvupÃ³stinn Ã¾inn Ã¡Ã°ur en Ã¾Ãº skrÃ¡ir Ã¾ig inn.",
-                        "alert_password_change_required": "ÃÃº verÃ°ur aÃ° breyta lykilorÃ°inu Ã¾Ã­nu Ã¡Ã°ur en Ã¾Ãº skrÃ¡ir Ã¾ig inn.",
-                        "dismiss": "VÃ­sa frÃ¡",
+                        "alert_email_confirm_necessary": "Şú şarft ağ stağfesta tölvupóstinn şinn áğur en şú skráir şig inn.",
+                        "alert_password_change_required": "Şú verğur ağ breyta lykilorğinu şínu áğur en şú skráir şig inn.",
+                        "dismiss": "Vísa frá",
                         "email": "Netfang",
-                        "email_error_msg": "Ã“gilt netfang",
-                        "forgot_password": "gleymt lykilorÃ°?",
-                        "introduction2": "Ãessi Ã¾jÃ³nusta er rekin af samstarfsaÃ°ila okkar",
-                        "introduction3": "Home Assistant skÃ½iÃ° er Ã¡skriftarÃ¾jÃ³nusta meÃ° mÃ¡naÃ°ar prufuÃ¡skrift. Engar greiÃ°sluupplÃ½singar nauÃ°synlegar.",
-                        "learn_more_link": "LÃ¦ra meira um Home Assistant skÃ½iÃ°",
-                        "password": "LykilorÃ°",
-                        "password_error_msg": "LykilorÃ° eru aÃ° minnsta kosti 8 stafir",
-                        "sign_in": "SkrÃ¡ inn",
-                        "title": "SkÃ½ja innskrÃ¡ning"
+                        "email_error_msg": "Ógilt netfang",
+                        "forgot_password": "gleymt lykilorğ?",
+                        "introduction2": "Şessi şjónusta er rekin af samstarfsağila okkar",
+                        "introduction3": "Safegate Pro skıiğ er áskriftarşjónusta meğ mánağar prufuáskrift. Engar greiğsluupplısingar nauğsynlegar.",
+                        "learn_more_link": "Læra meira um Safegate Pro skıiğ",
+                        "password": "Lykilorğ",
+                        "password_error_msg": "Lykilorğ eru ağ minnsta kosti 8 stafir",
+                        "sign_in": "Skrá inn",
+                        "title": "Skıja innskráning"
                     },
                     "register": {
-                        "create_account": "Stofna aÃ°gang",
+                        "create_account": "Stofna ağgang",
                         "email_address": "Netfang",
-                        "email_error_msg": "Ã“gilt netfang",
-                        "feature_amazon_alexa": "SamÃ¾Ã¦tting viÃ° Amazon Alexa",
-                        "feature_google_home": "SamÃ¾Ã¦tting viÃ° Google Assistant",
-                        "link_privacy_policy": "FriÃ°helgisstefna",
-                        "link_terms_conditions": "SkilmÃ¡lar og skilyrÃ°i",
-                        "password": "LykilorÃ°",
-                        "password_error_msg": "LykilorÃ° eru aÃ° minnsta kosti 8 stafir",
-                        "resend_confirm_email": "Endursenda staÃ°festingarpÃ³st",
+                        "email_error_msg": "Ógilt netfang",
+                        "feature_amazon_alexa": "Samşætting viğ Amazon Alexa",
+                        "feature_google_home": "Samşætting viğ Google Assistant",
+                        "link_privacy_policy": "Friğhelgisstefna",
+                        "link_terms_conditions": "Skilmálar og skilyrği",
+                        "password": "Lykilorğ",
+                        "password_error_msg": "Lykilorğ eru ağ minnsta kosti 8 stafir",
+                        "resend_confirm_email": "Endursenda stağfestingarpóst",
                         "start_trial": "Hefja prufu"
                     }
                 },
                 "core": {
                     "caption": "Almennt",
-                    "description": "StaÃ°festa aÃ° stillingarskrÃ¡in Ã¾Ã­n sÃ© rÃ©tt og stjÃ³rnun Ã¡ miÃ°lara",
+                    "description": "Stağfesta ağ stillingarskráin şín sé rétt og stjórnun á miğlara",
                     "section": {
                         "core": {
                             "core_config": {
-                                "edit_requires_storage": "Ritill er Ã³virkur af Ã¾vÃ­ aÃ° stillingar eru vistaÃ°ar Ã­ configuration.yaml.",
-                                "elevation": "HÃ¦kkun",
+                                "edit_requires_storage": "Ritill er óvirkur af şví ağ stillingar eru vistağar í configuration.yaml.",
+                                "elevation": "Hækkun",
                                 "elevation_meters": "metrar",
-                                "external_url": "Ytri vefslÃ³Ã°",
+                                "external_url": "Ytri vefslóğ",
                                 "imperial_example": "Fahrenheit, pund",
-                                "internal_url": "Innri vefslÃ³Ã°",
-                                "latitude": "BreiddargrÃ¡Ã°a",
-                                "location_name": "NafniÃ° Ã¡ Home Assistant uppsetningunni",
-                                "longitude": "LengdargrÃ¡Ã°a",
-                                "metric_example": "CelsÃ­us, kÃ­lÃ³grÃ¶mm",
+                                "internal_url": "Innri vefslóğ",
+                                "latitude": "Breiddargráğa",
+                                "location_name": "Nafniğ á Safegate Pro uppsetningunni",
+                                "longitude": "Lengdargráğa",
+                                "metric_example": "Celsíus, kílógrömm",
                                 "save_button": "Vista",
-                                "time_zone": "TÃ­mabelti",
+                                "time_zone": "Tímabelti",
                                 "unit_system": "Einingarkerfi",
                                 "unit_system_imperial": "Imperial",
                                 "unit_system_metric": "Metra"
                             },
-                            "header": "Stillingar og stjÃ³rnun Ã¾jÃ³ns",
-                            "introduction": "AÃ° breyta stillingum getur veriÃ° Ã¾reytandi ferli og viÃ° vitum Ã¾aÃ°. Ãetta svÃ¦Ã°i mun reyna aÃ° lÃ©tta Ã¾Ã©r lÃ­fiÃ° hvaÃ° Ã¾aÃ° varÃ°ar."
+                            "header": "Stillingar og stjórnun şjóns",
+                            "introduction": "Ağ breyta stillingum getur veriğ şreytandi ferli og viğ vitum şağ. Şetta svæği mun reyna ağ létta şér lífiğ hvağ şağ varğar."
                         }
                     }
                 },
                 "customize": {
-                    "caption": "SÃ©raÃ°lÃ¶gun",
-                    "description": "SÃ©raÃ°lÃ¶gun fyrir einingarnar Ã¾Ã­nar",
+                    "caption": "Sérağlögun",
+                    "description": "Sérağlögun fyrir einingarnar şínar",
                     "picker": {
-                        "header": "SÃ©raÃ°lÃ¶gun"
+                        "header": "Sérağlögun"
                     }
                 },
                 "devices": {
                     "automation": {
                         "actions": {
-                            "caption": "Ãegar eitthvaÃ° er rÃ¦st af kveikju..."
+                            "caption": "Şegar eitthvağ er ræst af kveikju..."
                         },
-                        "automations": "SjÃ¡lfvirkni",
+                        "automations": "Sjálfvirkni",
                         "conditions": {
-                            "caption": "Bara framkvÃ¦ma eitthvaÃ° ef..."
+                            "caption": "Bara framkvæma eitthvağ ef..."
                         },
-                        "create_disable": "Ekki er hÃ¦gt aÃ° bÃºa til sjÃ¡lfvirkni meÃ° Ã³virku tÃ¦ki",
-                        "no_automations": "Engin sjÃ¡lfvirkni",
+                        "create_disable": "Ekki er hægt ağ búa til sjálfvirkni meğ óvirku tæki",
+                        "no_automations": "Engin sjálfvirkni",
                         "triggers": {
-                            "caption": "FramkvÃ¦ma eitthvaÃ° Ã¾egar..."
+                            "caption": "Framkvæma eitthvağ şegar..."
                         }
                     },
-                    "caption": "TÃ¦ki",
-                    "confirm_delete": "Ertu viss um aÃ° Ã¾Ãº viljir eyÃ°a Ã¾essu tÃ¦ki?",
+                    "caption": "Tæki",
+                    "confirm_delete": "Ertu viss um ağ şú viljir eyğa şessu tæki?",
                     "data_table": {
-                        "area": "SvÃ¦Ã°i",
-                        "battery": "RafhlaÃ°a",
-                        "device": "TÃ¦ki",
-                        "integration": "SamÃ¾Ã¦tting",
-                        "manufacturer": "FramleiÃ°andi",
-                        "model": "GerÃ°",
-                        "no_devices": "Engin tÃ¦ki"
+                        "area": "Svæği",
+                        "battery": "Rafhlağa",
+                        "device": "Tæki",
+                        "integration": "Samşætting",
+                        "manufacturer": "Framleiğandi",
+                        "model": "Gerğ",
+                        "no_devices": "Engin tæki"
                     },
-                    "delete": "EyÃ°a",
-                    "description": "StjÃ³rna tengdum tÃ¦kjum",
-                    "device_info": "UpplÃ½singar um tÃ¦ki",
-                    "device_not_found": "TÃ¦ki fannst ekki.",
-                    "disabled": "Ã“virkt",
+                    "delete": "Eyğa",
+                    "description": "Stjórna tengdum tækjum",
+                    "device_info": "Upplısingar um tæki",
+                    "device_not_found": "Tæki fannst ekki.",
+                    "disabled": "Óvirkt",
                     "disabled_by": {
-                        "integration": "SamÃ¾Ã¦tting",
+                        "integration": "Samşætting",
                         "user": "Notandi"
                     },
-                    "enabled_cause": "TÃ¦kiÃ° er Ã³virkt vegna {cause}.",
-                    "enabled_description": "Ã“virk tÃ¦ki verÃ°a ekki sÃ½nd, einingar sem tilheyra tÃ¦kinu verÃ°a gerÃ°ar Ã³virkar og Ã¾eim ekki bÃ¦tt viÃ° Home Assistant.",
+                    "enabled_cause": "Tækiğ er óvirkt vegna {cause}.",
+                    "enabled_description": "Óvirk tæki verğa ekki sınd, einingar sem tilheyra tækinu verğa gerğar óvirkar og şeim ekki bætt viğ Safegate Pro.",
                     "enabled_label": "Virkja einingu",
                     "entities": {
-                        "add_entities_lovelace": "BÃ¦ta viÃ° Ã­ Lovelace",
-                        "disabled_entities": "+{count} {count, plural,\n  one {Ã³virk eining}\n  other {Ã³virkar einingar}\n}",
+                        "add_entities_lovelace": "Bæta viğ í Lovelace",
+                        "disabled_entities": "+{count} {count, plural,\n  one {óvirk eining}\n  other {óvirkar einingar}\n}",
                         "entities": "Einingar"
                     },
                     "name": "Nafn",
-                    "no_devices": "Engin tÃ¦ki",
+                    "no_devices": "Engin tæki",
                     "picker": {
                         "filter": {
-                            "filter": "SÃ­a",
+                            "filter": "Sía",
                             "hidden_devices": "{number} hidden {number, plural,\n  one {device}\n  other {devices}\n}",
-                            "show_all": "SÃ½na allt",
-                            "show_disabled": "SÃ½na Ã³virk tÃ¦ki"
+                            "show_all": "Sına allt",
+                            "show_disabled": "Sına óvirk tæki"
                         },
-                        "search": "Leita aÃ° tÃ¦kjum"
+                        "search": "Leita ağ tækjum"
                     },
                     "scene": {
-                        "create_disable": "Ekki er hÃ¦gt aÃ° bÃºa til vettvang meÃ° Ã³virku tÃ¦ki",
+                        "create_disable": "Ekki er hægt ağ búa til vettvang meğ óvirku tæki",
                         "no_scenes": "Engar senur",
                         "scenes": "Senur"
                     },
                     "scenes": "Senur",
                     "script": {
-                        "create_disable": "Ekki er hÃ¦gt aÃ° bÃºa til forskrift meÃ° Ã³virku tÃ¦ki",
+                        "create_disable": "Ekki er hægt ağ búa til forskrift meğ óvirku tæki",
                         "scripts": "Skriftur"
                     },
                     "scripts": "Skriftur",
-                    "unknown_error": "Ã“Ã¾ekkt villa",
-                    "unnamed_device": "Ã“nefnt tÃ¦ki",
-                    "update": "UppfÃ¦ra"
+                    "unknown_error": "Óşekkt villa",
+                    "unnamed_device": "Ónefnt tæki",
+                    "update": "Uppfæra"
                 },
                 "entities": {
-                    "caption": "EiningarskrÃ¡",
-                    "description": "Yfirlit yfir allar Ã¾ekktar einingar.",
+                    "caption": "Einingarskrá",
+                    "description": "Yfirlit yfir allar şekktar einingar.",
                     "picker": {
                         "disable_selected": {
                             "button": "Afvirkja val"
@@ -1204,36 +1204,36 @@
                             "button": "Virkja val"
                         },
                         "filter": {
-                            "filter": "SÃ­a"
+                            "filter": "Sía"
                         },
-                        "header": "EiningarskrÃ¡",
+                        "header": "Einingarskrá",
                         "headers": {
-                            "area": "SvÃ¦Ã°i",
-                            "integration": "SamÃ¾Ã¦tting",
+                            "area": "Svæği",
+                            "integration": "Samşætting",
                             "name": "Nafn",
-                            "status": "StaÃ°a"
+                            "status": "Stağa"
                         },
-                        "introduction": "Home Assistant heldur bÃ³khald utanum allar einingar sem veriÃ° greindar. Hver Ã¾essara eininga hafa einingar-auÃ°kenni (ID) sem er frÃ¡tekiÃ° bara fyrir Ã¾essa tilteknu einingu.",
+                        "introduction": "Safegate Pro heldur bókhald utanum allar einingar sem veriğ greindar. Hver şessara eininga hafa einingar-auğkenni (ID) sem er frátekiğ bara fyrir şessa tilteknu einingu.",
                         "remove_selected": {
-                            "button": "FjarlÃ¦gja val",
-                            "confirm_title": "Viltu fjarlÃ¦gja {number} einingar?"
+                            "button": "Fjarlægja val",
+                            "confirm_title": "Viltu fjarlægja {number} einingar?"
                         },
-                        "search": "Leita Ã­ einingum",
+                        "search": "Leita í einingum",
                         "selected": "{number} valin",
                         "status": {
-                            "disabled": "AfvirkjaÃ°",
-                            "ok": "Ã­ lagi",
-                            "readonly": "RitvariÃ°",
+                            "disabled": "Afvirkjağ",
+                            "ok": "í lagi",
+                            "readonly": "Ritvariğ",
                             "restored": "Endurheimt",
-                            "unavailable": "Ekki tiltÃ¦kt"
+                            "unavailable": "Ekki tiltækt"
                         }
                     }
                 },
                 "filtering": {
                     "clear": "Hreinsa",
-                    "filtering_by": "SÃ­a eftir"
+                    "filtering_by": "Sía eftir"
                 },
-                "header": "Stilla af Home Assistant",
+                "header": "Stilla af Safegate Pro",
                 "helpers": {
                     "dialog": {
                         "create": "Stofna"
@@ -1242,113 +1242,113 @@
                         "headers": {
                             "editable": "Breytanlegt",
                             "name": "Nafn",
-                            "type": "GerÃ°"
+                            "type": "Gerğ"
                         }
                     },
                     "types": {
-                        "input_datetime": "Dagsetning og/eÃ°a tÃ­mi",
-                        "input_number": "NÃºmer",
+                        "input_datetime": "Dagsetning og/eğa tími",
+                        "input_number": "Númer",
                         "input_select": "Fellivalmynd",
                         "input_text": "Texti"
                     }
                 },
                 "info": {
-                    "built_using": "Byggt meÃ°",
-                    "caption": "UpplÃ½singar",
+                    "built_using": "Byggt meğ",
+                    "caption": "Upplısingar",
                     "copy_github": "Fyrir GitHub",
-                    "copy_raw": "HrÃ¡r texti",
-                    "documentation": "SkjÃ¶lun",
-                    "icons_by": "SmÃ¡tÃ¡kn eftir",
-                    "integrations": "SamÃ¾Ã¦ttingar"
+                    "copy_raw": "Hrár texti",
+                    "documentation": "Skjölun",
+                    "icons_by": "Smátákn eftir",
+                    "integrations": "Samşættingar"
                 },
                 "integration_panel_move": {
-                    "link_integration_page": "SamÃ¾Ã¦ttingar sÃ­Ã°a"
+                    "link_integration_page": "Samşættingar síğa"
                 },
                 "integrations": {
-                    "add_integration": "BÃ¦ta viÃ° samÃ¾Ã¦ttingu",
-                    "caption": "SamÃ¾Ã¦ttingar",
+                    "add_integration": "Bæta viğ samşættingu",
+                    "caption": "Samşættingar",
                     "config_entry": {
-                        "area": "Ã {area}",
-                        "delete": "EyÃ°a",
-                        "delete_confirm": "Ertu viss um aÃ° Ã¾Ãº viljir eyÃ°a Ã¾essari samÃ¾Ã¦ttingu?",
-                        "device_unavailable": "TÃ¦ki ekki tiltÃ¦kt",
-                        "devices": "{count} {count, plural,\n  one {tÃ¦ki}\n  other {tÃ¦ki}\n}",
-                        "documentation": "SkjÃ¶lun",
+                        "area": "Í {area}",
+                        "delete": "Eyğa",
+                        "delete_confirm": "Ertu viss um ağ şú viljir eyğa şessari samşættingu?",
+                        "device_unavailable": "Tæki ekki tiltækt",
+                        "devices": "{count} {count, plural,\n  one {tæki}\n  other {tæki}\n}",
+                        "documentation": "Skjölun",
                         "entities": "{count} {count, plural,\n  one {eining}\n  other {einingar}\n}",
-                        "entity_unavailable": "Eining ekki tiltÃ¦k",
-                        "firmware": "FastbÃºnaÃ°arÃºtgÃ¡fa: {version}",
+                        "entity_unavailable": "Eining ekki tiltæk",
+                        "firmware": "Fastbúnağarútgáfa: {version}",
                         "hub": "Tengt gegnum",
                         "manuf": "eftir {manufacturer}",
-                        "no_area": "Ekkert svÃ¦Ã°i",
+                        "no_area": "Ekkert svæği",
                         "options": "Valkostir",
-                        "reload": "EndurhlaÃ°a",
+                        "reload": "Endurhlağa",
                         "rename": "Endurnefna",
-                        "restart_confirm": "EndurrÃ¦sa Home Assitant til aÃ° klÃ¡ra aÃ° fjarlÃ¦gja Ã¾essa samÃ¾Ã¦ttingu",
+                        "restart_confirm": "Endurræsa Safegate Pro til ağ klára ağ fjarlægja şessa samşættingu",
                         "system_options": "Kerfisvalkostir"
                     },
                     "config_flow": {
-                        "aborted": "HÃ¦tt var viÃ°",
+                        "aborted": "Hætt var viğ",
                         "close": "Loka",
                         "external_step": {
-                            "description": "Ãetta skref krefst Ã¾ess aÃ° Ã¾Ãº heimsÃ¦kir ytri vefsÃ­Ã°u svo hÃ¦gt sÃ© aÃ° ljÃºka Ã¾essu skrefi.",
-                            "open_site": "Opna vefsÃ­Ã°u"
+                            "description": "Şetta skref krefst şess ağ şú heimsækir ytri vefsíğu svo hægt sé ağ ljúka şessu skrefi.",
+                            "open_site": "Opna vefsíğu"
                         },
-                        "finish": "LjÃºka",
+                        "finish": "Ljúka",
                         "submit": "Senda"
                     },
                     "configure": "Stilla",
                     "configured": "Uppsett",
-                    "description": "StjÃ³rna tengdum tÃ¦kjum og Ã¾jÃ³nustum",
-                    "discovered": "UppgÃ¶tvaÃ°",
-                    "home_assistant_website": "VefsÃ­Ã°a Home Assistant",
+                    "description": "Stjórna tengdum tækjum og şjónustum",
+                    "discovered": "Uppgötvağ",
+                    "home_assistant_website": "Vefsíğa Safegate Pro",
                     "ignore": {
-                        "hide_ignored": "Fela hunsaÃ°ar samÃ¾Ã¦ttingar",
+                        "hide_ignored": "Fela hunsağar samşættingar",
                         "ignore": "Hunsa",
-                        "ignored": "HunsaÃ°",
-                        "show_ignored": "SÃ½na hunsaÃ°ar samÃ¾Ã¦ttingar"
+                        "ignored": "Hunsağ",
+                        "show_ignored": "Sına hunsağar samşættingar"
                     },
-                    "integration": "samÃ¾Ã¦tting",
-                    "integration_not_found": "SamÃ¾Ã¦tting fannst ekki.",
-                    "new": "Setja upp nÃ½ja samÃ¾Ã¦ttingu",
+                    "integration": "samşætting",
+                    "integration_not_found": "Samşætting fannst ekki.",
+                    "new": "Setja upp nıja samşættingu",
                     "none": "Ekkert skilgreint sem stendur",
-                    "none_found": "Engar samÃ¾Ã¦ttingar fundust",
-                    "note_about_integrations": "ÃaÃ° er ekki er hÃ¦gt aÃ° stilla allar samÃ¾Ã¦ttingar Ã­ gegnum viÃ°mÃ³tiÃ° ennÃ¾Ã¡.",
-                    "search": "Leita Ã­ samÃ¾Ã¦ttingum"
+                    "none_found": "Engar samşættingar fundust",
+                    "note_about_integrations": "Şağ er ekki er hægt ağ stilla allar samşættingar í gegnum viğmótiğ ennşá.",
+                    "search": "Leita í samşættingum"
                 },
-                "introduction": "HÃ©r er mÃ¶gulegt aÃ° stilla af Ã­hluti og Home Assistant. ÃvÃ­ miÃ°ur er ekki hÃ¦gt aÃ° breyta Ã¶llu Ã­ gegnum viÃ°mÃ³tiÃ° ennÃ¾Ã¡, en viÃ° erum aÃ° vinna Ã­ Ã¾vÃ­.",
+                "introduction": "Hér er mögulegt ağ stilla af íhluti og Safegate Pro. Şví miğur er ekki hægt ağ breyta öllu í gegnum viğmótiğ ennşá, en viğ erum ağ vinna í şví.",
                 "logs": {
                     "clear": "Hreinsa",
-                    "refresh": "EndurnÃ½ja"
+                    "refresh": "Endurnıja"
                 },
                 "lovelace": {
-                    "caption": "Lovelace mÃ¦laborÃ°",
+                    "caption": "Lovelace mælaborğ",
                     "dashboards": {
-                        "caption": "MÃ¦laborÃ°",
+                        "caption": "Mælaborğ",
                         "conf_mode": {
-                            "yaml": "YAML skrÃ¡"
+                            "yaml": "YAML skrá"
                         },
-                        "default_dashboard": "Ãetta er sjÃ¡lfgefiÃ° mÃ¦laborÃ°",
+                        "default_dashboard": "Şetta er sjálfgefiğ mælaborğ",
                         "detail": {
                             "create": "Stofna",
-                            "delete": "EyÃ°a",
+                            "delete": "Eyğa",
                             "dismiss": "Loka",
-                            "edit_dashboard": "Breyta mÃ¦laborÃ°i",
-                            "icon": "TÃ¡knmynd",
-                            "new_dashboard": "bÃ¦ta viÃ° nÃ½ju mÃ¦laborÃ°i",
-                            "require_admin": "AÃ°eins stjÃ³rnandi",
-                            "show_sidebar": "SÃ½na Ã­ hliÃ°arstiku",
+                            "edit_dashboard": "Breyta mælaborği",
+                            "icon": "Táknmynd",
+                            "new_dashboard": "bæta viğ nıju mælaborği",
+                            "require_admin": "Ağeins stjórnandi",
+                            "show_sidebar": "Sına í hliğarstiku",
                             "title": "Titill",
                             "title_required": "Titill er skilyrtur.",
-                            "update": "UppfÃ¦ra",
-                            "url": "SlÃ³Ã°"
+                            "update": "Uppfæra",
+                            "url": "Slóğ"
                         },
                         "picker": {
-                            "add_dashboard": "BÃ¦ttu viÃ° mÃ¦laborÃ°i",
+                            "add_dashboard": "Bættu viğ mælaborği",
                             "headers": {
-                                "default": "SjÃ¡lfgefiÃ°",
-                                "filename": "SkrÃ¡arnafn",
-                                "require_admin": "AÃ°eins stjÃ³rnandi",
-                                "sidebar": "SÃ½na Ã­ hliÃ°arstiku",
+                                "default": "Sjálfgefiğ",
+                                "filename": "Skráarnafn",
+                                "require_admin": "Ağeins stjórnandi",
+                                "sidebar": "Sına í hliğarstiku",
                                 "title": "Titill"
                             },
                             "open": "Opna"
@@ -1357,29 +1357,29 @@
                     "resources": {
                         "detail": {
                             "create": "Stofna",
-                            "delete": "EyÃ°a",
+                            "delete": "Eyğa",
                             "dismiss": "Loka",
-                            "update": "UppfÃ¦ra",
-                            "url": "SlÃ³Ã°",
-                            "warning_header": "FarÃ°u varlega!"
+                            "update": "Uppfæra",
+                            "url": "Slóğ",
+                            "warning_header": "Farğu varlega!"
                         },
                         "picker": {
                             "headers": {
-                                "type": "GerÃ°",
-                                "url": "SlÃ³Ã°"
+                                "type": "Gerğ",
+                                "url": "Slóğ"
                             }
                         },
                         "types": {
-                            "css": "StÃ­lsniÃ°",
-                            "html": "HTML (Ãºrelt)",
-                            "js": "JavaScript skrÃ¡ (Ãºrelt)",
+                            "css": "Stílsniğ",
+                            "html": "HTML (úrelt)",
+                            "js": "JavaScript skrá (úrelt)",
                             "module": "JavaScript eining"
                         }
                     }
                 },
                 "mqtt": {
                     "button": "Stilla",
-                    "listening_to": "Hlusta Ã¡",
+                    "listening_to": "Hlusta á",
                     "title": "MQTT"
                 },
                 "ozw": {
@@ -1387,133 +1387,133 @@
                         "zwave": "Z-Wave"
                     },
                     "network_status": {
-                        "unknown": "Ã“Ã¾ekktur"
+                        "unknown": "Óşekktur"
                     },
                     "nodes_table": {
-                        "manufacturer": "FramleiÃ°andi",
-                        "model": "GerÃ°",
+                        "manufacturer": "Framleiğandi",
+                        "model": "Gerğ",
                         "zwave_plus": "Z-Wave Plus"
                     }
                 },
                 "person": {
-                    "add_person": "BÃ¦ta viÃ° persÃ³nu",
-                    "caption": "PersÃ³nur",
-                    "confirm_delete": "Ertu viss um aÃ° Ã¾Ãº viljir eyÃ°a Ã¾essari persÃ³nu?",
-                    "confirm_delete2": "Ã–ll tÃ¦ki sem tilheyra Ã¾essari persÃ³nu munu verÃ°a Ã³ÃºthlutuÃ°.",
-                    "create_person": "Stofna persÃ³nu",
-                    "description": "StjÃ³rna persÃ³num sem Home assistant er aÃ° rekja.",
+                    "add_person": "Bæta viğ persónu",
+                    "caption": "Persónur",
+                    "confirm_delete": "Ertu viss um ağ şú viljir eyğa şessari persónu?",
+                    "confirm_delete2": "Öll tæki sem tilheyra şessari persónu munu verğa óúthlutuğ.",
+                    "create_person": "Stofna persónu",
+                    "description": "Stjórna persónum sem Home assistant er ağ rekja.",
                     "detail": {
                         "create": "Stofna",
-                        "delete": "EyÃ°a",
-                        "device_tracker_intro": "Veldu tÃ¦ki sem tilheyrir Ã¾essari persÃ³nu.",
-                        "device_tracker_pick": "Velja tÃ¦ki til aÃ° rekja",
-                        "device_tracker_picked": "Rekja tÃ¦ki",
-                        "link_integrations_page": "SamÃ¾Ã¦ttingar sÃ­Ã°a",
+                        "delete": "Eyğa",
+                        "device_tracker_intro": "Veldu tæki sem tilheyrir şessari persónu.",
+                        "device_tracker_pick": "Velja tæki til ağ rekja",
+                        "device_tracker_picked": "Rekja tæki",
+                        "link_integrations_page": "Samşættingar síğa",
                         "linked_user": "Tengdur notandi",
                         "name": "Nafn",
                         "name_error_msg": "Nafn er skilyrt",
-                        "new_person": "NÃ½ persÃ³na",
-                        "update": "UppfÃ¦ra"
+                        "new_person": "Nı persóna",
+                        "update": "Uppfæra"
                     },
-                    "no_persons_created_yet": "ÃaÃ° lÃ­tur Ãºt fyrir aÃ° Ã¾Ãº hafir ekki bÃºiÃ° til neina einstaklinga ennÃ¾Ã¡."
+                    "no_persons_created_yet": "Şağ lítur út fyrir ağ şú hafir ekki búiğ til neina einstaklinga ennşá."
                 },
                 "scene": {
-                    "activated": "VirkjuÃ° sena {name}.",
+                    "activated": "Virkjuğ sena {name}.",
                     "caption": "Senur",
-                    "description": "BÃºa til og breyta senum",
+                    "description": "Búa til og breyta senum",
                     "editor": {
-                        "default_name": "NÃ½ sena",
+                        "default_name": "Nı sena",
                         "devices": {
-                            "add": "BÃ¦ta viÃ° tÃ¦ki",
-                            "delete": "EyÃ°a tÃ¦ki",
-                            "header": "TÃ¦ki"
+                            "add": "Bæta viğ tæki",
+                            "delete": "Eyğa tæki",
+                            "header": "Tæki"
                         },
                         "entities": {
-                            "add": "BÃ¦ta viÃ° einingu",
-                            "delete": "EyÃ°a einingu",
+                            "add": "Bæta viğ einingu",
+                            "delete": "Eyğa einingu",
                             "header": "Einingar",
-                            "without_device": "Einingar Ã¡n tÃ¦kja"
+                            "without_device": "Einingar án tækja"
                         },
-                        "icon": "TÃ¡knmynd",
-                        "load_error_not_editable": "ÃaÃ° er eingÃ¶ngu hÃ¦gt aÃ° breyta senum Ã­ scenes.yaml.",
+                        "icon": "Táknmynd",
+                        "load_error_not_editable": "Şağ er eingöngu hægt ağ breyta senum í scenes.yaml.",
                         "name": "Nafn",
                         "save": "Vista"
                     },
                     "picker": {
-                        "add_scene": "BÃ¦ta viÃ° senu",
-                        "delete_confirm": "Ertu viss um aÃ° Ã¾Ãº viljir eyÃ°a Ã¾essari senu?",
-                        "delete_scene": "EyÃ°a senu",
+                        "add_scene": "Bæta viğ senu",
+                        "delete_confirm": "Ertu viss um ağ şú viljir eyğa şessari senu?",
+                        "delete_scene": "Eyğa senu",
                         "edit_scene": "Breyta senu",
                         "header": "Senuritill",
                         "headers": {
                             "name": "Nafn"
                         },
-                        "learn_more": "LÃ¦ra meira um senur",
-                        "only_editable": "ÃaÃ° er eingÃ¶ngu hÃ¦gt aÃ° breyta senum skilgreindum Ã­ scenes.yaml.",
-                        "pick_scene": "Veldu senu til aÃ° breyta",
-                        "show_info_scene": "Birta upplÃ½singar um senu"
+                        "learn_more": "Læra meira um senur",
+                        "only_editable": "Şağ er eingöngu hægt ağ breyta senum skilgreindum í scenes.yaml.",
+                        "pick_scene": "Veldu senu til ağ breyta",
+                        "show_info_scene": "Birta upplısingar um senu"
                     }
                 },
                 "script": {
                     "caption": "Skrifta",
-                    "description": "BÃºa til og breyta skriftum",
+                    "description": "Búa til og breyta skriftum",
                     "editor": {
                         "alias": "Nafn",
-                        "icon": "TÃ¡knmynd",
-                        "link_available_actions": "LÃ¦ra meira um tiltÃ¦kar aÃ°gerÃ°ir.",
+                        "icon": "Táknmynd",
+                        "link_available_actions": "Læra meira um tiltækar ağgerğir.",
                         "modes": {
                             "label": "Hamur",
-                            "restart": "EndurrÃ¦sa"
+                            "restart": "Endurræsa"
                         },
-                        "sequence": "RÃ¶Ã°"
+                        "sequence": "Röğ"
                     },
                     "picker": {
-                        "duplicate": "TvÃ­falda",
-                        "duplicate_script": "TvÃ­falda forskrift",
+                        "duplicate": "Tvífalda",
+                        "duplicate_script": "Tvífalda forskrift",
                         "headers": {
                             "name": "Nafn"
                         },
-                        "learn_more": "LÃ¦ra meira um skriftur"
+                        "learn_more": "Læra meira um skriftur"
                     }
                 },
                 "server_control": {
-                    "caption": "StjÃ³rnun Ã¾jÃ³ns",
-                    "description": "EndurrÃ¦sa og stÃ¶Ã°va Home Assistant Ã¾jÃ³ni",
+                    "caption": "Stjórnun şjóns",
+                    "description": "Endurræsa og stöğva Safegate Pro şjóni",
                     "section": {
                         "reloading": {
-                            "automation": "EndurhlaÃ°a sjÃ¡lfvirkni",
-                            "core": "EndurhlaÃ°a kjarna",
-                            "group": "EndurhlaÃ°a hÃ³pa",
-                            "heading": "EndurhleÃ°sla stillinga",
-                            "homekit": "EndurhlaÃ°a HomeKit",
-                            "introduction": "Sumir hlutar af Home Assistant er hÃ¦gt aÃ° hlaÃ°a inn aÃ° nÃ½ju Ã¡n Ã¾ess aÃ° Ã¾aÃ° krefjist endurrÃ¦singar. MeÃ° Ã¾vÃ­ aÃ° velja aÃ° endurhlaÃ°a Ã¾Ã¡ mun sÃº aÃ°gerÃ° hlaÃ°a inn nÃ½jum stillingum.",
-                            "scene": "EndurhlaÃ°a senum",
-                            "script": "EndurhlaÃ°a skriftum"
+                            "automation": "Endurhlağa sjálfvirkni",
+                            "core": "Endurhlağa kjarna",
+                            "group": "Endurhlağa hópa",
+                            "heading": "Endurhleğsla stillinga",
+                            "homekit": "Endurhlağa HomeKit",
+                            "introduction": "Sumir hlutar af Safegate Pro er hægt ağ hlağa inn ağ nıju án şess ağ şağ krefjist endurræsingar. Meğ şví ağ velja ağ endurhlağa şá mun sú ağgerğ hlağa inn nıjum stillingum.",
+                            "scene": "Endurhlağa senum",
+                            "script": "Endurhlağa skriftum"
                         },
                         "server_management": {
-                            "confirm_restart": "Ertu viss um aÃ° Ã¾Ãº viljir endurrÃ¦sa Home Assistant?",
-                            "confirm_stop": "Ertu viss um aÃ° Ã¾Ãº viljir stÃ¶Ã°va Home Assistant?",
-                            "heading": "StjÃ³rnun miÃ°lara",
-                            "introduction": "StjÃ³rna Home Assistant miÃ°lara... frÃ¡ Home Assistant.",
-                            "restart": "EndurrÃ¦sa",
-                            "stop": "StÃ¶Ã°va"
+                            "confirm_restart": "Ertu viss um ağ şú viljir endurræsa Safegate Pro?",
+                            "confirm_stop": "Ertu viss um ağ şú viljir stöğva Safegate Pro?",
+                            "heading": "Stjórnun miğlara",
+                            "introduction": "Stjórna Safegate Pro miğlara... frá Safegate Pro.",
+                            "restart": "Endurræsa",
+                            "stop": "Stöğva"
                         },
                         "validation": {
                             "check_config": "Athuga stillingar",
-                            "heading": "StaÃ°festa stillingar",
-                            "introduction": "StaÃ°festu stillingarnar Ã¾Ã­nar ef Ã¾Ãº hefur gert breytingar Ã¡ stillingum og vilt ganga Ãºr skugga um aÃ° Ã¾Ã¦r sÃ©u Ã­ lagi",
-                            "invalid": "Stillingar Ã³gildar",
-                            "valid": "Stillingar Ã­ lagi!"
+                            "heading": "Stağfesta stillingar",
+                            "introduction": "Stağfestu stillingarnar şínar ef şú hefur gert breytingar á stillingum og vilt ganga úr skugga um ağ şær séu í lagi",
+                            "invalid": "Stillingar ógildar",
+                            "valid": "Stillingar í lagi!"
                         }
                     }
                 },
                 "tag": {
                     "detail": {
                         "create": "Stofna",
-                        "delete": "EyÃ°a",
-                        "description": "LÃ½sing",
+                        "delete": "Eyğa",
+                        "description": "Lısing",
                         "name": "Nafn",
-                        "update": "UppfÃ¦ra"
+                        "update": "Uppfæra"
                     },
                     "edit": "Breyta",
                     "headers": {
@@ -1522,36 +1522,36 @@
                 },
                 "users": {
                     "add_user": {
-                        "caption": "BÃ¦ta viÃ° notanda",
+                        "caption": "Bæta viğ notanda",
                         "create": "Stofna",
-                        "password": "LykilorÃ°",
-                        "password_confirm": "StaÃ°festa lykilorÃ°",
-                        "password_not_match": "LykilorÃ° passa ekki saman"
+                        "password": "Lykilorğ",
+                        "password_confirm": "Stağfesta lykilorğ",
+                        "password_not_match": "Lykilorğ passa ekki saman"
                     },
                     "caption": "Notendur",
-                    "description": "StjÃ³rna notendum",
+                    "description": "Stjórna notendum",
                     "editor": {
                         "activate_user": "Virkja notanda",
                         "active": "Virkur",
-                        "active_tooltip": "StÃ½rir Ã¾vÃ­ hvort notandi getur skrÃ¡Ã° sig inn",
-                        "admin": "StjÃ³rnandi",
-                        "caption": "SkoÃ°a notanda",
-                        "change_password": "Breyta lykilorÃ°i",
-                        "deactivate_user": "Gera notanda Ã³virkan",
-                        "delete_user": "EyÃ°a notanda",
-                        "group": "HÃ³pur",
+                        "active_tooltip": "Stırir şví hvort notandi getur skráğ sig inn",
+                        "admin": "Stjórnandi",
+                        "caption": "Skoğa notanda",
+                        "change_password": "Breyta lykilorği",
+                        "deactivate_user": "Gera notanda óvirkan",
+                        "delete_user": "Eyğa notanda",
+                        "group": "Hópur",
                         "id": "ID",
                         "name": "Nafn",
-                        "new_password": "NÃ½tt lykilorÃ°",
+                        "new_password": "Nıtt lykilorğ",
                         "owner": "Eigandi",
-                        "unnamed_user": "Ã“nefndur notandi",
-                        "update_user": "UppfÃ¦ra",
+                        "unnamed_user": "Ónefndur notandi",
+                        "update_user": "Uppfæra",
                         "username": "Notandanafn"
                     },
                     "picker": {
-                        "add_user": "BÃ¦ta viÃ° notanda",
+                        "add_user": "Bæta viğ notanda",
                         "headers": {
-                            "group": "HÃ³pur",
+                            "group": "Hópur",
                             "is_active": "Virkur",
                             "is_owner": "Eigandi",
                             "name": "Nafn",
@@ -1561,10 +1561,10 @@
                     }
                 },
                 "zha": {
-                    "add_device": "BÃ¦ta viÃ° tÃ¦ki",
+                    "add_device": "Bæta viğ tæki",
                     "add_device_page": {
                         "search_again": "Leita aftur",
-                        "spinner": "LeitaÃ° aÃ° ZHA Zigbee tÃ¦kjum..."
+                        "spinner": "Leitağ ağ ZHA Zigbee tækjum..."
                     },
                     "button": "Stilla",
                     "cluster_commands": {
@@ -1578,75 +1578,75 @@
                         "value": "Gildi"
                     },
                     "device_pairing_card": {
-                        "CONFIGURED": "Uppsetningu lokiÃ°",
+                        "CONFIGURED": "Uppsetningu lokiğ",
                         "CONFIGURED_status_text": "Frumstilli",
-                        "INITIALIZED": "Frumstillingu lokiÃ°",
-                        "INITIALIZED_status_text": "TÃ¦kiÃ° er tilbÃºiÃ° til notkunar",
+                        "INITIALIZED": "Frumstillingu lokiğ",
+                        "INITIALIZED_status_text": "Tækiğ er tilbúiğ til notkunar",
                         "INTERVIEW_COMPLETE_status_text": "Set upp",
-                        "PAIRED": "TÃ¦ki fannst"
+                        "PAIRED": "Tæki fannst"
                     },
                     "groups": {
-                        "add_group": "BÃ¦ta viÃ° hÃ³pi",
-                        "add_members": "BÃ¦ta viÃ° meÃ°lim",
-                        "caption": "HÃ³par",
-                        "create": "Stofna hÃ³p",
-                        "creating_group": "Stofna hÃ³p",
-                        "group_info": "UpplÃ½singar um hÃ³p",
-                        "group_name_placeholder": "Nafn hÃ³ps",
-                        "group_not_found": "HÃ³pur fannst ekki!",
-                        "groups": "HÃ³par",
-                        "members": "MeÃ°limir",
-                        "remove_members": "FjarlÃ¦gja meÃ°lim",
-                        "removing_members": "FjarlÃ¦gji meÃ°limi"
+                        "add_group": "Bæta viğ hópi",
+                        "add_members": "Bæta viğ meğlim",
+                        "caption": "Hópar",
+                        "create": "Stofna hóp",
+                        "creating_group": "Stofna hóp",
+                        "group_info": "Upplısingar um hóp",
+                        "group_name_placeholder": "Nafn hóps",
+                        "group_not_found": "Hópur fannst ekki!",
+                        "groups": "Hópar",
+                        "members": "Meğlimir",
+                        "remove_members": "Fjarlægja meğlim",
+                        "removing_members": "Fjarlægji meğlimi"
                     },
                     "network": {
                         "caption": "Net"
                     },
                     "visualization": {
                         "header": "Netbirting",
-                        "zoom_label": "Ãysja inn aÃ° tÃ¦ki"
+                        "zoom_label": "Şysja inn ağ tæki"
                     }
                 },
                 "zone": {
                     "detail": {
                         "create": "Stofna",
-                        "delete": "EyÃ°a",
-                        "icon": "TÃ¡knmynd",
-                        "icon_error_msg": "TÃ¡knmyndin Ã¦tti aÃ° vera Ã¡ forminu forskeyti:nafn_a_taknmynd, til dÃ¦mis: mdi:home",
-                        "latitude": "BreiddargrÃ¡Ã°a",
-                        "longitude": "LengdargrÃ¡Ã°a",
+                        "delete": "Eyğa",
+                        "icon": "Táknmynd",
+                        "icon_error_msg": "Táknmyndin ætti ağ vera á forminu forskeyti:nafn_a_taknmynd, til dæmis: mdi:home",
+                        "latitude": "Breiddargráğa",
+                        "longitude": "Lengdargráğa",
                         "name": "Nafn",
-                        "radius": "RadÃ­us",
-                        "required_error_msg": "Ã¾etta er skilyrtur reitur",
-                        "update": "UppfÃ¦ra"
+                        "radius": "Radíus",
+                        "required_error_msg": "şetta er skilyrtur reitur",
+                        "update": "Uppfæra"
                     }
                 },
                 "zwave_js": {
                     "add_node": {
-                        "title": "BÃ¦ta viÃ° Z-Wave hnÃºti",
-                        "view_device": "SkoÃ°a tÃ¦ki"
+                        "title": "Bæta viğ Z-Wave hnúti",
+                        "view_device": "Skoğa tæki"
                     },
                     "button": "Stilla",
                     "common": {
-                        "add_node": "BÃ¦ta viÃ° hnÃºti",
+                        "add_node": "Bæta viğ hnúti",
                         "close": "Loka",
                         "network": "Net",
-                        "node_id": "HnÃºtauÃ°kenni",
-                        "remove_node": "FjarlÃ¦gja hnÃºt"
+                        "node_id": "Hnútauğkenni",
+                        "remove_node": "Fjarlægja hnút"
                     },
                     "dashboard": {
-                        "driver_version": "ÃštgÃ¡fa rekils",
-                        "dump_dead_nodes_text": "Sumir hnÃºtanna svÃ¶ruÃ°u ekki og er gert rÃ¡Ã° fyrir aÃ° Ã¾eir sÃ©u dauÃ°ir. Ãessir hnÃºtar verÃ°a ekki fluttir Ãºt aÃ° fullu.",
-                        "dump_dead_nodes_title": "Sumir hnÃºtanna eru dauÃ°ir",
-                        "dump_not_ready_confirm": "SÃ¦kja",
-                        "dump_not_ready_title": "Ekki eru allir hnÃºtar tilbÃºnir ennÃ¾Ã¡",
-                        "nodes_ready": "HnÃºtar tilbÃºnir",
-                        "server_version": "ÃštgÃ¡fa miÃ°lara"
+                        "driver_version": "Útgáfa rekils",
+                        "dump_dead_nodes_text": "Sumir hnútanna svöruğu ekki og er gert ráğ fyrir ağ şeir séu dauğir. Şessir hnútar verğa ekki fluttir út ağ fullu.",
+                        "dump_dead_nodes_title": "Sumir hnútanna eru dauğir",
+                        "dump_not_ready_confirm": "Sækja",
+                        "dump_not_ready_title": "Ekki eru allir hnútar tilbúnir ennşá",
+                        "nodes_ready": "Hnútar tilbúnir",
+                        "server_version": "Útgáfa miğlara"
                     },
                     "device_info": {
-                        "node_ready": "HnÃºtur tilbÃºinn",
-                        "node_status": "StaÃ°a hnÃºts",
-                        "zwave_info": "Z-Wave upplÃ½singar"
+                        "node_ready": "Hnútur tilbúinn",
+                        "node_status": "Stağa hnúts",
+                        "zwave_info": "Z-Wave upplısingar"
                     },
                     "navigation": {
                         "network": "Net"
@@ -1654,157 +1654,157 @@
                     "network_status": {
                         "connected": "Tengt",
                         "connecting": "Tengist",
-                        "unknown": "Ã“Ã¾ekkt"
+                        "unknown": "Óşekkt"
                     },
                     "node_status": {
-                        "alive": "Ã lÃ­fi",
+                        "alive": "Á lífi",
                         "asleep": "Sofandi",
                         "awake": "Vakandi",
-                        "dead": "DauÃ°ur",
-                        "unknown": "Ã“Ã¾ekkt"
+                        "dead": "Dauğur",
+                        "unknown": "Óşekkt"
                     },
                     "remove_node": {
-                        "cancel_exclusion": "HÃ¦tta viÃ° Ãºtilokun",
-                        "controller_in_exclusion_mode": "Z-Wave stjÃ³rinn Ã¾inn er nÃº Ã­ Ãºtilokunarham.",
-                        "exclusion_failed": "Ekki tÃ³kst aÃ° fjarlÃ¦gja hnÃºtinn. Vinsamlegast athugaÃ°u atburÃ°askrÃ¡r fyrir frekari upplÃ½singar.",
-                        "exclusion_finished": "HnÃºturinn {id} hefur veriÃ° fjarlÃ¦gÃ°ur af Z-Wave netinu.",
-                        "follow_device_instructions": "Fylgdu leiÃ°beiningunum sem fylgdu tÃ¦kinu Ã¾Ã­nu til aÃ° kveikja Ã¡ Ãºtilokun Ã­ tÃ¦kinu.",
-                        "introduction": "FjarlÃ¦gÃ°u hnÃºt af Z-Wave netinu Ã¾Ã­nu og fjarlÃ¦gÃ°u tengd tÃ¦ki og einingar Ãºr Home Assistant.",
-                        "start_exclusion": "Hefja Ãºtilokun",
-                        "title": "FjarlÃ¦gja Z-Wave hnÃºt"
+                        "cancel_exclusion": "Hætta viğ útilokun",
+                        "controller_in_exclusion_mode": "Z-Wave stjórinn şinn er nú í útilokunarham.",
+                        "exclusion_failed": "Ekki tókst ağ fjarlægja hnútinn. Vinsamlegast athugağu atburğaskrár fyrir frekari upplısingar.",
+                        "exclusion_finished": "Hnúturinn {id} hefur veriğ fjarlægğur af Z-Wave netinu.",
+                        "follow_device_instructions": "Fylgdu leiğbeiningunum sem fylgdu tækinu şínu til ağ kveikja á útilokun í tækinu.",
+                        "introduction": "Fjarlægğu hnút af Z-Wave netinu şínu og fjarlægğu tengd tæki og einingar úr Safegate Pro.",
+                        "start_exclusion": "Hefja útilokun",
+                        "title": "Fjarlægja Z-Wave hnút"
                     }
                 },
                 "zwave": {
                     "button": "Stilla",
                     "common": {
-                        "unknown": "Ã³Ã¾ekkt",
+                        "unknown": "óşekkt",
                         "value": "Gildi"
                     },
-                    "description": "StjÃ³rnaÃ°u Z-Wave netinu Ã¾Ã­nu",
-                    "learn_more": "LÃ¦ra meira um Z-Wave",
+                    "description": "Stjórnağu Z-Wave netinu şínu",
+                    "learn_more": "Læra meira um Z-Wave",
                     "network_management": {
-                        "header": "Z-Wave netumsÃ½sla"
+                        "header": "Z-Wave netumsısla"
                     },
                     "network_status": {
-                        "network_started": "Z-Wave net rÃ¦st",
-                        "network_starting": "RÃ¦si Z-Wave net...",
-                        "network_starting_note": "Ãetta gÃ¦ti tekiÃ° smÃ¡ stund, veltur Ã¡ stÃ¦rÃ° netsins.",
-                        "network_stopped": "Z-Wave net stÃ¶Ã°vaÃ°"
+                        "network_started": "Z-Wave net ræst",
+                        "network_starting": "Ræsi Z-Wave net...",
+                        "network_starting_note": "Şetta gæti tekiğ smá stund, veltur á stærğ netsins.",
+                        "network_stopped": "Z-Wave net stöğvağ"
                     },
                     "node_config": {
                         "config_value": "Stillingargildi",
-                        "seconds": "sekÃºndur",
+                        "seconds": "sekúndur",
                         "set_config_parameter": "Stilltu Config Parameter"
                     },
                     "node_management": {
-                        "add_to_group": "BÃ¦ta Ã­ hÃ³p",
-                        "entity_info": "UpplÃ½singar um einingu",
-                        "group": "HÃ³pur",
-                        "remove_from_group": "FjarlÃ¦gja Ãºr hÃ³p"
+                        "add_to_group": "Bæta í hóp",
+                        "entity_info": "Upplısingar um einingu",
+                        "group": "Hópur",
+                        "remove_from_group": "Fjarlægja úr hóp"
                     },
                     "ozw_log": {
-                        "header": "OZW annÃ¡ll",
-                        "load": "HlaÃ°a"
+                        "header": "OZW annáll",
+                        "load": "Hlağa"
                     },
                     "services": {
-                        "cancel_command": "HÃ¦tta viÃ° skipun",
-                        "heal_network": "LÃ¦kna net",
+                        "cancel_command": "Hætta viğ skipun",
+                        "heal_network": "Lækna net",
                         "save_config": "Vista stillingar",
-                        "soft_reset": "MjÃºk endurstilling",
-                        "start_network": "RÃ¦sa net",
-                        "stop_network": "StÃ¶Ã°va net",
-                        "test_network": "PrÃ³fa net"
+                        "soft_reset": "Mjúk endurstilling",
+                        "start_network": "Ræsa net",
+                        "stop_network": "Stöğva net",
+                        "test_network": "Prófa net"
                     }
                 }
             },
             "developer-tools": {
                 "tabs": {
                     "events": {
-                        "alert_event_type": "GerÃ° viÃ°burÃ°ar er skilyrtur reitur",
+                        "alert_event_type": "Gerğ viğburğar er skilyrtur reitur",
                         "count_listeners": " ({count}  hlustendur)",
-                        "fire_event": "SkjÃ³ta viÃ°burÃ°i",
-                        "listen_to_events": "Hlusta eftir viÃ°burÃ°um",
-                        "title": "ViÃ°burÃ°ir",
-                        "type": "GerÃ° viÃ°burÃ°ar"
+                        "fire_event": "Skjóta viğburği",
+                        "listen_to_events": "Hlusta eftir viğburğum",
+                        "title": "Viğburğir",
+                        "type": "Gerğ viğburğar"
                     },
                     "services": {
-                        "call_service": "Kalla Ã­ Ã¾jÃ³nustu",
-                        "column_description": "LÃ½sing",
-                        "column_example": "DÃ¦mi",
-                        "description": "ÃjÃ³nustu Ã¾rÃ³unartÃ³liÃ° leyfir Ã¾Ã©r aÃ° kalla Ã­ allar Ã¾jÃ³nustur sem eru tiltÃ¦kar innan Home Assistant",
-                        "title": "ÃjÃ³nustur"
+                        "call_service": "Kalla í şjónustu",
+                        "column_description": "Lısing",
+                        "column_example": "Dæmi",
+                        "description": "Şjónustu şróunartóliğ leyfir şér ağ kalla í allar şjónustur sem eru tiltækar innan Safegate Pro",
+                        "title": "Şjónustur"
                     },
                     "states": {
-                        "current_entities": "TiltÃ¦kar einingar",
+                        "current_entities": "Tiltækar einingar",
                         "entity": "Eining",
-                        "last_changed": "SÃ­Ã°ast breytt",
-                        "last_updated": "SÃ­Ã°ast uppfÃ¦rt",
-                        "more_info": "Frekari upplÃ½singar",
+                        "last_changed": "Síğast breytt",
+                        "last_updated": "Síğast uppfært",
+                        "more_info": "Frekari upplısingar",
                         "no_entities": "Engar einingar",
-                        "set_state": "Setja stÃ¶Ã°u",
-                        "state": "StaÃ°a",
-                        "title": "StÃ¶Ã°ur"
+                        "set_state": "Setja stöğu",
+                        "state": "Stağa",
+                        "title": "Stöğur"
                     },
                     "templates": {
-                        "domain": "LÃ©n",
-                        "title": "SkapalÃ³n"
+                        "domain": "Lén",
+                        "title": "Skapalón"
                     }
                 }
             },
             "history": {
                 "ranges": {
-                    "last_week": "Ã sÃ­Ã°ustu viku",
-                    "this_week": "Ã Ã¾essari viku",
-                    "today": "Ã dag",
-                    "yesterday": "Ã gÃ¦r"
+                    "last_week": "Í síğustu viku",
+                    "this_week": "Í şessari viku",
+                    "today": "Í dag",
+                    "yesterday": "Í gær"
                 }
             },
             "logbook": {
                 "ranges": {
-                    "last_week": "Ã sÃ­Ã°ustu viku",
-                    "this_week": "Ã Ã¾essari viku",
-                    "today": "Ã dag",
-                    "yesterday": "Ã gÃ¦r"
+                    "last_week": "Í síğustu viku",
+                    "this_week": "Í şessari viku",
+                    "today": "Í dag",
+                    "yesterday": "Í gær"
                 }
             },
             "lovelace": {
                 "cards": {
                     "actions": {
-                        "action_confirmation": "Ã Ã¶rugglega aÃ° framkvÃ¦ma aÃ°gerÃ° \"{action}\"?",
-                        "no_url": "Engin vefslÃ³Ã° til aÃ° opna tilgreint"
+                        "action_confirmation": "Á örugglega ağ framkvæma ağgerğ \"{action}\"?",
+                        "no_url": "Engin vefslóğ til ağ opna tilgreint"
                     },
                     "empty_state": {
-                        "go_to_integrations_page": "Fara Ã¡ samÃ¾Ã¦ttingar sÃ­Ã°u.",
-                        "no_devices": "Ãessi sÃ­Ã°a leyfir Ã¾Ã©r aÃ° stjÃ³rna tÃ¦kjunum Ã¾Ã­num, hinsvegar lÃ½tur Ãºt fyrir aÃ° Ã¾Ãº sÃ©rt ekki meÃ° nein tÃ¦ki uppsett sem stendur. FarÃ°u yfir Ã¡ samÃ¾Ã¦ttingarsÃ­Ã°u til aÃ° byrja.",
+                        "go_to_integrations_page": "Fara á samşættingar síğu.",
+                        "no_devices": "Şessi síğa leyfir şér ağ stjórna tækjunum şínum, hinsvegar lıtur út fyrir ağ şú sért ekki meğ nein tæki uppsett sem stendur. Farğu yfir á samşættingarsíğu til ağ byrja.",
                         "title": "Velkomin(n) heim"
                     },
                     "picture-elements": {
-                        "call_service": "Kalla Ã­ Ã¾jÃ³nustu {name}",
+                        "call_service": "Kalla í şjónustu {name}",
                         "hold": "Halda inni:",
-                        "more_info": "SÃ½na frekari upplÃ½singar: {name}",
-                        "navigate_to": "Fara yfir Ã¡ {location}",
-                        "tap": "Ãta Ã¡:",
-                        "toggle": "VÃ­xla {name}",
-                        "url": "Opna glugga Ã¡ {url_path}"
+                        "more_info": "Sına frekari upplısingar: {name}",
+                        "navigate_to": "Fara yfir á {location}",
+                        "tap": "İta á:",
+                        "toggle": "Víxla {name}",
+                        "url": "Opna glugga á {url_path}"
                     },
                     "shopping-list": {
-                        "add_item": "BÃ¦ta viÃ° hlut",
+                        "add_item": "Bæta viğ hlut",
                         "checked_items": "Valdir hlutir",
                         "clear_items": "Hreinsa valda hluti"
                     }
                 },
                 "changed_toast": {
-                    "message": "Lovelace stillingum hefur veriÃ° breytt, viltu endurnÃ½ja?"
+                    "message": "Lovelace stillingum hefur veriğ breytt, viltu endurnıja?"
                 },
                 "editor": {
                     "action-editor": {
                         "actions": {
-                            "more-info": "Frekari upplÃ½singar"
+                            "more-info": "Frekari upplısingar"
                         }
                     },
                     "card": {
                         "alarm-panel": {
-                            "available_states": "TiltÃ¦kar stÃ¶Ã°ur"
+                            "available_states": "Tiltækar stöğur"
                         },
                         "button": {
                             "name": "Hnappur"
@@ -1813,17 +1813,17 @@
                             "name": "Dagatal",
                             "views": {
                                 "dayGridDay": "Dagur",
-                                "dayGridMonth": "MÃ¡nuÃ°ur"
+                                "dayGridMonth": "Mánuğur"
                             }
                         },
                         "conditional": {
                             "card": "Spjald",
-                            "change_type": "Breyta gerÃ°",
-                            "conditions": "SkilyrÃ°i",
-                            "current_state": "nÃºverandi"
+                            "change_type": "Breyta gerğ",
+                            "conditions": "Skilyrği",
+                            "current_state": "núverandi"
                         },
                         "config": {
-                            "optional": "ValfrjÃ¡lst",
+                            "optional": "Valfrjálst",
                             "required": "Skilyrt"
                         },
                         "entities": {
@@ -1837,16 +1837,16 @@
                             }
                         },
                         "entity-filter": {
-                            "name": "Eininga sÃ­a"
+                            "name": "Eininga sía"
                         },
                         "entity": {
                             "name": "Eining"
                         },
                         "gauge": {
-                            "name": "MÃ¦lir",
+                            "name": "Mælir",
                             "severity": {
                                 "define": "Skilgreina alvarleika?",
-                                "green": "GrÃ¦nt",
+                                "green": "Grænt",
                                 "red": "Rautt",
                                 "yellow": "Gult"
                             }
@@ -1854,57 +1854,57 @@
                         "generic": {
                             "aspect_ratio": "Hlutfall",
                             "attribute": "Eigindi",
-                            "camera_image": "MyndavÃ©laeining",
-                            "camera_view": "SjÃ³narhorn myndavÃ©lar",
+                            "camera_image": "Myndavélaeining",
+                            "camera_view": "Sjónarhorn myndavélar",
                             "entities": "Einingar",
                             "entity": "Eining",
-                            "hours_to_show": "KlukkutÃ­mar sem Ã¡ aÃ° birta",
-                            "icon": "TÃ¡knmynd",
-                            "icon_height": "HÃ¦Ã° tÃ¡kmyndar",
-                            "image": "MyndaslÃ³Ã°",
-                            "maximum": "HÃ¡mark",
-                            "minimum": "LÃ¡gmark",
+                            "hours_to_show": "Klukkutímar sem á ağ birta",
+                            "icon": "Táknmynd",
+                            "icon_height": "Hæğ tákmyndar",
+                            "image": "Myndaslóğ",
+                            "maximum": "Hámark",
+                            "minimum": "Lágmark",
                             "name": "Nafn",
-                            "no_theme": "Ekkert Ã¾ema",
+                            "no_theme": "Ekkert şema",
                             "search": "Leita",
-                            "show_icon": "Birta tÃ¡knmynd?",
+                            "show_icon": "Birta táknmynd?",
                             "show_name": "Birta nafn?",
-                            "show_state": "Birta stÃ¶Ã°u?",
-                            "state": "StaÃ°a",
-                            "theme": "Ãema",
+                            "show_state": "Birta stöğu?",
+                            "state": "Stağa",
+                            "theme": "Şema",
                             "title": "Titill",
                             "unit": "Eining",
-                            "url": "SlÃ³Ã°"
+                            "url": "Slóğ"
                         },
                         "glance": {
-                            "columns": "DÃ¡lkar"
+                            "columns": "Dálkar"
                         },
                         "grid": {
-                            "columns": "DÃ¡lkar"
+                            "columns": "Dálkar"
                         },
                         "history-graph": {
-                            "name": "SÃ¶gulÃ­nurit"
+                            "name": "Sögulínurit"
                         },
                         "horizontal-stack": {
-                            "name": "LÃ¡rÃ©ttur stafli"
+                            "name": "Láréttur stafli"
                         },
                         "humidifier": {
-                            "name": "RakatÃ¦ki"
+                            "name": "Rakatæki"
                         },
                         "iframe": {
                             "name": "iFrame"
                         },
                         "light": {
-                            "name": "LjÃ³s"
+                            "name": "Ljós"
                         },
                         "logbook": {
-                            "description": "SkrÃ¡ningarsÃ¶guspjaldiÃ° sÃ½nir lista yfir atburÃ°i eininga.",
-                            "name": "SkrÃ¡ningarsaga"
+                            "description": "Skráningarsöguspjaldiğ sınir lista yfir atburği eininga.",
+                            "name": "Skráningarsaga"
                         },
                         "map": {
-                            "dark_mode": "DÃ¶kkur hamur?",
-                            "default_zoom": "SjÃ¡lfgefinn aÃ°drÃ¡ttur",
-                            "hours_to_show": "KlukkutÃ­mar sem Ã¡ aÃ° birta",
+                            "dark_mode": "Dökkur hamur?",
+                            "default_zoom": "Sjálfgefinn ağdráttur",
+                            "hours_to_show": "Klukkutímar sem á ağ birta",
                             "name": "Kort"
                         },
                         "markdown": {
@@ -1912,14 +1912,14 @@
                             "name": "Markdown"
                         },
                         "picture-glance": {
-                            "state_entity": "StÃ¶Ã°ueining"
+                            "state_entity": "Stöğueining"
                         },
                         "picture": {
                             "name": "Mynd"
                         },
                         "plant-status": {
-                            "description": "StaÃ°a plÃ¶ntu kortiÃ° er fyrir alla grasafrÃ¦Ã°ingana Ã¾arna Ãºti.",
-                            "name": "StaÃ°a plÃ¶ntu"
+                            "description": "Stağa plöntu kortiğ er fyrir alla grasafræğingana şarna úti.",
+                            "name": "Stağa plöntu"
                         },
                         "sensor": {
                             "name": "Skynjari"
@@ -1931,371 +1931,371 @@
                             "name": "Hitastillir"
                         },
                         "vertical-stack": {
-                            "name": "LÃ³Ã°rÃ©ttur stafli"
+                            "name": "Lóğréttur stafli"
                         },
                         "weather-forecast": {
-                            "name": "VeÃ°urspÃ¡",
-                            "show_forecast": "SÃ½na veÃ°urspÃ¡"
+                            "name": "Veğurspá",
+                            "show_forecast": "Sına veğurspá"
                         }
                     },
                     "cardpicker": {
-                        "custom_card": "SÃ©rsniÃ°iÃ°",
-                        "domain": "LÃ©n",
-                        "no_description": "Engin lÃ½sing tiltÃ¦k."
+                        "custom_card": "Sérsniğiğ",
+                        "domain": "Lén",
+                        "no_description": "Engin lısing tiltæk."
                     },
                     "common": {
-                        "add": "BÃ¦ta viÃ°",
+                        "add": "Bæta viğ",
                         "clear": "Hreinsa",
                         "edit": "Breyta"
                     },
                     "edit_card": {
-                        "add": "BÃ¦ta viÃ° spjaldi",
-                        "clear": "TÃ¦ma",
-                        "confirm_cancel": "Ertu viss um aÃ° Ã¾Ãº viljir hÃ¦tta viÃ°?",
-                        "delete": "EyÃ°a",
+                        "add": "Bæta viğ spjaldi",
+                        "clear": "Tæma",
+                        "confirm_cancel": "Ertu viss um ağ şú viljir hætta viğ?",
+                        "delete": "Eyğa",
                         "edit": "Breyta",
                         "header": "Stillingar spjalds",
-                        "move": "FÃ¦ra",
+                        "move": "Færa",
                         "options": "Fleir valkostir",
-                        "pick_card": "Veldu spjald sem Ã¾Ãº vilt bÃ¦ta viÃ°.",
-                        "show_code_editor": "Birta kÃ³Ã°a ritil",
-                        "show_visual_editor": "Birta sjÃ³nrÃ¦nan ritil",
-                        "toggle_editor": "VÃ­xla ritli",
-                        "unsaved_changes": "ÃÃº ert meÃ° Ã³vistaÃ°ar breytingar"
+                        "pick_card": "Veldu spjald sem şú vilt bæta viğ.",
+                        "show_code_editor": "Birta kóğa ritil",
+                        "show_visual_editor": "Birta sjónrænan ritil",
+                        "toggle_editor": "Víxla ritli",
+                        "unsaved_changes": "Şú ert meğ óvistağar breytingar"
                     },
                     "edit_lovelace": {
                         "edit_title": "Breyta titli",
                         "title": "Titill"
                     },
                     "edit_view": {
-                        "add": "BÃ¦ta viÃ° sÃ½n",
-                        "delete": "EyÃ°a sÃ½n",
-                        "edit": "Breyta sÃ½n",
-                        "header": "SkoÃ°a stillingar",
+                        "add": "Bæta viğ sın",
+                        "delete": "Eyğa sın",
+                        "edit": "Breyta sın",
+                        "header": "Skoğa stillingar",
                         "tab_settings": "Stillingar",
-                        "tab_visibility": "SÃ½nileiki"
+                        "tab_visibility": "Sınileiki"
                     },
-                    "header": "Breyta notendaviÃ°mÃ³ti",
+                    "header": "Breyta notendaviğmóti",
                     "header-footer": {
                         "header": "Haus"
                     },
                     "menu": {
-                        "raw_editor": "Ritill fyrir hrÃ¡ar stillingar"
+                        "raw_editor": "Ritill fyrir hráar stillingar"
                     },
                     "migrate": {
-                        "header": "Ã“samhÃ¦fÃ°ar stillingar",
-                        "migrate": "UppfÃ¦ra stillingar"
+                        "header": "Ósamhæfğar stillingar",
+                        "migrate": "Uppfæra stillingar"
                     },
                     "raw_editor": {
-                        "error_save_yaml": "Ekki tÃ³kst aÃ° vista YAML: {error}",
+                        "error_save_yaml": "Ekki tókst ağ vista YAML: {error}",
                         "header": "Breyta stillingum",
                         "save": "Vista",
-                        "saved": "VistaÃ°",
-                        "unsaved_changes": "Ã“vistaÃ°ar breytingar"
+                        "saved": "Vistağ",
+                        "unsaved_changes": "Óvistağar breytingar"
                     },
                     "save_config": {
-                        "cancel": "Gleymdu Ã¾essu",
+                        "cancel": "Gleymdu şessu",
                         "close": "Loka",
-                        "header": "Taka yfir stjÃ³rn Ã¡ Lovelace viÃ°mÃ³tinu",
-                        "para": "Home Assistant mun sjÃ¡lfgefiÃ° halda utan um notendaviÃ°mÃ³tiÃ° og uppfÃ¦ra Ã¾aÃ° Ã¾egar nÃ½jar einingar eÃ°a Lovlace Ã­hlutir verÃ°a aÃ°gengilegir. Ef Ã¾Ãº tekur yfir stjÃ³rn Ã¡ viÃ°mÃ³tinu Ã¾Ã¡ mun Ã¾etta ekki gerast sjÃ¡lfkrafa fyrir Ã¾ig.",
-                        "para_sure": "Ertu viss um aÃ° Ã¾Ãº viljir taka yfir stjÃ³rn Ã¡ notendaviÃ°mÃ³tinu Ã¾Ã­nu?",
-                        "save": "Taka stjÃ³rnina"
+                        "header": "Taka yfir stjórn á Lovelace viğmótinu",
+                        "para": "Safegate Pro mun sjálfgefiğ halda utan um notendaviğmótiğ og uppfæra şağ şegar nıjar einingar eğa Lovlace íhlutir verğa ağgengilegir. Ef şú tekur yfir stjórn á viğmótinu şá mun şetta ekki gerast sjálfkrafa fyrir şig.",
+                        "para_sure": "Ertu viss um ağ şú viljir taka yfir stjórn á notendaviğmótinu şínu?",
+                        "save": "Taka stjórnina"
                     },
                     "select_view": {
-                        "dashboard_label": "MÃ¦laborÃ°"
+                        "dashboard_label": "Mælaborğ"
                     },
                     "suggest_card": {
-                        "add": "BÃ¦ta viÃ° Ã­ Lovelace viÃ°mÃ³t",
-                        "create_own": "Velja annaÃ° spjald",
-                        "header": "HÃ©r er tillaga fyrir Ã¾ig"
+                        "add": "Bæta viğ í Lovelace viğmót",
+                        "create_own": "Velja annağ spjald",
+                        "header": "Hér er tillaga fyrir şig"
                     }
                 },
                 "menu": {
                     "close": "Loka",
-                    "configure_ui": "Stilla notendaviÃ°mÃ³t",
-                    "help": "HjÃ¡lp"
+                    "configure_ui": "Stilla notendaviğmót",
+                    "help": "Hjálp"
                 },
-                "reload_lovelace": "EndurhlaÃ°a Lovelace",
+                "reload_lovelace": "Endurhlağa Lovelace",
                 "unused_entities": {
-                    "domain": "LÃ©n",
+                    "domain": "Lén",
                     "entity": "Eining",
-                    "last_changed": "SÃ­Ã°ast breytt"
+                    "last_changed": "Síğast breytt"
                 },
                 "warning": {
-                    "entity_not_found": "Eining ekki tiltÃ¦k: {entity}",
-                    "entity_unavailable": "{entity} er ekki tiltÃ¦k eins og er"
+                    "entity_not_found": "Eining ekki tiltæk: {entity}",
+                    "entity_unavailable": "{entity} er ekki tiltæk eins og er"
                 }
             },
             "mailbox": {
-                "delete_button": "EyÃ°a",
-                "delete_prompt": "EyÃ°a Ã¾essum skilaboÃ°um?",
-                "empty": "ÃÃº hefur engin skilaboÃ°",
-                "playback_title": "Afspilun skilaboÃ°a"
+                "delete_button": "Eyğa",
+                "delete_prompt": "Eyğa şessum skilaboğum?",
+                "empty": "Şú hefur engin skilaboğ",
+                "playback_title": "Afspilun skilaboğa"
             },
             "page-authorize": {
-                "abort_intro": "HÃ¦tt var viÃ° innskrÃ¡ningu",
-                "authorizing_client": "ÃÃº ert aÃ° fara aÃ° veita {clientId} aÃ°gang aÃ° Home Assistant uppsetningunni.",
+                "abort_intro": "Hætt var viğ innskráningu",
+                "authorizing_client": "Şú ert ağ fara ağ veita {clientId} ağgang ağ Safegate Pro uppsetningunni.",
                 "form": {
                     "error": "Villa: {error}",
-                    "next": "NÃ¦sta",
+                    "next": "Næsta",
                     "providers": {
                         "command_line": {
                             "abort": {
-                                "login_expired": "Ãštrunnin lota, vinsamlegast skrÃ¡Ã°u Ã¾ig inn Ã¡ nÃ½."
+                                "login_expired": "Útrunnin lota, vinsamlegast skráğu şig inn á nı."
                             },
                             "error": {
-                                "invalid_auth": "Ã“gilt notandanafn eÃ°a lykilorÃ°",
-                                "invalid_code": "Ã“gildur auÃ°kenningarkÃ³Ã°i"
+                                "invalid_auth": "Ógilt notandanafn eğa lykilorğ",
+                                "invalid_code": "Ógildur auğkenningarkóği"
                             },
                             "step": {
                                 "init": {
                                     "data": {
-                                        "password": "LykilorÃ°",
+                                        "password": "Lykilorğ",
                                         "username": "Notandanafn"
                                     }
                                 },
                                 "mfa": {
                                     "data": {
-                                        "code": "TvÃ­-Ã¾Ã¡tta auÃ°kenning"
+                                        "code": "Tví-şátta auğkenning"
                                     }
                                 }
                             }
                         },
                         "homeassistant": {
                             "abort": {
-                                "login_expired": "Lota er Ãºtrunninn, vinsamlegast skrÃ¡Ã°u Ã¾ig inn aftur."
+                                "login_expired": "Lota er útrunninn, vinsamlegast skráğu şig inn aftur."
                             },
                             "error": {
-                                "invalid_auth": "Ã“gilt notandanafn eÃ°a lykilorÃ°",
-                                "invalid_code": "Ã“gildur auÃ°kenningarkÃ³Ã°i"
+                                "invalid_auth": "Ógilt notandanafn eğa lykilorğ",
+                                "invalid_code": "Ógildur auğkenningarkóği"
                             },
                             "step": {
                                 "init": {
                                     "data": {
-                                        "password": "LykilorÃ°",
+                                        "password": "Lykilorğ",
                                         "username": "Notandanafn"
                                     }
                                 },
                                 "mfa": {
                                     "data": {
-                                        "code": "TvÃ­Ã¾Ã¦ttur auÃ°kenningarkÃ³Ã°i"
+                                        "code": "Tvíşættur auğkenningarkóği"
                                     },
-                                    "description": "OpnaÃ°u **{mfa_module_name}** Ã¡ tÃ¦kinu Ã¾Ã­nu til aÃ° skoÃ°a tvÃ­Ã¾Ã¡tta auÃ°kenningarkÃ³Ã°ann Ã¾inn upp Ã¡ aÃ° staÃ°festa auÃ°kenni Ã¾itt:"
+                                    "description": "Opnağu **{mfa_module_name}** á tækinu şínu til ağ skoğa tvíşátta auğkenningarkóğann şinn upp á ağ stağfesta auğkenni şitt:"
                                 }
                             }
                         },
                         "legacy_api_password": {
                             "abort": {
-                                "login_expired": "Seta Ãºtrunnin, vinsamlegast skrÃ¡Ã°u Ã¾ig inn aÃ° nÃ½ju."
+                                "login_expired": "Seta útrunnin, vinsamlegast skráğu şig inn ağ nıju."
                             },
                             "error": {
-                                "invalid_auth": "Ã“gilt API lykilorÃ°",
-                                "invalid_code": "Ã“gildur auÃ°kenningarkÃ³Ã°i"
+                                "invalid_auth": "Ógilt API lykilorğ",
+                                "invalid_code": "Ógildur auğkenningarkóği"
                             },
                             "step": {
                                 "init": {
                                     "data": {
-                                        "password": "API lykilorÃ°"
+                                        "password": "API lykilorğ"
                                     }
                                 },
                                 "mfa": {
                                     "data": {
-                                        "code": "TvÃ­-Ã¾Ã¡tta auÃ°kenningarkÃ³Ã°i"
+                                        "code": "Tví-şátta auğkenningarkóği"
                                     }
                                 }
                             }
                         },
                         "trusted_networks": {
                             "abort": {
-                                "not_allowed": "TÃ¶lvan Ã¾Ã­n er ekki leyfÃ°."
+                                "not_allowed": "Tölvan şín er ekki leyfğ."
                             },
                             "step": {
                                 "init": {
                                     "data": {
                                         "user": "Notandi"
                                     },
-                                    "description": "Vinsamlegast veldu notanda sem Ã¾Ãº vilt skrÃ¡ Ã¾ig inn meÃ°:"
+                                    "description": "Vinsamlegast veldu notanda sem şú vilt skrá şig inn meğ:"
                                 }
                             }
                         }
                     },
-                    "start_over": "Byrja upp Ã¡ nÃ½tt",
-                    "unknown_error": "EitthvaÃ° fÃ³r ÃºrskeiÃ°is",
-                    "working": "Vinsamlegast bÃ­Ã°iÃ°"
+                    "start_over": "Byrja upp á nıtt",
+                    "unknown_error": "Eitthvağ fór úrskeiğis",
+                    "working": "Vinsamlegast bíğiğ"
                 },
                 "initializing": "Frumstilli",
-                "logging_in_to_with": "SkrÃ¡i Ã¾ig inn Ã¡ **{locationName}** meÃ° **{authProviderName}**.",
-                "logging_in_with": "SkrÃ¡i inn meÃ° ** {authProviderName} **.",
-                "pick_auth_provider": "EÃ°a skrÃ¡Ã°u Ã¾ig inn meÃ°"
+                "logging_in_to_with": "Skrái şig inn á **{locationName}** meğ **{authProviderName}**.",
+                "logging_in_with": "Skrái inn meğ ** {authProviderName} **.",
+                "pick_auth_provider": "Eğa skráğu şig inn meğ"
             },
             "page-demo": {
                 "cards": {
                     "demo": {
                         "demo_by": "eftir {name}",
-                        "learn_more": "LÃ¦ra meira um Home Assistant",
-                        "next_demo": "NÃ¦sta sÃ½nidÃ¦mi"
+                        "learn_more": "Læra meira um Safegate Pro",
+                        "next_demo": "Næsta sınidæmi"
                     }
                 },
                 "config": {
                     "arsaboo": {
                         "labels": {
                             "activity": "Virkni",
-                            "commute_home": "Ã leiÃ°inni heim",
+                            "commute_home": "Á leiğinni heim",
                             "entertainment": "Skemmtun",
                             "hdmi_input": "HDMI inntak",
                             "hdmi_switcher": "HDMI rofi",
-                            "information": "UpplÃ½singar",
-                            "lights": "LjÃ³s",
-                            "morning_commute": "MorgunferÃ°alag",
-                            "total_tv_time": "Heildar sjÃ³nvarpstÃ­mi",
-                            "turn_tv_off": "SlÃ¶kkva Ã¡ sjÃ³nvarpi",
-                            "volume": "HljÃ³Ã°styrkur"
+                            "information": "Upplısingar",
+                            "lights": "Ljós",
+                            "morning_commute": "Morgunferğalag",
+                            "total_tv_time": "Heildar sjónvarpstími",
+                            "turn_tv_off": "Slökkva á sjónvarpi",
+                            "volume": "Hljóğstyrkur"
                         },
                         "names": {
-                            "family_room": "FjÃ¶lskyldurÃ½mi",
+                            "family_room": "Fjölskyldurımi",
                             "hallway": "Gangur",
-                            "kitchen": "EldhÃºs",
+                            "kitchen": "Eldhús",
                             "left": "Vinstri",
-                            "master_bedroom": "HjÃ³naherbergi",
+                            "master_bedroom": "Hjónaherbergi",
                             "mirror": "Spegill",
-                            "patio": "VerÃ¶nd",
-                            "right": "HÃ¦gri",
+                            "patio": "Verönd",
+                            "right": "Hægri",
                             "upstairs": "Uppi"
                         },
                         "unit": {
-                            "minutes_abbr": "mÃ­n",
-                            "watching": "Horfi Ã¡"
+                            "minutes_abbr": "mín",
+                            "watching": "Horfi á"
                         }
                     }
                 }
             },
             "page-onboarding": {
                 "core-config": {
-                    "button_detect": "UppgÃ¶tva",
-                    "finish": "NÃ¦sta",
-                    "intro": "HÃ¦ {name}, velkomin(n) Ã­ Home Assistant. HvaÃ° Ã¡ heimiliÃ° Ã¾itt aÃ° heita?",
-                    "intro_location": "Okkur langar aÃ° vita hvar Ã¾Ãº bÃ½rÃ°. Ãessar upplÃ½singar munu hjÃ¡lpa varÃ°andi upplÃ½singar og uppsetningu Ã¡ sÃ³lar-tengdri sjÃ¡lfvirkni. Ãessum upplÃ½singum er aldrei deilt Ãºt fyrir Ã¾itt net.",
-                    "intro_location_detect": "ViÃ° getum aÃ°stoÃ°aÃ° Ã¾ig viÃ° aÃ° fylla Ãºt Ã¾essar upplÃ½singar meÃ° Ã¾vÃ­ aÃ° kalla einu sinni Ã¡ utanaÃ°komandi Ã¾jÃ³nustu til aÃ° sÃ¦kja Ã¾Ã¦r.",
+                    "button_detect": "Uppgötva",
+                    "finish": "Næsta",
+                    "intro": "Hæ {name}, velkomin(n) í Safegate Pro. Hvağ á heimiliğ şitt ağ heita?",
+                    "intro_location": "Okkur langar ağ vita hvar şú bırğ. Şessar upplısingar munu hjálpa varğandi upplısingar og uppsetningu á sólar-tengdri sjálfvirkni. Şessum upplısingum er aldrei deilt út fyrir şitt net.",
+                    "intro_location_detect": "Viğ getum ağstoğağ şig viğ ağ fylla út şessar upplısingar meğ şví ağ kalla einu sinni á utanağkomandi şjónustu til ağ sækja şær.",
                     "location_name_default": "Heima"
                 },
                 "integration": {
-                    "finish": "LjÃºka",
-                    "intro": "TÃ¦ki og Ã¾jÃ³nustur koma fram Ã­ Home Assistant sem samÃ¾Ã¦ttingar. ÃÃº getur fariÃ° Ã­ uppsetningu Ã¡ Ã¾eim nÃºna eÃ°a sÃ­Ã°ar Ã­ gegnum stillingar skjÃ¡inn.",
+                    "finish": "Ljúka",
+                    "intro": "Tæki og şjónustur koma fram í Safegate Pro sem samşættingar. Şú getur fariğ í uppsetningu á şeim núna eğa síğar í gegnum stillingar skjáinn.",
                     "more_integrations": "Meira"
                 },
-                "intro": "Ertu tilbÃºinn aÃ° vekja heimiliÃ° Ã¾itt, endurheimta friÃ°helgi Ã¾Ã­na og gerast Ã¾Ã¡ttakandi Ã­  samfÃ©lagi grÃºskara Ã¡ heimsvÃ­su?",
+                "intro": "Ertu tilbúinn ağ vekja heimiliğ şitt, endurheimta friğhelgi şína og gerast şáttakandi í  samfélagi grúskara á heimsvísu?",
                 "user": {
-                    "create_account": "Stofna aÃ°gang",
+                    "create_account": "Stofna ağgang",
                     "data": {
                         "name": "Nafn",
-                        "password": "LykilorÃ°",
-                        "password_confirm": "StaÃ°festa lykilorÃ°",
+                        "password": "Lykilorğ",
+                        "password_confirm": "Stağfesta lykilorğ",
                         "username": "Notandanafn"
                     },
                     "error": {
-                        "password_not_match": "LykilorÃ° passa ekki saman",
-                        "required_fields": "Fylltu Ãºt Ã­ alla nauÃ°synlega reiti"
+                        "password_not_match": "Lykilorğ passa ekki saman",
+                        "required_fields": "Fylltu út í alla nauğsynlega reiti"
                     },
-                    "intro": "Hefjumst handa meÃ° Ã¾vÃ­ aÃ° byrja Ã¡ aÃ° stofna notanda aÃ°gang.",
+                    "intro": "Hefjumst handa meğ şví ağ byrja á ağ stofna notanda ağgang.",
                     "required_field": "Skilyrt"
                 }
             },
             "profile": {
                 "advanced_mode": {
-                    "link_promo": "LÃ¦ra meira"
+                    "link_promo": "Læra meira"
                 },
                 "change_password": {
-                    "confirm_new_password": "StaÃ°festa nÃ½tt lykilorÃ°",
-                    "current_password": "NÃºverandi lykilorÃ°",
-                    "error_new_is_old": "NÃ½ja lykilorÃ°iÃ° verÃ°ur aÃ° vera annaÃ° en nÃºverandi lykilorÃ°",
-                    "error_new_mismatch": "Innslegin lykilorÃ° eru ekki eins",
+                    "confirm_new_password": "Stağfesta nıtt lykilorğ",
+                    "current_password": "Núverandi lykilorğ",
+                    "error_new_is_old": "Nıja lykilorğiğ verğur ağ vera annağ en núverandi lykilorğ",
+                    "error_new_mismatch": "Innslegin lykilorğ eru ekki eins",
                     "error_required": "Skilyrt",
-                    "header": "Breyta lykilorÃ°i",
-                    "new_password": "NÃ½tt lykilorÃ°",
+                    "header": "Breyta lykilorği",
+                    "new_password": "Nıtt lykilorğ",
                     "submit": "Senda",
-                    "success": "LykilorÃ°i breytt"
+                    "success": "Lykilorği breytt"
                 },
-                "current_user": "ÃÃº ert skrÃ¡Ã°(ur) inn sem {fullName}.",
+                "current_user": "Şú ert skráğ(ur) inn sem {fullName}.",
                 "customize_sidebar": {
                     "button": "Breyta"
                 },
                 "dashboard": {
-                    "dropdown_label": "MÃ¦laborÃ°",
-                    "header": "MÃ¦laborÃ°"
+                    "dropdown_label": "Mælaborğ",
+                    "header": "Mælaborğ"
                 },
                 "enable_shortcuts": {
-                    "header": "FlÃ½tilyklar"
+                    "header": "Flıtilyklar"
                 },
                 "force_narrow": {
-                    "description": "Ãetta mun fela hliÃ°arstikuna meÃ° sambÃ¦rilegum hÃ¦tti og Ã¡ snjalltÃ¦kum.",
-                    "header": "Alltaf fela hliÃ°arstikuna"
+                    "description": "Şetta mun fela hliğarstikuna meğ sambærilegum hætti og á snjalltækum.",
+                    "header": "Alltaf fela hliğarstikuna"
                 },
-                "is_owner": "ÃÃº ert eigandi.",
+                "is_owner": "Şú ert eigandi.",
                 "language": {
-                    "dropdown_label": "TungumÃ¡l",
-                    "header": "TungumÃ¡l",
-                    "link_promo": "HjÃ¡lpa viÃ° aÃ° Ã¾Ã½Ã°a"
+                    "dropdown_label": "Tungumál",
+                    "header": "Tungumál",
+                    "link_promo": "Hjálpa viğ ağ şığa"
                 },
-                "logout": "SkrÃ¡ Ãºt",
-                "logout_title": "SkrÃ¡ Ãºt?",
+                "logout": "Skrá út",
+                "logout_title": "Skrá út?",
                 "long_lived_access_tokens": {
-                    "confirm_delete": "Ertu viss um aÃ° Ã¾Ãº viljir eyÃ°a aÃ°gangstÃ³ka fyrir {name}?",
-                    "create": "BÃºa til tÃ³ka",
-                    "create_failed": "Ekki tÃ³kst aÃ° stofna aÃ°ganstÃ³ka.",
-                    "delete_failed": "Ekki tÃ³kst aÃ° eyÃ°a aÃ°gangstÃ³kanum.",
-                    "description": "Stofna langlÃ­fa aÃ°gangstÃ³ka sem leyfa skriftum aÃ° eiga samskipti viÃ° Home Assitant uppsetninguna. Hver tÃ³ki er gildur Ã­ 10 Ã¡r frÃ¡ stofnun. Eftirfarandi langlÃ­fu tÃ³kar eru virkir.",
-                    "empty_state": "ÃÃº ert ekki meÃ° neina langlÃ­fa aÃ°gangstÃ³ka sem stendur.",
-                    "header": "LanglÃ­fir aÃ°gangstÃ³kar",
-                    "learn_auth_requests": "LÃ¦rÃ°u hvernig Ã¡ aÃ° ÃºtbÃºa auÃ°kenndar beiÃ°nir.",
+                    "confirm_delete": "Ertu viss um ağ şú viljir eyğa ağgangstóka fyrir {name}?",
+                    "create": "Búa til tóka",
+                    "create_failed": "Ekki tókst ağ stofna ağganstóka.",
+                    "delete_failed": "Ekki tókst ağ eyğa ağgangstókanum.",
+                    "description": "Stofna langlífa ağgangstóka sem leyfa skriftum ağ eiga samskipti viğ Safegate Pro uppsetninguna. Hver tóki er gildur í 10 ár frá stofnun. Eftirfarandi langlífu tókar eru virkir.",
+                    "empty_state": "Şú ert ekki meğ neina langlífa ağgangstóka sem stendur.",
+                    "header": "Langlífir ağgangstókar",
+                    "learn_auth_requests": "Lærğu hvernig á ağ útbúa auğkenndar beiğnir.",
                     "name": "Nafn",
-                    "prompt_copy_token": "AfritaÃ°u aÃ°gangstÃ³kann Ã¾inn en hann verÃ°ur ekki birtur aftur.",
+                    "prompt_copy_token": "Afritağu ağgangstókann şinn en hann verğur ekki birtur aftur.",
                     "prompt_name": "Nafn?"
                 },
                 "mfa_setup": {
                     "close": "Loka",
-                    "step_done": "Uppsetningu lokiÃ° fyrir {step}",
+                    "step_done": "Uppsetningu lokiğ fyrir {step}",
                     "submit": "Senda",
-                    "title_aborted": "HÃ¦tt var viÃ°",
-                    "title_success": "TÃ³kst!"
+                    "title_aborted": "Hætt var viğ",
+                    "title_success": "Tókst!"
                 },
                 "mfa": {
-                    "confirm_disable": "Ertu viss um aÃ° Ã¾Ãº viljir afvirkja {name} ?",
+                    "confirm_disable": "Ertu viss um ağ şú viljir afvirkja {name} ?",
                     "disable": "Afvirkja",
                     "enable": "Virkja",
-                    "header": "FjÃ¶lÃ¾Ã¡tta auÃ°kenningareiningar"
+                    "header": "Fjölşátta auğkenningareiningar"
                 },
                 "push_notifications": {
-                    "description": "Senda tilkynningar Ã­ Ã¾etta tÃ¦ki.",
+                    "description": "Senda tilkynningar í şetta tæki.",
                     "error_load_platform": "Stilla notify.html5.",
-                    "error_use_https": "Krefst Ã¾ess aÃ° SSL sÃ© virkt Ã¡ vef.",
-                    "header": "Ãta Ãºt tilkynningum",
-                    "link_promo": "LÃ¦ra meira",
-                    "push_notifications": "Ãta Ãºt tilkynningum"
+                    "error_use_https": "Krefst şess ağ SSL sé virkt á vef.",
+                    "header": "İta út tilkynningum",
+                    "link_promo": "Læra meira",
+                    "push_notifications": "İta út tilkynningum"
                 },
                 "refresh_tokens": {
-                    "created_at": "BÃºiÃ° til Ã¾ann {date}",
-                    "delete_failed": "Ekki tÃ³kst aÃ° eyÃ°a endurnÃ½junartÃ³kanum.",
-                    "header": "UppfÃ¦ra tÃ³ka",
-                    "last_used": "SÃ­Ã°ast notaÃ°ur Ã¾ann {date} frÃ¡ {location}",
-                    "not_used": "Hefur aldrei veriÃ° notaÃ°ur",
-                    "token_title": "UppfÃ¦ra tÃ³ka fyrir {clientId}"
+                    "created_at": "Búiğ til şann {date}",
+                    "delete_failed": "Ekki tókst ağ eyğa endurnıjunartókanum.",
+                    "header": "Uppfæra tóka",
+                    "last_used": "Síğast notağur şann {date} frá {location}",
+                    "not_used": "Hefur aldrei veriğ notağur",
+                    "token_title": "Uppfæra tóka fyrir {clientId}"
                 },
                 "suspend": {
-                    "description": "Ã†ttum viÃ° aÃ° loka tengingunni viÃ° Ã¾jÃ³ninn eftir aÃ° hafa veriÃ° falin Ã­ 5 mÃ­nÃºtur?",
-                    "header": "Loka tengingu sjÃ¡lfkrafa"
+                    "description": "Ættum viğ ağ loka tengingunni viğ şjóninn eftir ağ hafa veriğ falin í 5 mínútur?",
+                    "header": "Loka tengingu sjálfkrafa"
                 },
                 "themes": {
                     "dark_mode": {
-                        "auto": "SjÃ¡lfvirkt"
+                        "auto": "Sjálfvirkt"
                     },
-                    "dropdown_label": "Ãema",
-                    "error_no_theme": "Engar Ã¾emu Ã­ boÃ°i.",
-                    "header": "Ãema",
-                    "link_promo": "LÃ¦rÃ°u um Ã¾emu",
+                    "dropdown_label": "Şema",
+                    "error_no_theme": "Engar şemu í boği.",
+                    "header": "Şema",
+                    "link_promo": "Lærğu um şemu",
                     "reset": "Endurstilla"
                 },
                 "vibrate": {
-                    "description": "Kveikja eÃ°a slÃ¶kkva Ã¡ titringi Ã­ Ã¾essu tÃ¦ki Ã¾egar Ã¾Ãº stjÃ³rnar tÃ¦kjum.",
+                    "description": "Kveikja eğa slökkva á titringi í şessu tæki şegar şú stjórnar tækjum.",
                     "header": "Titra"
                 }
             },

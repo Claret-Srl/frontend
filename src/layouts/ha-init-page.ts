@@ -13,13 +13,13 @@ class HaInitPage extends LitElement {
         <img src="/static/icons/favicon-192x192.png" height="192" />
         ${this.error
           ? html`
-              <p>Unable to connect to Home Assistant.</p>
+              <p>Unable to connect to Safegate Pro.</p>
               <mwc-button @click=${this._retry}>Retry</mwc-button>
               ${location.host.includes("ui.nabu.casa")
                 ? html`
                     <p>
                       It is possible that you are seeing this screen because
-                      your Home Assistant is not currently connected. You can
+                      your Safegate Pro is not currently connected. You can
                       ask it to come online from your
                       <a href="https://account.nabucasa.com/"
                         >Naba Casa account page</a

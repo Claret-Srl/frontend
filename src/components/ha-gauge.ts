@@ -68,7 +68,7 @@ export class Gauge extends LitElement {
           )}
         >
         ${
-          // Workaround for https://github.com/home-assistant/frontend/issues/6467
+          // Workaround for https://github.com/safegatepro/frontend/issues/6467
           isSafari
             ? svg`<animateTransform
                 attributeName="transform"

@@ -85,7 +85,7 @@ export class HassioSnapshots extends LitElement {
     }
     const content: string[] = [];
     if (snapshot.content.homeassistant) {
-      content.push("Home Assistant");
+      content.push("Safegate Pro");
     }
     if (snapshot.content.folders.length !== 0) {
       for (const folder of snapshot.content.folders) {

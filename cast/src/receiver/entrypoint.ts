@@ -44,12 +44,12 @@ const showMediaPlayer = () => {
     const style = document.createElement("style");
     style.innerHTML = `
     body {
-      --logo-image: url('https://www.home-assistant.io/images/home-assistant-logo.svg');
+      --logo-image: url('https://www.safegatepro.it/images/home-assistant-logo.svg');
       --logo-repeat: no-repeat;
-      --playback-logo-image: url('https://www.home-assistant.io/images/home-assistant-logo.svg');
+      --playback-logo-image: url('https://www.safegatepro.it/images/home-assistant-logo.svg');
       --theme-hue: 200;
       --progress-color: #03a9f4;
-      --splash-image: url('https://home-assistant.io/images/cast/splash.png');
+      --splash-image: url('https://safegatepro.it/images/cast/splash.png');
       --splash-size: cover;
     }
     `;

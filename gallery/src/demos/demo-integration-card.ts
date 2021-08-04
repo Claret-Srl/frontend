@@ -46,7 +46,7 @@ const createManifest = (
   domain: "esphome",
   is_built_in: !isCustom,
   config_flow: false,
-  documentation: "https://www.home-assistant.io/integrations/esphome/",
+  documentation: "https://www.safegatepro.it/integrations/esphome/",
   iot_class: isCloud ? "cloud_polling" : "local_polling",
 });
 

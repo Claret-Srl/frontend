@@ -48,7 +48,7 @@ class HaLongLivedTokens extends LitElement {
           )}
 
           <a
-            href="https://developers.home-assistant.io/docs/en/auth_api.html#making-authenticated-requests"
+            href="https://developers.safegatepro.it/docs/en/auth_api.html#making-authenticated-requests"
             target="_blank"
             rel="noreferrer"
           >
