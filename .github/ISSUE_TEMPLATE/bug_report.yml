@@ -1,11 +1,11 @@
 name: Report a bug with the UI, Frontend or Lovelace
-description: Report an issue related to the Home Assistant frontend.
+description: Report an issue related to the Safegate Pro frontend.
 labels: bug
 body:
   - type: markdown
     attributes:
       value: |
-        Make sure you are running the [latest version of Home Assistant][releases] before reporting an issue.
+        Make sure you are running the [latest version of Safegate Pro][releases] before reporting an issue.
 
         If you have a feature or enhancement request for the frontend, please [start an discussion][fr] instead of creating an issue.
 
@@ -18,7 +18,7 @@ body:
       label: Checklist
       description: Please verify that you've followed these steps
       options:
-        - label: I have updated to the latest available Home Assistant version.
+        - label: I have updated to the latest available Safegate Pro version.
           required: true
         - label: I have cleared the cache of my browser.
           required: true
@@ -61,13 +61,13 @@ body:
     validations:
       required: true
     attributes:
-      label: What version of Home Assistant Core has the issue?
+      label: What version of Safegate Pro Core has the issue?
       placeholder: core-
       description: >
         Can be found in the Configuration panel -> Info.
   - type: input
     attributes:
-      label: What was the last working version of Home Assistant Core?
+      label: What was the last working version of Safegate Pro Core?
       placeholder: core-
       description: >
         If known, otherwise leave blank.
