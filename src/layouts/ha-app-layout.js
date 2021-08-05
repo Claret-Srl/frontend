@@ -9,7 +9,7 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
 */
 /*
 This code is copied from app-header-layout.
-'fullbleed' support is removed as Home Assisstant doesn't use it.
+'fullbleed' support is removed as Safegate Pro doesn't use it.
 transform: translate(0) is added.
 */
 /*

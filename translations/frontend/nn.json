@@ -1,7 +1,7 @@
 {
     "config_entry": {
         "disabled_by": {
-            "config_entry": "Konfigurer oppfÃ¸ring",
+            "config_entry": "Konfigurer oppføring",
             "integration": "Integrasjon",
             "user": "Brukar"
         }
@@ -14,7 +14,7 @@
     "panel": {
         "calendar": "Kalendrar",
         "config": "Konfigurasjon",
-        "developer_tools": "UtviklarverktÃ¸y",
+        "developer_tools": "Utviklarverktøy",
         "history": "Historie",
         "logbook": "Loggbok",
         "mailbox": "Postkasse",
@@ -28,11 +28,11 @@
             "fan_mode": {
                 "auto": "Auto",
                 "off": "Av",
-                "on": "PÃ¥"
+                "on": "På"
             },
             "hvac_action": {
-                "cooling": "NedkjÃ¸ling",
-                "drying": "TÃ¸rkar",
+                "cooling": "Nedkjøling",
+                "drying": "Tørkar",
                 "fan": "Vifte",
                 "heating": "Oppvarming",
                 "idle": "Tomgang",
@@ -43,25 +43,25 @@
                 "away": "Borte",
                 "boost": "Auke",
                 "comfort": "Komfort",
-                "eco": "Ã˜ko",
+                "eco": "Øko",
                 "home": "Heime",
                 "none": "Inga",
-                "sleep": "SÃ¸vn"
+                "sleep": "Søvn"
             }
         }
     },
     "state_badge": {
         "alarm_control_panel": {
-            "armed": "PÃ¥slÃ¥tt",
-            "armed_away": "PÃ¥slÃ¥tt",
-            "armed_custom_bypass": "PÃ¥slÃ¥tt",
-            "armed_home": "PÃ¥slÃ¥tt",
-            "armed_night": "PÃ¥slÃ¥tt",
-            "arming": "SlÃ¥r pÃ¥",
+            "armed": "Påslått",
+            "armed_away": "Påslått",
+            "armed_custom_bypass": "Påslått",
+            "armed_home": "Påslått",
+            "armed_night": "Påslått",
+            "arming": "Slår på",
             "disarmed": "Deaktiver",
-            "disarming": "SlÃ¥ av",
+            "disarming": "Slå av",
             "pending": "Ventar",
-            "triggered": "UtlÃ¸ys"
+            "triggered": "Utløys"
         },
         "default": {
             "entity_not_found": "Fann ikkje einheten",
@@ -81,7 +81,7 @@
     "state": {
         "default": {
             "off": "Av",
-            "on": "PÃ¥",
+            "on": "På",
             "unavailable": "Utilgjengeleg",
             "unknown": "Ukjent"
         }
@@ -105,26 +105,26 @@
         },
         "confirm": {
             "update": {
-                "text": "Er du sikker pÃ¥ at du vil oppdatere {name} til versjon {version}",
+                "text": "Er du sikker på at du vil oppdatere {name} til versjon {version}",
                 "title": "Oppdater {name}"
             }
         },
         "dashboard": {
             "addon_new_version": "Ny versjon tilgjengeleg",
-            "addon_running": "Tillegg kÃ¸yrer",
+            "addon_running": "Tillegg køyrer",
             "addon_stopped": "Tillegg stoppa",
             "addons": "Tillegg",
-            "no_addons": "Du har ikkje installert nokon tillegg endÃ¥. GÃ¥ til tilleggsbutikken for Ã¥ kome i gang!"
+            "no_addons": "Du har ikkje installert nokon tillegg endå. Gå til tilleggsbutikken for å kome i gang!"
         },
         "dialog": {
             "repositories": {
                 "remove": "Fjern"
             },
             "restart_addon": {
-                "confirm_text": "Start tillegget pÃ¥ nytt"
+                "confirm_text": "Start tillegget på nytt"
             },
             "update": {
-                "snapshot": "Ã˜yeblikksbilde"
+                "snapshot": "Øyeblikksbilde"
             }
         },
         "panel": {
@@ -136,7 +136,7 @@
     },
     "ui": {
         "auth_store": {
-            "ask": "Vil du lagre denne pÃ¥logginga?",
+            "ask": "Vil du lagre denne pålogginga?",
             "confirm": "Lagre innlogging",
             "decline": "Nei takk"
         },
@@ -151,8 +151,8 @@
                 "disarm": "Skru av"
             },
             "automation": {
-                "last_triggered": "Sist utlÃ¸yst",
-                "trigger": "UtfÃ¸r"
+                "last_triggered": "Sist utløyst",
+                "trigger": "Utfør"
             },
             "camera": {
                 "not_available": "Bilete ikkje tilgjengeleg"
@@ -162,12 +162,12 @@
                 "away_mode": "Bortemodus",
                 "currently": "Akkurat no",
                 "fan_mode": "Viftemodus",
-                "on_off": "PÃ¥ / av",
+                "on_off": "På / av",
                 "operation": "Operasjon",
                 "preset_mode": "Mal",
                 "swing_mode": "Svingmodus",
-                "target_humidity": "FuktigheitsmÃ¥l",
-                "target_temperature": "TemperaturmÃ¥l"
+                "target_humidity": "Fuktigheitsmål",
+                "target_temperature": "Temperaturmål"
             },
             "cover": {
                 "position": "Posisjon",
@@ -189,8 +189,8 @@
             },
             "lock": {
                 "code": "Kode",
-                "lock": "LÃ¥s",
-                "unlock": "LÃ¥s opp"
+                "lock": "Lås",
+                "unlock": "Lås opp"
             },
             "media_player": {
                 "sound_mode": "Lydmodus",
@@ -206,15 +206,15 @@
             "script": {
                 "cancel": "Avbryt",
                 "cancel_multiple": "Avbryt {number}",
-                "run": "KÃ¸yr"
+                "run": "Køyr"
             },
             "service": {
-                "run": "KÃ¸yr"
+                "run": "Køyr"
             },
             "timer": {
                 "actions": {
                     "cancel": "avbryt",
-                    "finish": "fullfÃ¸r",
+                    "finish": "fullfør",
                     "pause": "pause",
                     "start": "start"
                 }
@@ -222,49 +222,49 @@
             "vacuum": {
                 "actions": {
                     "resume_cleaning": "Fortsett reingjeringa",
-                    "return_to_base": "GÃ¥ tilbake til ladestasjonen",
+                    "return_to_base": "Gå tilbake til ladestasjonen",
                     "start_cleaning": "Start reingjering",
                     "turn_off": "Skru av",
-                    "turn_on": "Skru pÃ¥"
+                    "turn_on": "Skru på"
                 }
             },
             "water_heater": {
                 "away_mode": "Bortemodus",
                 "currently": "For augeblinken",
-                "on_off": "PÃ¥ / av",
+                "on_off": "På / av",
                 "operation": "Operasjon",
-                "target_temperature": "TemperaturmÃ¥l"
+                "target_temperature": "Temperaturmål"
             },
             "weather": {
                 "attributes": {
                     "air_pressure": "Lufttrykk",
                     "humidity": "Fuktigheit",
-                    "precipitation": "NedbÃ¸r",
+                    "precipitation": "Nedbør",
                     "temperature": "Temperatur",
                     "visibility": "Sikt",
                     "wind_speed": "Vindfart"
                 },
                 "cardinal_direction": {
-                    "e": "Ã˜",
-                    "ene": "Ã˜NÃ˜",
-                    "ese": "Ã˜SÃ˜",
+                    "e": "Ø",
+                    "ene": "ØNØ",
+                    "ese": "ØSØ",
                     "n": "N",
-                    "ne": "NÃ˜",
-                    "nne": "NNÃ˜",
+                    "ne": "NØ",
+                    "nne": "NNØ",
                     "nnw": "NNV",
                     "nw": "NV",
                     "s": "S",
-                    "se": "SÃ˜",
-                    "sse": "SSÃ˜",
+                    "se": "SØ",
+                    "sse": "SSØ",
                     "ssw": "SSV",
                     "sw": "SV",
                     "w": "V",
                     "wnw": "VNV",
                     "wsw": "VSV"
                 },
-                "forecast": "VÃªrmelding",
-                "high": "HÃ¸gt",
-                "low": "LÃ¥gt"
+                "forecast": "Vêrmelding",
+                "high": "Høgt",
+                "low": "Lågt"
             }
         },
         "common": {
@@ -272,11 +272,11 @@
             "back": "Tilbake",
             "cancel": "Avbryt",
             "delete": "Slett",
-            "error_required": "PÃ¥krevd",
+            "error_required": "Påkrevd",
             "loading": "Lastar",
             "menu": "Meny",
             "next": "Neste",
-            "previous": "FÃ¸rre",
+            "previous": "Førre",
             "refresh": "Oppdater ",
             "save": "Lagre",
             "successfully_deleted": "Vellukka sletting",
@@ -291,7 +291,7 @@
                         "title": "Feil ved henting av tillegg."
                     },
                     "no_supervisor": {
-                        "description": "Fann ikkje Supervisor, sÃ¥ tillegget kunne ikkje lastast.",
+                        "description": "Fann ikkje Supervisor, så tillegget kunne ikkje lastast.",
                         "title": "Inga Supervisor"
                     }
                 }
@@ -299,28 +299,28 @@
             "area-picker": {
                 "add_dialog": {
                     "add": "Legg til",
-                    "failed_create_area": "Klarte ikkje Ã¥ opprette omrÃ¥de.",
+                    "failed_create_area": "Klarte ikkje å opprette område.",
                     "name": "Namn",
-                    "text": "Legg til namnet til det nye omrÃ¥det.",
-                    "title": "Legg til nytt omrÃ¥de "
+                    "text": "Legg til namnet til det nye området.",
+                    "title": "Legg til nytt område "
                 },
-                "add_new": "Legg til nytt omrÃ¥de...",
-                "area": "OmrÃ¥de",
+                "add_new": "Legg til nytt område...",
+                "area": "Område",
                 "clear": "Klar ",
-                "show_areas": "Vis omrÃ¥da"
+                "show_areas": "Vis områda"
             },
             "data-table": {
                 "no-data": "Ingen data"
             },
             "device-picker": {
                 "device": "Enhet",
-                "no_area": "Inga omrÃ¥de",
+                "no_area": "Inga område",
                 "toggle": "Veksl "
             },
             "entity": {
                 "entity-picker": {
                     "entity": "Eining",
-                    "show_entities": "Vis oppfÃ¸ringar"
+                    "show_entities": "Vis oppføringar"
                 }
             },
             "history_charts": {
@@ -334,7 +334,7 @@
                 }
             },
             "related-items": {
-                "area": "OmrÃ¥de",
+                "area": "Område",
                 "device": "Eining",
                 "integration": "Integrasjon"
             },
@@ -351,8 +351,8 @@
             "service-control": {
                 "required": "Dette feltet obligatorisk",
                 "service_data": "Tenestedata",
-                "target": "MÃ¥l",
-                "target_description": "Kva skal denne tenesta bruke som mÃ¥lretta omrÃ¥de, einingar og oppfÃ¸ringar."
+                "target": "Mål",
+                "target_description": "Kva skal denne tenesta bruke som målretta område, einingar og oppføringar."
             },
             "service-picker": {
                 "service": "Teneste"
@@ -360,19 +360,19 @@
         },
         "dialogs": {
             "config_entry_system_options": {
-                "enable_new_entities_description": "Dersom denne er deaktivert, kjem ikkje nyoppdaga oppfÃ¸ringar til Ã¥ bli automatisk lagt til i Home Assistant.",
-                "enable_new_entities_label": "Aktiver nyleg tillagde oppfÃ¸ringar.",
+                "enable_new_entities_description": "Dersom denne er deaktivert, kjem ikkje nyoppdaga oppføringar til å bli automatisk lagt til i Safegate Pro.",
+                "enable_new_entities_label": "Aktiver nyleg tillagde oppføringar.",
                 "title": "Systemval",
                 "update": "Oppdater"
             },
             "entity_registry": {
                 "editor": {
-                    "confirm_delete": "Er du sikker pÃ¥ at du vil slette denne oppfÃ¸ringa?",
+                    "confirm_delete": "Er du sikker på at du vil slette denne oppføringa?",
                     "delete": "SLETT",
                     "enabled_cause": "Deaktivert av {cause}.",
-                    "enabled_description": "Dekativere oppfÃ¸ringar kjem ikkje til Ã¥ bli lagt til i Home Assistant",
-                    "enabled_label": "Aktiver oppfÃ¸ringa",
-                    "entity_id": "OppfÃ¸rings-ID",
+                    "enabled_description": "Dekativere oppføringar kjem ikkje til å bli lagt til i Safegate Pro",
+                    "enabled_label": "Aktiver oppføringa",
+                    "entity_id": "Oppførings-ID",
                     "name": "Namnoverskriding",
                     "note": "Merk: dette fungerer kanskje ikkje med alle integrasjonane.",
                     "unavailable": "Denne eininga er for augeblinken ikkje tilgjengeleg.",
@@ -385,15 +385,15 @@
                 "ok": "OK"
             },
             "more_info_control": {
-                "edit": "Rediger oppfÃ¸ringa",
+                "edit": "Rediger oppføringa",
                 "person": {
-                    "create_zone": "Opprett sone frÃ¥ gjeldande stad"
+                    "create_zone": "Opprett sone frå gjeldande stad"
                 },
                 "script": {
                     "last_action": "Siste handling"
                 },
                 "sun": {
-                    "elevation": "HÃ¸gde",
+                    "elevation": "Høgde",
                     "rising": "Soloppgang",
                     "setting": "Solnedgang"
                 },
@@ -401,26 +401,26 @@
                     "title": "Oppdater instruksane"
                 },
                 "vacuum": {
-                    "clean_spot": "Reingjer omrÃ¥det",
-                    "commands": "StÃ¸vsugarkommandoar",
+                    "clean_spot": "Reingjer området",
+                    "commands": "Støvsugarkommandoar",
                     "fan_speed": "Viftefart",
                     "locate": "Lokaliser",
-                    "pause": "Sett pÃ¥ pause",
+                    "pause": "Sett på pause",
                     "return_home": "Returner heim ",
                     "start": "Start ",
-                    "start_pause": "Start/Sett pÃ¥ pause",
+                    "start_pause": "Start/Sett på pause",
                     "status": "Status",
                     "stop": "Stopp "
                 }
             },
             "mqtt_device_debug_info": {
-                "entities": "OppfÃ¸ringar",
-                "no_entities": "Ingen oppfÃ¸ringar",
-                "no_triggers": "Ingen utlÃ¸ysarar",
+                "entities": "Oppføringar",
+                "no_entities": "Ingen oppføringar",
+                "no_triggers": "Ingen utløysarar",
                 "payload_display": "Nyttelastvisning",
                 "recent_messages": "{n} sist mottekne melding(ar)",
                 "show_as_yaml": "Vis som YAML",
-                "triggers": "UtlÃ¸ysarar"
+                "triggers": "Utløysarar"
             },
             "options_flow": {
                 "form": {
@@ -442,18 +442,18 @@
                     "view_in_visualization": "Visning i visualisering"
                 },
                 "confirmations": {
-                    "remove": "Er du sikker pÃ¥ at du vil fjerne eininga?"
+                    "remove": "Er du sikker på at du vil fjerne eininga?"
                 },
                 "manuf": "av {manufacturer}",
-                "no_area": "Inga omrÃ¥de",
+                "no_area": "Inga område",
                 "services": {
-                    "reconfigure": "Konfigurer ZHA-eininga (heal device) pÃ¥ nytt. Bruk dette om du har problem med eininga. Dersom eininga gÃ¥r pÃ¥ batteri, ver sikker pÃ¥ at den er vaken og tek i mot kommandar nÃ¥r du brukar denne tenesta.",
-                    "remove": "Fjern eining frÃ¥ Zigbee-nettverket",
+                    "reconfigure": "Konfigurer ZHA-eininga (heal device) på nytt. Bruk dette om du har problem med eininga. Dersom eininga går på batteri, ver sikker på at den er vaken og tek i mot kommandar når du brukar denne tenesta.",
+                    "remove": "Fjern eining frå Zigbee-nettverket",
                     "updateDeviceName": "Gje eininga eit tilpassa namn i einingsregisteret. "
                 },
                 "unknown": "Ukjent",
                 "zha_device_card": {
-                    "device_name_placeholder": "Endre navn pÃ¥ eining"
+                    "device_name_placeholder": "Endre navn på eining"
                 }
             }
         },
@@ -466,8 +466,8 @@
         },
         "errors": {
             "config": {
-                "key_not_expected": "NÃ¸kkelen \"{key}\" er ikkje forventa eller stÃ¸tta av den visuelle redigeraren.",
-                "key_wrong_type": "Den gitte verdien for \"{key}\" er ikkje stÃ¸tta av den visuelle redigeraren. Vi stÃ¸ttar ({type_correct}), men mottok ({type_wrong})."
+                "key_not_expected": "Nøkkelen \"{key}\" er ikkje forventa eller støtta av den visuelle redigeraren.",
+                "key_wrong_type": "Den gitte verdien for \"{key}\" er ikkje støtta av den visuelle redigeraren. Vi støttar ({type_correct}), men mottok ({type_wrong})."
             }
         },
         "login-form": {
@@ -476,27 +476,27 @@
             "remember": "Hugs"
         },
         "notification_drawer": {
-            "click_to_configure": "Klikk pÃ¥ knappen for Ã¥ konfigurere {entity}",
+            "click_to_configure": "Klikk på knappen for å konfigurere {entity}",
             "empty": "Ingen varslar",
             "title": "Varsler"
         },
         "notification_toast": {
-            "connection_lost": "Tilkopling mista. PrÃ¸ver Ã¥ kople til pÃ¥ nytt..",
-            "service_call_failed": "Klarte ikkje Ã¥ kalle tenesten {service}.",
-            "started": "Home Assistant har starta!",
-            "starting": "Home Assistant held pÃ¥ Ã¥ starte. Alt er ikkje tilgjengeleg fÃ¸r den er ferdig starta."
+            "connection_lost": "Tilkopling mista. Prøver å kople til på nytt..",
+            "service_call_failed": "Klarte ikkje å kalle tenesten {service}.",
+            "started": "Safegate Pro har starta!",
+            "starting": "Safegate Pro held på å starte. Alt er ikkje tilgjengeleg før den er ferdig starta."
         },
         "panel": {
             "config": {
                 "areas": {
-                    "caption": "OmrÃ¥deregister",
+                    "caption": "Områderegister",
                     "data_table": {
-                        "area": "OmrÃ¥de",
+                        "area": "Område",
                         "devices": "Einingar"
                     },
-                    "description": "Oversikt over omrÃ¥da i heimen din.",
+                    "description": "Oversikt over områda i heimen din.",
                     "editor": {
-                        "area_id": "OmrÃ¥de-ID",
+                        "area_id": "Område-ID",
                         "create": "LAG",
                         "delete": "SLETT",
                         "name": "Namn",
@@ -505,10 +505,10 @@
                         "update": "OPPDATER"
                     },
                     "picker": {
-                        "header": "OmrÃ¥deregister",
+                        "header": "Områderegister",
                         "integrations_page": "Integrasjonsside",
-                        "introduction": "OmrÃ¥da vert brukt til Ã¥ organisere kvar einingar er. Denne informasjonen vil bli brukt av Home Assistant for Ã¥ hjelpe deg Ã¥ organisere brukargrensesnittet, lÃ¸yver og integrasjoner med andre system.",
-                        "introduction2": "For Ã¥ plassere ei eining i eit omrÃ¥de, bruk linken under for Ã¥ navigere til integrasjonssida og trykk deretter pÃ¥ konfigurer integrasjon for Ã¥ opne einingskortet."
+                        "introduction": "Områda vert brukt til å organisere kvar einingar er. Denne informasjonen vil bli brukt av Safegate Pro for å hjelpe deg å organisere brukargrensesnittet, løyver og integrasjoner med andre system.",
+                        "introduction2": "For å plassere ei eining i eit område, bruk linken under for å navigere til integrasjonssida og trykk deretter på konfigurer integrasjon for å opne einingskortet."
                     }
                 },
                 "automation": {
@@ -518,16 +518,16 @@
                         "actions": {
                             "add": "Legg til handling",
                             "delete": "Slett",
-                            "delete_confirm": "Er du sikker pÃ¥ at du vil slette?",
+                            "delete_confirm": "Er du sikker på at du vil slette?",
                             "duplicate": "Dupliser",
                             "header": "Handlingar",
-                            "introduction": "Handlinga Home Assistant vil gjennomfÃ¸re nÃ¥r automasjonen vert utlÃ¸yst.",
-                            "learn_more": "LÃ¦r meir om handlingar",
+                            "introduction": "Handlinga Safegate Pro vil gjennomføre når automasjonen vert utløyst.",
+                            "learn_more": "Lær meir om handlingar",
                             "name": "Handling",
                             "type_select": "Handlingstype",
                             "type": {
                                 "condition": {
-                                    "label": "FÃ¸resetnad"
+                                    "label": "Føresetnad"
                                 },
                                 "delay": {
                                     "delay": "Forsinking",
@@ -542,14 +542,14 @@
                                 },
                                 "event": {
                                     "event": "Hending",
-                                    "label": "KÃ¸yr hending",
+                                    "label": "Køyr hending",
                                     "service_data": "Tenestedata"
                                 },
                                 "repeat": {
                                     "label": "Gjenta"
                                 },
                                 "service": {
-                                    "label": "UtfÃ¸r tenestekall"
+                                    "label": "Utfør tenestekall"
                                 },
                                 "wait_template": {
                                     "label": "Vent",
@@ -557,22 +557,22 @@
                                     "wait_template": "Ventemal"
                                 }
                             },
-                            "unsupported_action": "Ikkje stÃ¸tta handling: {action}"
+                            "unsupported_action": "Ikkje støtta handling: {action}"
                         },
                         "alias": "Namn",
                         "conditions": {
-                            "add": "Legg til fÃ¸resetnad",
+                            "add": "Legg til føresetnad",
                             "delete": "Slett",
-                            "delete_confirm": "Er du sikker pÃ¥ at du vil slette?",
+                            "delete_confirm": "Er du sikker på at du vil slette?",
                             "duplicate": "Dupliser",
-                            "header": "FÃ¸resetnadar",
-                            "introduction": "FÃ¸resetnadar er valfrie og vil hindre vidare framgang i automasjonen med mindre alle fÃ¸resetnadene er mÃ¸tt.",
-                            "learn_more": "LÃ¦r meir om fÃ¸resetnader",
+                            "header": "Føresetnadar",
+                            "introduction": "Føresetnadar er valfrie og vil hindre vidare framgang i automasjonen med mindre alle føresetnadene er møtt.",
+                            "learn_more": "Lær meir om føresetnader",
                             "name": "Betingelse",
-                            "type_select": "FÃ¸resetnadstype",
+                            "type_select": "Føresetnadstype",
                             "type": {
                                 "device": {
-                                    "condition": "FÃ¸resetnad ",
+                                    "condition": "Føresetnad ",
                                     "extra_fields": {
                                         "above": "Over",
                                         "below": "Under"
@@ -595,8 +595,8 @@
                                 "sun": {
                                     "after": "Etter:",
                                     "after_offset": "Etter utsetjing",
-                                    "before": "FÃ¸r:",
-                                    "before_offset": "FÃ¸r utsetjing",
+                                    "before": "Før:",
+                                    "before_offset": "Før utsetjing",
                                     "label": "Sol",
                                     "sunrise": "Soloppgang",
                                     "sunset": "Solnedgang"
@@ -607,7 +607,7 @@
                                 },
                                 "time": {
                                     "after": "Etter",
-                                    "before": "FÃ¸r",
+                                    "before": "Før",
                                     "label": "Tid",
                                     "weekdays": {
                                         "mon": "mandag"
@@ -619,11 +619,11 @@
                                     "zone": "Sone"
                                 }
                             },
-                            "unsupported_condition": "Ikkje stÃ¸tta fÃ¸resetnad: {condition}"
+                            "unsupported_condition": "Ikkje støtta føresetnad: {condition}"
                         },
                         "default_name": "Ny automasjon",
                         "enable_disable": "Aktiver/Deaktiver automasjon",
-                        "introduction": "Bruk automasjonar til Ã¥ gi liv til heimen din",
+                        "introduction": "Bruk automasjonar til å gi liv til heimen din",
                         "load_error_not_editable": "Berre automasjonar i automations.yaml kan redigerast.",
                         "load_error_unknown": "Feil ved lasting av automasjon ({err_no}).",
                         "modes": {
@@ -633,23 +633,23 @@
                         "move_up": "Flytt opp",
                         "save": "Lagre",
                         "triggers": {
-                            "add": "Legg til utlÃ¸ysar",
+                            "add": "Legg til utløysar",
                             "delete": "Slett",
-                            "delete_confirm": "Er du sikker pÃ¥ at du vil slette?",
+                            "delete_confirm": "Er du sikker på at du vil slette?",
                             "duplicate": "Dupliser",
-                            "header": "UtlÃ¸ysarar",
-                            "introduction": "UtlÃ¸ysarar er det som startar ein prosess i ein automasjonsregel. Det er mogleg Ã¥ spesifisere fleire utlÃ¸ysarar for same regel. NÃ¥r ein utlÃ¸ysar startar, vil Home Assistant validere fÃ¸resetnadane, dersom der er nokon, og sÃ¥ setje i gang handlinga.",
-                            "learn_more": "LÃ¦r meir om utlÃ¸ysarar",
-                            "name": "UtlÃ¸ysar",
-                            "type_select": "UtlÃ¸ysartype",
+                            "header": "Utløysarar",
+                            "introduction": "Utløysarar er det som startar ein prosess i ein automasjonsregel. Det er mogleg å spesifisere fleire utløysarar for same regel. Når ein utløysar startar, vil Safegate Pro validere føresetnadane, dersom der er nokon, og så setje i gang handlinga.",
+                            "learn_more": "Lær meir om utløysarar",
+                            "name": "Utløysar",
+                            "type_select": "Utløysartype",
                             "type": {
                                 "device": {
                                     "extra_fields": {
                                         "above": "Over",
                                         "below": "Under"
                                     },
-                                    "label": "OppfÃ¸ring",
-                                    "trigger": "UtfÃ¸r"
+                                    "label": "Oppføring",
+                                    "trigger": "Utfør"
                                 },
                                 "event": {
                                     "event_data": "TIlstandsdata",
@@ -657,7 +657,7 @@
                                     "label": "Hending"
                                 },
                                 "geo_location": {
-                                    "enter": "GÃ¥ inn",
+                                    "enter": "Gå inn",
                                     "event": "Hending:",
                                     "label": "Geolokasjon",
                                     "leave": "Forlat",
@@ -666,8 +666,8 @@
                                 },
                                 "homeassistant": {
                                     "event": "Hending:",
-                                    "label": "Home Assistant",
-                                    "shutdown": "SlÃ¥ av",
+                                    "label": "Safegate Pro",
+                                    "shutdown": "Slå av",
                                     "start": "Oppstart"
                                 },
                                 "mqtt": {
@@ -683,7 +683,7 @@
                                 },
                                 "state": {
                                     "for": "For",
-                                    "from": "FrÃ¥",
+                                    "from": "Frå",
                                     "label": "Tilstand",
                                     "to": "Til"
                                 },
@@ -700,7 +700,7 @@
                                 },
                                 "time_pattern": {
                                     "hours": "Timar",
-                                    "label": "TidsmÃ¸nster",
+                                    "label": "Tidsmønster",
                                     "minutes": "Minutt",
                                     "seconds": "Sekundar"
                                 },
@@ -721,9 +721,9 @@
                                     "zone": "Sone"
                                 }
                             },
-                            "unsupported_platform": "Ikkje stÃ¸tta plattform: {platform}"
+                            "unsupported_platform": "Ikkje støtta plattform: {platform}"
                         },
-                        "unsaved_confirm": "Du har endringar som ikkje er lagra. Er du sikker pÃ¥ at du vil forlate?"
+                        "unsaved_confirm": "Du har endringar som ikkje er lagra. Er du sikker på at du vil forlate?"
                     },
                     "picker": {
                         "add_automation": "Legg til automasjon",
@@ -731,39 +731,39 @@
                         "headers": {
                             "name": "Namn"
                         },
-                        "introduction": "Automasjonsredigeringa tillet deg Ã¥ lage og redigere automasjonar. Ver vennleg og les [instruksjonane](https://home-assistant.io/docs/automation/editor/) for Ã¥ vere sikker pÃ¥ om du har konfigurert Home Assistant rett.",
-                        "learn_more": "LÃ¦r meir om automasjonar",
-                        "no_automations": "Vi klarte ikkje Ã¥ finne nokon automasjonar som kunne redigerast",
-                        "pick_automation": "Vel ein automasjon for Ã¥ redigere"
+                        "introduction": "Automasjonsredigeringa tillet deg å lage og redigere automasjonar. Ver vennleg og les [instruksjonane](https://home-assistant.io/docs/automation/editor/) for å vere sikker på om du har konfigurert Safegate Pro rett.",
+                        "learn_more": "Lær meir om automasjonar",
+                        "no_automations": "Vi klarte ikkje å finne nokon automasjonar som kunne redigerast",
+                        "pick_automation": "Vel ein automasjon for å redigere"
                     }
                 },
                 "cloud": {
                     "account": {
                         "tts": {
                             "dialog": {
-                                "example_message": "Hei {name}! Du kan spele kva som heilst tekst pÃ¥ kva som heilst stÃ¸tta mediaspelar\"",
-                                "header": "PrÃ¸v tekst til tale",
+                                "example_message": "Hei {name}! Du kan spele kva som heilst tekst på kva som heilst støtta mediaspelar\"",
+                                "header": "Prøv tekst til tale",
                                 "play": "Spel",
-                                "target": "MÃ¥l",
+                                "target": "Mål",
                                 "target_browser": "Nettlesar"
                             },
-                            "try": "PrÃ¸v "
+                            "try": "Prøv "
                         }
                     },
                     "alexa": {
                         "title": "Alexa"
                     },
-                    "description_features": "Kontroller nÃ¥r du ikkje er heime og integrer med Alexa og Google Assistant",
+                    "description_features": "Kontroller når du ikkje er heime og integrer med Alexa og Google Assistant",
                     "description_login": "Logga inn som {email}",
                     "description_not_login": "Ikkje logga inn",
                     "forgot_password": {
                         "email": "E-post",
-                        "subtitle": "GlÃ¸ymt passordet ditt",
-                        "title": "GlÃ¸ymt passord"
+                        "subtitle": "Gløymt passordet ditt",
+                        "title": "Gløymt passord"
                     },
                     "login": {
                         "email": "E-post",
-                        "forgot_password": "glÃ¸ymt passordet?",
+                        "forgot_password": "gløymt passordet?",
                         "password": "Passord",
                         "password_error_msg": "Passord er minst 8 teikn",
                         "sign_in": "Logg inn"
@@ -775,24 +775,24 @@
                     "section": {
                         "core": {
                             "core_config": {
-                                "edit_requires_storage": "RedigeringsverktÃ¸y deaktivert sidan konfigurasjonen er lagra i configuration.yaml",
-                                "elevation": "HÃ¸gde",
+                                "edit_requires_storage": "Redigeringsverktøy deaktivert sidan konfigurasjonen er lagra i configuration.yaml",
+                                "elevation": "Høgde",
                                 "elevation_meters": "Meter",
                                 "external_url": "Ekstern URL",
                                 "imperial_example": "Fahrenheit, pound",
                                 "internal_url": "Intern URL",
                                 "latitude": "Breiddegrad",
-                                "location_name": "Namnet pÃ¥ Home Assistant-installasjonen din.",
+                                "location_name": "Namnet på Safegate Pro-installasjonen din.",
                                 "longitude": "Lengdegrad",
                                 "metric_example": "Celsius, kilogram",
                                 "save_button": "Lagre",
                                 "time_zone": "Tidssone",
-                                "unit_system": "MÃ¥leining",
+                                "unit_system": "Måleining",
                                 "unit_system_imperial": "Imperisk",
                                 "unit_system_metric": "Metrisk"
                             },
                             "header": "Konfigurasjon og serverkontroll",
-                            "introduction": "Vi veit at endringar i konfigurasjonen kan vere ein slitsam prosess. Denne delen vil forsÃ¸ke Ã¥ gjere livet ditt litt lettare."
+                            "introduction": "Vi veit at endringar i konfigurasjonen kan vere ein slitsam prosess. Denne delen vil forsøke å gjere livet ditt litt lettare."
                         }
                     }
                 },
@@ -801,7 +801,7 @@
                     "description": "Tilpass dine einingar",
                     "picker": {
                         "header": "Tilpasning",
-                        "introduction": "Modifiser oppfÃ¸ringsattributtane. Dei nyleg lagt til/endra endringane kjem til Ã¥ bli sett til verks med ein gang. Fjerna endringar kjem i gang nÃ¥r oppfÃ¸ringa er oppdatert."
+                        "introduction": "Modifiser oppføringsattributtane. Dei nyleg lagt til/endra endringane kjem til å bli sett til verks med ein gang. Fjerna endringar kjem i gang når oppføringa er oppdatert."
                     }
                 },
                 "devices": {
@@ -813,10 +813,10 @@
                     },
                     "cant_edit": "Du kan berre redigere element som er laga i brukargrensesnittet.",
                     "caption": "Einingar",
-                    "confirm_disable_config_entry": "Det er ikkje fleire einingar for konfigurasjonsoppfÃ¸ringa {entry_name}. Vil du heller deaktivere konfigurasjonsoppfÃ¸ringa?",
-                    "confirm_rename_entity_ids": "Vil du ogsÃ¥ endre ID-ane til oppfÃ¸ringane dine?",
+                    "confirm_disable_config_entry": "Det er ikkje fleire einingar for konfigurasjonsoppføringa {entry_name}. Vil du heller deaktivere konfigurasjonsoppføringa?",
+                    "confirm_rename_entity_ids": "Vil du også endre ID-ane til oppføringane dine?",
                     "data_table": {
-                        "area": "OmrÃ¥de",
+                        "area": "Område",
                         "battery": "Batteri",
                         "manufacturer": "Produsent",
                         "model": "Modell"
@@ -824,8 +824,8 @@
                     "description": "Administrer tilkopla einingar",
                     "device_info": "Einingsinfo ",
                     "entities": {
-                        "disabled_entities": "+{count} {count, plural,\n  one {deaktivert oppfÃ¸ring}\n  other {deaktiverte oppfÃ¸ringar}\n}",
-                        "entities": "OppfÃ¸ringar",
+                        "disabled_entities": "+{count} {count, plural,\n  one {deaktivert oppføring}\n  other {deaktiverte oppføringar}\n}",
+                        "entities": "Oppføringar",
                         "hide_disabled": "Skjul deaktiverte"
                     },
                     "name": "Namn",
@@ -845,18 +845,18 @@
                     "update": "Oppdater"
                 },
                 "entities": {
-                    "caption": "OppfÃ¸ringsregister",
-                    "description": "Oversikt over alle kjende oppfÃ¸ringar.",
+                    "caption": "Oppføringsregister",
+                    "description": "Oversikt over alle kjende oppføringar.",
                     "picker": {
-                        "header": "OppfÃ¸ringsregisteret",
+                        "header": "Oppføringsregisteret",
                         "headers": {
-                            "entity_id": "OppfÃ¸rings-ID",
+                            "entity_id": "Oppførings-ID",
                             "integration": "Integrasjon",
                             "name": "Namn"
                         },
-                        "introduction": "Home Assistant har eit register over alle oppfÃ¸ringane den nokon gang har sett som kan unikt identifiserast. Kvar av desse oppfÃ¸ringane har ein eigen oppfÃ¸ringsidentifikasjon som er reservert for akkurat denne oppfÃ¸ringa.",
-                        "introduction2": "Bruk oppfÃ¸ringsregisteret til Ã¥ skrive over namn, endre oppfÃ¸ringsidentifikasjonane eller fjerne oppfÃ¸ringar frÃ¥ Home Assistant. Merk deg at Ã¥ fjerne oppfÃ¸ringa i oppfÃ¸ringregisteret ikkje fjernar sjÃ¸lve oppfÃ¸ringa. For Ã¥ gjere dette, gÃ¥ vidare inn pÃ¥ linken under og fjern oppfÃ¸ringa i integrasjonssida.",
-                        "search": "SÃ¸k i oppfÃ¸ringar"
+                        "introduction": "Safegate Pro har eit register over alle oppføringane den nokon gang har sett som kan unikt identifiserast. Kvar av desse oppføringane har ein eigen oppføringsidentifikasjon som er reservert for akkurat denne oppføringa.",
+                        "introduction2": "Bruk oppføringsregisteret til å skrive over namn, endre oppføringsidentifikasjonane eller fjerne oppføringar frå Safegate Pro. Merk deg at å fjerne oppføringa i oppføringregisteret ikkje fjernar sjølve oppføringa. For å gjere dette, gå vidare inn på linken under og fjern oppføringa i integrasjonssida.",
+                        "search": "Søk i oppføringar"
                     }
                 },
                 "filtering": {
@@ -864,7 +864,7 @@
                     "filtering_by": "Filtrerer etter",
                     "show": "Vis "
                 },
-                "header": "Konfigurer Home Assistant",
+                "header": "Konfigurer Safegate Pro",
                 "info": {
                     "caption": "Info",
                     "documentation": "Dokumentasjon ",
@@ -876,12 +876,12 @@
                     "caption": "Integrasjoner",
                     "config_entry": {
                         "delete": "Slett",
-                        "delete_confirm": "Er du sikker pÃ¥ at du vil slette denne integrasjonen?",
+                        "delete_confirm": "Er du sikker på at du vil slette denne integrasjonen?",
                         "device_unavailable": "Eininga utilgjengeleg",
                         "devices": "{count} {count, plural,\n  one {eining}\n  other {einingar}\n}",
-                        "disable_restart_confirm": "Start Home Assistant pÃ¥ nytt for Ã¥ fullfÃ¸re deaktiveringa av denne integrasjonen",
+                        "disable_restart_confirm": "Start Safegate Pro på nytt for å fullføre deaktiveringa av denne integrasjonen",
                         "disable": {
-                            "disable_confirm": "Er du sikker pÃ¥ at du vil deaktivere denne konfigurasjonsoppfÃ¸ringa? Einingane og oppfÃ¸ringane vil verte deaktivert.",
+                            "disable_confirm": "Er du sikker på at du vil deaktivere denne konfigurasjonsoppføringa? Einingane og oppføringane vil verte deaktivert.",
                             "disabled": "Deaktivert ",
                             "disabled_by": {
                                 "device": "eining ",
@@ -890,18 +890,18 @@
                             },
                             "disabled_cause": "Deaktivert av {cause}"
                         },
-                        "enable_restart_confirm": "Start Home Assistant pÃ¥ nytt for Ã¥ fullfÃ¸re aktiveringa av denne integrasjonen",
-                        "entities": "{count} {count, plural,\n  one {oppfÃ¸ring}\n  other {oppfÃ¸ringar}\n}",
-                        "entity_unavailable": "OppfÃ¸ringa utilgjengeleg",
+                        "enable_restart_confirm": "Start Safegate Pro på nytt for å fullføre aktiveringa av denne integrasjonen",
+                        "entities": "{count} {count, plural,\n  one {oppføring}\n  other {oppføringar}\n}",
+                        "entity_unavailable": "Oppføringa utilgjengeleg",
                         "firmware": "Firmware: {version}",
                         "hub": "Tilkopla via",
                         "manuf": "av {manufacturer}",
-                        "no_area": "Inga omrÃ¥de",
+                        "no_area": "Inga område",
                         "options": "Val",
                         "rename": "Endre namn",
-                        "restart_confirm": "Restart Home Assistant for Ã¥ fjerne denne integrasjonen",
+                        "restart_confirm": "Restart Safegate Pro for å fjerne denne integrasjonen",
                         "system_options": "Systemval",
-                        "unnamed_entry": "OppfÃ¸ring utan namn"
+                        "unnamed_entry": "Oppføring utan namn"
                     },
                     "config_flow": {
                         "close": "Lukk",
@@ -909,12 +909,12 @@
                         "dismiss": "Avvis dialogboksa",
                         "error": "Feil",
                         "external_step": {
-                            "description": "Ei ekstern nettside mÃ¥ besÃ¸kast for Ã¥ fullfÃ¸re dette steget.",
+                            "description": "Ei ekstern nettside må besøkast for å fullføre dette steget.",
                             "open_site": "Opne nettside"
                         },
-                        "finish": "FullfÃ¸r",
+                        "finish": "Fullfør",
                         "pick_flow_step": {
-                            "new_flow": "Nei, sett opp ein anna fÃ¸rekomst av {integration}",
+                            "new_flow": "Nei, sett opp ein anna førekomst av {integration}",
                             "title": "Vi oppdaga desse. Vil du sette dei opp?"
                         },
                         "submit": "Send inn"
@@ -931,14 +931,14 @@
                     "discovered": "Oppdaga",
                     "integration": "integrasjon ",
                     "new": "Sett opp ein ny integrasjon",
-                    "no_integrations": "Ser ut til at du ikkje har nokon integrasjonar konfigurert endÃ¥. Trykk pÃ¥ knappen under for Ã¥ legge til din fyrste integrasjon!",
-                    "none": "Ikkje noko konfiguert endÃ¥",
+                    "no_integrations": "Ser ut til at du ikkje har nokon integrasjonar konfigurert endå. Trykk på knappen under for å legge til din fyrste integrasjon!",
+                    "none": "Ikkje noko konfiguert endå",
                     "none_found": "Ingen integrasjonar funne",
-                    "none_found_detail": "Juster sÃ¸kekriteria dine.",
-                    "rename_dialog": "Rediger namnet til denne konfigurasjonsoppfÃ¸ringa",
-                    "rename_input_label": "OppfÃ¸ringsnavn"
+                    "none_found_detail": "Juster søkekriteria dine.",
+                    "rename_dialog": "Rediger namnet til denne konfigurasjonsoppføringa",
+                    "rename_input_label": "Oppføringsnavn"
                 },
-                "introduction": "Her er det mogleg Ã¥ konfigurere dine komponenter og Home Assistant. Ikkje alt er mogleg Ã¥ konfigurere frÃ¥ brukarsnittet endÃ¥, men vi jobbar med saka.",
+                "introduction": "Her er det mogleg å konfigurere dine komponenter og Safegate Pro. Ikkje alt er mogleg å konfigurere frå brukarsnittet endå, men vi jobbar med saka.",
                 "logs": {
                     "caption": "Loggar"
                 },
@@ -952,10 +952,10 @@
                 },
                 "person": {
                     "caption": "Personar",
-                    "description": "Administrer personane Home Assistant sporer.",
+                    "description": "Administrer personane Safegate Pro sporer.",
                     "detail": {
-                        "device_tracker_intro": "Vel eininga som hÃ¸yrer til denne personen.",
-                        "device_tracker_pick": "Vel eining for Ã¥ spore",
+                        "device_tracker_intro": "Vel eininga som høyrer til denne personen.",
+                        "device_tracker_pick": "Vel eining for å spore",
                         "device_tracker_picked": "Spor eining",
                         "name": "Namn"
                     }
@@ -963,9 +963,9 @@
                 "scene": {
                     "editor": {
                         "entities": {
-                            "add": "Legg til ei oppfÃ¸ring",
-                            "delete": "Slett oppfÃ¸ring",
-                            "header": "OppfÃ¸ringar"
+                            "add": "Legg til ei oppføring",
+                            "delete": "Slett oppføring",
+                            "header": "Oppføringar"
                         },
                         "icon": "Ikon"
                     },
@@ -995,29 +995,29 @@
                 },
                 "server_control": {
                     "caption": "Serverkontroll",
-                    "description": "Start om att og stopp Home Assistant-serveren",
+                    "description": "Start om att og stopp Safegate Pro-serveren",
                     "section": {
                         "reloading": {
                             "automation": "Oppdater automasjonane",
                             "core": "Oppdater kjerna",
                             "group": "Oppdater gruppene",
                             "heading": "Konfigurasjonsomlasting",
-                            "introduction": "Nokre delar av Home Assistant kan oppdaterast utan ein omstart. Ved Ã¥ trykke pÃ¥ oppdater, vil Home Assistant forkaste den gjeldande konfigurasjonen og erstatte den med den nye.",
+                            "introduction": "Nokre delar av Safegate Pro kan oppdaterast utan ein omstart. Ved å trykke på oppdater, vil Safegate Pro forkaste den gjeldande konfigurasjonen og erstatte den med den nye.",
                             "scene": "Omlast scenene",
                             "script": "Oppdater skripta"
                         },
                         "server_management": {
-                            "confirm_restart": "Er du sikker pÃ¥ at du Ã¸nsker Ã¥ starte Home Assistant omatt?",
-                            "confirm_stop": "Er du sikker pÃ¥ at du Ã¸nsker Ã¥ stoppe Home Assistant?",
+                            "confirm_restart": "Er du sikker på at du ønsker å starte Safegate Pro omatt?",
+                            "confirm_stop": "Er du sikker på at du ønsker å stoppe Safegate Pro?",
                             "heading": "Serveradministrasjon",
-                            "introduction": "Kontroller Home Assistant-serveren din... frÃ¥ Home Assistant.",
+                            "introduction": "Kontroller Safegate Pro-serveren din... frå Safegate Pro.",
                             "restart": "Omstart",
                             "stop": "Stopp"
                         },
                         "validation": {
                             "check_config": "Sjekk konfigurasjonen",
                             "heading": "Konfigurasjonsvalidering",
-                            "introduction": "Valider konfigurasjonen dersom du nyleg har gjort endringar, og vil vere sikker pÃ¥ at alt er gyldig.",
+                            "introduction": "Valider konfigurasjonen dersom du nyleg har gjort endringar, og vil vere sikker på at alt er gyldig.",
                             "invalid": "Konfigurasjonen er ikkje gyldig",
                             "valid": "Konfigurasjone er gyldig!"
                         }
@@ -1034,7 +1034,7 @@
                     "editor": {
                         "activate_user": "Aktiver brukaren",
                         "admin": "Administrator",
-                        "caption": "SjÃ¥ brukaren",
+                        "caption": "Sjå brukaren",
                         "change_password": "Bytt passord",
                         "deactivate_user": "Deaktiver brukaren",
                         "delete_user": "Slett brukar",
@@ -1056,17 +1056,17 @@
                     },
                     "clusters": {
                         "header": "Klynger",
-                        "introduction": "Klynger er byggesteinane for Zigbee-funksjonaliteten. Dei sepererar funksjonaliteten i logiske einingar. Det er klient- og servertyper, som bestÃ¥r av attributtar og kommandoar."
+                        "introduction": "Klynger er byggesteinane for Zigbee-funksjonaliteten. Dei sepererar funksjonaliteten i logiske einingar. Det er klient- og servertyper, som består av attributtar og kommandoar."
                     },
                     "group_binding": {
                         "bind_button_help": "Huk den merka gruppa til den merka einingsklynga.",
                         "bind_button_label": "Huk gruppa",
                         "cluster_selection_help": "Vel klynga som skal bindast til den valde gruppa.",
-                        "group_picker_help": "Vel ei gruppe for Ã¥ sende bindekommandoen til.",
+                        "group_picker_help": "Vel ei gruppe for å sende bindekommandoen til.",
                         "group_picker_label": "Grupper som kan bindast",
                         "header": "Gruppebinding",
                         "introduction": "Huk og huk av grupper.",
-                        "unbind_button_help": "Huk av den merka gruppa frÃ¥ den merka einingsklynga.",
+                        "unbind_button_help": "Huk av den merka gruppa frå den merka einingsklynga.",
                         "unbind_button_label": "Huk av gruppa"
                     },
                     "groups": {
@@ -1089,7 +1089,7 @@
                 "zwave": {
                     "common": {
                         "index": "Indeks",
-                        "instance": "FÃ¸rekomst",
+                        "instance": "Førekomst",
                         "unknown": "Ukjent",
                         "value": "Verdi",
                         "wakeup_interval": "Vekkarintervall"
@@ -1098,19 +1098,19 @@
                     "migration": {
                         "ozw": {
                             "header": "Migrer til OpenZWave",
-                            "introduction": "Denne vegvisaren vil hjelpe deg Ã¥ migrere frÃ¥ den eldre Z-Wave-integrasjonen til OpenZWave-integrasjonen som for augneblinken er i beta."
+                            "introduction": "Denne vegvisaren vil hjelpe deg å migrere frå den eldre Z-Wave-integrasjonen til OpenZWave-integrasjonen som for augneblinken er i beta."
                         }
                     },
                     "network_management": {
                         "header": "Z-Wave-nettverksadministrering",
-                        "introduction": "KÃ¸yr kommandoar som pÃ¥verkar Z-wave-nettverket. Du kjem ikkje til Ã¥ fÃ¥ tilbakemelding om kommandoande lukkast, men du kan sjekke i OZW-loggen, og prÃ¸ve Ã¥ finne ut av det."
+                        "introduction": "Køyr kommandoar som påverkar Z-wave-nettverket. Du kjem ikkje til å få tilbakemelding om kommandoande lukkast, men du kan sjekke i OZW-loggen, og prøve å finne ut av det."
                     },
                     "network_status": {
                         "network_started": "Z-Wave-nettverket starta",
                         "network_started_note_all_queried": "Alle nodene er etterspurt.",
-                        "network_started_note_some_queried": "Vakne noder er etterspurt. Sovande noder vert spurt nÃ¥r dei vaknar.",
+                        "network_started_note_some_queried": "Vakne noder er etterspurt. Sovande noder vert spurt når dei vaknar.",
                         "network_starting": "Startar Z-Wave-nettverket",
-                        "network_starting_note": "Dette kan ta ei stund, avhengig av storleiken pÃ¥ nettverket",
+                        "network_starting_note": "Dette kan ta ei stund, avhengig av storleiken på nettverket",
                         "network_stopped": "Stoppa Z-Wave-nettverket"
                     },
                     "node_config": {
@@ -1125,27 +1125,27 @@
                     },
                     "node_management": {
                         "add_to_group": "Legg til i gruppa",
-                        "entities": "OppfÃ¸ringar for denne noda",
-                        "entity_info": "OppfÃ¸ringsinformasjon",
-                        "exclude_entity": "Ekskluder denne oppfÃ¸ringa frÃ¥ Home Assistant",
+                        "entities": "Oppføringar for denne noda",
+                        "entity_info": "Oppføringsinformasjon",
+                        "exclude_entity": "Ekskluder denne oppføringa frå Safegate Pro",
                         "group": "Gruppe ",
                         "header": "Z-Wave-nodeadministrasjon",
-                        "introduction": "KÃ¸yr Z-Wavekommando som pÃ¥verker ei enkel node. Vel ei node for Ã¥ sjÃ¥ listene med tilgjengelege kommandoar.",
+                        "introduction": "Køyr Z-Wavekommando som påverker ei enkel node. Vel ei node for å sjå listene med tilgjengelege kommandoar.",
                         "max_associations": "Maks forbindingar:",
                         "node_group_associations": "Nodegruppeassosiering ",
                         "node_protection": "Nodevern",
                         "node_to_control": "Node til kontroll ",
                         "nodes": "Noder",
-                        "nodes_hint": "Vel node Ã¥ vise i per-nodevala",
+                        "nodes_hint": "Vel node å vise i per-nodevala",
                         "nodes_in_group": "Andre noder i denne gruppa:",
                         "pooling_intensity": "Innhentingsintensitet",
                         "protection": "Vern",
                         "remove_broadcast": "Fjern kringkasting",
-                        "remove_from_group": "Fjern frÃ¥ gruppa",
+                        "remove_from_group": "Fjern frå gruppa",
                         "set_protection": "Set vern"
                     },
                     "ozw_log": {
-                        "last_log_lines": "Tal pÃ¥ logglinjer",
+                        "last_log_lines": "Tal på logglinjer",
                         "load": "Last inn",
                         "tail": "Hale"
                     },
@@ -1154,10 +1154,10 @@
                         "add_node_secure": "Legg til sikker node",
                         "cancel_command": "Avbryt kommando",
                         "heal_network": "Helbred nettverket",
-                        "heal_node": "LÃ¦kjenode",
+                        "heal_node": "Lækjenode",
                         "node_info": "Nodeinformasjon",
                         "print_node": "Printnode",
-                        "refresh_entity": "Oppdater oppfÃ¸ringa",
+                        "refresh_entity": "Oppdater oppføringa",
                         "refresh_node": "Oppdater node ",
                         "remove_failed_node": "Fjern mislukka node ",
                         "remove_node": "Fjern noden",
@@ -1180,16 +1180,16 @@
                         "title": "Hendingar"
                     },
                     "services": {
-                        "accepts_target": "Denne tenesta godtek eit mÃ¥l, for eksempel: `entity_id: light.bed_light`",
+                        "accepts_target": "Denne tenesta godtek eit mål, for eksempel: `entity_id: light.bed_light`",
                         "all_parameters": "Alle tilgjengelege parameter ",
                         "title": "Tenester",
-                        "ui_mode": "GÃ¥ til UI-modus",
-                        "yaml_mode": "GÃ¥ til YAML-modus",
+                        "ui_mode": "Gå til UI-modus",
+                        "yaml_mode": "Gå til YAML-modus",
                         "yaml_parameters": "Parameter berre tilgjengeleg i YAML-modus"
                     },
                     "states": {
                         "copy_id": "Kopier ID til utklippstavla",
-                        "no_entities": "Ingen oppfÃ¸ringar",
+                        "no_entities": "Ingen oppføringar",
                         "title": "Statusar"
                     },
                     "templates": {
@@ -1200,19 +1200,19 @@
             "lovelace": {
                 "cards": {
                     "empty_state": {
-                        "go_to_integrations_page": "GÃ¥ til integrasjonssida",
-                        "no_devices": "Denne sida let deg ta kontroll pÃ¥ einingane dine, men det ser ut til at du ikkje har sett opp noko endÃ¥. GÃ¥ til integrasjonssida for Ã¥ setje i gang.",
+                        "go_to_integrations_page": "Gå til integrasjonssida",
+                        "no_devices": "Denne sida let deg ta kontroll på einingane dine, men det ser ut til at du ikkje har sett opp noko endå. Gå til integrasjonssida for å setje i gang.",
                         "title": "Velkommen heim"
                     },
                     "entities": {
-                        "never_triggered": "Aldri utlÃ¸yst"
+                        "never_triggered": "Aldri utløyst"
                     },
                     "picture-elements": {
                         "call_service": "Tilkall teneste {name}",
                         "hold": "Hald:",
                         "more_info": "Vis meir-info: {name}",
                         "navigate_to": "Naviger til {location}",
-                        "tap": "RÃ¸r:",
+                        "tap": "Rør:",
                         "toggle": "Endre {name}"
                     },
                     "shopping-list": {
@@ -1221,46 +1221,46 @@
                         "clear_items": "Fjern dei markerrte elementa"
                     },
                     "starting": {
-                        "description": "Home Assistant held pÃ¥ Ã¥ starte. Ver vennleg og vent."
+                        "description": "Safegate Pro held på å starte. Ver vennleg og vent."
                     }
                 },
                 "changed_toast": {
-                    "message": "Lovelace-konfigurasjonen vart oppdatert. Ã˜nsker du Ã¥ friske opp?"
+                    "message": "Lovelace-konfigurasjonen vart oppdatert. Ønsker du å friske opp?"
                 },
                 "editor": {
                     "card": {
                         "button": {
-                            "description": "Knappekortet let deg legge til knappar som kan ufÃ¸re oppgÃ¥ver.",
+                            "description": "Knappekortet let deg legge til knappar som kan uføre oppgåver.",
                             "name": "Knapp"
                         },
                         "conditional": {
                             "card": "Kort",
                             "change_type": "Endre type",
-                            "condition_explanation": "Kortet vil visast nÃ¥r alle fÃ¸resetnadene under er oppfylt.",
-                            "conditions": "FÃ¸resetnadar",
+                            "condition_explanation": "Kortet vil visast når alle føresetnadene under er oppfylt.",
+                            "conditions": "Føresetnadar",
                             "current_state": "gjeldande",
                             "state_equal": "Tilstanden er lik",
                             "state_not_equal": "Tilstanden er ikkje lik"
                         },
                         "config": {
                             "optional": "Valfri",
-                            "required": "PÃ¥krevd"
+                            "required": "Påkrevd"
                         },
                         "entities": {
-                            "description": "OppfÃ¸ringskortet er den vanlegaste korttypen. Den kan gruppere ting inn i lister.",
-                            "name": "OppfÃ¸ringar"
+                            "description": "Oppføringskortet er den vanlegaste korttypen. Den kan gruppere ting inn i lister.",
+                            "name": "Oppføringar"
                         },
                         "entity-filter": {
-                            "description": "OppfÃ¸ringsfilterkortet let deg definere ei liste med oppfÃ¸ringar som du vil vise berre nÃ¥r dei har ein spesiell tilstand."
+                            "description": "Oppføringsfilterkortet let deg definere ei liste med oppføringar som du vil vise berre når dei har ein spesiell tilstand."
                         },
                         "entity": {
-                            "name": "OppfÃ¸ring "
+                            "name": "Oppføring "
                         },
                         "gauge": {
-                            "description": "MÃ¥larkortet er eit enkelt kort som let deg visuelt sjÃ¥ sensordata.",
+                            "description": "Målarkortet er eit enkelt kort som let deg visuelt sjå sensordata.",
                             "severity": {
-                                "green": "GrÃ¸n",
-                                "red": "RÃ¸d"
+                                "green": "Grøn",
+                                "red": "Rød"
                             }
                         },
                         "generic": {
@@ -1272,34 +1272,34 @@
                             "maximum": "Maksimum",
                             "minimum": "Minimum",
                             "name": "Namn",
-                            "secondary_info_attribute": "SekundÃ¦rinfo-attributt",
+                            "secondary_info_attribute": "Sekundærinfo-attributt",
                             "state": "Tilstand"
                         },
                         "glance": {
-                            "description": "GlÃ¸ttekortet er nyttig dersom du vil gruppere fleire sensorar i ei kompakt oversikt."
+                            "description": "Gløttekortet er nyttig dersom du vil gruppere fleire sensorar i ei kompakt oversikt."
                         },
                         "history-graph": {
-                            "description": "Historiekortet let deg vise ein graf for kvar opplista oppfÃ¸ring."
+                            "description": "Historiekortet let deg vise ein graf for kvar opplista oppføring."
                         },
                         "horizontal-stack": {
-                            "description": "Horisontalstablekortet let deg stable kort saman horisontalt, slik at dei alltid stÃ¥r ved sidan av kvarandre i same rom som ei kolonne."
+                            "description": "Horisontalstablekortet let deg stable kort saman horisontalt, slik at dei alltid står ved sidan av kvarandre i same rom som ei kolonne."
                         },
                         "iframe": {
-                            "description": "Websidekortet let deg vise favorittwebsida di rett inn i Home Assistant",
+                            "description": "Websidekortet let deg vise favorittwebsida di rett inn i Safegate Pro",
                             "name": "iFrame"
                         },
                         "light": {
                             "description": "Lyskortet gjer slik at du kan endre lysstyrka til eit lys."
                         },
                         "map": {
-                            "description": "Kartkortet som let deg vise oppfÃ¸ringar pÃ¥ eit kart.",
+                            "description": "Kartkortet som let deg vise oppføringar på eit kart.",
                             "hours_to_show": "Timar som visast"
                         },
                         "shopping-list": {
                             "integration_not_loaded": "Dette kortet krev at \"shopping_list\"-integrasjonen er sett opp."
                         },
                         "weather-forecast": {
-                            "show_forecast": "Vis vÃªrmeldinga"
+                            "show_forecast": "Vis vêrmeldinga"
                         }
                     },
                     "cardpicker": {
@@ -1308,13 +1308,13 @@
                     },
                     "edit_card": {
                         "add": "Legg til kort",
-                        "confirm_cancel": "Er du sikker pÃ¥ at du vil avbryte?",
+                        "confirm_cancel": "Er du sikker på at du vil avbryte?",
                         "delete": "Slett",
                         "edit": "Redigere",
                         "header": "Kortkonfigurasjon",
-                        "move": "RÃ¸rsle",
+                        "move": "Rørsle",
                         "pick_card": "Vel kortet du vil legge til.",
-                        "toggle_editor": "Bytt redigeringsverktÃ¸y",
+                        "toggle_editor": "Bytt redigeringsverktøy",
                         "unsaved_changes": "Du har endringar som ikkje er lagra"
                     },
                     "edit_lovelace": {
@@ -1331,28 +1331,28 @@
                     "menu": {
                         "manage_dashboards": "Administrer skriveborda",
                         "manage_resources": "Adminstrer ressursar",
-                        "raw_editor": "RÃ¥ konfigurasjonsredigerar"
+                        "raw_editor": "Rå konfigurasjonsredigerar"
                     },
                     "migrate": {
                         "header": "Konfigurasjonen er ikkje kompatibel",
-                        "migrate": "OverfÃ¸r konfigurasjon",
-                        "para_migrate": "Home assistant kan legge til ID-ar til alle korta og sidene dine automatisk for deg ved Ã¥ trykke \"OverfÃ¸r konfigurasjon\"-knappen.",
+                        "migrate": "Overfør konfigurasjon",
+                        "para_migrate": "Home assistant kan legge til ID-ar til alle korta og sidene dine automatisk for deg ved å trykke \"Overfør konfigurasjon\"-knappen.",
                         "para_no_id": "Dette elementet har ikkje ein ID. Ver vennleg og legg til ein ID til dette elementet i \"ui-lovelace.yaml\"-fila di."
                     },
                     "raw_editor": {
                         "header": "Rediger konfigurasjon",
                         "lovelace_changed": "Lovelace-konfigurasjonen vart oppdatert. Vil du laste den oppdaterte konfigurasjonen i redigeringsprogrammet og miste gjeldende endringar?",
-                        "reload": "Last inn pÃ¥ nytt",
+                        "reload": "Last inn på nytt",
                         "save": "Lagre",
                         "saved": "Lagra",
                         "unsaved_changes": "Ikkje lagra endringar"
                     },
                     "save_config": {
-                        "cancel": "GlÃ¸ym det",
+                        "cancel": "Gløym det",
                         "empty_config": "Start med eit tomt dashboard",
                         "header": "Ta kontroll over Lovelace-brukargrensesnittet",
-                        "para": "Som standard kjem Home Assistant til Ã¥ vedlikehalde brukargrensesnittet, og oppdatere det nÃ¥r nye oppfÃ¸ringar eller Lovelace-komponentar vert tilgjengelege. Dersom du tek kontroll, vil vi ikkje lenger kunne lage dette til automatisk for deg.",
-                        "para_sure": "Er du sikker pÃ¥ at du vil ta kontroll over brukergrensesnittet ditt?",
+                        "para": "Som standard kjem Safegate Pro til å vedlikehalde brukargrensesnittet, og oppdatere det når nye oppføringar eller Lovelace-komponentar vert tilgjengelege. Dersom du tek kontroll, vil vi ikkje lenger kunne lage dette til automatisk for deg.",
+                        "para_sure": "Er du sikker på at du vil ta kontroll over brukergrensesnittet ditt?",
                         "save": "Ta kontroll"
                     },
                     "view": {
@@ -1369,18 +1369,18 @@
                 "reload_lovelace": "Omlast Lovelace",
                 "unused_entities": {
                     "domain": "Domene",
-                    "entity": "OppfÃ¸ring ",
-                    "entity_id": "OppfÃ¸rings-ID",
+                    "entity": "Oppføring ",
+                    "entity_id": "Oppførings-ID",
                     "last_changed": "Sist endra",
-                    "no_data": "Ingen ubrukte oppfÃ¸ringar funne",
-                    "search": "SÃ¸k i oppfÃ¸ringar",
-                    "title": "Ubrukte oppfÃ¸ringar"
+                    "no_data": "Ingen ubrukte oppføringar funne",
+                    "search": "Søk i oppføringar",
+                    "title": "Ubrukte oppføringar"
                 },
                 "warning": {
-                    "entity_non_numeric": "OppfÃ¸ringa er ikkje numerisk: {entity}",
-                    "entity_not_found": "OppfÃ¸ringa er utilgjengeleg: {entity}",
+                    "entity_non_numeric": "Oppføringa er ikkje numerisk: {entity}",
+                    "entity_not_found": "Oppføringa er utilgjengeleg: {entity}",
                     "entity_unavailable": "{entity} er utilgjengeleg for augeblinken",
-                    "starting": "Home Assistant held pÃ¥ Ã¥ starte. Det kan hende at alt ikkje er tilgjengeleg endÃ¥."
+                    "starting": "Safegate Pro held på å starte. Det kan hende at alt ikkje er tilgjengeleg endå."
                 }
             },
             "mailbox": {
@@ -1390,23 +1390,23 @@
                 "playback_title": "Meldingsavspeling"
             },
             "my": {
-                "component_not_loaded": "Denne viderekoplinga er ikkje stÃ¸tta av Home Assistant-fÃ¸rekomsten. Du treng {integration}-integrasjonen Ã¥ bruke denne viderekoplinga.",
+                "component_not_loaded": "Denne viderekoplinga er ikkje støtta av Safegate Pro-førekomsten. Du treng {integration}-integrasjonen å bruke denne viderekoplinga.",
                 "documentation": "dokumentasjon",
                 "error": "Det hende ein ukjent feil ",
-                "faq_link": "Mine Home Assitant-FAQ",
-                "no_supervisor": "Denne viderekoplinga er ikkje stÃ¸tta av Home Assistant-installasjonen. Det trengs anten installasjonsmetoden Home Assistant eller Home Assistant Supervised. For meir informasjon, sjÃ¥ {docs_link} .",
-                "not_supported": "Denne viderekoplinga er ikkje stÃ¸tta av Home Assistant-fÃ¸rekomsten. SjÃ¥ {link} for dei stÃ¸tta vidarekoplingane og ved kva versjon dei vart introdusert."
+                "faq_link": "Mine Safegate Pro-FAQ",
+                "no_supervisor": "Denne viderekoplinga er ikkje støtta av Safegate Pro-installasjonen. Det trengs anten installasjonsmetoden Safegate Pro eller Safegate Pro Supervised. For meir informasjon, sjå {docs_link} .",
+                "not_supported": "Denne viderekoplinga er ikkje støtta av Safegate Pro-førekomsten. Sjå {link} for dei støtta vidarekoplingane og ved kva versjon dei vart introdusert."
             },
             "page-authorize": {
                 "abort_intro": "Innlogging avbrote",
-                "authorizing_client": "Du held pÃ¥ Ã¥ gi {clientId} tilgang til Home Assistant-instansen din.",
+                "authorizing_client": "Du held på å gi {clientId} tilgang til Safegate Pro-instansen din.",
                 "form": {
                     "error": "Feil: {error}",
                     "next": "Neste",
                     "providers": {
                         "command_line": {
                             "abort": {
-                                "login_expired": "Ã˜kta er utgÃ¥tt. Ver vennleg Ã¥ logg inn igjen."
+                                "login_expired": "Økta er utgått. Ver vennleg å logg inn igjen."
                             },
                             "error": {
                                 "invalid_auth": "Ugyldig brukarnamn eller passord",
@@ -1423,13 +1423,13 @@
                                     "data": {
                                         "code": "To-faktorautentiseringskode"
                                     },
-                                    "description": "Opne **{mfa_module_name}** pÃ¥ eininga di for Ã¥ sjÃ¥ to-faktor-autentiseringskoda og verifiser identiteten din:"
+                                    "description": "Opne **{mfa_module_name}** på eininga di for å sjå to-faktor-autentiseringskoda og verifiser identiteten din:"
                                 }
                             }
                         },
                         "homeassistant": {
                             "abort": {
-                                "login_expired": "Ã˜kt utlÃ¸pt. Ver vennleg og logg inn igjen."
+                                "login_expired": "Økt utløpt. Ver vennleg og logg inn igjen."
                             },
                             "error": {
                                 "invalid_auth": "Ugyldig brukarnamn eller passord",
@@ -1446,13 +1446,13 @@
                                     "data": {
                                         "code": "To-faktor-autentiseringskode"
                                     },
-                                    "description": "Opne **{mfa_module_name}** pÃ¥ eininga di for Ã¥ sjÃ¥ to-faktor-autentiseringskoda og verifiser identiteten din:"
+                                    "description": "Opne **{mfa_module_name}** på eininga di for å sjå to-faktor-autentiseringskoda og verifiser identiteten din:"
                                 }
                             }
                         },
                         "legacy_api_password": {
                             "abort": {
-                                "login_expired": "Ã˜kt utlÃ¸pt. Ver vennleg Ã¥ logg inn igjen.",
+                                "login_expired": "Økt utløpt. Ver vennleg å logg inn igjen.",
                                 "no_api_password_set": "Du har ikkje laga til eit API-passord"
                             },
                             "error": {
@@ -1470,7 +1470,7 @@
                                     "data": {
                                         "code": "To-faktor-autentiseringskode"
                                     },
-                                    "description": "Opne **{mfa_module_name}** pÃ¥ eininga di for Ã¥ sjÃ¥ to-faktor-autentiseringskoda og verifiser identiteten din:"
+                                    "description": "Opne **{mfa_module_name}** på eininga di for å sjå to-faktor-autentiseringskoda og verifiser identiteten din:"
                                 }
                             }
                         },
@@ -1485,7 +1485,7 @@
                             }
                         }
                     },
-                    "start_over": "Start pÃ¥ nytt",
+                    "start_over": "Start på nytt",
                     "unknown_error": "Noko gjekk gale",
                     "working": "Ver vennleg og vent"
                 },
@@ -1497,8 +1497,8 @@
                 "cards": {
                     "demo": {
                         "demo_by": "av {name}",
-                        "introduction": "Velkommen heim! Du har no nÃ¥dd Home Assistant-demoen, der vi viser fram nokre av dei beste brukargrensesnitta laga av samfunnet vÃ¥ra.",
-                        "learn_more": "LÃ¦r meir om Home Assistant",
+                        "introduction": "Velkommen heim! Du har no nådd Safegate Pro-demoen, der vi viser fram nokre av dei beste brukargrensesnitta laga av samfunnet våra.",
+                        "learn_more": "Lær meir om Safegate Pro",
                         "next_demo": "Neste demo"
                     }
                 },
@@ -1515,18 +1515,18 @@
                             "lights": "Lys",
                             "morning_commute": "Morgonreise",
                             "total_tv_time": "Total TV-tid",
-                            "turn_tv_off": "SlÃ¥ av TV",
+                            "turn_tv_off": "Slå av TV",
                             "volume": "Volum"
                         },
                         "names": {
                             "family_room": "Stove",
                             "hallway": "Gang",
-                            "kitchen": "KjÃ¸kken",
+                            "kitchen": "Kjøkken",
                             "left": "Left",
                             "master_bedroom": "Hovudsoverom",
                             "mirror": "Spegel",
                             "patio": "Patio",
-                            "right": "HÃ¸gre",
+                            "right": "Høgre",
                             "upstairs": "Oppe"
                         },
                         "unit": {
@@ -1540,17 +1540,17 @@
                 "core-config": {
                     "button_detect": "Oppdag",
                     "finish": "Neste",
-                    "intro": "Hei {name}! Velkomen til Home Assistant. Kva for namn Ã¸nsker du Ã¥ gi heimen din?",
-                    "intro_location": "Vi vil gjerne vite kvar du bur. Denne informasjonen kjem til Ã¥ hjelpe deg Ã¥ vise fram informasjon og sette opp solbaserte automasjonar. Dataa vert aldri delt utanom nettverket ditt.",
-                    "intro_location_detect": "Vi kan hjelpe deg med Ã¥ fylle ut denne informasjonen ved Ã¥ sende ein eingangsfÃ¸respurnad til ei ekstern teneste.",
+                    "intro": "Hei {name}! Velkomen til Safegate Pro. Kva for namn ønsker du å gi heimen din?",
+                    "intro_location": "Vi vil gjerne vite kvar du bur. Denne informasjonen kjem til å hjelpe deg å vise fram informasjon og sette opp solbaserte automasjonar. Dataa vert aldri delt utanom nettverket ditt.",
+                    "intro_location_detect": "Vi kan hjelpe deg med å fylle ut denne informasjonen ved å sende ein eingangsførespurnad til ei ekstern teneste.",
                     "location_name_default": "Heim"
                 },
                 "integration": {
-                    "finish": "FullfÃ¸r",
-                    "intro": "Einingar og tenester er representerte i Home Assistant som integrasjonar. Du kan sette dei opp no, eller gjer det seinare i konfigurasjonsmenyen.",
+                    "finish": "Fullfør",
+                    "intro": "Einingar og tenester er representerte i Safegate Pro som integrasjonar. Du kan sette dei opp no, eller gjer det seinare i konfigurasjonsmenyen.",
                     "more_integrations": "Meir"
                 },
-                "intro": "Er du klar til Ã¥ vekke heimen din til liv, vinne tilbake privatlivet ditt og vli med i eit verdsomspennande samfunn av tinkerers?",
+                "intro": "Er du klar til å vekke heimen din til liv, vinne tilbake privatlivet ditt og vli med i eit verdsomspennande samfunn av tinkerers?",
                 "user": {
                     "create_account": "Lag konto",
                     "data": {
@@ -1561,15 +1561,15 @@
                     },
                     "error": {
                         "password_not_match": "Passorda er ikkje eins",
-                        "required_fields": "Fyll ut dei nÃ¸dvendige felta"
+                        "required_fields": "Fyll ut dei nødvendige felta"
                     },
-                    "intro": "Lat oss begynne med Ã¥ opprette ein brukarkonto.",
+                    "intro": "Lat oss begynne med å opprette ein brukarkonto.",
                     "required_field": "Krav"
                 }
             },
             "profile": {
                 "advanced_mode": {
-                    "link_promo": "LÃ¦r meir"
+                    "link_promo": "Lær meir"
                 },
                 "change_password": {
                     "confirm_new_password": "Stadfest nytt passord",
@@ -1586,27 +1586,27 @@
                     "header": "Dashboard"
                 },
                 "force_narrow": {
-                    "description": "Dette vil skjule sidefeltet som standard. Likner pÃ¥ mobilopplevinga.",
+                    "description": "Dette vil skjule sidefeltet som standard. Likner på mobilopplevinga.",
                     "header": "Skjul alltid sidefeltet"
                 },
                 "is_owner": "Du er ein eigar",
                 "language": {
-                    "dropdown_label": "SprÃ¥k",
-                    "header": "SprÃ¥k",
-                    "link_promo": "Hjelp Ã¥ oversette"
+                    "dropdown_label": "Språk",
+                    "header": "Språk",
+                    "link_promo": "Hjelp å oversette"
                 },
                 "logout": "Logg ut",
-                "logout_text": "Er du sikker pÃ¥ at du vil logge ut?",
+                "logout_text": "Er du sikker på at du vil logge ut?",
                 "logout_title": "Logg ut?",
                 "long_lived_access_tokens": {
-                    "confirm_delete": "Er du sikker pÃ¥ at du vil slette tilgangstoken for {name}?",
+                    "confirm_delete": "Er du sikker på at du vil slette tilgangstoken for {name}?",
                     "create": "Lag token",
-                    "create_failed": "Klarte ikkje Ã¥ lage tilgangstoken.",
-                    "delete_failed": "Klarte ikkje Ã¥ slette tilgangstoken",
-                    "description": "Lag ein langtidslevande tilgangstoken som tillet skripta dine Ã¥ samhandle med Home Assistant-instansen. Kvar token vil vere gyldig i 10 Ã¥r etter oppretting. Dei fylgande langtidslevande tokenane er for tida aktive.",
-                    "empty_state": "Du har ikkje langtidslevande tilgangstoken endÃ¥.",
+                    "create_failed": "Klarte ikkje å lage tilgangstoken.",
+                    "delete_failed": "Klarte ikkje å slette tilgangstoken",
+                    "description": "Lag ein langtidslevande tilgangstoken som tillet skripta dine å samhandle med Safegate Pro-instansen. Kvar token vil vere gyldig i 10 år etter oppretting. Dei fylgande langtidslevande tokenane er for tida aktive.",
+                    "empty_state": "Du har ikkje langtidslevande tilgangstoken endå.",
                     "header": "Langtidslevande tilgangstokenar",
-                    "learn_auth_requests": "LÃ¦r korleis du lagar ein autentisert fÃ¸respurnad.",
+                    "learn_auth_requests": "Lær korleis du lagar ein autentisert førespurnad.",
                     "prompt_copy_token": "Kopier tilgangstoken. Den vil ikkje visast igjen.",
                     "prompt_name": "Namn?"
                 },
@@ -1618,7 +1618,7 @@
                     "title_success": "Suksess!"
                 },
                 "mfa": {
-                    "confirm_disable": "Er du sikker pÃ¥ at du vil deaktivere {name}?",
+                    "confirm_disable": "Er du sikker på at du vil deaktivere {name}?",
                     "disable": "Deaktiver",
                     "enable": "Aktiver",
                     "header": "Flerfaktorautentiseringsmoduler"
@@ -1628,17 +1628,17 @@
                     "error_load_platform": "Konfigurer notify.html5",
                     "error_use_https": "Krev SSL-aktivert til frontend",
                     "header": "Pushvarslar",
-                    "link_promo": "LÃ¦r meir",
+                    "link_promo": "Lær meir",
                     "push_notifications": "Pushvarslar"
                 },
                 "refresh_tokens": {
-                    "confirm_delete": "Er du sikker pÃ¥ at du vil slette oppdateringstoken for {name}?",
+                    "confirm_delete": "Er du sikker på at du vil slette oppdateringstoken for {name}?",
                     "created_at": "Laga den {date}",
                     "current_token_tooltip": "Kan ikkje slette gjeldande oppdateringstoken",
                     "delete_failed": "Kunne ikkje slette oppdateringstoken",
-                    "description": "Kvar oppdateringstoken representerer ei innloggingsÃ¸kt. Oppdateringstokenane vil autoamtisk bli fjerna nÃ¥r du loggar ut. Dei fylgande oppdateringstokenane er aktive pÃ¥ kontoen din.",
+                    "description": "Kvar oppdateringstoken representerer ei innloggingsøkt. Oppdateringstokenane vil autoamtisk bli fjerna når du loggar ut. Dei fylgande oppdateringstokenane er aktive på kontoen din.",
                     "header": "Oppdateringstokenar",
-                    "last_used": "Sist brukt den {date} frÃ¥ {location}",
+                    "last_used": "Sist brukt den {date} frå {location}",
                     "not_used": "Har aldri vore brukt",
                     "token_title": "Oppdater token for {clientId}"
                 },
@@ -1646,7 +1646,7 @@
                     "dropdown_label": "Tema",
                     "error_no_theme": "Ingen tema tilgjengeleg",
                     "header": "Tema",
-                    "link_promo": "LÃ¦r om temaer"
+                    "link_promo": "Lær om temaer"
                 },
                 "vibrate": {
                     "header": "Vibrer"

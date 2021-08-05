@@ -55,7 +55,7 @@ export const demoEntitiesArsaboo: DemoConfig["entities"] = (localize) =>
       attributes: {
         friendly_name: "Living room temperature",
         device_class: "temperature",
-        unit_of_measurement: "Â°C",
+        unit_of_measurement: "°C",
       },
     },
     "sensor.study_temp_rounded": {
@@ -64,7 +64,7 @@ export const demoEntitiesArsaboo: DemoConfig["entities"] = (localize) =>
       attributes: {
         friendly_name: "Study temperature",
         device_class: "temperature",
-        unit_of_measurement: "Â°C",
+        unit_of_measurement: "°C",
       },
     },
     "sensor.living_room": {
@@ -133,7 +133,7 @@ export const demoEntitiesArsaboo: DemoConfig["entities"] = (localize) =>
       entity_id: "input_boolean.homeautomation",
       state: "on",
       attributes: {
-        friendly_name: "Home Automation",
+        friendly_name: "Safegate Pro",
         icon: "hass:home-automation",
       },
     },
@@ -225,7 +225,7 @@ export const demoEntitiesArsaboo: DemoConfig["entities"] = (localize) =>
       entity_id: "sensor.study_temp",
       state: "20.9",
       attributes: {
-        unit_of_measurement: "Â°C",
+        unit_of_measurement: "°C",
         device_class: "temperature",
         friendly_name: localize(
           "ui.panel.page-demo.config.arsaboo.names.temperature_study"

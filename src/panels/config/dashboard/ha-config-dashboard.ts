@@ -50,7 +50,7 @@ class HaConfigDashboard extends LitElement {
                   {
                     component: "cloud",
                     path: "/config/cloud",
-                    name: "Home Assistant Cloud",
+                    name: "Safegate Pro Cloud",
                     info: this.cloudStatus,
                     iconPath: mdiCloudLock,
                   },

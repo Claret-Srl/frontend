@@ -48,7 +48,7 @@ class HaConfigInfo extends LitElement {
               )}"
           /></a>
           <br />
-          <h2>Home Assistant ${hass.connection.haVersion}</h2>
+          <h2>Safegate Pro ${hass.connection.haVersion}</h2>
           <p>
             ${this.hass.localize(
               "ui.panel.config.info.path_configuration",

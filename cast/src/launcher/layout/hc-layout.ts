@@ -24,7 +24,7 @@ class HcLayout extends LitElement {
         <div class="layout">
           <img class="hero" src="/images/google-nest-hub.png" />
           <h1 class="card-header">
-            Home Assistant Cast${this.subtitle ? ` â€“ ${this.subtitle}` : ""}
+            Safegate Pro Cast${this.subtitle ? ` – ${this.subtitle}` : ""}
             ${this.auth
               ? html`
                   <div class="subtitle">
@@ -33,7 +33,7 @@ class HcLayout extends LitElement {
                         this.auth.data.hassUrl.indexOf("//") + 2
                       )}</a
                     >
-                    ${this.user ? html` â€“ ${this.user.name} ` : ""}
+                    ${this.user ? html` – ${this.user.name} ` : ""}
                   </div>
                 `
               : ""}
@@ -42,7 +42,7 @@ class HcLayout extends LitElement {
         </div>
       </ha-card>
       <div class="footer">
-        <a href="./faq.html">Frequently Asked Questions</a> â€“ Found a bug?
+        <a href="./faq.html">Frequently Asked Questions</a> – Found a bug?
         <a
           href="https://github.com/home-assistant/home-assistant-polymer/issues"
           target="_blank"

@@ -39,7 +39,7 @@
                 "editor": {
                     "card": {
                         "iframe": {
-                            "description": "The Webpage card allows you to embed your favourite webpage right into Home Assistant."
+                            "description": "The Webpage card allows you to embed your favourite webpage right into Safegate Pro."
                         }
                     }
                 }

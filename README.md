@@ -1,13 +1,13 @@
 [![Release](https://github.com/claret-srl/frontend/actions/workflows/release.yaml/badge.svg)](https://github.com/claret-srl/frontend/actions/workflows/release.yaml)
 
-# Home Assistant Frontend
+# Safegate Pro Frontend
 
-This is the repository for the official [Home Assistant](https://home-assistant.io) frontend.
+This is the repository for the official [Safegate Pro](https://home-assistant.io) frontend.
 
 [![Screenshot of the frontend](https://raw.githubusercontent.com/home-assistant/home-assistant-polymer/master/docs/screenshot.png)](https://demo.home-assistant.io/)
 
-- [View demo of Home Assistant](https://demo.home-assistant.io/)
-- [More information about Home Assistant](https://home-assistant.io)
+- [View demo of Safegate Pro](https://demo.home-assistant.io/)
+- [More information about Safegate Pro](https://home-assistant.io)
 - [Frontend development instructions](https://developers.home-assistant.io/docs/frontend/development/)
 
 ## Development
@@ -26,6 +26,6 @@ A complete guide can be found at the following [link](https://www.home-assistant
 
 ## License
 
-Home Assistant is open-source and Apache 2 licensed. Feel free to browse the repository, learn and reuse parts in your own projects.
+Safegate Pro is open-source and Apache 2 licensed. Feel free to browse the repository, learn and reuse parts in your own projects.
 
-We use [BrowserStack](https://www.browserstack.com) to test Home Assistant on a large variety of devices.
+We use [BrowserStack](https://www.browserstack.com) to test Safegate Pro on a large variety of devices.
