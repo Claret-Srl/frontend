@@ -115,11 +115,11 @@
             "dashboard": {
                 "capability": {
                     "auth_api": {
-                        "description": "يمكن للوظيفة الإضافية المصادقة على المستخدمين مقابل Home Assistant ، مما يسمح للوظائف الإضافية بمنح المستخدمين إمكانية تسجيل الدخول إلى التطبيقات التي تعمل داخل الوظائف الإضافية ، باستخدام اسم المستخدم / كلمة المرور الخاصة بـ Home Assistant. تشير هذه الشارة إلى ما إذا كان مؤلف الوظيفة الإضافية يطلب هذه الإمكانية.",
-                        "title": "مصادقة Home Assistant"
+                        "description": "يمكن للوظيفة الإضافية المصادقة على المستخدمين مقابل Safegate Pro ، مما يسمح للوظائف الإضافية بمنح المستخدمين إمكانية تسجيل الدخول إلى التطبيقات التي تعمل داخل الوظائف الإضافية ، باستخدام اسم المستخدم / كلمة المرور الخاصة بـ Safegate Pro. تشير هذه الشارة إلى ما إذا كان مؤلف الوظيفة الإضافية يطلب هذه الإمكانية.",
+                        "title": "مصادقة Safegate Pro"
                     },
                     "docker_api": {
-                        "description": "طلب مؤلف الوظيفة الإضافية الحصول على وصول إداري إلى مثيل Docker الذي يعمل على نظامك. يمنح هذا الوضع الوظيفة الإضافية وصولاً كاملاً وتحكمًا كاملاً في نظام Home Assistant بالكامل ، مما يضيف مخاطر أمنية ، وقد يؤدي إلى إتلاف نظامك عند إساءة استخدامه. لذلك ، تؤثر هذه الميزة سلبًا على درجة أمان الوظيفة الإضافية. \n\n لا يتم منح هذا المستوى من الوصول تلقائيًا ويجب تأكيده بواسطتك. للقيام بذلك ، تحتاج إلى تعطيل وضع الحماية على الوظيفة الإضافية يدويًا. قم بتعطيل وضع الحماية فقط إذا كنت تعلم ، تحتاج وتثق بمصدر هذه الوظيفة الإضافية.",
+                        "description": "طلب مؤلف الوظيفة الإضافية الحصول على وصول إداري إلى مثيل Docker الذي يعمل على نظامك. يمنح هذا الوضع الوظيفة الإضافية وصولاً كاملاً وتحكمًا كاملاً في نظام Safegate Pro بالكامل ، مما يضيف مخاطر أمنية ، وقد يؤدي إلى إتلاف نظامك عند إساءة استخدامه. لذلك ، تؤثر هذه الميزة سلبًا على درجة أمان الوظيفة الإضافية. \n\n لا يتم منح هذا المستوى من الوصول تلقائيًا ويجب تأكيده بواسطتك. للقيام بذلك ، تحتاج إلى تعطيل وضع الحماية على الوظيفة الإضافية يدويًا. قم بتعطيل وضع الحماية فقط إذا كنت تعلم ، تحتاج وتثق بمصدر هذه الوظيفة الإضافية.",
                         "title": "الوصول الكامل إلى Docker"
                     },
                     "full_access": {
@@ -127,17 +127,17 @@
                         "title": "الوصول الكامل إلى العتاد"
                     },
                     "hassio_api": {
-                        "description": "تم منح الوظيفة الإضافية حق الوصول إلى Supervisor API ، بناءً على طلب مؤلف الوظيفة الإضافية. بشكل افتراضي ، يمكن للوظيفة الإضافية الوصول إلى معلومات الإصدار العامة لنظامك. عندما تطلب الوظيفة الإضافية وصول \"مدير\" أو \"مسؤول\" إلى واجهة برمجة التطبيقات ، فإنها ستحصل على حق الوصول للتحكم في أجزاء متعددة من نظام Home Assistant الخاص بك. يشار إلى هذا الإذن من خلال هذه الشارة وسيؤثر سلبًا على درجة أمان الاضافات.",
+                        "description": "تم منح الوظيفة الإضافية حق الوصول إلى Supervisor API ، بناءً على طلب مؤلف الوظيفة الإضافية. بشكل افتراضي ، يمكن للوظيفة الإضافية الوصول إلى معلومات الإصدار العامة لنظامك. عندما تطلب الوظيفة الإضافية وصول \"مدير\" أو \"مسؤول\" إلى واجهة برمجة التطبيقات ، فإنها ستحصل على حق الوصول للتحكم في أجزاء متعددة من نظام Safegate Pro الخاص بك. يشار إلى هذا الإذن من خلال هذه الشارة وسيؤثر سلبًا على درجة أمان الاضافات.",
                         "title": "وصول supervisor API"
                     },
                     "homeassistant_api": {
-                        "description": "يُسمح لهذه الوظيفة الإضافية بالوصول إلى مثيل Home Assistant قيد التشغيل مباشرةً عبر واجهة برمجة تطبيقات Home Assistant. يعالج هذا الوضع المصادقة للوظيفة الإضافية أيضًا ، مما يمكّن الوظيفة الإضافية من التفاعل مع Home Assistant دون الحاجة إلى رموز مصادقة إضافية."
+                        "description": "يُسمح لهذه الوظيفة الإضافية بالوصول إلى مثيل Safegate Pro قيد التشغيل مباشرةً عبر واجهة برمجة تطبيقات Safegate Pro. يعالج هذا الوضع المصادقة للوظيفة الإضافية أيضًا ، مما يمكّن الوظيفة الإضافية من التفاعل مع Safegate Pro دون الحاجة إلى رموز مصادقة إضافية."
                     },
                     "host_pid": {
                         "title": "مساحة عمليات المضيف"
                     },
                     "ingress": {
-                        "description": "تستخدم هذه الوظيفة الإضافية Ingress لتضمين واجهتها بشكل آمن في Home Assistant.",
+                        "description": "تستخدم هذه الوظيفة الإضافية Ingress لتضمين واجهتها بشكل آمن في Safegate Pro.",
                         "title": "مدخل"
                     },
                     "label": {
@@ -161,7 +161,7 @@
                 "hostname": "اسم المضيف",
                 "new_update_available": "{name} {version} متاح",
                 "not_available_arch": "هذه الوظيفة الإضافية غير متوافقة مع معالج جهازك أو نظام التشغيل الذي قمت بتثبيته على جهازك.",
-                "not_available_version": "أنت تقوم بتشغيل Home Assistant {core_version_installed} ، للتحديث إلى هذا الإصدار من الوظيفة الإضافية تحتاج على الأقل الإصدار {core_version_needed} من Home Assistant",
+                "not_available_version": "أنت تقوم بتشغيل Safegate Pro {core_version_installed} ، للتحديث إلى هذا الإصدار من الوظيفة الإضافية تحتاج على الأقل الإصدار {core_version_needed} من Safegate Pro",
                 "open_web_ui": "افتح واجهة مستخدم الويب",
                 "protection_mode": {
                     "enable": "تفعيل وضع الحماية"
@@ -276,12 +276,12 @@
             "delete_selected": "حذف اللقطات المحددة",
             "delete_snapshot_confirm": "حذف",
             "delete_snapshot_title": "حذف لقطة",
-            "description": "تسمح لك اللقطات بالنسخ الاحتياطي واستعادة جميع بيانات مثيل Home Assistant الخاص بك بسهولة.",
+            "description": "تسمح لك اللقطات بالنسخ الاحتياطي واستعادة جميع بيانات مثيل Safegate Pro الخاص بك بسهولة.",
             "enter_password": "الرجاء إدخال كلمة المرور.",
             "failed_to_delete": "فشل الحذف",
             "folder": {
                 "addons/local": "الإضافات المحلية",
-                "homeassistant": "تكوين Home Assistant",
+                "homeassistant": "تكوين Safegate Pro",
                 "media": "وسائط",
                 "share": "شارك",
                 "ssl": "SSL"
@@ -337,16 +337,16 @@
                 "failed_to_set_option": "فشل في تعيين خيار supervisor",
                 "failed_to_update": "فشل في تحديث supervisor",
                 "join_beta_action": "انضم إلى النسخ التجريبية",
-                "join_beta_description": "احصل على تحديثات تجريبية لـ Home Assistant (RCs) وsupervisor والمضيف",
+                "join_beta_description": "احصل على تحديثات تجريبية لـ Safegate Pro (RCs) وsupervisor والمضيف",
                 "leave_beta_action": "غادر النسخ التجريبية",
-                "leave_beta_description": "احصل على تحديثات ثابتة لـ Home Assistant و supervisor والمضيف",
+                "leave_beta_description": "احصل على تحديثات ثابتة لـ Safegate Pro و supervisor والمضيف",
                 "ram_usage": "استخدام supervisor لـ RAM",
                 "reload_supervisor": "إعادة تحميل supervisor",
                 "search": "بحث",
                 "share_diagnostics": "شارك التشخيصات",
                 "share_diagnostics_description": "شارك تقارير الأعطال ومعلومات التشخيص.",
-                "share_diagonstics_description": "هل تريد مشاركة تقارير الأعطال والمعلومات التشخيصية تلقائيا عندما يواجه Supervisor أخطاء غير متوقعة؟ {line_break} سيسمح لنا هذا بإصلاح المشاكل ، والمعلومات متاحة فقط لفريق Home Assistant Core ولن يتم مشاركتها مع الآخرين. {line_break} لا تتضمن البيانات أي معلومات خاصة/حساسة ويمكنك تعطيلها في الإعدادات في أي وقت تريده.",
-                "share_diagonstics_title": "ساعد في تحسين Home Assistant",
+                "share_diagonstics_description": "هل تريد مشاركة تقارير الأعطال والمعلومات التشخيصية تلقائيا عندما يواجه Supervisor أخطاء غير متوقعة؟ {line_break} سيسمح لنا هذا بإصلاح المشاكل ، والمعلومات متاحة فقط لفريق Safegate Pro Core ولن يتم مشاركتها مع الآخرين. {line_break} لا تتضمن البيانات أي معلومات خاصة/حساسة ويمكنك تعطيلها في الإعدادات في أي وقت تريده.",
+                "share_diagonstics_title": "ساعد في تحسين Safegate Pro",
                 "unhealthy_description": "سيؤدي تشغيل التثبيت غير الصحي إلى حدوث مشكلات. يوجد أدناه قائمة بالمشكلات التي تم العثور عليها في التثبيت الخاص بك ، انقر فوق الارتباطات لمعرفة كيفية حل المشكلات.",
                 "unhealthy_reason": {
                     "untrusted": "تم الكشف عن محتوى غير موثوق به"
@@ -740,9 +740,9 @@
             "config_entry_system_options": {
                 "enable_new_entities_description": "إذا كان يجب إضافة الأجهزة المكتشفة حديثًا لـ {integration}",
                 "enable_new_entities_label": "تمكين الكيانات المضافة حديثًا.",
-                "enable_polling_description": "إذا كان يجب على Home Assistant  تلقائيًا سحب {integration} للحصول على التحديثات.",
+                "enable_polling_description": "إذا كان يجب على Safegate Pro  تلقائيًا سحب {integration} للحصول على التحديثات.",
                 "enable_polling_label": "تمكين سحب التحديثات.",
-                "restart_home_assistant": "تحتاج إلى إعادة تشغيل Home Assistant حتى تصبح التغييرات سارية المفعول.",
+                "restart_home_assistant": "تحتاج إلى إعادة تشغيل Safegate Pro حتى تصبح التغييرات سارية المفعول.",
                 "title": "خيارات النظام لـ {integration}",
                 "update": "تحديث"
             },
@@ -762,9 +762,9 @@
                     "delete": "حذف",
                     "device_disabled": "جهاز هذا الكيان معطل.",
                     "enabled_cause": "معطل بسبب {cause} .",
-                    "enabled_delay_confirm": "ستتم إضافة الكيانات الممكّنة إلى Home Assistant في غضون {delay} ثانية",
-                    "enabled_description": "لن تتم إضافة الكيانات المعطلة إلى Home Assistant.",
-                    "enabled_restart_confirm": "أعد تشغيل Home Assistant لإنهاء تمكين الكيانات",
+                    "enabled_delay_confirm": "ستتم إضافة الكيانات الممكّنة إلى Safegate Pro في غضون {delay} ثانية",
+                    "enabled_description": "لن تتم إضافة الكيانات المعطلة إلى Safegate Pro.",
+                    "enabled_restart_confirm": "أعد تشغيل Safegate Pro لإنهاء تمكين الكيانات",
                     "follow_device_area": "اتبع منطقة الجهاز",
                     "icon": "أيقونة",
                     "icon_error": "يجب أن تكون الرموز بتنسيق 'prefix:iconname'، على سبيل المثال \"mdi: home\"",
@@ -790,7 +790,7 @@
                     "initial": "القيمة الأولية",
                     "maximum": "القيمة القصوى",
                     "minimum": "القيمة الدنيا",
-                    "restore": "قم باستعادة آخر قيمة معروفة عند بدء تشغيل Home Assistant",
+                    "restore": "قم باستعادة آخر قيمة معروفة عند بدء تشغيل Safegate Pro",
                     "step": "حجم الخطوة"
                 },
                 "generic": {
@@ -917,7 +917,7 @@
                 "filter_placeholder": "عامل تصفية الكيان"
             },
             "voice_command": {
-                "did_not_hear": "Home Assistant لم يسمع أي شيء",
+                "did_not_hear": "Safegate Pro لم يسمع أي شيء",
                 "label": "اكتب سؤالاً واضغط على \"إدخال\"",
                 "label_voice": "اكتب واضغط على \"إدخال\" أو انقر على الميكروفون للتحدث"
             },
@@ -1011,8 +1011,8 @@
             "connection_lost": "انقطع الاتصال. جاري إعادة الاتصال ...",
             "integration_starting": "بدء {integration}، لن يتوفر كل شيء حتى يتم الانتهاء منه.",
             "service_call_failed": "فشل الاتصال بخدمة {service} .",
-            "started": "Home Assistant بدأ!",
-            "starting": "يبدأ برنامج Home Assistant حاليا ، ولن يكون كل شيء متاحًا حتى الانتهاء.",
+            "started": "Safegate Pro بدأ!",
+            "starting": "يبدأ برنامج Safegate Pro حاليا ، ولن يكون كل شيء متاحًا حتى الانتهاء.",
             "triggered": "تم تشغيل {name}",
             "wrapping_up_startup": "اختتام بدء التشغيل، لن يكون كل شيء متاحا حتى يتم الانتهاء منه."
         },
@@ -1050,7 +1050,7 @@
                         "create_area": "إنشاء منطقة",
                         "header": "المناطق",
                         "integrations_page": "صفحة التكاملات",
-                        "introduction": "يتم استخدام المناطق لتنظيم أمكنة الأجهزة. سيتم استخدام هذه المعلومات في جميع أنحاء Home Assistant لمساعدتك في تنظيم الواجهة والأذونات و التكاملات مع الأنظمة الأخرى.",
+                        "introduction": "يتم استخدام المناطق لتنظيم أمكنة الأجهزة. سيتم استخدام هذه المعلومات في جميع أنحاء Safegate Pro لمساعدتك في تنظيم الواجهة والأذونات و التكاملات مع الأنظمة الأخرى.",
                         "introduction2": "لوضع الأجهزة في منطقة ما، إستخدم الرابط أدناه للإنتقال إلى صفحة التكاملات ثم انقر فوق تكامل مكوّن للوصول إلى بطاقات الجهاز.",
                         "no_areas": "يبدو أنه ليس لديك مناطق بعد!"
                     }
@@ -1079,7 +1079,7 @@
                             "delete_confirm": "هل تريد الحذف فعلا؟",
                             "duplicate": "تكرار",
                             "header": "الإجراءات",
-                            "introduction": "الإجراءات هي ما سيفعله Home Assistant عند تشغيل الأتمتة.",
+                            "introduction": "الإجراءات هي ما سيفعله Safegate Pro عند تشغيل الأتمتة.",
                             "learn_more": "معرفة المزيد عن الإجراءات",
                             "name": "إجراء",
                             "type_select": "نوع الإجراء",
@@ -1249,7 +1249,7 @@
                             "delete_confirm": "هل أنت متأكد أنك تريد حذف هذا؟",
                             "duplicate": "تكرار",
                             "header": "المشغلات",
-                            "introduction": "المشغلات هي التي تبدأ معالجةقاعدة الأتمتة. من الممكن تحديد عدة مشغلات لنفس القاعدة. بمجرد بدء المشغل ، سيقوم Home Assistant بالتحقق من صحة الشروط ، إن وجدت ، واستدعاء الإجراء.",
+                            "introduction": "المشغلات هي التي تبدأ معالجةقاعدة الأتمتة. من الممكن تحديد عدة مشغلات لنفس القاعدة. بمجرد بدء المشغل ، سيقوم Safegate Pro بالتحقق من صحة الشروط ، إن وجدت ، واستدعاء الإجراء.",
                             "learn_more": "معرفة المزيد عن المشغلات",
                             "name": "المشغل",
                             "type_select": "نوع المشغل",
@@ -1279,7 +1279,7 @@
                                 },
                                 "homeassistant": {
                                     "event": "الحدث:",
-                                    "label": "Home Assistant",
+                                    "label": "Safegate Pro",
                                     "shutdown": "إيقاف التشغيل",
                                     "start": "بدء"
                                 },
@@ -1356,7 +1356,7 @@
                         "headers": {
                             "name": "الاسم"
                         },
-                        "introduction": "يسمح لك محرر الأتمتة بإنشاء وتحرير الأتمتة. يرجى اتباع الرابط أدناه لقراءة التعليمات للتأكد من تهيئة Home Assistant بشكل صحيح.",
+                        "introduction": "يسمح لك محرر الأتمتة بإنشاء وتحرير الأتمتة. يرجى اتباع الرابط أدناه لقراءة التعليمات للتأكد من تهيئة Safegate Pro بشكل صحيح.",
                         "learn_more": "معرفة المزيد عن التحكم الآلي",
                         "no_automations": "لم نتمكن من العثور على أي أتمتة",
                         "pick_automation": "اختر الأتمتة لتحريرها",
@@ -1417,10 +1417,10 @@
                             "config_documentation": "وثائق التكوين",
                             "disable": "تعطيل",
                             "enable": "تمكين",
-                            "enable_ha_skill": "تمكين مهارة Home Assistant لـ Alexa",
+                            "enable_ha_skill": "تمكين مهارة Safegate Pro لـ Alexa",
                             "enable_state_reporting": "تمكين تقارير الحالة",
-                            "info": "من خلال تكامل Alexa مع Home Assistant Cloud ، ستتمكن من التحكم في جميع أجهزة Home Assistant الخاصة بك عبر أي جهاز يدعم Alexa.",
-                            "info_state_reporting": "إذا قمت بتمكين تقارير الحالة ، فسيرسل Home Assistant جميع تغييرات الحالة للكيانات المكشوفة إلى Amazon. يتيح لك ذلك دائمًا الاطلاع على أحدث الحالات في تطبيق Alexa واستخدام تغييرات الحالة لإنشاء إجراءات روتينية.",
+                            "info": "من خلال تكامل Alexa مع Safegate Pro Cloud ، ستتمكن من التحكم في جميع أجهزة Safegate Pro الخاصة بك عبر أي جهاز يدعم Alexa.",
+                            "info_state_reporting": "إذا قمت بتمكين تقارير الحالة ، فسيرسل Safegate Pro جميع تغييرات الحالة للكيانات المكشوفة إلى Amazon. يتيح لك ذلك دائمًا الاطلاع على أحدث الحالات في تطبيق Alexa واستخدام تغييرات الحالة لإنشاء إجراءات روتينية.",
                             "manage_entities": "إدارة الكيانات",
                             "state_reporting_error": "تعذر {enable_disable} الابلاغ عن الحالة.",
                             "sync_entities": "مزامنة الكيانات مع Amazon",
@@ -1434,15 +1434,15 @@
                         "google": {
                             "config_documentation": "وثائق التكوين",
                             "devices_pin": "رقم التعريف الشخصي لأجهزة الأمان",
-                            "enable_ha_skill": "قم بتنشيط مهارة Home Assistant Cloud لـ Google Assistant",
+                            "enable_ha_skill": "قم بتنشيط مهارة Safegate Pro Cloud لـ Google Assistant",
                             "enable_state_reporting": "تمكين تقارير الحالة",
                             "enter_pin_error": "تعذر تخزين رقم التعريف الشخصي:",
                             "enter_pin_hint": "إدخال رقم تعريف شخصي لاستخدام أجهزة الأمان",
                             "enter_pin_info": "الرجاء إدخال رقم التعريف الشخصي للتفاعل مع أجهزة الأمان. أجهزة الأمن هي الأبواب وأبواب المرآب والأقفال. سيطلب منك أن تقول/ تدخل رقم التعريف الشخصي هذا عند التفاعل مع هذه الأجهزة عبر مساعد Google.",
-                            "info": "مع تكامل Google Assistant لـ Home Assistant Cloud ، ستتمكن من التحكم في جميع أجهزة Home Assistant الخاصة بك عبر أي جهاز يدعم Google Assistant.",
-                            "info_state_reporting": "إذا قمت بتمكين الإبلاغ عن الحالة ، فسيرسل Home Assistant جميع تغييرات حالة الكيانات المكشوفة إلى Google. يتيح لك هذا دائمًا الاطلاع على أحدث الحالات في تطبيق Google.",
+                            "info": "مع تكامل Google Assistant لـ Safegate Pro Cloud ، ستتمكن من التحكم في جميع أجهزة Safegate Pro الخاصة بك عبر أي جهاز يدعم Google Assistant.",
+                            "info_state_reporting": "إذا قمت بتمكين الإبلاغ عن الحالة ، فسيرسل Safegate Pro جميع تغييرات حالة الكيانات المكشوفة إلى Google. يتيح لك هذا دائمًا الاطلاع على أحدث الحالات في تطبيق Google.",
                             "manage_entities": "إدارة الكيانات",
-                            "not_configured_text": "قبل أن تتمكن من استخدام Google Assistant ، تحتاج إلى تنشيط مهارة Home Assistant Cloud لـ Google Assistant في تطبيق Google Home.",
+                            "not_configured_text": "قبل أن تتمكن من استخدام Google Assistant ، تحتاج إلى تنشيط مهارة Safegate Pro Cloud لـ Google Assistant في تطبيق Google Home.",
                             "not_configured_title": "لم يتم تنشيط Google Assistant",
                             "security_devices": "أجهزة الأمان",
                             "sync_entities": "مزامنة الكيانات مع Google",
@@ -1458,19 +1458,19 @@
                             "access_is_being_prepared": "يتم تحضير جهاز التحكم عن بعد. سنعلمك عندما يكون جاهزًا.",
                             "certificate_info": "معلومات الشهادة",
                             "connected": "متصل",
-                            "info": "يوفر Home Assistant Cloud اتصالاً آمنًا عن بُعد بالمثيل الخاص بك أثناء تواجدك بعيدًا عن المنزل.",
+                            "info": "يوفر Safegate Pro Cloud اتصالاً آمنًا عن بُعد بالمثيل الخاص بك أثناء تواجدك بعيدًا عن المنزل.",
                             "instance_is_available": "المثيل الخاص بك متاح في",
                             "instance_will_be_available": "سيكون المثيل الخاص بك متاحا على",
                             "link_learn_how_it_works": "تعرف على كيفية عملها",
                             "not_connected": "غير متصل",
                             "remote_enabled": {
                                 "caption": "الاتصال تلقائيا",
-                                "description": "قم بتفعيل هذا الخيار للتأكد من أن Home Assistant الخاص بك يمكن الوصول إليه دائمًا عن بُعد."
+                                "description": "قم بتفعيل هذا الخيار للتأكد من أن Safegate Pro الخاص بك يمكن الوصول إليه دائمًا عن بُعد."
                             },
                             "title": "التحكم عن بعد"
                         },
                         "sign_out": "تسجيل الخروج",
-                        "thank_you_note": "شكرًا لك على كونك جزءًا من Home Assistant Cloud. بفضل أشخاص مثلك ، يمكننا تقديم تجربة أتمتة منزلية رائعة للجميع. شكرا لك!",
+                        "thank_you_note": "شكرًا لك على كونك جزءًا من Safegate Pro Cloud. بفضل أشخاص مثلك ، يمكننا تقديم تجربة أتمتة منزلية رائعة للجميع. شكرا لك!",
                         "tts": {
                             "default_language": "اللغة الافتراضية لاستخدامها",
                             "dialog": {
@@ -1488,7 +1488,7 @@
                         },
                         "webhooks": {
                             "disable_hook_error_msg": "فشل تعطيل webhook:",
-                            "info": "يمكن إعطاء أي شيء تم تكوينه ليتم تشغيله بواسطة webhook عنوان URL يمكن الوصول إليه بشكل عام للسماح لك بإرسال البيانات مرة أخرى إلى Home Assistant من أي مكان ، دون تعريض المثيل الخاص بك إلى الإنترنت.",
+                            "info": "يمكن إعطاء أي شيء تم تكوينه ليتم تشغيله بواسطة webhook عنوان URL يمكن الوصول إليه بشكل عام للسماح لك بإرسال البيانات مرة أخرى إلى Safegate Pro من أي مكان ، دون تعريض المثيل الخاص بك إلى الإنترنت.",
                             "link_learn_more": "تعرف على المزيد حول إنشاء عمليات اتمتة مدعومة بwebhook.",
                             "loading": "جار التحميل...",
                             "manage": "أدر",
@@ -1561,11 +1561,11 @@
                         "email": "البريد الإلكتروني",
                         "email_error_msg": "بريد إلكتروني غير صالح",
                         "forgot_password": "نسيت كلمة المرور؟",
-                        "introduction": "يوفر لك Home Assistant Cloud اتصالاً آمنًا عن بُعد بالمثيل الخاص بك أثناء تواجدك بعيدًا عن المنزل. كما يتيح لك الاتصال بخدمات السحابة فقط: Amazon Alexa و Google Assistant.",
+                        "introduction": "يوفر لك Safegate Pro Cloud اتصالاً آمنًا عن بُعد بالمثيل الخاص بك أثناء تواجدك بعيدًا عن المنزل. كما يتيح لك الاتصال بخدمات السحابة فقط: Amazon Alexa و Google Assistant.",
                         "introduction2": "يتم تشغيل هذه الخدمة من قبل شريكنا",
-                        "introduction2a": "، وهي شركة أسسها مؤسسو Home Assistant و Hass.io.",
-                        "introduction3": "Home Assistant Cloud هي خدمة اشتراك مع إصدار تجريبي مجاني لمدة شهر واحد. لا توجد معلومات دفع ضرورية.",
-                        "learn_more_link": "تعرف على المزيد حول Home Assistant Cloud",
+                        "introduction2a": "، وهي شركة أسسها مؤسسو Safegate Pro و Hass.io.",
+                        "introduction3": "Safegate Pro Cloud هي خدمة اشتراك مع إصدار تجريبي مجاني لمدة شهر واحد. لا توجد معلومات دفع ضرورية.",
+                        "learn_more_link": "تعرف على المزيد حول Safegate Pro Cloud",
                         "password": "كلمة المرور",
                         "password_error_msg": "كلمة مرور لا تقل عن 8 أحرف",
                         "sign_in": "تسجيل الدخول",
@@ -1580,13 +1580,13 @@
                         "email_error_msg": "بريد إلكتروني غير صالح",
                         "feature_amazon_alexa": "التكامل مع Amazon Alexa",
                         "feature_google_home": "التكامل مع Google Assistant",
-                        "feature_remote_control": "التحكم في Home Assistant بعيدًا عن المنزل",
+                        "feature_remote_control": "التحكم في Safegate Pro بعيدًا عن المنزل",
                         "feature_webhook_apps": "سهولة التكامل مع التطبيقات المستندة إلى الويب هوك مثل OwnTracks",
                         "headline": "ابدأ تجربتك المجانية",
-                        "information": "أنشئ حسابا لبدء الإصدار التجريبي المجاني لمدة شهر واحد باستخدام Home Assistant Cloud. لامعلومات مطلوبة للدفع.",
-                        "information2": "ستمنحك التجربة إمكانية الوصول إلى جميع مزايا Home Assistant Cloud، بما في ذلك:",
+                        "information": "أنشئ حسابا لبدء الإصدار التجريبي المجاني لمدة شهر واحد باستخدام Safegate Pro Cloud. لامعلومات مطلوبة للدفع.",
+                        "information2": "ستمنحك التجربة إمكانية الوصول إلى جميع مزايا Safegate Pro Cloud، بما في ذلك:",
                         "information3": "يتم تشغيل هذه الخدمة من قبل شريكنا",
-                        "information3a": "، وهي شركة أسسها مؤسسو Home Assistant و Hass.io.",
+                        "information3a": "، وهي شركة أسسها مؤسسو Safegate Pro و Hass.io.",
                         "information4": "بتسجيلك حساب فإنك توافق على الشروط والأحكام التالية.",
                         "link_privacy_policy": "سياسة الخصوصية",
                         "link_terms_conditions": "الشروط والأحكام",
@@ -1611,7 +1611,7 @@
                                 "documentation": "قبل تمكين هذا ، تأكد من زيارة صفحة وثائق التحليلات {link} لفهم ما ترسله وكيفية تخزينه.",
                                 "header": "تحليلات",
                                 "instance_id": "معرف المثيل: {huuid}",
-                                "introduction": "شارك معلومات التثبيت للمساعدة في تحسين Home Assistant ومساعدتنا في إقناع الشركات المصنعة بإضافة ميزات تحكم محلية وميزات تركز على الخصوصية.",
+                                "introduction": "شارك معلومات التثبيت للمساعدة في تحسين Safegate Pro ومساعدتنا في إقناع الشركات المصنعة بإضافة ميزات تحكم محلية وميزات تركز على الخصوصية.",
                                 "learn_more": "كيف نعالج بياناتك",
                                 "needs_base": "تحتاج إلى تمكين التحليلات الأساسية حتى يكون هذا الخيار متاحًا",
                                 "preference": {
@@ -1645,7 +1645,7 @@
                                 "imperial_example": "فهرنهايت، رطل",
                                 "internal_url": "العنوان المحلي",
                                 "latitude": "خط العرض",
-                                "location_name": "اسم تثبيت Home Assistant الخاص بك",
+                                "location_name": "اسم تثبيت Safegate Pro الخاص بك",
                                 "longitude": "خط الطول",
                                 "metric_example": "مئوية ، كيلوغرامات",
                                 "save_button": "حفظ",
@@ -1722,7 +1722,7 @@
                         "user": "مستخدم"
                     },
                     "enabled_cause": "تم تعطيل الجهاز بواسطة {cause}.",
-                    "enabled_description": "لن يتم عرض الأجهزة المعطلة وسيتم تعطيل الكيانات التي تنتمي إلى الجهاز ولن تتم إضافتها إلى Home Assistant.",
+                    "enabled_description": "لن يتم عرض الأجهزة المعطلة وسيتم تعطيل الكيانات التي تنتمي إلى الجهاز ولن تتم إضافتها إلى Safegate Pro.",
                     "enabled_label": "تمكين الجهاز",
                     "entities": {
                         "add_entities_lovelace": "أضف إلى Lovelace",
@@ -1766,11 +1766,11 @@
                     "picker": {
                         "disable_selected": {
                             "button": "تعطيل المحدد",
-                            "confirm_text": "لن تتم إضافة الكيانات المعطلة إلى Home Assistant."
+                            "confirm_text": "لن تتم إضافة الكيانات المعطلة إلى Safegate Pro."
                         },
                         "enable_selected": {
                             "button": "تمكين المحدد",
-                            "confirm_text": "سيؤدي ذلك إلى جعلها متاحة في Home Assistant مرة أخرى إذا تم تعطيلها الآن."
+                            "confirm_text": "سيؤدي ذلك إلى جعلها متاحة في Safegate Pro مرة أخرى إذا تم تعطيلها الآن."
                         },
                         "filter": {
                             "show_all": "إظهار الكل",
@@ -1784,11 +1784,11 @@
                             "integration": "تكامل",
                             "name": "الاسم"
                         },
-                        "introduction": "يحتفظ Home Assistant بسجل لكل كيان يراه على الإطلاق ويمكن تحديده بشكل فريد. سيكون لكل من هذه الكيانات معرف كيان معين سيتم حجزه لهذا الكيان فقط.",
-                        "introduction2": "استخدم سجل الكيان لتجاوز الاسم أو تغيير معرّف الكيان أو إزالة الإدخال من Home Assistant.",
+                        "introduction": "يحتفظ Safegate Pro بسجل لكل كيان يراه على الإطلاق ويمكن تحديده بشكل فريد. سيكون لكل من هذه الكيانات معرف كيان معين سيتم حجزه لهذا الكيان فقط.",
+                        "introduction2": "استخدم سجل الكيان لتجاوز الاسم أو تغيير معرّف الكيان أو إزالة الإدخال من Safegate Pro.",
                         "remove_selected": {
                             "button": "ازل المحدد",
-                            "confirm_partly_text": "يمكنك فقط إزالة {removable} من الكيانات {selected} . لا يمكن إزالة الكيانات إلا عندما يتوقف التكامل عن توفير الكيانات. في بعض الأحيان ، يتعين عليك إعادة تشغيل Home Assistant قبل أن تتمكن من إزالة كيانات التكامل الذي تمت إزالته. هل أنت متأكد من أنك تريد إزالة الكيانات القابلة للإزالة؟",
+                            "confirm_partly_text": "يمكنك فقط إزالة {removable} من الكيانات {selected} . لا يمكن إزالة الكيانات إلا عندما يتوقف التكامل عن توفير الكيانات. في بعض الأحيان ، يتعين عليك إعادة تشغيل Safegate Pro قبل أن تتمكن من إزالة كيانات التكامل الذي تمت إزالته. هل أنت متأكد من أنك تريد إزالة الكيانات القابلة للإزالة؟",
                             "confirm_partly_title": "فقط {number} {number, plural,\n  one {كيان محدد}\n  other {كيان محدد}\n} يمكن حذفه.",
                             "confirm_text": "يجب عليك إزالتها من إعدادات Lovelace والأتمتة إذا كانت تحتوي على هذه الكيانات."
                         },
@@ -1808,7 +1808,7 @@
                 "hassio": {
                     "button": "تكوين"
                 },
-                "header": "تكوين Home Assistant",
+                "header": "تكوين Safegate Pro",
                 "helpers": {
                     "description": "العناصر التي تساعد في بناء الأتمتة",
                     "dialog": {
@@ -1841,7 +1841,7 @@
                     "documentation": "الوثائق",
                     "frontend": "واجهة Frontend",
                     "frontend_version": "إصدار الواجهة الأمامية: {version} - {type}",
-                    "home_assistant_logo": "شعار Home Assistant",
+                    "home_assistant_logo": "شعار Safegate Pro",
                     "icons_by": "الايقونات بواسطة",
                     "integrations": "تكاملات",
                     "issues": "الاعطال",
@@ -1874,7 +1874,7 @@
                         "device_unavailable": "الجهاز غير متوفر",
                         "devices": "{count} {count, plural,\n  one {جهاز}\n  other {أجهزة}\n}",
                         "disable_error": "فشل تمكين التكامل أو تعطيله",
-                        "disable_restart_confirm": "أعد تشغيل Home Assistant لإنهاء تعطيل هذا التكامل",
+                        "disable_restart_confirm": "أعد تشغيل Safegate Pro لإنهاء تعطيل هذا التكامل",
                         "disable": {
                             "disable_confirm": "هل أنت متأكد أنك تريد تعطيل إدخال التكوين هذا؟ سيتم تعطيل أجهزتها وكياناتها.",
                             "disabled_by": {
@@ -1896,9 +1896,9 @@
                         "provided_by_custom_integration": "يتم توفيره من خلال تكامل مخصص",
                         "reload": "إعادة تحميل",
                         "reload_confirm": "تم إعادة تحميل التكامل",
-                        "reload_restart_confirm": "أعد تشغيل Home Assistant لإنهاء إعادة تحميل هذا التكامل",
+                        "reload_restart_confirm": "أعد تشغيل Safegate Pro لإنهاء إعادة تحميل هذا التكامل",
                         "rename": "إعادة تسمية",
-                        "restart_confirm": "أعد تشغيل Home Assistant لإنهاء حذف هذا التكامل",
+                        "restart_confirm": "أعد تشغيل Safegate Pro لإنهاء حذف هذا التكامل",
                         "state": {
                             "failed_unload": "فشل إلغاء التحميل",
                             "loaded": "محمل",
@@ -1925,7 +1925,7 @@
                         "loading_first_time": "يرجى الانتظار بينما يتم تثبيت الـintegration",
                         "next": "التالى",
                         "not_all_required_fields": "لم يتم تعبئة جميع الحقول المطلوبة.",
-                        "not_loaded": "تعذر تحميل التكامل ، حاول إعادة تشغيل Home Assistant"
+                        "not_loaded": "تعذر تحميل التكامل ، حاول إعادة تشغيل Safegate Pro"
                     },
                     "configure": "إعداد",
                     "configured": "تم التكوين",
@@ -1939,7 +1939,7 @@
                         "show_disabled": "إظهار عمليات التكامل المعطلة"
                     },
                     "discovered": "مكتشف",
-                    "home_assistant_website": "موقع Home Assistant",
+                    "home_assistant_website": "موقع Safegate Pro",
                     "ignore": {
                         "confirm_delete_ignore": "سيؤدي هذا إلى ظهور التكامل في عمليات الدمج المكتشفة مرة أخرى عند اكتشافها. قد يتطلب هذا إعادة التشغيل أو يستغرق بعض الوقت.",
                         "confirm_delete_ignore_title": "توقف عن تجاهل {name} ؟",
@@ -1965,11 +1965,11 @@
                     "rename_input_label": "الاسم",
                     "search": "إبحث عن التكاملات"
                 },
-                "introduction": "يمكنك هنا برمجة المكونات الخاصة بك و إعداد نظام Home Assistant. ليس كل شيء متاح للبرمجة من خلال واجهة المستخدم حتى الآن، ولكننا نعمل على ذلك.",
+                "introduction": "يمكنك هنا برمجة المكونات الخاصة بك و إعداد نظام Safegate Pro. ليس كل شيء متاح للبرمجة من خلال واجهة المستخدم حتى الآن، ولكننا نعمل على ذلك.",
                 "logs": {
                     "caption": "السجلات",
                     "clear": "مسح",
-                    "description": "عرض سجلات Home Assistant",
+                    "description": "عرض سجلات Safegate Pro",
                     "details": "تفاصيل السجل ({level})",
                     "error_from_custom_integration": "نشأ هذا الخطأ من تكامل مخصص.",
                     "level": {
@@ -1979,7 +1979,7 @@
                         "info": "معلومات",
                         "warning": "تحذير"
                     },
-                    "load_full_log": "تحميل سجل Home Assistant الكامل",
+                    "load_full_log": "تحميل سجل Safegate Pro الكامل",
                     "loading_log": "جارٍ تحميل سجل الأخطاء ...",
                     "multiple_messages": "ظهرت الرسالة لأول مرة في {time} وتظهر {counter} مرات",
                     "no_errors": "لم يتم الإبلاغ عن أي أخطاء",
@@ -2154,7 +2154,7 @@
                     "confirm_delete": "هل أنت متأكد أنك تريد حذف هذا الشخص؟",
                     "confirm_delete2": "ستصبح جميع الأجهزة الخاصة بهذا الشخص غير محددة.",
                     "create_person": "إنشاء شخص",
-                    "description": "إدارة الأشخاص الذين يتتبعهم Home Assistant.",
+                    "description": "إدارة الأشخاص الذين يتتبعهم Safegate Pro.",
                     "detail": {
                         "confirm_delete_user": "هل أنت متأكد أنك تريد حذف حساب المستخدم لـ {name} ؟ لا يزال بإمكانك تتبع المستخدم ، ولكن لن يتمكن الشخص من تسجيل الدخول مرة أخرى.",
                         "create": "إنشاء",
@@ -2171,7 +2171,7 @@
                         "no_device_tracker_available_intro": "عندما يكون لديك أجهزة تشير إلى تواجد شخص ، ستتمكن من تعيينها إلى شخص هنا. يمكنك إضافة جهازك الأول عن طريق إضافة تكامل كشف التواجد من صفحة التكاملات.",
                         "update": "تحديث"
                     },
-                    "introduction": "هنا يمكنك تحديد كل شخص مهتم بـ Home Assistant.",
+                    "introduction": "هنا يمكنك تحديد كل شخص مهتم بـ Safegate Pro.",
                     "learn_more": "تعلم المزيد عن الناس",
                     "no_persons_created_yet": "يبدو أنك لم تنشئ أي أشخاص حتى الآن.",
                     "note_about_persons_configured_in_yaml": "ملاحظة: لا يمكن تحرير الأشخاص الذين تم تكوينهم عبر configuration.yaml عبر واجهة المستخدم.",
@@ -2250,7 +2250,7 @@
                 },
                 "server_control": {
                     "caption": "عناصر التحكم بالخادم",
-                    "description": "أعد تشغيل خادم Home Assistant وأوقفه",
+                    "description": "أعد تشغيل خادم Safegate Pro وأوقفه",
                     "section": {
                         "reloading": {
                             "automation": "الأتمتة",
@@ -2269,7 +2269,7 @@
                             "input_number": "أرقام الإدخال",
                             "input_select": "تحديد المدخلات",
                             "input_text": "نصوص الإدخال",
-                            "introduction": "يمكن إعادة تحميل بعض أجزاء Home Assistant دون الحاجة إلى إعادة التشغيل. سيؤدي الضغط على إعادة التحميل إلى تفريغ تكوين YAML الحالي وتحميل التكوين الجديد.",
+                            "introduction": "يمكن إعادة تحميل بعض أجزاء Safegate Pro دون الحاجة إلى إعادة التشغيل. سيؤدي الضغط على إعادة التحميل إلى تفريغ تكوين YAML الحالي وتحميل التكوين الجديد.",
                             "min_max": "الحد الأدنى/الأقصى للكيانات",
                             "mqtt": "كيانات MQTT المكونة يدويًا",
                             "person": "الناس",
@@ -2286,10 +2286,10 @@
                             "zone": "المناطق"
                         },
                         "server_management": {
-                            "confirm_restart": "هل تريد بالتأكيد اعادة تشغيل Home Assistant؟",
-                            "confirm_stop": "هل تريد بالتأكيد إيقاف Home Assistant؟",
+                            "confirm_restart": "هل تريد بالتأكيد اعادة تشغيل Safegate Pro؟",
+                            "confirm_stop": "هل تريد بالتأكيد إيقاف Safegate Pro؟",
                             "heading": "إدارة الخادم",
-                            "introduction": "تحكم في خادم Home Assistant ... من Home Assistant.",
+                            "introduction": "تحكم في خادم Safegate Pro ... من Safegate Pro.",
                             "restart": "إعادة التشغيل",
                             "stop": "ايقاف التشغيل"
                         },
@@ -2341,7 +2341,7 @@
                         "password_not_match": "كلمات المرور غير متطابقة"
                     },
                     "caption": "المستخدمين",
-                    "description": "إدارة حسابات مستخدمي Home Assistant",
+                    "description": "إدارة حسابات مستخدمي Safegate Pro",
                     "editor": {
                         "activate_user": "تفعيل المستخدم",
                         "active": "مفعل",
@@ -2549,7 +2549,7 @@
                     "remove_node": {
                         "cancel_exclusion": "إلغاء الاستبعاد",
                         "follow_device_instructions": "اتبع الإرشادات المرفقة مع جهازك لبدء الاستبعاد على الجهاز.",
-                        "introduction": "قم بإزالة عقدة من شبكة Z-Wave الخاصة بك ، وقم بإزالة الجهاز والكيانات المرتبطة بها من Home Assistant.",
+                        "introduction": "قم بإزالة عقدة من شبكة Z-Wave الخاصة بك ، وقم بإزالة الجهاز والكيانات المرتبطة بها من Safegate Pro.",
                         "start_exclusion": "بدء الاستبعاد"
                     }
                 },
@@ -2592,7 +2592,7 @@
                         "add_to_group": "إضافة إلى المجموعة",
                         "entities": "كيانات هذه العقدة",
                         "entity_info": "معلومات الكيان",
-                        "exclude_entity": "استبعد هذا الكيان من Home Assistant",
+                        "exclude_entity": "استبعد هذا الكيان من Safegate Pro",
                         "group": "مجموعة",
                         "header": "إدارة عقد Z-Wave",
                         "introduction": "قم بتشغيل أوامر Z-Wave التي تؤثر على عقدة واحدة. اختر عقدة لترى قائمة بالأوامر المتاحة.",
@@ -2638,7 +2638,7 @@
             },
             "custom": {
                 "external_panel": {
-                    "complete_access": "سيكون لديه حق الوصول إلى جميع البيانات في Home Assistant.",
+                    "complete_access": "سيكون لديه حق الوصول إلى جميع البيانات في Safegate Pro.",
                     "hide_message": "تحقق من المستندات لمكون panel_custom لإخفاء هذه الرسالة",
                     "question_trust": "هل تثق باللوحة الخارجية {name} في {link} ؟"
                 }
@@ -2661,7 +2661,7 @@
                     },
                     "states": {
                         "copy_id": "انسخ المعرف إلى الحافظة",
-                        "description1": "قم بتعيين تمثيل الحالة الحالية لكيان داخل Home Assistant.",
+                        "description1": "قم بتعيين تمثيل الحالة الحالية لكيان داخل Safegate Pro.",
                         "description2": "إذا كان الكيان ينتمي إلى جهاز، فلن يكون هناك اتصال فعلي مع هذا الجهاز.",
                         "last_changed": "آخر تعديل",
                         "last_updated": "آخر تحديث",
@@ -2735,7 +2735,7 @@
                         "url": "فتح النافذة لـ {url_path}"
                     },
                     "safe-mode": {
-                        "description": "واجه Home Assistant مشكلة أثناء تحميل التكوينات الخاصة بك ويتم تشغيله الآن في الوضع الآمن. أنظر إلى سجل الأخطاء لمعرفة  الخطأ.",
+                        "description": "واجه Safegate Pro مشكلة أثناء تحميل التكوينات الخاصة بك ويتم تشغيله الآن في الوضع الآمن. أنظر إلى سجل الأخطاء لمعرفة  الخطأ.",
                         "header": "الوضع الآمن منشط"
                     },
                     "shopping-list": {
@@ -2746,7 +2746,7 @@
                         "reorder_items": "إعادة ترتيب العناصر"
                     },
                     "starting": {
-                        "description": "Home Assistant يبدأ، يرجى الانتظار..."
+                        "description": "Safegate Pro يبدأ، يرجى الانتظار..."
                     }
                 },
                 "changed_toast": {
@@ -2883,7 +2883,7 @@
                             "name": "المرطب"
                         },
                         "iframe": {
-                            "description": "تسمح لك بطاقة صفحة الويب بتضمين صفحة ويب مباشرةً في Home Assistant.",
+                            "description": "تسمح لك بطاقة صفحة الويب بتضمين صفحة ويب مباشرةً في Safegate Pro.",
                             "name": "صفحة ويب"
                         },
                         "light": {
@@ -3026,7 +3026,7 @@
                     "migrate": {
                         "header": "التكوين غير متوافق",
                         "migrate": "ترحيل التكوين",
-                        "para_migrate": "يمكن لـ Home Assistant إضافة معرفات إلى جميع بطاقاتك وطرق العرض تلقائيًا لك بالضغط على زر \"ترحيل التكوين\".",
+                        "para_migrate": "يمكن لـ Safegate Pro إضافة معرفات إلى جميع بطاقاتك وطرق العرض تلقائيًا لك بالضغط على زر \"ترحيل التكوين\".",
                         "para_no_id": "هذا العنصر ليس له معرّف ID . الرجاء إضافة معرف ID لهذا العنصر في \"ui-lovelace.yaml\"."
                     },
                     "raw_editor": {
@@ -3047,7 +3047,7 @@
                         "close": "إغلاق",
                         "empty_config": "ابدأ بلوحة معلومات فارغة",
                         "header": "تحكم في واجهة مستخدم Lovelace",
-                        "para": "يتم صيانة لوحة المعلومات هذه حاليًا بواسطة Home Assistant. يتم تحديثه تلقائيًا عند توفر كيانات جديدة أو مكونات Lovelace UI. إذا كنت تتحكم ، فلن يتم تحديث لوحة التحكم هذه تلقائيًا بعد الآن. يمكنك دائمًا إنشاء لوحة تحكم جديدة في التكوين للتلاعب بها.",
+                        "para": "يتم صيانة لوحة المعلومات هذه حاليًا بواسطة Safegate Pro. يتم تحديثه تلقائيًا عند توفر كيانات جديدة أو مكونات Lovelace UI. إذا كنت تتحكم ، فلن يتم تحديث لوحة التحكم هذه تلقائيًا بعد الآن. يمكنك دائمًا إنشاء لوحة تحكم جديدة في التكوين للتلاعب بها.",
                         "para_sure": "هل أنت متأكد أنك تريد التحكم في واجهة المستخدم الخاصة بك؟",
                         "save": "تحكم",
                         "yaml_control": "للتحكم في وضع YAML ، قم بإنشاء ملف YAML بالاسم الذي حددته في التكوين الخاص بك للوحة القيادة هذه ، أو الافتراضي \"ui-lovelace.yaml\".",
@@ -3096,7 +3096,7 @@
                     "entity_non_numeric": "الكيان غير رقمي: {entity}",
                     "entity_not_found": "الجهاز غير متوفر: {entity}",
                     "entity_unavailable": "الكيان غير متاح حاليًا: {entity}",
-                    "starting": "Home Assistant يبدأ، قد لا يكون كل شيء متاح حتى الآن"
+                    "starting": "Safegate Pro يبدأ، قد لا يكون كل شيء متاح حتى الآن"
                 }
             },
             "mailbox": {
@@ -3108,12 +3108,12 @@
             "my": {
                 "documentation": "الوثائق",
                 "error": "حدث خطأ غير معروف",
-                "faq_link": "الأسئلة الشائعة حول My Home Assistant",
-                "not_supported": "لا يدعم مثيل Home Assistant إعادة التوجيه هذه. تحقق من {link} لعمليات إعادة التوجيه المدعومة والإصدار الذي تم تقديمه فيه."
+                "faq_link": "الأسئلة الشائعة حول My Safegate Pro",
+                "not_supported": "لا يدعم مثيل Safegate Pro إعادة التوجيه هذه. تحقق من {link} لعمليات إعادة التوجيه المدعومة والإصدار الذي تم تقديمه فيه."
             },
             "page-authorize": {
                 "abort_intro": "إلغاء الدخول",
-                "authorizing_client": "أنت على وشك منح {clientId} حق الوصول إلى مثيل Home Assistant الخاص بك.",
+                "authorizing_client": "أنت على وشك منح {clientId} حق الوصول إلى مثيل Safegate Pro الخاص بك.",
                 "form": {
                     "error": "خطأ: {error}",
                     "next": "التالى",
@@ -3214,8 +3214,8 @@
                 "cards": {
                     "demo": {
                         "demo_by": "بواسطة {name}",
-                        "introduction": "مرحبا بك في بيتك! لقد وصلت إلى العرض التوضيحي لـ Home Assistant حيث نعرض أفضل واجهات المستخدم التي أنشأها مجتمعنا.",
-                        "learn_more": "تعرف على المزيد حول Home Assistant",
+                        "introduction": "مرحبا بك في بيتك! لقد وصلت إلى العرض التوضيحي لـ Safegate Pro حيث نعرض أفضل واجهات المستخدم التي أنشأها مجتمعنا.",
+                        "learn_more": "تعرف على المزيد حول Safegate Pro",
                         "next_demo": "العرض التوضيحي التالي"
                     }
                 },
@@ -3262,16 +3262,16 @@
                 "core-config": {
                     "button_detect": "كشف",
                     "finish": "التالى",
-                    "intro": "مرحبًا {name} ، مرحبًا بك في Home Assistant. ماذا تريد تسمية منزلك؟",
+                    "intro": "مرحبًا {name} ، مرحبًا بك في Safegate Pro. ماذا تريد تسمية منزلك؟",
                     "intro_location": "نود أن نعرف أين تعيش. ستساعد هذه المعلومات في عرض المعلومات وإعداد الأتمتة القائمة على الشمس. لا يتم ابدا مشاركة هذه البيانات خارج الشبكة الخاصة بك.",
                     "intro_location_detect": "يمكننا مساعدتك في ملء هذه المعلومات عن طريق تقديم طلب لمرة واحدة إلى خدمة خارجية.",
-                    "location_name": "اسم تثبيت Home Assistant الخاص بك",
+                    "location_name": "اسم تثبيت Safegate Pro الخاص بك",
                     "location_name_default": "المنزل "
                 },
                 "finish": "انتهى",
                 "integration": {
                     "finish": "إنهاء",
-                    "intro": "يتم تمثيل الأجهزة والخدمات في Home Assistant كتكاملات. يمكنك إعدادها الآن ، أو القيام بذلك لاحقًا من شاشة التكوين.",
+                    "intro": "يتم تمثيل الأجهزة والخدمات في Safegate Pro كتكاملات. يمكنك إعدادها الآن ، أو القيام بذلك لاحقًا من شاشة التكوين.",
                     "more_integrations": "المزيد"
                 },
                 "intro": "هل أنت مستعد لإيقاظ منزلك واستعادة خصوصيتك والانضمام إلى مجتمع عالمي من اللاعبين؟",
@@ -3340,7 +3340,7 @@
                     "create_failed": "فشل إنشاء رمز الوصول المميز.",
                     "created": "أنشئ في {date}",
                     "delete_failed": "فشل حذف رمز الوصول المميز.",
-                    "description": "قم بإنشاء رموز وصول طويلة الأمد للسماح لنصوصك بالتفاعل مع مثيل Home Assistant الخاص بك. سيكون كل رمز مميزًا صالحًا لمدة 10 سنوات من تاريخ إنشائه. رموز الوصول طويلة العمر التالية نشطة حاليًا.",
+                    "description": "قم بإنشاء رموز وصول طويلة الأمد للسماح لنصوصك بالتفاعل مع مثيل Safegate Pro الخاص بك. سيكون كل رمز مميزًا صالحًا لمدة 10 سنوات من تاريخ إنشائه. رموز الوصول طويلة العمر التالية نشطة حاليًا.",
                     "empty_state": "ليس لديك رموز وصول طويلة الأمد حتى الآن.",
                     "header": "رموز الوصول طويلة الأمد",
                     "learn_auth_requests": "تعرف على كيفية عمل طلبات مصادقة.",

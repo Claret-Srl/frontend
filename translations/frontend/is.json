@@ -143,11 +143,11 @@
             "create": "Búa til",
             "create_blocked_not_running": "Ekki er hægt að búa til skyndimynd núna þar sem kerfið er í {state} stöðu.",
             "create_snapshot": "Búa til skyndimynd",
-            "description": "Skyndimyndir gera þér kleift að vinna með öryggisafrit af gögnum þessa tilviks af Home Assistant.",
+            "description": "Skyndimyndir gera þér kleift að vinna með öryggisafrit af gögnum þessa tilviks af Safegate Pro.",
             "enter_password": "Færðu inn lykilorð.",
             "folder": {
                 "addons/local": "Staðbundnar viðbætur",
-                "homeassistant": "Home Assistant stillingar",
+                "homeassistant": "Safegate Pro stillingar",
                 "media": "Efni",
                 "share": "Deila",
                 "ssl": "SSL"
@@ -678,7 +678,7 @@
                     "picker": {
                         "header": "Svæðaskrá",
                         "integrations_page": "Samþættingar síða",
-                        "introduction": "Svæði eru notuð til að skipuleggja hvar tæki eru staðsett. Þessar upplýsingar verða notaðar innan Home Assistant til að hjálpa þér að skipuleggja viðmótið, réttindi og samþættingar við önnur kerfi.",
+                        "introduction": "Svæði eru notuð til að skipuleggja hvar tæki eru staðsett. Þessar upplýsingar verða notaðar innan Safegate Pro til að hjálpa þér að skipuleggja viðmótið, réttindi og samþættingar við önnur kerfi.",
                         "introduction2": "Til að staðsetja tæki inn á tilteknu svæði þá skal notast við hlekkinn hér fyrir neðan til að vafra yfir á samþættingarsíðu og þar smella á stillta samþættingu til að fá upp spjaldið fyrir tækið."
                     }
                 },
@@ -706,7 +706,7 @@
                             "delete_confirm": "Ertu viss um að þú viljir eyða?",
                             "duplicate": "Fjölfalda",
                             "header": "Aðgerðir",
-                            "introduction": "Aðgerðir er það sem Home Assistant mun gera þegar sjálfvirkni er ræst.",
+                            "introduction": "Aðgerðir er það sem Safegate Pro mun gera þegar sjálfvirkni er ræst.",
                             "learn_more": "Læra meira um aðgerðir",
                             "name": "Aðgerð",
                             "type_select": "Gerð aðgerðar",
@@ -849,7 +849,7 @@
                             "delete_confirm": "Ert þú viss um að þú viljir eyða?",
                             "duplicate": "Fjölfalda",
                             "header": "Kveikjur",
-                            "introduction": "Kveikjur sjá um að ræsa sjálfvirkni reglur. Það er mögulegt að tilgreina margar kveikjur fyrir sömu regluna. Þegar kveikja er ræst þá mun Home Assistant sannreyna skilyrðin ef einhver og kalla á aðgerðina.",
+                            "introduction": "Kveikjur sjá um að ræsa sjálfvirkni reglur. Það er mögulegt að tilgreina margar kveikjur fyrir sömu regluna. Þegar kveikja er ræst þá mun Safegate Pro sannreyna skilyrðin ef einhver og kalla á aðgerðina.",
                             "learn_more": "Læra meira um kveikjur",
                             "type_select": "Gerð kveikju",
                             "type": {
@@ -878,7 +878,7 @@
                                 },
                                 "homeassistant": {
                                     "event": "Viðburður:",
-                                    "label": "Home Assistant",
+                                    "label": "Safegate Pro",
                                     "shutdown": "Lokun",
                                     "start": "Ræsing"
                                 },
@@ -1069,8 +1069,8 @@
                         "email_error_msg": "Ógilt netfang",
                         "forgot_password": "gleymt lykilorð?",
                         "introduction2": "Þessi þjónusta er rekin af samstarfsaðila okkar",
-                        "introduction3": "Home Assistant skýið er áskriftarþjónusta með mánaðar prufuáskrift. Engar greiðsluupplýsingar nauðsynlegar.",
-                        "learn_more_link": "Læra meira um Home Assistant skýið",
+                        "introduction3": "Safegate Pro skýið er áskriftarþjónusta með mánaðar prufuáskrift. Engar greiðsluupplýsingar nauðsynlegar.",
+                        "learn_more_link": "Læra meira um Safegate Pro skýið",
                         "password": "Lykilorð",
                         "password_error_msg": "Lykilorð eru að minnsta kosti 8 stafir",
                         "sign_in": "Skrá inn",
@@ -1103,7 +1103,7 @@
                                 "imperial_example": "Fahrenheit, pund",
                                 "internal_url": "Innri vefslóð",
                                 "latitude": "Breiddargráða",
-                                "location_name": "Nafnið á Home Assistant uppsetningunni",
+                                "location_name": "Nafnið á Safegate Pro uppsetningunni",
                                 "longitude": "Lengdargráða",
                                 "metric_example": "Celsíus, kílógrömm",
                                 "save_button": "Vista",
@@ -1160,7 +1160,7 @@
                         "user": "Notandi"
                     },
                     "enabled_cause": "Tækið er óvirkt vegna {cause}.",
-                    "enabled_description": "Óvirk tæki verða ekki sýnd, einingar sem tilheyra tækinu verða gerðar óvirkar og þeim ekki bætt við Home Assistant.",
+                    "enabled_description": "Óvirk tæki verða ekki sýnd, einingar sem tilheyra tækinu verða gerðar óvirkar og þeim ekki bætt við Safegate Pro.",
                     "enabled_label": "Virkja einingu",
                     "entities": {
                         "add_entities_lovelace": "Bæta við í Lovelace",
@@ -1213,7 +1213,7 @@
                             "name": "Nafn",
                             "status": "Staða"
                         },
-                        "introduction": "Home Assistant heldur bókhald utanum allar einingar sem verið greindar. Hver þessara eininga hafa einingar-auðkenni (ID) sem er frátekið bara fyrir þessa tilteknu einingu.",
+                        "introduction": "Safegate Pro heldur bókhald utanum allar einingar sem verið greindar. Hver þessara eininga hafa einingar-auðkenni (ID) sem er frátekið bara fyrir þessa tilteknu einingu.",
                         "remove_selected": {
                             "button": "Fjarlægja val",
                             "confirm_title": "Viltu fjarlægja {number} einingar?"
@@ -1233,7 +1233,7 @@
                     "clear": "Hreinsa",
                     "filtering_by": "Sía eftir"
                 },
-                "header": "Stilla af Home Assistant",
+                "header": "Stilla af Safegate Pro",
                 "helpers": {
                     "dialog": {
                         "create": "Stofna"
@@ -1283,7 +1283,7 @@
                         "options": "Valkostir",
                         "reload": "Endurhlaða",
                         "rename": "Endurnefna",
-                        "restart_confirm": "Endurræsa Home Assitant til að klára að fjarlægja þessa samþættingu",
+                        "restart_confirm": "Endurræsa Safegate Pro til að klára að fjarlægja þessa samþættingu",
                         "system_options": "Kerfisvalkostir"
                     },
                     "config_flow": {
@@ -1300,7 +1300,7 @@
                     "configured": "Uppsett",
                     "description": "Stjórna tengdum tækjum og þjónustum",
                     "discovered": "Uppgötvað",
-                    "home_assistant_website": "Vefsíða Home Assistant",
+                    "home_assistant_website": "Vefsíða Safegate Pro",
                     "ignore": {
                         "hide_ignored": "Fela hunsaðar samþættingar",
                         "ignore": "Hunsa",
@@ -1315,7 +1315,7 @@
                     "note_about_integrations": "Það er ekki er hægt að stilla allar samþættingar í gegnum viðmótið ennþá.",
                     "search": "Leita í samþættingum"
                 },
-                "introduction": "Hér er mögulegt að stilla af íhluti og Home Assistant. Því miður er ekki hægt að breyta öllu í gegnum viðmótið ennþá, en við erum að vinna í því.",
+                "introduction": "Hér er mögulegt að stilla af íhluti og Safegate Pro. Því miður er ekki hægt að breyta öllu í gegnum viðmótið ennþá, en við erum að vinna í því.",
                 "logs": {
                     "clear": "Hreinsa",
                     "refresh": "Endurnýja"
@@ -1478,7 +1478,7 @@
                 },
                 "server_control": {
                     "caption": "Stjórnun þjóns",
-                    "description": "Endurræsa og stöðva Home Assistant þjóni",
+                    "description": "Endurræsa og stöðva Safegate Pro þjóni",
                     "section": {
                         "reloading": {
                             "automation": "Endurhlaða sjálfvirkni",
@@ -1486,15 +1486,15 @@
                             "group": "Endurhlaða hópa",
                             "heading": "Endurhleðsla stillinga",
                             "homekit": "Endurhlaða HomeKit",
-                            "introduction": "Sumir hlutar af Home Assistant er hægt að hlaða inn að nýju án þess að það krefjist endurræsingar. Með því að velja að endurhlaða þá mun sú aðgerð hlaða inn nýjum stillingum.",
+                            "introduction": "Sumir hlutar af Safegate Pro er hægt að hlaða inn að nýju án þess að það krefjist endurræsingar. Með því að velja að endurhlaða þá mun sú aðgerð hlaða inn nýjum stillingum.",
                             "scene": "Endurhlaða senum",
                             "script": "Endurhlaða skriftum"
                         },
                         "server_management": {
-                            "confirm_restart": "Ertu viss um að þú viljir endurræsa Home Assistant?",
-                            "confirm_stop": "Ertu viss um að þú viljir stöðva Home Assistant?",
+                            "confirm_restart": "Ertu viss um að þú viljir endurræsa Safegate Pro?",
+                            "confirm_stop": "Ertu viss um að þú viljir stöðva Safegate Pro?",
                             "heading": "Stjórnun miðlara",
-                            "introduction": "Stjórna Home Assistant miðlara... frá Home Assistant.",
+                            "introduction": "Stjórna Safegate Pro miðlara... frá Safegate Pro.",
                             "restart": "Endurræsa",
                             "stop": "Stöðva"
                         },
@@ -1669,7 +1669,7 @@
                         "exclusion_failed": "Ekki tókst að fjarlægja hnútinn. Vinsamlegast athugaðu atburðaskrár fyrir frekari upplýsingar.",
                         "exclusion_finished": "Hnúturinn {id} hefur verið fjarlægður af Z-Wave netinu.",
                         "follow_device_instructions": "Fylgdu leiðbeiningunum sem fylgdu tækinu þínu til að kveikja á útilokun í tækinu.",
-                        "introduction": "Fjarlægðu hnút af Z-Wave netinu þínu og fjarlægðu tengd tæki og einingar úr Home Assistant.",
+                        "introduction": "Fjarlægðu hnút af Z-Wave netinu þínu og fjarlægðu tengd tæki og einingar úr Safegate Pro.",
                         "start_exclusion": "Hefja útilokun",
                         "title": "Fjarlægja Z-Wave hnút"
                     }
@@ -1731,7 +1731,7 @@
                         "call_service": "Kalla í þjónustu",
                         "column_description": "Lýsing",
                         "column_example": "Dæmi",
-                        "description": "Þjónustu þróunartólið leyfir þér að kalla í allar þjónustur sem eru tiltækar innan Home Assistant",
+                        "description": "Þjónustu þróunartólið leyfir þér að kalla í allar þjónustur sem eru tiltækar innan Safegate Pro",
                         "title": "Þjónustur"
                     },
                     "states": {
@@ -1997,7 +1997,7 @@
                         "cancel": "Gleymdu þessu",
                         "close": "Loka",
                         "header": "Taka yfir stjórn á Lovelace viðmótinu",
-                        "para": "Home Assistant mun sjálfgefið halda utan um notendaviðmótið og uppfæra það þegar nýjar einingar eða Lovlace íhlutir verða aðgengilegir. Ef þú tekur yfir stjórn á viðmótinu þá mun þetta ekki gerast sjálfkrafa fyrir þig.",
+                        "para": "Safegate Pro mun sjálfgefið halda utan um notendaviðmótið og uppfæra það þegar nýjar einingar eða Lovlace íhlutir verða aðgengilegir. Ef þú tekur yfir stjórn á viðmótinu þá mun þetta ekki gerast sjálfkrafa fyrir þig.",
                         "para_sure": "Ertu viss um að þú viljir taka yfir stjórn á notendaviðmótinu þínu?",
                         "save": "Taka stjórnina"
                     },
@@ -2034,7 +2034,7 @@
             },
             "page-authorize": {
                 "abort_intro": "Hætt var við innskráningu",
-                "authorizing_client": "Þú ert að fara að veita {clientId} aðgang að Home Assistant uppsetningunni.",
+                "authorizing_client": "Þú ert að fara að veita {clientId} aðgang að Safegate Pro uppsetningunni.",
                 "form": {
                     "error": "Villa: {error}",
                     "next": "Næsta",
@@ -2132,7 +2132,7 @@
                 "cards": {
                     "demo": {
                         "demo_by": "eftir {name}",
-                        "learn_more": "Læra meira um Home Assistant",
+                        "learn_more": "Læra meira um Safegate Pro",
                         "next_demo": "Næsta sýnidæmi"
                     }
                 },
@@ -2173,14 +2173,14 @@
                 "core-config": {
                     "button_detect": "Uppgötva",
                     "finish": "Næsta",
-                    "intro": "Hæ {name}, velkomin(n) í Home Assistant. Hvað á heimilið þitt að heita?",
+                    "intro": "Hæ {name}, velkomin(n) í Safegate Pro. Hvað á heimilið þitt að heita?",
                     "intro_location": "Okkur langar að vita hvar þú býrð. Þessar upplýsingar munu hjálpa varðandi upplýsingar og uppsetningu á sólar-tengdri sjálfvirkni. Þessum upplýsingum er aldrei deilt út fyrir þitt net.",
                     "intro_location_detect": "Við getum aðstoðað þig við að fylla út þessar upplýsingar með því að kalla einu sinni á utanaðkomandi þjónustu til að sækja þær.",
                     "location_name_default": "Heima"
                 },
                 "integration": {
                     "finish": "Ljúka",
-                    "intro": "Tæki og þjónustur koma fram í Home Assistant sem samþættingar. Þú getur farið í uppsetningu á þeim núna eða síðar í gegnum stillingar skjáinn.",
+                    "intro": "Tæki og þjónustur koma fram í Safegate Pro sem samþættingar. Þú getur farið í uppsetningu á þeim núna eða síðar í gegnum stillingar skjáinn.",
                     "more_integrations": "Meira"
                 },
                 "intro": "Ertu tilbúinn að vekja heimilið þitt, endurheimta friðhelgi þína og gerast þáttakandi í  samfélagi grúskara á heimsvísu?",
@@ -2243,7 +2243,7 @@
                     "create": "Búa til tóka",
                     "create_failed": "Ekki tókst að stofna aðganstóka.",
                     "delete_failed": "Ekki tókst að eyða aðgangstókanum.",
-                    "description": "Stofna langlífa aðgangstóka sem leyfa skriftum að eiga samskipti við Home Assitant uppsetninguna. Hver tóki er gildur í 10 ár frá stofnun. Eftirfarandi langlífu tókar eru virkir.",
+                    "description": "Stofna langlífa aðgangstóka sem leyfa skriftum að eiga samskipti við Safegate Pro uppsetninguna. Hver tóki er gildur í 10 ár frá stofnun. Eftirfarandi langlífu tókar eru virkir.",
                     "empty_state": "Þú ert ekki með neina langlífa aðgangstóka sem stendur.",
                     "header": "Langlífir aðgangstókar",
                     "learn_auth_requests": "Lærðu hvernig á að útbúa auðkenndar beiðnir.",

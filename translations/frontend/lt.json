@@ -223,7 +223,7 @@
             "enter_password": "Įveskite slaptažodį.",
             "failed_to_delete": "Ištrinti nepavyko",
             "folder": {
-                "homeassistant": "„Home Assistant“ konfigūracija",
+                "homeassistant": "„Safegate Pro“ konfigūracija",
                 "share": "Dalintis"
             },
             "folders": "Aplankai",
@@ -259,7 +259,7 @@
             },
             "supervisor": {
                 "channel": "Kanalas",
-                "share_diagonstics_title": "Padėkite tobulinti Home Assistant",
+                "share_diagonstics_title": "Padėkite tobulinti Safegate Pro",
                 "unhealthy_reason": {
                     "untrusted": "Aptiktas nepatikimas turinys"
                 },
@@ -540,7 +540,7 @@
         },
         "dialogs": {
             "config_entry_system_options": {
-                "restart_home_assistant": "Kad pakeitimai įsigaliotų, turite iš naujo paleisti Home Assistant.",
+                "restart_home_assistant": "Kad pakeitimai įsigaliotų, turite iš naujo paleisti Safegate Pro.",
                 "update": "Atnaujinti"
             },
             "entity_registry": {
@@ -561,7 +561,7 @@
                     "initial": "Pradinė reikšmė",
                     "maximum": "Didžiausia reiikšmė",
                     "minimum": "Mažiausia reikšmė",
-                    "restore": "Atkurkite paskutinę žinomą reikšmę paleidus „Home Assistant“",
+                    "restore": "Atkurkite paskutinę žinomą reikšmę paleidus „Safegate Pro“",
                     "step": "Žingsnio dydis"
                 },
                 "input_number": {
@@ -656,7 +656,7 @@
                 "filter_placeholder": "Objekto filtras"
             },
             "voice_command": {
-                "did_not_hear": "Home Assistant nieko neišgirdo",
+                "did_not_hear": "Safegate Pro nieko neišgirdo",
                 "error": "Oi, įvyko klaida",
                 "how_can_i_help": "Kuo galiu padėti?",
                 "label": "Įveskite klausimą ir paspauskite „Enter“"
@@ -713,8 +713,8 @@
         "notification_toast": {
             "connection_lost": "Nutrūko ryšys. Jungiamasi iš naujo...",
             "dismiss": "Atmesti",
-            "started": "Home Assistant startavo",
-            "starting": "Home Assistant kraunasi. Visos funkcijos bus prieinamos kai bus baigtas užkrovimas."
+            "started": "Safegate Pro startavo",
+            "starting": "Safegate Pro kraunasi. Visos funkcijos bus prieinamos kai bus baigtas užkrovimas."
         },
         "panel": {
             "config": {
@@ -886,7 +886,7 @@
                             "delete_confirm": "Ar tikrai norite tai ištrinti?",
                             "duplicate": "Pasikartojantys",
                             "header": "Trigeriai",
-                            "introduction": "Trigeriai yra tai, kas pradeda automatizavimo taisyklės apdorojimą. Tai pačiai taisyklei galima nurodyti kelis aktyviklius. Kai tik įsijungs trigeris, Home Assistant patikrins sąlygas, jei tokių yra, ir iškviečia veiksmą.",
+                            "introduction": "Trigeriai yra tai, kas pradeda automatizavimo taisyklės apdorojimą. Tai pačiai taisyklei galima nurodyti kelis aktyviklius. Kai tik įsijungs trigeris, Safegate Pro patikrins sąlygas, jei tokių yra, ir iškviečia veiksmą.",
                             "learn_more": "Sužinokite daugiau apie trigerius",
                             "name": "Trigeris",
                             "type_select": "Trigerio tipas",
@@ -915,7 +915,7 @@
                                 },
                                 "homeassistant": {
                                     "event": "Įvykis:",
-                                    "label": "Home Assistant",
+                                    "label": "Safegate Pro",
                                     "shutdown": "Išjungti",
                                     "start": "Pradėti"
                                 },
@@ -976,7 +976,7 @@
                     "picker": {
                         "add_automation": "Pridėti automatikos scenarijų",
                         "header": "Automatikos redaktorius",
-                        "introduction": "Automatikos redaktorius leidžia kurti ir redaguoti automatikos scenarijus. Spustelėkite toliau pateiktą nuorodą, kad perskaitytumėte instrukcijas ir įsitikintumėte, jog tinkamai sukonfigūravote Home Assistant.",
+                        "introduction": "Automatikos redaktorius leidžia kurti ir redaguoti automatikos scenarijus. Spustelėkite toliau pateiktą nuorodą, kad perskaitytumėte instrukcijas ir įsitikintumėte, jog tinkamai sukonfigūravote Safegate Pro.",
                         "learn_more": "Sužinokite daugiau apie automatizavimą",
                         "no_automations": "Redaguojamas automatizavimas nerastas",
                         "only_editable": "Redagavimas leidžiamas tik automatizavimai, esantys automations.yaml",
@@ -1110,7 +1110,7 @@
                         "email": "El. paštas",
                         "email_error_msg": "Neteisingas el. paštas",
                         "forgot_password": "Pamiršote slaptažodį?",
-                        "learn_more_link": "Sužinokite daugiau apie Home Assistant Cloud",
+                        "learn_more_link": "Sužinokite daugiau apie Safegate Pro Cloud",
                         "password": "Slaptažodis",
                         "password_error_msg": "Slaptažodis turi turėti bent 8 simbolius",
                         "sign_in": "Prisijungti",
@@ -1222,7 +1222,7 @@
                         "user": "Vartotojas"
                     },
                     "enabled_cause": "Įrenginį išjungė {cause}.",
-                    "enabled_description": "Išjungti įrenginiai nebus rodomi, o įrenginiui priklausantys objektai bus išjungti ir nepridedami į Home Assistant.",
+                    "enabled_description": "Išjungti įrenginiai nebus rodomi, o įrenginiui priklausantys objektai bus išjungti ir nepridedami į Safegate Pro.",
                     "enabled_label": "Įgalinti įrenginį",
                     "no_devices": "Nėra įrenginių",
                     "picker": {
@@ -1270,7 +1270,7 @@
                 "filtering": {
                     "clear": "Išvalyti"
                 },
-                "header": "Konfigūruoti Home Assistant",
+                "header": "Konfigūruoti Safegate Pro",
                 "helpers": {
                     "dialog": {
                         "create": "Sukurti"
@@ -1297,7 +1297,7 @@
                     "copy_github": "GitHub'ui",
                     "copy_raw": "Neapdorotas tekstas",
                     "description": "Versija, sistemos būklė ir nuorodos į dokumentaciją",
-                    "home_assistant_logo": "Home Assistant logotipas",
+                    "home_assistant_logo": "Safegate Pro logotipas",
                     "server": "serveris",
                     "setup_time": "Nustatyti laiką",
                     "source": "Šaltinis:",
@@ -1346,18 +1346,18 @@
                         "show": "Rodyti"
                     },
                     "discovered": "Atrasta",
-                    "home_assistant_website": "Home Assistant svetainė",
+                    "home_assistant_website": "Safegate Pro svetainė",
                     "ignore": {
                         "ignore": "Nepaisyti",
                         "ignored": "Nepaisoma"
                     },
                     "integration": "integracija"
                 },
-                "introduction": "Šiame vaizde galima sukonfigūruoti savo komponentus ir Home Assistant. Dar ne viską galima sukonfigūruoti iš vartotojo sąsajos (UI ), tačiau mes prie to dirbame.",
+                "introduction": "Šiame vaizde galima sukonfigūruoti savo komponentus ir Safegate Pro. Dar ne viską galima sukonfigūruoti iš vartotojo sąsajos (UI ), tačiau mes prie to dirbame.",
                 "logs": {
                     "caption": "Žurnalai",
                     "clear": "Išvalyti",
-                    "description": "Peržiūrėti Home Assistant žurnalus",
+                    "description": "Peržiūrėti Safegate Pro žurnalus",
                     "level": {
                         "info": "INFO"
                     },
@@ -1520,7 +1520,7 @@
                     }
                 },
                 "server_control": {
-                    "description": "Paleisti iš naujo ir sustabdyti Home Assistant serverį",
+                    "description": "Paleisti iš naujo ir sustabdyti Safegate Pro serverį",
                     "section": {
                         "reloading": {
                             "homekit": "HomeKit",
@@ -1531,9 +1531,9 @@
                             "zone": "Zonos"
                         },
                         "server_management": {
-                            "confirm_stop": "Ar jūs tikrai norite sustabdyti Home Assistant?",
+                            "confirm_stop": "Ar jūs tikrai norite sustabdyti Safegate Pro?",
                             "heading": "Serverio valdymas",
-                            "introduction": "Valdykite Home Assistant serverį... iš Home Assistant."
+                            "introduction": "Valdykite Safegate Pro serverį... iš Safegate Pro."
                         },
                         "validation": {
                             "heading": "Konfigūracijos patvirtinimas",
@@ -1568,7 +1568,7 @@
                         "password_not_match": "Slaptažodžiai nesutampa"
                     },
                     "caption": "Vartotojai",
-                    "description": "Tvarkykite Home Assistant vartotojų paskyras",
+                    "description": "Tvarkykite Safegate Pro vartotojų paskyras",
                     "editor": {
                         "activate_user": "Suaktyvinti vartotoją",
                         "active": "Aktyvus",
@@ -2088,7 +2088,7 @@
                 "cards": {
                     "demo": {
                         "demo_by": "pateikė {name}",
-                        "learn_more": "Sužinokite daugiau apie Home Assistant",
+                        "learn_more": "Sužinokite daugiau apie Safegate Pro",
                         "next_demo": "Kita demonstracija"
                     }
                 },

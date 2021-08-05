@@ -144,11 +144,11 @@
                         "title": "AppArmor"
                     },
                     "auth_api": {
-                        "description": "Un componente aggiuntivo può autenticare gli utenti rispetto a Home Assistant, consentendo ai componenti aggiuntivi la possibilità di offrire agli utenti l'accesso alle applicazioni in esecuzione all'interno dei componenti aggiuntivi stessi, utilizzando il proprio nome utente/password di Home Assistant. Questo distintivo indica se l'autore del componente aggiuntivo richiede questa funzionalità.",
-                        "title": "Autenticazione di Home Assistant"
+                        "description": "Un componente aggiuntivo può autenticare gli utenti rispetto a Safegate Pro, consentendo ai componenti aggiuntivi la possibilità di offrire agli utenti l'accesso alle applicazioni in esecuzione all'interno dei componenti aggiuntivi stessi, utilizzando il proprio nome utente/password di Safegate Pro. Questo distintivo indica se l'autore del componente aggiuntivo richiede questa funzionalità.",
+                        "title": "Autenticazione di Safegate Pro"
                     },
                     "docker_api": {
-                        "description": "L'autore del componente aggiuntivo ha richiesto al componente aggiuntivo di avere accesso alla gestione dell'istanza Docker in esecuzione nel sistema. Questa modalità offre al componente aggiuntivo l'accesso completo e il controllo all'intero sistema Home Assistant, il che aggiunge rischi per la sicurezza e potrebbe danneggiare il sistema in caso di uso improprio. Pertanto, questa funzionalità influisce negativamente sul punteggio di sicurezza del componente aggiuntivo.\n\nQuesto livello di accesso non viene concesso automaticamente e deve essere confermato dall'utente. Per fare ciò, è necessario disabilitare manualmente la modalità di protezione sul componente aggiuntivo. Disabilitare la modalità di protezione solo se si sa, è necessario e considerare attendibile l'origine di questo componente aggiuntivo.",
+                        "description": "L'autore del componente aggiuntivo ha richiesto al componente aggiuntivo di avere accesso alla gestione dell'istanza Docker in esecuzione nel sistema. Questa modalità offre al componente aggiuntivo l'accesso completo e il controllo all'intero sistema Safegate Pro, il che aggiunge rischi per la sicurezza e potrebbe danneggiare il sistema in caso di uso improprio. Pertanto, questa funzionalità influisce negativamente sul punteggio di sicurezza del componente aggiuntivo.\n\nQuesto livello di accesso non viene concesso automaticamente e deve essere confermato dall'utente. Per fare ciò, è necessario disabilitare manualmente la modalità di protezione sul componente aggiuntivo. Disabilitare la modalità di protezione solo se si sa, è necessario e considerare attendibile l'origine di questo componente aggiuntivo.",
                         "title": "Accesso completo a Docker"
                     },
                     "full_access": {
@@ -156,23 +156,23 @@
                         "title": "Accesso completo all'hardware"
                     },
                     "hassio_api": {
-                        "description": "Al componente aggiuntivo è stato concesso l'accesso all'API Supervisor, su richiesta dell'autore del componente aggiuntivo. Per impostazione predefinita, il componente aggiuntivo può accedere alle informazioni generali sulla versione del sistema. Quando il componente aggiuntivo richiede l'accesso all'API a livello di \"manager\" o \"admin\", avrà accesso per controllare più parti del sistema Home Assistant. Questa autorizzazione è indicata da questo distintivo e avrà un impatto negativo sul punteggio di sicurezza del componente aggiuntivo.",
+                        "description": "Al componente aggiuntivo è stato concesso l'accesso all'API Supervisor, su richiesta dell'autore del componente aggiuntivo. Per impostazione predefinita, il componente aggiuntivo può accedere alle informazioni generali sulla versione del sistema. Quando il componente aggiuntivo richiede l'accesso all'API a livello di \"manager\" o \"admin\", avrà accesso per controllare più parti del sistema Safegate Pro. Questa autorizzazione è indicata da questo distintivo e avrà un impatto negativo sul punteggio di sicurezza del componente aggiuntivo.",
                         "title": "Accesso API Supervisor"
                     },
                     "homeassistant_api": {
-                        "description": "Questo componente aggiuntivo può accedere all'istanza di Home Assistant in esecuzione direttamente tramite l'API di Home Assistant. Questa modalità gestisce anche l'autenticazione per il componente aggiuntivo, che consente a un componente aggiuntivo di interagire con Home Assistant senza la necessità di token di autenticazione aggiuntivi.",
-                        "title": "Accesso all'API di Home Assistant"
+                        "description": "Questo componente aggiuntivo può accedere all'istanza di Safegate Pro in esecuzione direttamente tramite l'API di Safegate Pro. Questa modalità gestisce anche l'autenticazione per il componente aggiuntivo, che consente a un componente aggiuntivo di interagire con Safegate Pro senza la necessità di token di autenticazione aggiuntivi.",
+                        "title": "Accesso all'API di Safegate Pro"
                     },
                     "host_network": {
                         "description": "I componenti aggiuntivi vengono in genere eseguiti nel proprio livello di rete isolato, impedendo loro di accedere alla rete del sistema operativo host. In alcuni casi, questo isolamento della rete può limitare i componenti aggiuntivi nella fornitura dei propri servizi e, pertanto, l'isolamento può essere revocato dall'autore del componente aggiuntivo, offrendo al componente aggiuntivo l'accesso completo alle funzionalità di rete del computer host. In questo modo il componente aggiuntivo offre più funzionalità di rete, ma riduce la sicurezza, pertanto la classificazione di sicurezza del componente aggiuntivo verrà abbassata quando questa opzione viene utilizzata dal componente aggiuntivo.",
                         "title": "Rete host"
                     },
                     "host_pid": {
-                        "description": "In genere, i processi che il componente aggiuntivo esegue, sono isolati da tutti gli altri processi di sistema. L'autore del componente aggiuntivo ha richiesto al componente aggiuntivo di avere accesso ai processi di sistema in esecuzione nell'istanza del sistema host e di consentire al componente aggiuntivo di generare processi anche nel sistema host. Questa modalità offre al componente aggiuntivo l'accesso completo e il controllo all'intero sistema Home Assistant, il che aggiunge rischi per la sicurezza e potrebbe danneggiare il sistema in caso di uso improprio. Pertanto, questa funzionalità influisce negativamente sul punteggio di sicurezza del componente aggiuntivo.\n\nQuesto livello di accesso non viene concesso automaticamente e deve essere confermato dall'utente. Per fare ciò, è necessario disabilitare manualmente la modalità di protezione sul componente aggiuntivo. Disabilitare la modalità di protezione solo se si sa, è necessario e considerare attendibile l'origine di questo componente aggiuntivo.",
+                        "description": "In genere, i processi che il componente aggiuntivo esegue, sono isolati da tutti gli altri processi di sistema. L'autore del componente aggiuntivo ha richiesto al componente aggiuntivo di avere accesso ai processi di sistema in esecuzione nell'istanza del sistema host e di consentire al componente aggiuntivo di generare processi anche nel sistema host. Questa modalità offre al componente aggiuntivo l'accesso completo e il controllo all'intero sistema Safegate Pro, il che aggiunge rischi per la sicurezza e potrebbe danneggiare il sistema in caso di uso improprio. Pertanto, questa funzionalità influisce negativamente sul punteggio di sicurezza del componente aggiuntivo.\n\nQuesto livello di accesso non viene concesso automaticamente e deve essere confermato dall'utente. Per fare ciò, è necessario disabilitare manualmente la modalità di protezione sul componente aggiuntivo. Disabilitare la modalità di protezione solo se si sa, è necessario e considerare attendibile l'origine di questo componente aggiuntivo.",
                         "title": "Spazio dei nomi dei processi host"
                     },
                     "ingress": {
-                        "description": "Questo componente aggiuntivo utilizza Ingress per incorporare la sua interfaccia in modo sicuro in Home Assistant.",
+                        "description": "Questo componente aggiuntivo utilizza Ingress per incorporare la sua interfaccia in modo sicuro in Safegate Pro.",
                         "title": "Ingress"
                     },
                     "label": {
@@ -189,7 +189,7 @@
                         "stage": "fase"
                     },
                     "rating": {
-                        "description": "Home Assistant fornisce una classificazione di sicurezza a ciascuno dei componenti aggiuntivi, che indica i rischi connessi all'utilizzo di questo componente aggiuntivo. Maggiore è l'accesso necessario a un componente aggiuntivo sul sistema, minore è il punteggio, aumentando così i possibili rischi per la sicurezza.\n\nIl punteggio è su una scala da 1 a 6. Dove 1 è il punteggio più basso (considerato il più insicuro ed a rischio più alto) e un punteggio di 6 è il punteggio più alto (considerato il più sicuro ed a rischio più basso).",
+                        "description": "Safegate Pro fornisce una classificazione di sicurezza a ciascuno dei componenti aggiuntivi, che indica i rischi connessi all'utilizzo di questo componente aggiuntivo. Maggiore è l'accesso necessario a un componente aggiuntivo sul sistema, minore è il punteggio, aumentando così i possibili rischi per la sicurezza.\n\nIl punteggio è su una scala da 1 a 6. Dove 1 è il punteggio più basso (considerato il più insicuro ed a rischio più alto) e un punteggio di 6 è il punteggio più alto (considerato il più sicuro ed a rischio più basso).",
                         "title": "Classificazione di sicurezza del componente aggiuntivo"
                     },
                     "role": {
@@ -210,7 +210,7 @@
                 "install": "installa",
                 "new_update_available": "{name} {version} è disponibile",
                 "not_available_arch": "Questo componente aggiuntivo non è compatibile con il processore del dispositivo o con il sistema operativo installato nel dispositivo.",
-                "not_available_version": "Stai eseguendo Home Assistant {core_version_installed}, per aggiornare a questa versione del componente aggiuntivo è necessaria almeno la versione {core_version_needed} di Home Assistant",
+                "not_available_version": "Stai eseguendo Safegate Pro {core_version_installed}, per aggiornare a questa versione del componente aggiuntivo è necessaria almeno la versione {core_version_needed} di Safegate Pro",
                 "open_web_ui": "Apri l'interfaccia utente web",
                 "option": {
                     "auto_update": {
@@ -378,8 +378,8 @@
             "error_addon_not_found": "Componente aggiuntivo non trovato",
             "error_addon_not_installed": "Il componente aggiuntivo richiesto non è installato. Si prega di installarlo prima di proseguire",
             "error_addon_not_started": "Il componente aggiuntivo richiesto non è in esecuzione. Per favore, avvialo prima",
-            "faq_link": "My Home Assistant FAQ",
-            "not_supported": "Questo reindirizzamento non è supportato dall'istanza di Home Assistant. Controlla il {link} per i reindirizzamenti supportati e la versione in cui sono stati introdotti."
+            "faq_link": "My Safegate Pro FAQ",
+            "not_supported": "Questo reindirizzamento non è supportato dall'istanza di Safegate Pro. Controlla il {link} per i reindirizzamenti supportati e la versione in cui sono stati introdotti."
         },
         "panel": {
             "dashboard": "Pannello di controllo",
@@ -400,12 +400,12 @@
             "delete_snapshot_confirm": "Elimina",
             "delete_snapshot_text": "Vuoi eliminare {number} {number, plural,\n  one {istantanea}\n  other {istantanee}\n}?",
             "delete_snapshot_title": "Elimina istantanea",
-            "description": "Le istantanee ti consentono di eseguire facilmente il backup e il ripristino di tutti i dati dell'istanza di Home Assistant.",
+            "description": "Le istantanee ti consentono di eseguire facilmente il backup e il ripristino di tutti i dati dell'istanza di Safegate Pro.",
             "enter_password": "Immettere una password.",
             "failed_to_delete": "Impossibile eliminare",
             "folder": {
                 "addons/local": "Componenti aggiuntivi locali",
-                "homeassistant": "Configurazione di Home Assistant",
+                "homeassistant": "Configurazione di Safegate Pro",
                 "media": "Media",
                 "share": "Condividi",
                 "ssl": "SSL"
@@ -474,16 +474,16 @@
                 "failed_to_set_option": "Impossibile impostare l'opzione Supervisor",
                 "failed_to_update": "Impossibile aggiornare il Supervisor",
                 "join_beta_action": "Partecipa al canale beta",
-                "join_beta_description": "Ricevi gli aggiornamenti beta per Home Assistant (RC), Supervisor e host",
+                "join_beta_description": "Ricevi gli aggiornamenti beta per Safegate Pro (RC), Supervisor e host",
                 "leave_beta_action": "Lascia il canale beta",
-                "leave_beta_description": "Ricevi aggiornamenti stabili per Home Assistant, Supervisor e host",
+                "leave_beta_description": "Ricevi aggiornamenti stabili per Safegate Pro, Supervisor e host",
                 "ram_usage": "Utilizzo RAM Supervisor",
                 "reload_supervisor": "Ricarica Supervisor",
                 "search": "Ricerca",
                 "share_diagnostics": "Condividi diagnostica",
                 "share_diagnostics_description": "Condividi i rapporti sugli arresti anomali e le informazioni diagnostiche.",
-                "share_diagonstics_description": "Vorresti condividere automaticamente i rapporti sugli arresti anomali e le informazioni diagnostiche quando il Supervisor rileva errori imprevisti? {line_break} Questo ci consentirà di risolvere i problemi, le informazioni sono accessibili solo al team di Home Assistant Core e non saranno condivise con altri. {line_break} I dati non includono alcuna informazione privata/sensibile e puoi disabilitarla nelle impostazioni in qualsiasi momento lo desideri.",
-                "share_diagonstics_title": "Aiutaci a migliorare Home Assistant",
+                "share_diagonstics_description": "Vorresti condividere automaticamente i rapporti sugli arresti anomali e le informazioni diagnostiche quando il Supervisor rileva errori imprevisti? {line_break} Questo ci consentirà di risolvere i problemi, le informazioni sono accessibili solo al team di Safegate Pro Core e non saranno condivise con altri. {line_break} I dati non includono alcuna informazione privata/sensibile e puoi disabilitarla nelle impostazioni in qualsiasi momento lo desideri.",
+                "share_diagonstics_title": "Aiutaci a migliorare Safegate Pro",
                 "unhealthy_description": "L'esecuzione di un'installazione non funzionante causerà problemi. Di seguito è riportato un elenco dei problemi riscontrati con l'installazione, fare clic sui collegamenti per scoprire come risolvere i problemi.",
                 "unhealthy_reason": {
                     "docker": "L'ambiente Docker non funziona correttamente",
@@ -942,11 +942,11 @@
         },
         "dialogs": {
             "config_entry_system_options": {
-                "enable_new_entities_description": "Se disabilitato, le entità appena rilevate per {integration} non verranno automaticamente aggiunte a Home Assistant.",
+                "enable_new_entities_description": "Se disabilitato, le entità appena rilevate per {integration} non verranno automaticamente aggiunte a Safegate Pro.",
                 "enable_new_entities_label": "Abilita nuove entità aggiunte.",
-                "enable_polling_description": "Se disabilitato, Home Assistant non richiederà più in automatico aggiornamenti alle entità dell'integrazione {integration}.",
+                "enable_polling_description": "Se disabilitato, Safegate Pro non richiederà più in automatico aggiornamenti alle entità dell'integrazione {integration}.",
                 "enable_polling_label": "Abilita il polling per gli aggiornamenti.",
-                "restart_home_assistant": "È necessario riavviare Home Assistant affinché le modifiche abbiano effetto.",
+                "restart_home_assistant": "È necessario riavviare Safegate Pro affinché le modifiche abbiano effetto.",
                 "title": "Opzioni di sistema per {integration}",
                 "update": "Aggiorna"
             },
@@ -967,10 +967,10 @@
                     "delete": "Elimina",
                     "device_disabled": "Il dispositivo di questa entità è disabilitato.",
                     "enabled_cause": "Disabilitato da {cause}.",
-                    "enabled_delay_confirm": "Le entità abilitate saranno aggiunte a Home Assistant in {delay} secondi",
-                    "enabled_description": "Le entità disabilitate non saranno aggiunte a Home Assistant",
+                    "enabled_delay_confirm": "Le entità abilitate saranno aggiunte a Safegate Pro in {delay} secondi",
+                    "enabled_description": "Le entità disabilitate non saranno aggiunte a Safegate Pro",
                     "enabled_label": "Abilita entità",
-                    "enabled_restart_confirm": "Riavviare Home Assistant per completare l'abilitazione delle entità",
+                    "enabled_restart_confirm": "Riavviare Safegate Pro per completare l'abilitazione delle entità",
                     "entity_id": "ID entità",
                     "follow_device_area": "Segui l'area del dispositivo",
                     "icon": "Icona",
@@ -998,7 +998,7 @@
                     "initial": "Valore iniziale",
                     "maximum": "Valore massimo",
                     "minimum": "Valore minimo",
-                    "restore": "Ripristina l'ultimo valore noto all'avvio di Home Assistant",
+                    "restore": "Ripristina l'ultimo valore noto all'avvio di Safegate Pro",
                     "step": "Dimensione del passo"
                 },
                 "generic": {
@@ -1187,7 +1187,7 @@
                 "filter_placeholder": "Filtro Entità"
             },
             "voice_command": {
-                "did_not_hear": "Home Assistant non ha sentito nulla",
+                "did_not_hear": "Safegate Pro non ha sentito nulla",
                 "error": "Spiacenti, si è verificato un errore",
                 "found": "Ho trovato quanto segue per te:",
                 "how_can_i_help": "Come posso essere d'aiuto?",
@@ -1289,8 +1289,8 @@
             "dismiss": "Rimuovi",
             "integration_starting": "{integration} si sta avviando, non tutto sarà disponibile fino ad avvio completo.",
             "service_call_failed": "Fallita chiamata a servizio {service} .",
-            "started": "Home Assistant si è avviato!",
-            "starting": "Home Assistant si sta avviando, non tutto sarà disponibile fino ad avvio completo.",
+            "started": "Safegate Pro si è avviato!",
+            "starting": "Safegate Pro si sta avviando, non tutto sarà disponibile fino ad avvio completo.",
             "triggered": "Attivato {name}",
             "wrapping_up_startup": "Si sta concludendo l'avvio, non tutto sarà disponibile fino al termine."
         },
@@ -1328,7 +1328,7 @@
                         "create_area": "Crea Area",
                         "header": "Aree",
                         "integrations_page": "Integrazioni",
-                        "introduction": "Le aree sono utilizzate per organizzare dove sono i dispositivi. Queste informazioni saranno utilizzate in Home Assistant per aiutarti ad organizzare la tua interfaccia, permessi e integrazioni con altri sistemi.",
+                        "introduction": "Le aree sono utilizzate per organizzare dove sono i dispositivi. Queste informazioni saranno utilizzate in Safegate Pro per aiutarti ad organizzare la tua interfaccia, permessi e integrazioni con altri sistemi.",
                         "introduction2": "Per posizionare i dispositivi in un'area, utilizzare il seguente collegamento per accedere alla pagina delle integrazioni e quindi fare clic su un'integrazione configurata per accedere alle schede del dispositivo.",
                         "no_areas": "Sembra che non ci siano ancora Aree!"
                     }
@@ -1357,7 +1357,7 @@
                             "delete_confirm": "Sei sicuro di voler eliminare questo?",
                             "duplicate": "Duplica",
                             "header": "Azioni",
-                            "introduction": "Le Azioni sono ciò che Home Assistant eseguirà quando un'Attivazione (o Trigger) avvia un'Automazione.",
+                            "introduction": "Le Azioni sono ciò che Safegate Pro eseguirà quando un'Attivazione (o Trigger) avvia un'Automazione.",
                             "learn_more": "Per saperne di più sulle azioni",
                             "name": "Azione",
                             "type_select": "Tipo di azione",
@@ -1556,7 +1556,7 @@
                             "delete_confirm": "Sei sicuro di voler eliminare questo?",
                             "duplicate": "Duplica",
                             "header": "Attivazioni (o Trigger)",
-                            "introduction": "L'Attivazione (o Trigger) avvia l'elaborazione di una regola di automazione. È possibile specificare più Attivazioni per una stessa regola di automazione. Una volta avviata una Attivazione, Home Assistant convaliderà le Condizioni, se presenti, ed eseguirà l'Azione.",
+                            "introduction": "L'Attivazione (o Trigger) avvia l'elaborazione di una regola di automazione. È possibile specificare più Attivazioni per una stessa regola di automazione. Una volta avviata una Attivazione, Safegate Pro convaliderà le Condizioni, se presenti, ed eseguirà l'Azione.",
                             "learn_more": "Per saperne di più sulle attivazioni (o trigger)",
                             "name": "Attivazione",
                             "type_select": "Tipo di attivazione",
@@ -1589,7 +1589,7 @@
                                 },
                                 "homeassistant": {
                                     "event": "Evento:",
-                                    "label": "Home Assistant",
+                                    "label": "Safegate Pro",
                                     "shutdown": "Spegnimento",
                                     "start": "Avvio"
                                 },
@@ -1667,7 +1667,7 @@
                         "headers": {
                             "name": "Nome"
                         },
-                        "introduction": "L'Editor di Automazione consente di creare e modificare Automazioni. Seguire il collegamento seguente per leggere le istruzioni e assicurarsi di aver configurato correttamente Home Assistant.",
+                        "introduction": "L'Editor di Automazione consente di creare e modificare Automazioni. Seguire il collegamento seguente per leggere le istruzioni e assicurarsi di aver configurato correttamente Safegate Pro.",
                         "learn_more": "Per saperne di più sulle Automazioni",
                         "no_automations": "Non abbiamo trovato nessuna automazione",
                         "only_editable": "Solo le automazioni definite in automations.yaml sono modificabili.",
@@ -1686,7 +1686,7 @@
                             "error_unsupported": "Non siamo riusciti a creare un'automazione per questo (ancora?).",
                             "for_example": "Per esempio:",
                             "header": "Crea una nuova automazione",
-                            "introduction": "Scrivi qui sotto cosa dovrebbe fare questa automazione, e noi cercheremo di convertirla in un'automazione di Home Assistant.",
+                            "introduction": "Scrivi qui sotto cosa dovrebbe fare questa automazione, e noi cercheremo di convertirla in un'automazione di Safegate Pro.",
                             "language_note": "Nota: per il momento è supportato solo l'inglese."
                         }
                     }
@@ -1734,10 +1734,10 @@
                             "config_documentation": "Documentazione di configurazione",
                             "disable": "disabilitare",
                             "enable": "abilitare",
-                            "enable_ha_skill": "Abilitare la skill Home Assistant per Alexa",
+                            "enable_ha_skill": "Abilitare la skill Safegate Pro per Alexa",
                             "enable_state_reporting": "Attivare la segnalazione dello stato",
-                            "info": "Con l'integrazione Alexa per Home Assistant Cloud sarete in grado di controllare tutti i vostri dispositivi Home Assistant tramite qualsiasi dispositivo abilitato Alexa.",
-                            "info_state_reporting": "Se si abilita la segnalazione dello stato, Home Assistant invierà ad Amazon tutte le modifiche di stato delle entità esposte. Questo permette di vedere sempre gli ultimi stati nell'app Alexa e di utilizzare i cambiamenti di stato per creare routine.",
+                            "info": "Con l'integrazione Alexa per Safegate Pro Cloud sarete in grado di controllare tutti i vostri dispositivi Safegate Pro tramite qualsiasi dispositivo abilitato Alexa.",
+                            "info_state_reporting": "Se si abilita la segnalazione dello stato, Safegate Pro invierà ad Amazon tutte le modifiche di stato delle entità esposte. Questo permette di vedere sempre gli ultimi stati nell'app Alexa e di utilizzare i cambiamenti di stato per creare routine.",
                             "manage_entities": "Gestire le entità",
                             "state_reporting_error": "Impossibile a {enable_disable} segnalare lo stato.",
                             "sync_entities": "Sincronizza entità con Amazon",
@@ -1751,15 +1751,15 @@
                         "google": {
                             "config_documentation": "Documentazione di configurazione",
                             "devices_pin": "PIN dei dispositivi di sicurezza",
-                            "enable_ha_skill": "Abilitare la skill Home Assistant Cloud per Google Assistant",
+                            "enable_ha_skill": "Abilitare la skill Safegate Pro Cloud per Google Assistant",
                             "enable_state_reporting": "Attivare la segnalazione dello Stato",
                             "enter_pin_error": "Impossibile memorizzare il pin:",
                             "enter_pin_hint": "Immettere un PIN per utilizzare i dispositivi di sicurezza",
                             "enter_pin_info": "Inserisci un PIN per interagire con i dispositivi di sicurezza. I dispositivi di sicurezza sono porte, porte da garage e serrature. Ti verrà chiesto di dire/inserire questo PIN quando interagisci con tali dispositivi tramite Google Assistant.",
-                            "info": "Con l'integrazione di Google Assistant per Home Assistant Cloud sarai in grado di controllare tutti i tuoi dispositivi Home Assistant tramite qualsiasi dispositivo abilitato per Google Assistant.",
-                            "info_state_reporting": "Se si abilita la segnalazione dello stato, Home Assistant invierà a Google tutte le modifiche di stato delle entità esposte. Questo ti permette di vedere sempre gli ultimi stati nell'app di Google.",
+                            "info": "Con l'integrazione di Google Assistant per Safegate Pro Cloud sarai in grado di controllare tutti i tuoi dispositivi Safegate Pro tramite qualsiasi dispositivo abilitato per Google Assistant.",
+                            "info_state_reporting": "Se si abilita la segnalazione dello stato, Safegate Pro invierà a Google tutte le modifiche di stato delle entità esposte. Questo ti permette di vedere sempre gli ultimi stati nell'app di Google.",
                             "manage_entities": "Gestire le entità",
-                            "not_configured_text": "Prima di poter utilizzare Google Assistant, è necessario attivare la skill Home Assistant Cloud per Google Assistant nell'app Google Home.",
+                            "not_configured_text": "Prima di poter utilizzare Google Assistant, è necessario attivare la skill Safegate Pro Cloud per Google Assistant nell'app Google Home.",
                             "not_configured_title": "Google Assistant non è attivato",
                             "security_devices": "Dispositivi di sicurezza",
                             "sync_entities": "Sincronizzare le entità con Google",
@@ -1767,7 +1767,7 @@
                             "title": "Google Assistant"
                         },
                         "integrations": "Integrazioni",
-                        "integrations_introduction": "Le integrazioni per Home Assistant Cloud ti permettono di connetterti con i servizi nel cloud senza dover esporre pubblicamente la tua istanza di Home Assistant su Internet.",
+                        "integrations_introduction": "Le integrazioni per Safegate Pro Cloud ti permettono di connetterti con i servizi nel cloud senza dover esporre pubblicamente la tua istanza di Safegate Pro su Internet.",
                         "integrations_introduction2": "Controlla il sito web per ",
                         "integrations_link_all_features": " tutte le funzioni disponibili",
                         "manage_account": "Gestisci account",
@@ -1777,19 +1777,19 @@
                             "access_is_being_prepared": "Il controllo remoto è in fase di preparazione. Ti avviseremo quando sarà pronto.",
                             "certificate_info": "Informazioni sul certificato",
                             "connected": "Connesso",
-                            "info": "Home Assistant Cloud fornisce una connessione remota sicura alla tua istanza mentre sei fuori casa.",
+                            "info": "Safegate Pro Cloud fornisce una connessione remota sicura alla tua istanza mentre sei fuori casa.",
                             "instance_is_available": "La tua istanza è disponibile su",
                             "instance_will_be_available": "La tua istanza sarà disponibile su",
                             "link_learn_how_it_works": "Scopri come funziona",
                             "not_connected": "Non Connesso",
                             "remote_enabled": {
                                 "caption": "Collegati automaticamente",
-                                "description": "Abilita questa opzione per assicurarti che la tua istanza di Home Assistant sia sempre accessibile da remoto."
+                                "description": "Abilita questa opzione per assicurarti che la tua istanza di Safegate Pro sia sempre accessibile da remoto."
                             },
                             "title": "Telecomando"
                         },
                         "sign_out": "Esci",
-                        "thank_you_note": "Grazie per far parte di Home Assistant Cloud. È grazie a persone come te che siamo in grado di creare un'ottima esperienza domotica per tutti. Grazie!",
+                        "thank_you_note": "Grazie per far parte di Safegate Pro Cloud. È grazie a persone come te che siamo in grado di creare un'ottima esperienza domotica per tutti. Grazie!",
                         "tts": {
                             "default_language": "Lingua predefinita da utilizzare",
                             "dialog": {
@@ -1807,7 +1807,7 @@
                         },
                         "webhooks": {
                             "disable_hook_error_msg": "Impossibile disabilitare webhook:",
-                            "info": "Tutto ciò che è configurato per essere attivato da un webhook può essere dotato di un URL accessibile pubblicamente per consentire d'inviare i dati ad Home Assistant da qualsiasi luogo, senza esporre la vostra istanza a Internet.",
+                            "info": "Tutto ciò che è configurato per essere attivato da un webhook può essere dotato di un URL accessibile pubblicamente per consentire d'inviare i dati ad Safegate Pro da qualsiasi luogo, senza esporre la vostra istanza a Internet.",
                             "link_learn_more": "Ulteriori informazioni sulla creazione di automazioni basate su webhook.",
                             "loading": "Caricamento in corso...",
                             "manage": "Gestisci",
@@ -1883,11 +1883,11 @@
                         "email": "E-mail",
                         "email_error_msg": "E-mail non valida",
                         "forgot_password": "Password dimenticata?",
-                        "introduction": "Home Assistant Cloud fornisce una connessione remota sicura alla tua istanza quando sei lontano da casa. Consente inoltre di connettersi con i servizi solo su cloud: Amazon Alexa e Google Assistant.",
+                        "introduction": "Safegate Pro Cloud fornisce una connessione remota sicura alla tua istanza quando sei lontano da casa. Consente inoltre di connettersi con i servizi solo su cloud: Amazon Alexa e Google Assistant.",
                         "introduction2": "Questo servizio è gestito dal nostro partner",
-                        "introduction2a": ", una società fondata dai fondatori di Home Assistant e Hass.io.",
-                        "introduction3": "Home Assistant Cloud è un servizio in abbonamento con un mese di prova gratuita. Non sono necessarie informazioni di pagamento.",
-                        "learn_more_link": "Ulteriori informazioni su Home Assistant Cloud",
+                        "introduction2a": ", una società fondata dai fondatori di Safegate Pro e Hass.io.",
+                        "introduction3": "Safegate Pro Cloud è un servizio in abbonamento con un mese di prova gratuita. Non sono necessarie informazioni di pagamento.",
+                        "learn_more_link": "Ulteriori informazioni su Safegate Pro Cloud",
                         "password": "Password",
                         "password_error_msg": "Le password sono di almeno 8 caratteri",
                         "sign_in": "Accedi",
@@ -1902,13 +1902,13 @@
                         "email_error_msg": "Email non valida",
                         "feature_amazon_alexa": "Integrazione con Amazon Alexa",
                         "feature_google_home": "Integrazione con Google Assistant",
-                        "feature_remote_control": "Controllo di Home Assistant lontano da casa",
+                        "feature_remote_control": "Controllo di Safegate Pro lontano da casa",
                         "feature_webhook_apps": "Facile integrazione con applicazioni basate su webhook come OwnTracks",
                         "headline": "Inizia la tua prova gratuita",
-                        "information": "Crea un account per iniziare la tua prova gratuita di un mese con Home Assistant Cloud. Non sono necessarie informazioni di pagamento.",
-                        "information2": "La versione di prova ti darà accesso a tutti i vantaggi di Home Assistant Cloud, tra cui:",
+                        "information": "Crea un account per iniziare la tua prova gratuita di un mese con Safegate Pro Cloud. Non sono necessarie informazioni di pagamento.",
+                        "information2": "La versione di prova ti darà accesso a tutti i vantaggi di Safegate Pro Cloud, tra cui:",
                         "information3": "Questo servizio è gestito dal nostro partner ",
-                        "information3a": ", una società fondata dai fondatori di Home Assistant e Hass.io.",
+                        "information3a": ", una società fondata dai fondatori di Safegate Pro e Hass.io.",
                         "information4": "Registrando un account accetti i seguenti termini e condizioni.",
                         "link_privacy_policy": "Informativa sulla privacy",
                         "link_terms_conditions": "Termini e condizioni",
@@ -1933,7 +1933,7 @@
                                 "documentation": "Prima di abilitarlo, assicurati di visitare la pagina della documentazione di analisi {link} per capire cosa stai inviando e come viene archiviato.",
                                 "header": "Analisi",
                                 "instance_id": "ID istanza: {huuid}",
-                                "introduction": "Condividi le informazioni di installazione per migliorare Home Assistant e aiutarci a convincere i produttori ad aggiungere funzionalità incentrate sul controllo locale e sulla privacy.",
+                                "introduction": "Condividi le informazioni di installazione per migliorare Safegate Pro e aiutarci a convincere i produttori ad aggiungere funzionalità incentrate sul controllo locale e sulla privacy.",
                                 "learn_more": "Come elaboriamo i tuoi dati",
                                 "needs_base": "È necessario abilitare l'analisi di base affinché questa opzione sia disponibile",
                                 "preference": {
@@ -1967,7 +1967,7 @@
                                 "imperial_example": "Fahrenheit, libbre",
                                 "internal_url": "URL interno",
                                 "latitude": "Latitudine",
-                                "location_name": "Nome della tua installazione di Home Assistant",
+                                "location_name": "Nome della tua installazione di Safegate Pro",
                                 "longitude": "Longitudine",
                                 "metric_example": "Celsius, chilogrammi",
                                 "save_button": "Salva",
@@ -2053,7 +2053,7 @@
                         "user": "Utente"
                     },
                     "enabled_cause": "Il dispositivo è stato disabilitato da {cause}.",
-                    "enabled_description": "I dispositivi disabilitati non verranno mostrati e le entità appartenenti al dispositivo verranno disabilitate e non aggiunte a Home Assistant.",
+                    "enabled_description": "I dispositivi disabilitati non verranno mostrati e le entità appartenenti al dispositivo verranno disabilitate e non aggiunte a Safegate Pro.",
                     "enabled_label": "Abilita dispositivo",
                     "entities": {
                         "add_entities_lovelace": "Aggiungi a Lovelace",
@@ -2098,12 +2098,12 @@
                     "picker": {
                         "disable_selected": {
                             "button": "Disabilita selezionato",
-                            "confirm_text": "Le entità disabilitate non verranno aggiunte a Home Assistant",
+                            "confirm_text": "Le entità disabilitate non verranno aggiunte a Safegate Pro",
                             "confirm_title": "Vuoi disattivare {number} {number, plural,\n  one {entità}\n  other {entità}\n}?"
                         },
                         "enable_selected": {
                             "button": "Abilita selezionato",
-                            "confirm_text": "Questo li renderà nuovamente disponibili in Home Assistant se ora sono disabilitati.",
+                            "confirm_text": "Questo li renderà nuovamente disponibili in Safegate Pro se ora sono disabilitati.",
                             "confirm_title": "Vuoi attivare {number} {number, plural,\n  one {entità}\n  other {entità}\n}?"
                         },
                         "filter": {
@@ -2122,11 +2122,11 @@
                             "name": "Nome",
                             "status": "Stato"
                         },
-                        "introduction": "Home Assistant mantiene un registro di tutte le entità che ha mai localizzato e possono essere identificate in modo univoco. A ciascuna di queste entità sarà assegnato un ID che sarà riservato solo a questa entità.",
-                        "introduction2": "Utilizzare il Registro Entità per sovrascrivere il nome, modificare l'ID Entità o rimuovere la voce da Home Assistant.",
+                        "introduction": "Safegate Pro mantiene un registro di tutte le entità che ha mai localizzato e possono essere identificate in modo univoco. A ciascuna di queste entità sarà assegnato un ID che sarà riservato solo a questa entità.",
+                        "introduction2": "Utilizzare il Registro Entità per sovrascrivere il nome, modificare l'ID Entità o rimuovere la voce da Safegate Pro.",
                         "remove_selected": {
                             "button": "Rimuovi selezionati",
-                            "confirm_partly_text": "Puoi rimuovere solo {removable} delle {selected} entità selezionate. Le entità possono essere rimosse solo quando l'integrazione non le fornisce più. A volte è necessario riavviare Home Assistant prima di poter rimuovere le entità di un'integrazione rimossa. Sei sicuro di voler rimuovere le entità rimovibili?",
+                            "confirm_partly_text": "Puoi rimuovere solo {removable} delle {selected} entità selezionate. Le entità possono essere rimosse solo quando l'integrazione non le fornisce più. A volte è necessario riavviare Safegate Pro prima di poter rimuovere le entità di un'integrazione rimossa. Sei sicuro di voler rimuovere le entità rimovibili?",
                             "confirm_partly_title": "Soltanto {number} {number, plural,\n  one {entità selezionata può}\n  other {entità selezionate possono}\n} essere rimossa/e.",
                             "confirm_text": "Dovresti rimuoverli dalla configurazione di Lovelace e dalle automazioni se contengono queste entità.",
                             "confirm_title": "Vuoi rimuovere {number} {number, plural,\n  one {entità}\n  other {entità}\n}?"
@@ -2150,7 +2150,7 @@
                 "hassio": {
                     "button": "Configura"
                 },
-                "header": "Configura Home Assistant",
+                "header": "Configura Safegate Pro",
                 "helpers": {
                     "caption": "Aiutanti",
                     "description": "Elementi che aiutano a costruire le automazioni",
@@ -2190,7 +2190,7 @@
                     "documentation": "Documentazione",
                     "frontend": "frontend-ui",
                     "frontend_version": "Versione Frontend: {version} - {type}",
-                    "home_assistant_logo": "Logo Home Assistant",
+                    "home_assistant_logo": "Logo Safegate Pro",
                     "icons_by": "Icone di",
                     "integrations": "Integrazioni",
                     "issues": "Problemi",
@@ -2224,7 +2224,7 @@
                         "device_unavailable": "Dispositivo non disponibile",
                         "devices": "{count} {count, plural, \none {dispositivo}\nother {dispositivi}\n}",
                         "disable_error": "Abilitazione o disabilitazione dell'integrazione non riuscita",
-                        "disable_restart_confirm": "Riavvia Home Assistant per terminare la disabilitazione di questa integrazione",
+                        "disable_restart_confirm": "Riavvia Safegate Pro per terminare la disabilitazione di questa integrazione",
                         "disable": {
                             "disable_confirm": "Sei sicuro di voler disabilitare questa voce di configurazione? I suoi dispositivi ed entità saranno disabilitati.",
                             "disabled": "Disabilitato",
@@ -2237,7 +2237,7 @@
                         },
                         "disabled_polling": "Polling automatico per i dati aggiornati disabilitato",
                         "documentation": "Documentazione",
-                        "enable_restart_confirm": "Riavvia Home Assistant per completare l'attivazione di questa integrazione",
+                        "enable_restart_confirm": "Riavvia Safegate Pro per completare l'attivazione di questa integrazione",
                         "entities": "{count} {count, plural, \none {entità}\nother {entità }\n}",
                         "entity_unavailable": "Entità non disponibile",
                         "firmware": "Firmware: {version}",
@@ -2250,9 +2250,9 @@
                         "provided_by_custom_integration": "Fornito da un'integrazione personalizzata",
                         "reload": "Ricarica",
                         "reload_confirm": "L'integrazione è stata ricaricata",
-                        "reload_restart_confirm": "Riavvia Home Assistant per completare il ricaricamento di questa integrazione",
+                        "reload_restart_confirm": "Riavvia Safegate Pro per completare il ricaricamento di questa integrazione",
                         "rename": "Rinomina",
-                        "restart_confirm": "Riavvia Home Assistant per completare la rimozione di questa integrazione",
+                        "restart_confirm": "Riavvia Safegate Pro per completare la rimozione di questa integrazione",
                         "services": "{count} {count, plural,\n  one {servizio}\n  other {servizi}\n}",
                         "state": {
                             "failed_unload": "Impossibile scaricare",
@@ -2281,7 +2281,7 @@
                         "loading_first_time": "Si prega di attendere durante l'installazione dell'integrazione",
                         "next": "Prossimo",
                         "not_all_required_fields": "Non tutti i campi obbligatori sono compilati.",
-                        "not_loaded": "L'integrazione non può essere caricata, prova a riavviare Home Assistant.",
+                        "not_loaded": "L'integrazione non può essere caricata, prova a riavviare Safegate Pro.",
                         "pick_flow_step": {
                             "new_flow": "No, configura un'altra istanza di {integration}",
                             "title": "Rilevati questi, li vuoi configurare?"
@@ -2300,7 +2300,7 @@
                         "show_disabled": "Mostra integrazioni disabilitate"
                     },
                     "discovered": "Rilevato",
-                    "home_assistant_website": "Sito Web di Home Assistant",
+                    "home_assistant_website": "Sito Web di Safegate Pro",
                     "ignore": {
                         "confirm_delete_ignore": "Questo farà apparire di nuovo l'integrazione tra quelle rilevate quando verrà individuata. Questo potrebbe richiedere un riavvio o impiegare un po' di tempo.",
                         "confirm_delete_ignore_title": "Smettere di ignorare {name}?",
@@ -2326,12 +2326,12 @@
                     "rename_input_label": "Nome della voce",
                     "search": "Cerca integrazioni"
                 },
-                "introduction": "In questa vista è possibile configurare i componenti e l'Home Assistant. Non tutto è ancora configurabile dall'interfaccia utente, ma ci stiamo lavorando.",
+                "introduction": "In questa vista è possibile configurare i componenti e l'Safegate Pro. Non tutto è ancora configurabile dall'interfaccia utente, ma ci stiamo lavorando.",
                 "logs": {
                     "caption": "Registri",
                     "clear": "Pulisci",
                     "custom_integration": "integrazione personalizzata",
-                    "description": "Vedi i registri di Home Assistant",
+                    "description": "Vedi i registri di Safegate Pro",
                     "details": "Dettagli registro ({level})",
                     "error_from_custom_integration": "Questo errore ha avuto origine da un'integrazione personalizzata.",
                     "level": {
@@ -2341,7 +2341,7 @@
                         "info": "INFORMAZIONE",
                         "warning": "AVVERTIMENTO"
                     },
-                    "load_full_log": "Carica il registro completo di Home Assistant",
+                    "load_full_log": "Carica il registro completo di Safegate Pro",
                     "loading_log": "Caricamento del registro errori...",
                     "multiple_messages": "il messaggio si è verificato per la prima volta alle {time} e compare {counter} volte",
                     "no_errors": "Non sono stati segnalati errori.",
@@ -2546,7 +2546,7 @@
                     "select_instance": {
                         "header": "Seleziona un'istanza OpenZWave",
                         "introduction": "Hai più di un'istanza OpenZWave in esecuzione. Quale istanza vorresti gestire?",
-                        "none_found": "Non siamo riusciti a trovare un'istanza di OpenZWave. Se ritieni che ciò non sia corretto, controlla le tue impostazioni di OpenZWave e MQTT e assicurati che Home Assistant possa comunicare con il tuo broker MQTT."
+                        "none_found": "Non siamo riusciti a trovare un'istanza di OpenZWave. Se ritieni che ciò non sia corretto, controlla le tue impostazioni di OpenZWave e MQTT e assicurati che Safegate Pro possa comunicare con il tuo broker MQTT."
                     },
                     "services": {
                         "add_node": "Aggiungi Nodo",
@@ -2560,7 +2560,7 @@
                     "confirm_delete": "Sei sicuro di voler cancellare questa persona?",
                     "confirm_delete2": "Tutti i dispositivi appartenenti a questa persona non saranno assegnati.",
                     "create_person": "Crea persona",
-                    "description": "Gestisci le persone tracciate da Home Assistant",
+                    "description": "Gestisci le persone tracciate da Safegate Pro",
                     "detail": {
                         "admin": "Amministratore",
                         "allow_login": "Consenti alla persona di accedere",
@@ -2579,7 +2579,7 @@
                         "no_device_tracker_available_intro": "Quando disponi di dispositivi che indicano la presenza di una persona, sarai in grado di assegnarli a essa qui. Puoi aggiungere il tuo primo dispositivo aggiungendo un'integrazione di rilevamento presenza dalla pagina delle integrazioni.",
                         "update": "Aggiorna"
                     },
-                    "introduction": "Qui è possibile definire ogni persona di interesse in Home Assistant.",
+                    "introduction": "Qui è possibile definire ogni persona di interesse in Safegate Pro.",
                     "learn_more": "Ulteriori informazioni sulle persone",
                     "no_persons_created_yet": "Sembra che tu non abbia ancora creato nessuna persona.",
                     "note_about_persons_configured_in_yaml": "Nota: le persone configurate tramite configuration.yaml non possono essere modificate tramite l'Interfaccia Utente.",
@@ -2625,7 +2625,7 @@
                         "headers": {
                             "name": "Nome"
                         },
-                        "introduction": "L'Editor di Scene ti consente di creare e modificare Scene. Seguire il collegamento seguente per leggere le istruzioni e assicurarsi di aver configurato correttamente Home Assistant.",
+                        "introduction": "L'Editor di Scene ti consente di creare e modificare Scene. Seguire il collegamento seguente per leggere le istruzioni e assicurarsi di aver configurato correttamente Safegate Pro.",
                         "learn_more": "Ulteriori informazioni sulle scene",
                         "no_scenes": "Non abbiamo trovato nessuna scena",
                         "only_editable": "Solo le scene definite in scenes.yaml sono modificabili.",
@@ -2675,7 +2675,7 @@
                         "headers": {
                             "name": "Nome"
                         },
-                        "introduction": "L'Editor di Script consente di creare e modificare Script. Seguire il collegamento seguente per leggere le istruzioni e assicurarsi di aver configurato correttamente Home Assistant.",
+                        "introduction": "L'Editor di Script consente di creare e modificare Script. Seguire il collegamento seguente per leggere le istruzioni e assicurarsi di aver configurato correttamente Safegate Pro.",
                         "learn_more": "Ulteriori informazioni sugli script",
                         "no_scripts": "Non abbiamo trovato nessuno script",
                         "run_script": "Esegui script",
@@ -2684,7 +2684,7 @@
                 },
                 "server_control": {
                     "caption": "Controlli del Server",
-                    "description": "Riavviare e arrestare il Server Home Assistant",
+                    "description": "Riavviare e arrestare il Server Safegate Pro",
                     "section": {
                         "reloading": {
                             "automation": "Automazioni",
@@ -2703,7 +2703,7 @@
                             "input_number": "Input numerici",
                             "input_select": "Input di selezione",
                             "input_text": "Input testuali",
-                            "introduction": "Alcune parti di Home Assistant possono essere ricaricate senza richiedere un riavvio. Premendo su Ricarica si rimuoverà la loro Configurazione YAML attuale e si caricherà la versione aggiornata.",
+                            "introduction": "Alcune parti di Safegate Pro possono essere ricaricate senza richiedere un riavvio. Premendo su Ricarica si rimuoverà la loro Configurazione YAML attuale e si caricherà la versione aggiornata.",
                             "min_max": "Entità min/max",
                             "mqtt": "Entità MQTT configurate manualmente",
                             "person": "Persone",
@@ -2722,10 +2722,10 @@
                             "zone": "Zone"
                         },
                         "server_management": {
-                            "confirm_restart": "Sei sicuro di voler riavviare Home Assistant?",
-                            "confirm_stop": "Sei sicuro di voler arrestare Home Assistant?",
+                            "confirm_restart": "Sei sicuro di voler riavviare Safegate Pro?",
+                            "confirm_stop": "Sei sicuro di voler arrestare Safegate Pro?",
                             "heading": "Gestione del Server",
-                            "introduction": "Controlla il tuo Server Home Assistant... da Home Assistant.",
+                            "introduction": "Controlla il tuo Server Safegate Pro... da Safegate Pro.",
                             "restart": "Riavviare",
                             "stop": "Arrestare"
                         },
@@ -2778,7 +2778,7 @@
                         "password_not_match": "Le password non corrispondono"
                     },
                     "caption": "Utenti",
-                    "description": "Gestisci gli account utente di Home Assistant",
+                    "description": "Gestisci gli account utente di Safegate Pro",
                     "editor": {
                         "activate_user": "Attiva utente",
                         "active": "Attivo",
@@ -2887,7 +2887,7 @@
                         "add_members": "Aggiungi membri",
                         "caption": "Gruppi",
                         "create": "Crea gruppo",
-                        "create_group": "Zigbee Home Automation - Crea gruppo",
+                        "create_group": "Zigbee Safegate Pro - Crea gruppo",
                         "create_group_details": "Immettere i dettagli richiesti per creare un nuovo gruppo Zigbee",
                         "creating_group": "Creazione di un gruppo",
                         "group_details": "Qui ci sono tutti i dettagli per il gruppo Zigbee selezionato.",
@@ -3038,7 +3038,7 @@
                         "exclusion_failed": "Impossibile rimuovere il nodo. Si prega di controllare i registri per ulteriori informazioni.",
                         "exclusion_finished": "Il nodo {id} è stato rimosso dalla tua rete Z-Wave.",
                         "follow_device_instructions": "Segui le indicazioni fornite con il tuo dispositivo per attivare l'esclusione sul dispositivo.",
-                        "introduction": "Rimuovi un nodo dalla tua rete Z-Wave e rimuovi il dispositivo e le entità associati da Home Assistant.",
+                        "introduction": "Rimuovi un nodo dalla tua rete Z-Wave e rimuovi il dispositivo e le entità associati da Safegate Pro.",
                         "start_exclusion": "Avvia esclusione",
                         "title": "Rimuovi un nodo Z-Wave"
                     }
@@ -3086,7 +3086,7 @@
                         "add_to_group": "Aggiungi al Gruppo",
                         "entities": "Entità di questo nodo",
                         "entity_info": "Informazioni sull'Entità",
-                        "exclude_entity": "Escludere questa entità da Home Assistant",
+                        "exclude_entity": "Escludere questa entità da Safegate Pro",
                         "group": "Gruppo",
                         "header": "Gestione dei nodi Z-Wave",
                         "introduction": "Esegui i comandi Z-Wave che riguardano un singolo nodo. Scegli un nodo per visualizzare un elenco di comandi disponibili.",
@@ -3137,7 +3137,7 @@
             },
             "custom": {
                 "external_panel": {
-                    "complete_access": "Avrà accesso a tutti i dati in Home Assistant.",
+                    "complete_access": "Avrà accesso a tutti i dati in Safegate Pro.",
                     "hide_message": "Controllare la documentazione per il componente panel_custom per nascondere questo messaggio",
                     "question_trust": "Ti fidi del pannello esterno {name} su {link} ?"
                 }
@@ -3169,7 +3169,7 @@
                         "column_description": "Descrizione",
                         "column_example": "Esempio",
                         "column_parameter": "Parametro",
-                        "description": "Lo strumento di sviluppo del servizio consente di chiamare qualsiasi servizio disponibile in Home Assistant.",
+                        "description": "Lo strumento di sviluppo del servizio consente di chiamare qualsiasi servizio disponibile in Safegate Pro.",
                         "fill_example_data": "Inserisci dati di esempio",
                         "no_template_ui_support": "L'Interfaccia Utente non supporta i modelli, puoi comunque utilizzare l'editor YAML.",
                         "title": "Servizi",
@@ -3182,7 +3182,7 @@
                         "attributes": "Attributi",
                         "copy_id": "Copia ID negli appunti",
                         "current_entities": "Entità correnti",
-                        "description1": "Imposta lo stato corrente di un'entità all'interno di Home Assistant.",
+                        "description1": "Imposta lo stato corrente di un'entità all'interno di Safegate Pro.",
                         "description2": "Se l'entità appartiene a un dispositivo, non si potrà attuare nessuna comunicazione con esso.",
                         "entity": "Entità",
                         "filter_attributes": "Filtra attributi",
@@ -3199,7 +3199,7 @@
                     },
                     "templates": {
                         "all_listeners": "Questo modello è in ascolto di tutti gli eventi di stato modificato.",
-                        "description": "Il rendering dei modelli viene eseguito utilizzando il motore di modelli Jinja2 con alcune estensioni specifiche di Home Assistant.",
+                        "description": "Il rendering dei modelli viene eseguito utilizzando il motore di modelli Jinja2 con alcune estensioni specifiche di Safegate Pro.",
                         "domain": "Dominio",
                         "editor": "Editor di modelli",
                         "entity": "Entità",
@@ -3208,7 +3208,7 @@
                         "no_listeners": "Questo modello non è in ascolto di alcun evento e non verrà aggiornato automaticamente.",
                         "reset": "Ripristina il modello di esempio",
                         "result_type": "Tipo di risultato",
-                        "template_extensions": "Estensioni del modello Home Assistant",
+                        "template_extensions": "Estensioni del modello Safegate Pro",
                         "time": "Questo modello si aggiorna all'inizio di ogni minuto.",
                         "title": "Modelli",
                         "unknown_error_template": "Errore sconosciuto nel rendering del modello"
@@ -3276,7 +3276,7 @@
                         "url": "Aprire la finestra per {url_path}"
                     },
                     "safe-mode": {
-                        "description": "Home Assistant ha riscontrato problemi durante il caricamento della configurazione ed è ora in esecuzione in modalità provvisoria. Dai un'occhiata al log degli errori per vedere cosa è andato storto.",
+                        "description": "Safegate Pro ha riscontrato problemi durante il caricamento della configurazione ed è ora in esecuzione in modalità provvisoria. Dai un'occhiata al log degli errori per vedere cosa è andato storto.",
                         "header": "Modalità provvisoria attivata"
                     },
                     "shopping-list": {
@@ -3287,7 +3287,7 @@
                         "reorder_items": "Riordina elementi"
                     },
                     "starting": {
-                        "description": "Home Assistant sta per avviarsi, attendere prego..."
+                        "description": "Safegate Pro sta per avviarsi, attendere prego..."
                     }
                 },
                 "changed_toast": {
@@ -3455,7 +3455,7 @@
                             "name": "Umidificatore"
                         },
                         "iframe": {
-                            "description": "La scheda Pagina Web consente di incorporare la tua pagina web preferita direttamente in Home Assistant.",
+                            "description": "La scheda Pagina Web consente di incorporare la tua pagina web preferita direttamente in Safegate Pro.",
                             "name": "Pagina Web"
                         },
                         "light": {
@@ -3615,7 +3615,7 @@
                     "migrate": {
                         "header": "Configurazione incompatibile",
                         "migrate": "Esporta Configurazione",
-                        "para_migrate": "Home Assistant può aggiungere automaticamente gli ID a tutte le tue schede e viste in maniera automatica premendo il pulsante \"Migra Configurazione\".",
+                        "para_migrate": "Safegate Pro può aggiungere automaticamente gli ID a tutte le tue schede e viste in maniera automatica premendo il pulsante \"Migra Configurazione\".",
                         "para_no_id": "Questo elemento non ha un ID. Aggiungi un ID a questo elemento in 'ui-lovelace.yaml'."
                     },
                     "move_card": {
@@ -3643,7 +3643,7 @@
                         "close": "Chiudi",
                         "empty_config": "Iniziare con una plancia vuota",
                         "header": "Prendi il controllo della tua interfaccia utente di Lovelace",
-                        "para": "Questa plancia è attualmente gestita da Home Assistant. E' aggiornata automaticamente quando nuove entità o componenti dell'Interfaccia Utente Lovelace diventano disponibili. Se si assume il controllo, questa plancia non verrà più aggiornata automaticamente. È sempre possibile creare una nuova plancia in configurazione con cui esperimentare.",
+                        "para": "Questa plancia è attualmente gestita da Safegate Pro. E' aggiornata automaticamente quando nuove entità o componenti dell'Interfaccia Utente Lovelace diventano disponibili. Se si assume il controllo, questa plancia non verrà più aggiornata automaticamente. È sempre possibile creare una nuova plancia in configurazione con cui esperimentare.",
                         "para_sure": "Sei sicuro di voler prendere il controllo della tua interfaccia utente?",
                         "save": "Prendere il controllo",
                         "yaml_config": "Per aiutarti a iniziare qui c'è la configurazione attuale di questa plancia:",
@@ -3709,7 +3709,7 @@
                     "entity_non_numeric": "L'entità non è numerica: {entity}",
                     "entity_not_found": "Entità non disponibile: {entity}",
                     "entity_unavailable": "L'entità non è attualmente disponibile: {entity}",
-                    "starting": "Home Assistant si sta avviando, non tutto potrebbe essere subito disponibile"
+                    "starting": "Safegate Pro si sta avviando, non tutto potrebbe essere subito disponibile"
                 }
             },
             "mailbox": {
@@ -3719,16 +3719,16 @@
                 "playback_title": "Riproduzione messaggio"
             },
             "my": {
-                "component_not_loaded": "Questo reindirizzamento non è supportato dalla tua istanza di Home Assistant. È necessaria l'integrazione {integration} per utilizzare questo reindirizzamento.",
+                "component_not_loaded": "Questo reindirizzamento non è supportato dalla tua istanza di Safegate Pro. È necessaria l'integrazione {integration} per utilizzare questo reindirizzamento.",
                 "documentation": "documentazione",
                 "error": "Si è verificato un errore sconosciuto",
-                "faq_link": "My Home Assistant FAQ",
-                "no_supervisor": "Questo reindirizzamento non è supportato dalla tua installazione di Home Assistant. E' necessario il metodo di installazione Home Assistant Operating System oppure Home Assistant Supervised. Per maggiori informazioni, vedi {docs_link}.",
-                "not_supported": "Questo reindirizzamento non è supportato dall'istanza di Home Assistant. Controlla il {link} per i reindirizzamenti supportati e la versione in cui sono stati introdotti."
+                "faq_link": "My Safegate Pro FAQ",
+                "no_supervisor": "Questo reindirizzamento non è supportato dalla tua installazione di Safegate Pro. E' necessario il metodo di installazione Safegate Pro Operating System oppure Safegate Pro Supervised. Per maggiori informazioni, vedi {docs_link}.",
+                "not_supported": "Questo reindirizzamento non è supportato dall'istanza di Safegate Pro. Controlla il {link} per i reindirizzamenti supportati e la versione in cui sono stati introdotti."
             },
             "page-authorize": {
                 "abort_intro": "Login interrotto",
-                "authorizing_client": "Stai per dare a {clientId} accesso alla tua istanza di Home Assistant.",
+                "authorizing_client": "Stai per dare a {clientId} accesso alla tua istanza di Safegate Pro.",
                 "form": {
                     "error": "Errore: {error}",
                     "next": "Avanti",
@@ -3830,8 +3830,8 @@
                 "cards": {
                     "demo": {
                         "demo_by": "di {name}",
-                        "introduction": "Benvenuto a casa! Questa è la demo di Home Assistant, qui pubblichiamo le migliori interfacce utente create dalla nostra community.",
-                        "learn_more": "Scopri di più su Home Assistant",
+                        "introduction": "Benvenuto a casa! Questa è la demo di Safegate Pro, qui pubblichiamo le migliori interfacce utente create dalla nostra community.",
+                        "learn_more": "Scopri di più su Safegate Pro",
                         "next_demo": "Prossima demo"
                     }
                 },
@@ -3878,16 +3878,16 @@
                 "core-config": {
                     "button_detect": "Rileva",
                     "finish": "Prossimo",
-                    "intro": "Salve {name}, benvenuto su Home Assistant. Come vorresti nominare la tua casa?",
+                    "intro": "Salve {name}, benvenuto su Safegate Pro. Come vorresti nominare la tua casa?",
                     "intro_location": "Vorremmo sapere dove vivete. Queste informazioni aiuteranno a visualizzare informazioni e automazioni basate sul sole. Questi dati non vengono mai condivisi al di fuori della vostra rete.",
                     "intro_location_detect": "Possiamo aiutarti a compilare queste informazioni effettuando una richiesta una volta a un servizio esterno.",
-                    "location_name": "Nome della tua installazione di Home Assistant",
+                    "location_name": "Nome della tua installazione di Safegate Pro",
                     "location_name_default": "Casa"
                 },
                 "finish": "Finito",
                 "integration": {
                     "finish": "Finito",
-                    "intro": "Dispositivi e servizi sono rappresentati in Home Assistant come integrazioni. È possibile impostarli ora, o farlo in seguito dalla schermata di configurazione.",
+                    "intro": "Dispositivi e servizi sono rappresentati in Safegate Pro come integrazioni. È possibile impostarli ora, o farlo in seguito dalla schermata di configurazione.",
                     "more_integrations": "Di Più"
                 },
                 "intro": "Sei pronto per risvegliare la tua casa, reclamare la tua privacy e far parte di una comunità mondiale di smanettoni?",
@@ -3974,7 +3974,7 @@
                     "create_failed": "Impossibile creare il token di accesso.",
                     "created": "Creato {date}",
                     "delete_failed": "Impossibile eliminare il token di accesso.",
-                    "description": "Crea token di accesso di lunga durata per consentire agli script di interagire con l'istanza di Home Assistant. Ogni token sarà valido per 10 anni dalla creazione. I seguenti token di accesso a vita lunga sono attualmente attivi.",
+                    "description": "Crea token di accesso di lunga durata per consentire agli script di interagire con l'istanza di Safegate Pro. Ogni token sarà valido per 10 anni dalla creazione. I seguenti token di accesso a vita lunga sono attualmente attivi.",
                     "empty_state": "Non hai ancora un token di accesso di lunga durata.",
                     "header": "Token di accesso a lunga vita",
                     "learn_auth_requests": "Scopri come effettuare richieste autenticate.",

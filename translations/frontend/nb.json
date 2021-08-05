@@ -144,11 +144,11 @@
                         "title": "AppArmor"
                     },
                     "auth_api": {
-                        "description": "Et tillegg kan autentisere brukere mot Home Assistant, slik at tillegg kan gi brukerne muligheten til å logge på applikasjoner som kjører i tillegg, ved hjelp av brukernavnet / passordet til Home Assistant. Dette merket indikerer om tilleggsforfatteren ber om denne muligheten.",
-                        "title": "Godkjenning av Home Assistant"
+                        "description": "Et tillegg kan autentisere brukere mot Safegate Pro, slik at tillegg kan gi brukerne muligheten til å logge på applikasjoner som kjører i tillegg, ved hjelp av brukernavnet / passordet til Safegate Pro. Dette merket indikerer om tilleggsforfatteren ber om denne muligheten.",
+                        "title": "Godkjenning av Safegate Pro"
                     },
                     "docker_api": {
-                        "description": "Tilleggsforfatteren har bedt om at tillegget skal ha ledertilgang til Docker-forekomsten som kjører på systemet ditt. Denne modusen gir tilleggsprogrammet full tilgang og kontroll til hele ditt Home Assistant system, noe som gir sikkerhetsrisiko og kan skade systemet ditt når det misbrukes. Derfor påvirker denne funksjonen tilleggssikkerhetspoengene negativt.\n\nDette tilgangsnivået gis ikke automatisk og må bekreftes av deg. For å gjøre dette må du deaktivere beskyttelsesmodus på tillegget manuelt. Deaktiver bare beskyttelsesmodus hvis du vet, trenger OG stoler på kilden til dette tillegget.",
+                        "description": "Tilleggsforfatteren har bedt om at tillegget skal ha ledertilgang til Docker-forekomsten som kjører på systemet ditt. Denne modusen gir tilleggsprogrammet full tilgang og kontroll til hele ditt Safegate Pro system, noe som gir sikkerhetsrisiko og kan skade systemet ditt når det misbrukes. Derfor påvirker denne funksjonen tilleggssikkerhetspoengene negativt.\n\nDette tilgangsnivået gis ikke automatisk og må bekreftes av deg. For å gjøre dette må du deaktivere beskyttelsesmodus på tillegget manuelt. Deaktiver bare beskyttelsesmodus hvis du vet, trenger OG stoler på kilden til dette tillegget.",
                         "title": "Full Docker-tilgang"
                     },
                     "full_access": {
@@ -156,23 +156,23 @@
                         "title": "Full maskinvaretilgang"
                     },
                     "hassio_api": {
-                        "description": "Tillegget ble gitt tilgang til Supervisor API, på forespørsel fra tilleggsforfatteren. Som standard kan tillegget få tilgang til generell versjonsinformasjon om systemet ditt. Når tillegget ber om \"manager\" eller \"admin\" nivå tilgang til API, vil det få tilgang til å kontrollere flere deler av Home Assistant-systemet. Denne tillatelsen er angitt av dette merket og vil påvirke tilleggssikkerhetspoengene for tillegget negativt.",
+                        "description": "Tillegget ble gitt tilgang til Supervisor API, på forespørsel fra tilleggsforfatteren. Som standard kan tillegget få tilgang til generell versjonsinformasjon om systemet ditt. Når tillegget ber om \"manager\" eller \"admin\" nivå tilgang til API, vil det få tilgang til å kontrollere flere deler av Safegate Pro-systemet. Denne tillatelsen er angitt av dette merket og vil påvirke tilleggssikkerhetspoengene for tillegget negativt.",
                         "title": "Supervisor API-tilgang"
                     },
                     "homeassistant_api": {
-                        "description": "Dette tillegget har tilgang til den kjørende Home Assistant forekomsten direkte via Home Assistant API. Denne modusen håndterer også autentisering for tillegget, som gjør det mulig for et tillegg å samhandle med Home Assistant uten behov for ekstra autentiseringstokener.",
-                        "title": "Home Assistant API-tilgang"
+                        "description": "Dette tillegget har tilgang til den kjørende Safegate Pro forekomsten direkte via Safegate Pro API. Denne modusen håndterer også autentisering for tillegget, som gjør det mulig for et tillegg å samhandle med Safegate Pro uten behov for ekstra autentiseringstokener.",
+                        "title": "Safegate Pro API-tilgang"
                     },
                     "host_network": {
                         "description": "Tillegg kjøres vanligvis i sitt eget isolerte nettverkslag, noe som forhindrer dem i å få tilgang til nettverket til vertsoperativsystemet. I noen tilfeller kan denne nettverksisolasjonen begrense tillegg når det gjelder å tilby sine tjenester, og isolasjonen kan derfor løftes av tilleggsforfatteren, noe som gir tilleggsprogrammet full tilgang til vertsmaskinens nettverksfunksjoner. Dette gir tilleggsprogrammet flere nettverksmuligheter, men senker sikkerheten, og derfor vil sikkerhetsvurderingen av tillegget senkes når dette alternativet brukes av tillegget.",
                         "title": "Vertsnettverk"
                     },
                     "host_pid": {
-                        "description": "Vanligvis er prosessene tillegget kjører, isolert fra alle andre systemprosesser. Tilleggsforfatteren har bedt tillegget om å ha tilgang til systemprosessene som kjører på vertssystemforekomsten, og la tillegget gyte prosesser på vertssystemet også. Denne modusen gir tillegget full tilgang og kontroll til hele Home Assistant-systemet, som legger til sikkerhetsrisikoer, og kan skade systemet når det misbrukes. Denne funksjonen påvirker derfor sikkerhetspoengsummen negativt.\n\nDette tilgangsnivået gis ikke automatisk og må bekreftes av deg. Hvis du vil gjøre dette, må du deaktivere beskyttelsesmodus på tillegget manuelt. Deaktiver bare beskyttelsesmodus hvis du vet, trenger og stoler på kilden til dette tillegget.",
+                        "description": "Vanligvis er prosessene tillegget kjører, isolert fra alle andre systemprosesser. Tilleggsforfatteren har bedt tillegget om å ha tilgang til systemprosessene som kjører på vertssystemforekomsten, og la tillegget gyte prosesser på vertssystemet også. Denne modusen gir tillegget full tilgang og kontroll til hele Safegate Pro-systemet, som legger til sikkerhetsrisikoer, og kan skade systemet når det misbrukes. Denne funksjonen påvirker derfor sikkerhetspoengsummen negativt.\n\nDette tilgangsnivået gis ikke automatisk og må bekreftes av deg. Hvis du vil gjøre dette, må du deaktivere beskyttelsesmodus på tillegget manuelt. Deaktiver bare beskyttelsesmodus hvis du vet, trenger og stoler på kilden til dette tillegget.",
                         "title": "Vert behandler navneområdet"
                     },
                     "ingress": {
-                        "description": "Dette tillegget bruker Ingress til å bygge grensesnittet sikkert inn i Home Assistant.",
+                        "description": "Dette tillegget bruker Ingress til å bygge grensesnittet sikkert inn i Safegate Pro.",
                         "title": "Ingress"
                     },
                     "label": {
@@ -189,7 +189,7 @@
                         "stage": "Nivå"
                     },
                     "rating": {
-                        "description": "Home Assistant gir en sikkerhetsvurdering for hvert av tilleggene, som indikerer risikoen ved bruk av dette tillegget. Jo mer tilgang et tillegg krever på systemet ditt, desto lavere poengsum, og dermed øker den mulige sikkerhetsrisikoen.\n\nEn poengsum er på en skala fra 1 til 6. Der 1 er den laveste poengsummen (ansett som den mest usikre og høyeste risikoen) og en score på 6 er den høyeste poengsummen (regnes som den sikreste og laveste risikoen).",
+                        "description": "Safegate Pro gir en sikkerhetsvurdering for hvert av tilleggene, som indikerer risikoen ved bruk av dette tillegget. Jo mer tilgang et tillegg krever på systemet ditt, desto lavere poengsum, og dermed øker den mulige sikkerhetsrisikoen.\n\nEn poengsum er på en skala fra 1 til 6. Der 1 er den laveste poengsummen (ansett som den mest usikre og høyeste risikoen) og en score på 6 er den høyeste poengsummen (regnes som den sikreste og laveste risikoen).",
                         "title": "Sikkerhetsvurdering for tillegg"
                     },
                     "role": {
@@ -210,7 +210,7 @@
                 "install": "Installer",
                 "new_update_available": "{name} {version} er tilgjengelig",
                 "not_available_arch": "Dette tillegget er ikke kompatibelt med prosessoren på enheten din eller operativsystemet du har installert på enheten",
-                "not_available_version": "Du kjører Home Assistant {core_version_installed}, for å oppdatere til denne versjonen av tillegget trenger du minst versjon {core_version_needed} av Home Assistant",
+                "not_available_version": "Du kjører Safegate Pro {core_version_installed}, for å oppdatere til denne versjonen av tillegget trenger du minst versjon {core_version_needed} av Safegate Pro",
                 "open_web_ui": "Åpne nettgrensesnitt",
                 "option": {
                     "auto_update": {
@@ -378,8 +378,8 @@
             "error_addon_not_found": "Tillegget ble ikke funnet",
             "error_addon_not_installed": "Det forespurte tillegget er ikke installert. Vennligst installer den først",
             "error_addon_not_started": "Det valgte tillegget kjører ikke. Vennligst start den først",
-            "faq_link": "Vanlige spørsmål om Min Home Assistant",
-            "not_supported": "Denne viderekoblingen støttes ikke av Home Assistant-forekomsten. Se på {link} for viderekoblinger som støttes, og hvilken versjon de ble introdusert."
+            "faq_link": "Vanlige spørsmål om Min Safegate Pro",
+            "not_supported": "Denne viderekoblingen støttes ikke av Safegate Pro-forekomsten. Se på {link} for viderekoblinger som støttes, og hvilken versjon de ble introdusert."
         },
         "panel": {
             "dashboard": "Dashboard",
@@ -400,12 +400,12 @@
             "delete_snapshot_confirm": "slett",
             "delete_snapshot_text": "Vl du slette {number} {number, plural,\n  one {sikkerhetskopi}\n  other {sikkerhetskopier}\n}?",
             "delete_snapshot_title": "Slett sikkerhetskopi",
-            "description": "Sikkerhetskopier lar deg enkelt sikkerhetskopiere og gjenopprette alle dataene fra din Home Assistant forekomst",
+            "description": "Sikkerhetskopier lar deg enkelt sikkerhetskopiere og gjenopprette alle dataene fra din Safegate Pro forekomst",
             "enter_password": "Vennligst skriv inn et passord",
             "failed_to_delete": "Kunne ikke slette",
             "folder": {
                 "addons/local": "Lokale tillegg",
-                "homeassistant": "Home Assistant-konfigurasjon",
+                "homeassistant": "Safegate Pro-konfigurasjon",
                 "media": "",
                 "share": "Delt",
                 "ssl": ""
@@ -474,16 +474,16 @@
                 "failed_to_set_option": "Kan ikke sette Supervisor instilling",
                 "failed_to_update": "Kunne ikke oppdatere Supervisor",
                 "join_beta_action": "Bli med i beta-kanalen",
-                "join_beta_description": "Få beta-oppdateringer for Home Assistant (RCs), Supervisor og vert",
+                "join_beta_description": "Få beta-oppdateringer for Safegate Pro (RCs), Supervisor og vert",
                 "leave_beta_action": "Forlat beta-kanalen",
-                "leave_beta_description": "Få stabile oppdateringer for Home Assistant, Supervisor og vert",
+                "leave_beta_description": "Få stabile oppdateringer for Safegate Pro, Supervisor og vert",
                 "ram_usage": "Supervisor RAM forbruk",
                 "reload_supervisor": "Last inn Supervisor på nytt",
                 "search": "Søk",
                 "share_diagnostics": "Del diagnostikk",
                 "share_diagnostics_description": "Del krasjrapporter og diagnoseinformasjon",
-                "share_diagonstics_description": "Vil du automatisk dele krasjrapporter og diagnostisk informasjon når Supervisor møter på uventede feil? {line_break} Dette vil tillate oss å løse problemene, informasjonen er bare tilgjengelig for Home Assistant Core-teamet og deles ikke med andre. {line_break} Dataene inkluderer ikke privat / sensitiv informasjon, og du kan deaktivere dette i innstillingene når som helst.",
-                "share_diagonstics_title": "Hjelp med å forbedre Home Assistant",
+                "share_diagonstics_description": "Vil du automatisk dele krasjrapporter og diagnostisk informasjon når Supervisor møter på uventede feil? {line_break} Dette vil tillate oss å løse problemene, informasjonen er bare tilgjengelig for Safegate Pro Core-teamet og deles ikke med andre. {line_break} Dataene inkluderer ikke privat / sensitiv informasjon, og du kan deaktivere dette i innstillingene når som helst.",
+                "share_diagonstics_title": "Hjelp med å forbedre Safegate Pro",
                 "unhealthy_description": "Å kjøre en usunn installasjon vil forårsake problemer. Nedenfor er en liste over problemer som er funnet med installasjonen din. Klikk på lenkene for å lære hvordan du kan løse problemene.",
                 "unhealthy_reason": {
                     "docker": "Docker-miljøet fungerer ikke som det skal",
@@ -944,9 +944,9 @@
             "config_entry_system_options": {
                 "enable_new_entities_description": "Hvis nylig oppdagede enheter for {integration} skal legges til automatisk.",
                 "enable_new_entities_label": "Aktiver entiteter som nylig er lagt til.",
-                "enable_polling_description": "Hvis Home Assistant automatisk skal avstemme {integration} enheter for oppdateringer.",
+                "enable_polling_description": "Hvis Safegate Pro automatisk skal avstemme {integration} enheter for oppdateringer.",
                 "enable_polling_label": "Aktiver avstemning for oppdateringer.",
-                "restart_home_assistant": "Du må starte Home Assistant på nytt for at endringene skal tre i kraft.",
+                "restart_home_assistant": "Du må starte Safegate Pro på nytt for at endringene skal tre i kraft.",
                 "title": "Systemalternativer for {integration}",
                 "update": "Oppdater"
             },
@@ -967,10 +967,10 @@
                     "delete": "Slett",
                     "device_disabled": "Enheten til denne enhtiteen er deaktivert",
                     "enabled_cause": "Deaktivert av {cause}.",
-                    "enabled_delay_confirm": "De aktiverte enhetene blir lagt til i Home Assistant om {delay} sekunder",
-                    "enabled_description": "Deaktiverte entiteter vil ikke bli lagt til i Home Assistant.",
+                    "enabled_delay_confirm": "De aktiverte enhetene blir lagt til i Safegate Pro om {delay} sekunder",
+                    "enabled_description": "Deaktiverte entiteter vil ikke bli lagt til i Safegate Pro.",
                     "enabled_label": "Aktiver entitet",
-                    "enabled_restart_confirm": "Start Home Assistant på nytt for å fullføre aktiveringen av enhetene",
+                    "enabled_restart_confirm": "Start Safegate Pro på nytt for å fullføre aktiveringen av enhetene",
                     "entity_id": "Entitets-ID",
                     "follow_device_area": "Følg enhetsområdet",
                     "icon": "Ikon",
@@ -998,7 +998,7 @@
                     "initial": "Opprinnelig verdi",
                     "maximum": "Maksimal verdi",
                     "minimum": "Minimum verdi",
-                    "restore": "Gjenopprett den sist kjente verdien når Home Assistant starter",
+                    "restore": "Gjenopprett den sist kjente verdien når Safegate Pro starter",
                     "step": "Trinnstørrelse"
                 },
                 "generic": {
@@ -1187,7 +1187,7 @@
                 "filter_placeholder": "Entitetsfilter"
             },
             "voice_command": {
-                "did_not_hear": "Home Assistant hørte ikke noe",
+                "did_not_hear": "Safegate Pro hørte ikke noe",
                 "error": "Beklager, det har oppstått en feil",
                 "found": "Jeg fant følgende for deg:",
                 "how_can_i_help": "Hvordan kan jeg hjelpe?",
@@ -1289,8 +1289,8 @@
             "dismiss": "Avvis",
             "integration_starting": "Starter {integration}. Ikke alt er tilgjengelig før lasting er ferdig.",
             "service_call_failed": "Kunne ikke tilkalle tjenesten: {service}",
-            "started": "Home Assistant har startet!",
-            "starting": "Home Assistant starter, alt er ikke tilgjengelig før starten er fullført.",
+            "started": "Safegate Pro har startet!",
+            "starting": "Safegate Pro starter, alt er ikke tilgjengelig før starten er fullført.",
             "triggered": "Utløst {name}",
             "wrapping_up_startup": "Oppstart pågår, ikke alt er tilgjengelig før den er ferdig."
         },
@@ -1328,7 +1328,7 @@
                         "create_area": "Opprett område",
                         "header": "Områder",
                         "integrations_page": "Integrasjonsside",
-                        "introduction": "Områder brukes til å organisere hvor enheter er. Denne informasjonen vil bli brukt gjennomgående i Home Assistant for å hjelpe deg med å organisere grensesnittet, tillatelser og integrasjoner med andre systemer.",
+                        "introduction": "Områder brukes til å organisere hvor enheter er. Denne informasjonen vil bli brukt gjennomgående i Safegate Pro for å hjelpe deg med å organisere grensesnittet, tillatelser og integrasjoner med andre systemer.",
                         "introduction2": "For å plassere enheter i et område, bruk linken under for å navigere til integrasjonssiden og klikk deretter på en konfigurert integrasjon for å komme til enhetskortene.",
                         "no_areas": "Det ser ikke ut som om du har noen områder enda!"
                     }
@@ -1357,7 +1357,7 @@
                             "delete_confirm": "Er du sikker på at du vil slette dette?",
                             "duplicate": "Dupliser",
                             "header": "Handlinger",
-                            "introduction": "Handlingene er det Home Assistant vil utføre når en automasjon utløses",
+                            "introduction": "Handlingene er det Safegate Pro vil utføre når en automasjon utløses",
                             "learn_more": "Lær mer om handlinger",
                             "name": "Handling",
                             "type_select": "Handlingstype",
@@ -1556,7 +1556,7 @@
                             "delete_confirm": "Er du sikker på at du vil slette dette?",
                             "duplicate": "Dupliser",
                             "header": "Utløsere",
-                            "introduction": "Utløsere er det som starter en automasjonsregel. Det er mulig å spesifisere flere utløsere for samme regel. Når en utløser aktiveres, vil Home Assistant bekrefte betingelsene, hvis noen, og utføre handlingen. \n\n[Lær mer om utløsere.](https://home-assistant.io/docs/automation/trigger/)",
+                            "introduction": "Utløsere er det som starter en automasjonsregel. Det er mulig å spesifisere flere utløsere for samme regel. Når en utløser aktiveres, vil Safegate Pro bekrefte betingelsene, hvis noen, og utføre handlingen. \n\n[Lær mer om utløsere.](https://home-assistant.io/docs/automation/trigger/)",
                             "learn_more": "Lær mer om utløsere",
                             "name": "Utløser",
                             "type_select": "Utløser",
@@ -1667,7 +1667,7 @@
                         "headers": {
                             "name": "Navn"
                         },
-                        "introduction": "Automasjonsredigeringen lar deg lage og redigere automasjoner. Følg lenken under for å forsikre deg om at du har konfigurert Home Assistant riktig.",
+                        "introduction": "Automasjonsredigeringen lar deg lage og redigere automasjoner. Følg lenken under for å forsikre deg om at du har konfigurert Safegate Pro riktig.",
                         "learn_more": "Lær mer om automasjoner",
                         "no_automations": "Vi kunne ikke finne noen automasjoner",
                         "only_editable": "Bare automasjoner definert i automations.yaml kan redigeres.",
@@ -1686,7 +1686,7 @@
                             "error_unsupported": "Vi kunne ikke lage en automasjon for det (ennå?)",
                             "for_example": "For eksempel:",
                             "header": "Opprette en ny automasjon",
-                            "introduction": "Skriv nedenfor hva denne automasjonen skal gjøre, og vi vil prøve å konvertere den til en Home Assistant automasjon",
+                            "introduction": "Skriv nedenfor hva denne automasjonen skal gjøre, og vi vil prøve å konvertere den til en Safegate Pro automasjon",
                             "language_note": "Merk: Bare engelsk støttes foreløpig."
                         }
                     }
@@ -1734,10 +1734,10 @@
                             "config_documentation": "Konfigurasjonsdokumentasjon",
                             "disable": "deaktiver",
                             "enable": "aktiver",
-                            "enable_ha_skill": "Aktivere Home Assistant-ferdigheten for Alexa",
+                            "enable_ha_skill": "Aktivere Safegate Pro-ferdigheten for Alexa",
                             "enable_state_reporting": "Aktiver tilstandsrapportering",
-                            "info": "Med Alexa-integrasjonen for Home Assistant Cloud vil du kunne kontrollere alle dine Home Assistant-enheter via hvilken som helst Alexa-aktivert enhet.",
-                            "info_state_reporting": "Hvis du aktiverer tilstandsrapportering, vil Home Assistant sende alle tilstandsendringer av eksponerte entiteter til Amazon. Dette lar deg alltid se de siste tilstandene i Alexa-appen og bruke tilstandsendringene til å lage rutiner.",
+                            "info": "Med Alexa-integrasjonen for Safegate Pro Cloud vil du kunne kontrollere alle dine Safegate Pro-enheter via hvilken som helst Alexa-aktivert enhet.",
+                            "info_state_reporting": "Hvis du aktiverer tilstandsrapportering, vil Safegate Pro sende alle tilstandsendringer av eksponerte entiteter til Amazon. Dette lar deg alltid se de siste tilstandene i Alexa-appen og bruke tilstandsendringene til å lage rutiner.",
                             "manage_entities": "Håndtér entiteter",
                             "state_reporting_error": "Kan ikke {enable_disable} rapportere status.",
                             "sync_entities": "Synkroniser enheter til Amazon",
@@ -1751,15 +1751,15 @@
                         "google": {
                             "config_documentation": "Konfigurasjonsdokumentasjon",
                             "devices_pin": "PIN for sikkerhetsenheter",
-                            "enable_ha_skill": "Aktiver Home Assistant Cloud-ferdigheten for Google Assistant",
+                            "enable_ha_skill": "Aktiver Safegate Pro Cloud-ferdigheten for Google Assistant",
                             "enable_state_reporting": "Aktiver tilstandsrapportering",
                             "enter_pin_error": "Kan ikke lagre PIN:",
                             "enter_pin_hint": "Angi en PIN-kode for å bruke sikkerhetsenheter",
                             "enter_pin_info": "Angi en PIN-kode for å samhandle med sikkerhetsenheter. Sikkerhetsinnretninger er dører, garasjeporter og låser. Du blir bedt om å si / angi denne PIN-koden når du kommuniserer med slike enheter via Google Assistant.",
-                            "info": "Med Google Assistant-integrasjonen for Home Assistant Cloud vil du kunne kontrollere alle dine Home Assistant-enheter via hvilken som helst Google Assistant-aktivert enhet.",
-                            "info_state_reporting": "Hvis du aktiverer tilstandsrapportering, vil Home Assistant sende alle tilstandsendringer av eksponerte entiteter til Google. Dette lar deg alltid se de siste tilstandene i Google-appen.",
+                            "info": "Med Google Assistant-integrasjonen for Safegate Pro Cloud vil du kunne kontrollere alle dine Safegate Pro-enheter via hvilken som helst Google Assistant-aktivert enhet.",
+                            "info_state_reporting": "Hvis du aktiverer tilstandsrapportering, vil Safegate Pro sende alle tilstandsendringer av eksponerte entiteter til Google. Dette lar deg alltid se de siste tilstandene i Google-appen.",
                             "manage_entities": "Håndtér entiteter",
-                            "not_configured_text": "Før du kan bruke Google Assistant, må du aktivere Home Assistant Cloud-ferdigheten for Google Assistant i Google Home-appen.",
+                            "not_configured_text": "Før du kan bruke Google Assistant, må du aktivere Safegate Pro Cloud-ferdigheten for Google Assistant i Google Home-appen.",
                             "not_configured_title": "Google Assistant er ikke aktivert",
                             "security_devices": "Sikkerhetsenheter",
                             "sync_entities": "Synkronisér entiteter til Google",
@@ -1767,7 +1767,7 @@
                             "title": ""
                         },
                         "integrations": "Integrasjoner",
-                        "integrations_introduction": "Integrasjoner for Home Assistant Cloud lar deg koble til tjenester i skyen uten å måtte avsløre Home Assistant-forekomsten offentlig på internett.",
+                        "integrations_introduction": "Integrasjoner for Safegate Pro Cloud lar deg koble til tjenester i skyen uten å måtte avsløre Safegate Pro-forekomsten offentlig på internett.",
                         "integrations_introduction2": "Sjekk nettstedet for ",
                         "integrations_link_all_features": " alle tilgjengelige funksjoner",
                         "manage_account": "Administrer konto",
@@ -1777,19 +1777,19 @@
                             "access_is_being_prepared": "Fjernkontroll forberedes. Vi vil varsle deg når den er klar.",
                             "certificate_info": "Sertifikatinformasjon",
                             "connected": "Tilkoblet",
-                            "info": "Home Assistant Cloud gir en sikker ekstern tilkobling til forekomsten din mens du er borte fra hjemmet.",
+                            "info": "Safegate Pro Cloud gir en sikker ekstern tilkobling til forekomsten din mens du er borte fra hjemmet.",
                             "instance_is_available": "Din forekomst er tilgjengelig på",
                             "instance_will_be_available": "Din forekomst vil være tilgjengelig på",
                             "link_learn_how_it_works": "Lær hvordan det fungerer",
                             "not_connected": "Ikke tilkoblet",
                             "remote_enabled": {
                                 "caption": "Koble til automatisk",
-                                "description": "Aktiver dette alternativet for å sikre at Home Assistant-forekomsten alltid er eksternt tilgjengelig."
+                                "description": "Aktiver dette alternativet for å sikre at Safegate Pro-forekomsten alltid er eksternt tilgjengelig."
                             },
                             "title": "Fjernkontroll"
                         },
                         "sign_out": "Logg ut",
-                        "thank_you_note": "Takk for at du er en del av Home Assistant Cloud. Det er på grunn av personer som deg at vi er i stand til å lage en flott hjemmeautomasjon opplevelse for alle. Tusen takk!",
+                        "thank_you_note": "Takk for at du er en del av Safegate Pro Cloud. Det er på grunn av personer som deg at vi er i stand til å lage en flott hjemmeautomasjon opplevelse for alle. Tusen takk!",
                         "tts": {
                             "default_language": "Standardspråk som skal brukes",
                             "dialog": {
@@ -1807,7 +1807,7 @@
                         },
                         "webhooks": {
                             "disable_hook_error_msg": "Kan ikke deaktivere webhook:",
-                            "info": "Alt som er konfigurert til å utløses av en webhook, kan gis en offentlig tilgjengelig URL-adresse for å tillate deg å sende data tilbake til Home Assistent fra hvor som helst, uten å utsette forekomsten din for Internett.",
+                            "info": "Alt som er konfigurert til å utløses av en webhook, kan gis en offentlig tilgjengelig URL-adresse for å tillate deg å sende data tilbake til Safegate Pro fra hvor som helst, uten å utsette forekomsten din for Internett.",
                             "link_learn_more": "Finn ut mer om hvordan du oppretter webhook-drevne automasjoner.",
                             "loading": "Laster inn...",
                             "manage": "Administrer",
@@ -1883,11 +1883,11 @@
                         "email": "E-post",
                         "email_error_msg": "Ugyldig e-postadresse",
                         "forgot_password": "Glemt passord?",
-                        "introduction": "Home Assistant Cloud gir deg en sikker ekstern tilkobling til din forekomst mens du er borte fra hjemmet. Du kan også koble til med skytjenester: Amazon Alexa og Google Assistant.",
+                        "introduction": "Safegate Pro Cloud gir deg en sikker ekstern tilkobling til din forekomst mens du er borte fra hjemmet. Du kan også koble til med skytjenester: Amazon Alexa og Google Assistant.",
                         "introduction2": "Denne tjenesten drives av vår partner",
-                        "introduction2a": ", et selskap av grunnleggerne av Home Assistant og Hass.io.",
-                        "introduction3": "Home Assistant Cloud er en abonnementstjeneste med en gratis prøveperiode på en måned. Ingen betalingsinformasjon nødvendig.",
-                        "learn_more_link": "Lær mer om Home Assistant Cloud",
+                        "introduction2a": ", et selskap av grunnleggerne av Safegate Pro og Hass.io.",
+                        "introduction3": "Safegate Pro Cloud er en abonnementstjeneste med en gratis prøveperiode på en måned. Ingen betalingsinformasjon nødvendig.",
+                        "learn_more_link": "Lær mer om Safegate Pro Cloud",
                         "password": "Passord",
                         "password_error_msg": "Passord er minst 8 tegn",
                         "sign_in": "Logg inn",
@@ -1902,13 +1902,13 @@
                         "email_error_msg": "Ugyldig e-postadresse",
                         "feature_amazon_alexa": "Integrasjon med Amazon Alexa",
                         "feature_google_home": "Integrasjon med Google Assistant",
-                        "feature_remote_control": "Kontroller Home Assistent når du er borte fra hjemmet",
+                        "feature_remote_control": "Kontroller Safegate Pro når du er borte fra hjemmet",
                         "feature_webhook_apps": "Enkel integrasjon med webhookbaserte apper som OwnTracks",
                         "headline": "Start prøveversjon",
-                        "information": "Opprett en konto for å starte en gratis prøveperiode på en måned med Home Assistant Cloud. Ingen betalingsinformasjon nødvendig.",
-                        "information2": "Prøveperioden vil gi deg tilgang til alle fordelene med Home Assistant Cloud, inkludert:",
+                        "information": "Opprett en konto for å starte en gratis prøveperiode på en måned med Safegate Pro Cloud. Ingen betalingsinformasjon nødvendig.",
+                        "information2": "Prøveperioden vil gi deg tilgang til alle fordelene med Safegate Pro Cloud, inkludert:",
                         "information3": "Denne tjenesten drives av vår partner",
-                        "information3a": ", et selskap av grunnleggerne av Home Assistant og Hass.io.",
+                        "information3a": ", et selskap av grunnleggerne av Safegate Pro og Hass.io.",
                         "information4": "Ved å registrere en konto samtykker du til følgende vilkår og betingelser.",
                         "link_privacy_policy": "Personvern",
                         "link_terms_conditions": "Vilkår og betingelser",
@@ -1933,7 +1933,7 @@
                                 "documentation": "Før du aktiverer dette, må du gå til analysedokumentasjonssiden {link} for å forstå hva du sender og hvordan den er lagret.",
                                 "header": "Analyser",
                                 "instance_id": "Forekomst-ID: {huuid}",
-                                "introduction": "Del installasjonsinformasjonen din for å gjøre Home Assistant bedre og hjelpe oss med å overbevise produsenter om å legge til lokal kontroll og personvernfokuserte funksjoner.",
+                                "introduction": "Del installasjonsinformasjonen din for å gjøre Safegate Pro bedre og hjelpe oss med å overbevise produsenter om å legge til lokal kontroll og personvernfokuserte funksjoner.",
                                 "learn_more": "Hvordan vi behandler dataene dine",
                                 "needs_base": "Du må aktivere basisanalyse for at dette alternativet skal være tilgjengelig",
                                 "preference": {
@@ -1967,7 +1967,7 @@
                                 "imperial_example": "Fahrenheit, pund",
                                 "internal_url": "Intern URL",
                                 "latitude": "Breddegrad",
-                                "location_name": "Navn på installasjonen av Home Assistant",
+                                "location_name": "Navn på installasjonen av Safegate Pro",
                                 "longitude": "Lengdegrad",
                                 "metric_example": "Celsius, kilogram",
                                 "save_button": "Lagre",
@@ -2053,7 +2053,7 @@
                         "user": "Bruker"
                     },
                     "enabled_cause": "Enheten er deaktivert av {cause}",
-                    "enabled_description": "Deaktiverte enheter vises ikke, og entiteter som tilhører enheten deaktiveres og ikke legges til i Home Assistant",
+                    "enabled_description": "Deaktiverte enheter vises ikke, og entiteter som tilhører enheten deaktiveres og ikke legges til i Safegate Pro",
                     "enabled_label": "Aktivér enhet",
                     "entities": {
                         "add_entities_lovelace": "Legg til i Lovelace",
@@ -2098,12 +2098,12 @@
                     "picker": {
                         "disable_selected": {
                             "button": "Deaktiver valgte",
-                            "confirm_text": "Deaktiverte entiteter vil ikke bli lagt til i Home Assistant.",
+                            "confirm_text": "Deaktiverte entiteter vil ikke bli lagt til i Safegate Pro.",
                             "confirm_title": "Vil du deaktivere {number} {number, plural,\n  one {enhet}\n  other {enheter}\n}?"
                         },
                         "enable_selected": {
                             "button": "Aktiver valgte",
-                            "confirm_text": "Dette vil gjøre dem tilgjengelige i Home Assistant igjen hvis de nå er deaktivert.",
+                            "confirm_text": "Dette vil gjøre dem tilgjengelige i Safegate Pro igjen hvis de nå er deaktivert.",
                             "confirm_title": "Vil du aktivere {number} {number, plural,\n  one {enhet}\n  other {enheter}\n}?"
                         },
                         "filter": {
@@ -2122,11 +2122,11 @@
                             "name": "Navn",
                             "status": ""
                         },
-                        "introduction": "Home Assistant bygger opp et register over hver entitet den har sett som kan identifiseres unikt. Hver av disse entitetene vil ha en ID som er reservert kun til denne.",
-                        "introduction2": "Bruk entitetsregistret til å overstyre navnet, endre id-en eller fjerne den fra Home Assistant.",
+                        "introduction": "Safegate Pro bygger opp et register over hver entitet den har sett som kan identifiseres unikt. Hver av disse entitetene vil ha en ID som er reservert kun til denne.",
+                        "introduction2": "Bruk entitetsregistret til å overstyre navnet, endre id-en eller fjerne den fra Safegate Pro.",
                         "remove_selected": {
                             "button": "Fjern valgte",
-                            "confirm_partly_text": "Du kan bare fjerne {removable} av de valgte {selected} enhetene. Enheter kan bare fjernes når integrasjonen ikke lenger leverer enhetene. Noen ganger må du starte Home Assistant på nytt før du kan fjerne enhetene til en fjernet integrasjon. Er du sikker på at du vil fjerne de flyttbare enhetene?",
+                            "confirm_partly_text": "Du kan bare fjerne {removable} av de valgte {selected} enhetene. Enheter kan bare fjernes når integrasjonen ikke lenger leverer enhetene. Noen ganger må du starte Safegate Pro på nytt før du kan fjerne enhetene til en fjernet integrasjon. Er du sikker på at du vil fjerne de flyttbare enhetene?",
                             "confirm_partly_title": "Bare {number} {number, plural,\n  one {valgt enhet}\n  other {valgte enheter}\n} kan fjernes.",
                             "confirm_text": "Du bør fjerne dem fra Lovelace-konfigurasjonen og automasjoner hvis de inneholder disse entitetene.",
                             "confirm_title": "Vil du fjerne {number} {number, plural,\n  one {enhet}\n  other {enheter}\n}?"
@@ -2150,7 +2150,7 @@
                 "hassio": {
                     "button": "Konfigurer"
                 },
-                "header": "Konfigurer Home Assistant",
+                "header": "Konfigurer Safegate Pro",
                 "helpers": {
                     "caption": "Hjelpere",
                     "description": "Elementer som hjelper med å bygge automasjoner",
@@ -2224,7 +2224,7 @@
                         "device_unavailable": "Enheten er utilgjengelig",
                         "devices": "{count} {count, plural,\n  one {enhet}\n  other {enheter}\n}",
                         "disable_error": "Aktivering eller deaktivering av integrasjonen mislyktes",
-                        "disable_restart_confirm": "Start Home Assistant på nytt for å fullføre deaktiveringen av denne integreringen",
+                        "disable_restart_confirm": "Start Safegate Pro på nytt for å fullføre deaktiveringen av denne integreringen",
                         "disable": {
                             "disable_confirm": "Er du sikker på at du vil deaktivere denne config-oppføringen? Enhetene og enhetene deaktiveres.",
                             "disabled": "Deaktivert",
@@ -2237,7 +2237,7 @@
                         },
                         "disabled_polling": "Automatisk avstemning for oppdaterte data deaktivert",
                         "documentation": "Dokumentasjon",
-                        "enable_restart_confirm": "Start Home Assistant på nytt for å fullføre aktiveringen av denne integreringen",
+                        "enable_restart_confirm": "Start Safegate Pro på nytt for å fullføre aktiveringen av denne integreringen",
                         "entities": "{count} {count, plural,\n  one {entitet}\n  other {entiteter}\n}",
                         "entity_unavailable": "Enhet utilgjengelig",
                         "firmware": "Fastvare: {version}",
@@ -2250,9 +2250,9 @@
                         "provided_by_custom_integration": "Levert av en tilpasset integrasjon",
                         "reload": "Last inn på nytt",
                         "reload_confirm": "Integrasjonen ble lastet på nytt",
-                        "reload_restart_confirm": "Start Home Assistant på nytt for å fullføre omlastingen av denne integrasjonen",
+                        "reload_restart_confirm": "Start Safegate Pro på nytt for å fullføre omlastingen av denne integrasjonen",
                         "rename": "Gi nytt navn",
-                        "restart_confirm": "Start Home Assistant på nytt for å fullføre fjerningen av denne integrasjonen",
+                        "restart_confirm": "Start Safegate Pro på nytt for å fullføre fjerningen av denne integrasjonen",
                         "services": "{count} {count, plural,\n  one {tjeneste}\n  other {tjenester}\n}",
                         "state": {
                             "failed_unload": "Kan ikke laste ut",
@@ -2281,7 +2281,7 @@
                         "loading_first_time": "Vennligst vent mens integrasjonen installeres",
                         "next": "Neste",
                         "not_all_required_fields": "Ikke alle obligatoriske felt er fylt ut.",
-                        "not_loaded": "Integrasjonen kunne ikke lastes, prøv å starte Home Assistant på nytt.",
+                        "not_loaded": "Integrasjonen kunne ikke lastes, prøv å starte Safegate Pro på nytt.",
                         "pick_flow_step": {
                             "new_flow": "Nei, sett opp en annen forekomst av {integration}",
                             "title": "Vi oppdaget disse, vil du sette dem opp?"
@@ -2300,7 +2300,7 @@
                         "show_disabled": "Vis deaktiverte integrasjoner"
                     },
                     "discovered": "Oppdaget",
-                    "home_assistant_website": "Nettsted for Home Assistant",
+                    "home_assistant_website": "Nettsted for Safegate Pro",
                     "ignore": {
                         "confirm_delete_ignore": "Dette vil få integrasjonen til å vises i de oppdagede integrasjonene dine igjen når den blir oppdaget. Dette kan kreve omstart eller ta litt tid.",
                         "confirm_delete_ignore_title": "Slutt å ignorere {name}?",
@@ -2326,12 +2326,12 @@
                     "rename_input_label": "Navn på oppføring",
                     "search": "Søk i integrasjoner"
                 },
-                "introduction": "I denne visningen er det mulig å konfigurere komponentene og Home Assistant. Ikke alt er mulig å konfigurere fra brukergrensesnittet ennå, men vi jobber med det.",
+                "introduction": "I denne visningen er det mulig å konfigurere komponentene og Safegate Pro. Ikke alt er mulig å konfigurere fra brukergrensesnittet ennå, men vi jobber med det.",
                 "logs": {
                     "caption": "Logger",
                     "clear": "Tøm",
                     "custom_integration": "tilpasset integrasjon",
-                    "description": "Vis Home Assistant loggene",
+                    "description": "Vis Safegate Pro loggene",
                     "details": "Loggdetaljer ({level})",
                     "error_from_custom_integration": "Denne feilen stammer fra en tilpasset integrasjon.",
                     "level": {
@@ -2341,7 +2341,7 @@
                         "info": "INFO",
                         "warning": "ADVARSEL"
                     },
-                    "load_full_log": "Last inn fullstendig Home Assistant logg",
+                    "load_full_log": "Last inn fullstendig Safegate Pro logg",
                     "loading_log": "Laster inn feillogg...",
                     "multiple_messages": "meldingen oppstod først ved {time} og vist {counter} ganger",
                     "no_errors": "Ingen feil er rapportert",
@@ -2546,7 +2546,7 @@
                     "select_instance": {
                         "header": "Velg en OpenZWave-forekomst",
                         "introduction": "Du har mer enn én OpenZWave-forekomst som kjører. Hvilken forekomst vil du administrere?",
-                        "none_found": "Vi kunne ikke finne en OpenZWave-forekomst. Hvis du mener dette er feil, sjekk OpenZWave- og MQTT-oppsettene og sørg for at Home Assistant kan kommunisere med MQTT-megleren din."
+                        "none_found": "Vi kunne ikke finne en OpenZWave-forekomst. Hvis du mener dette er feil, sjekk OpenZWave- og MQTT-oppsettene og sørg for at Safegate Pro kan kommunisere med MQTT-megleren din."
                     },
                     "services": {
                         "add_node": "Legg til node",
@@ -2560,7 +2560,7 @@
                     "confirm_delete": "Er du sikker på at du vil slette denne personen?",
                     "confirm_delete2": "Alle enheter som tilhører denne personen vil ikke bli tildelt.",
                     "create_person": "Opprett person",
-                    "description": "Administrere personene som Home Assistant sporer",
+                    "description": "Administrere personene som Safegate Pro sporer",
                     "detail": {
                         "admin": "Administrator",
                         "allow_login": "Tillat person å logge inn",
@@ -2579,7 +2579,7 @@
                         "no_device_tracker_available_intro": "Når du har enheter som indikerer en persons tilstedeværelse, vil du kunne tilordne dem til en person herfra. Du kan legge til den første enheten ved å legge til en integrasjon for tilstedeværelsesgjenkjenning fra integrasjonssiden.",
                         "update": "Oppdater"
                     },
-                    "introduction": "Her kan du definere hver person av interesse i Home Assistant.",
+                    "introduction": "Her kan du definere hver person av interesse i Safegate Pro.",
                     "learn_more": "Lær mer om personer",
                     "no_persons_created_yet": "Ser ut som du ikke har opprettet noen personer ennå.",
                     "note_about_persons_configured_in_yaml": "Merk: personer konfigurert i configuration.yaml kan ikke redigeres via brukergrensesnittet.",
@@ -2625,7 +2625,7 @@
                         "headers": {
                             "name": "Navn"
                         },
-                        "introduction": "Sceneditoren lar deg lage og redigere scener. Følg lenken nedenfor for å lese instruksjonene for å forsikre deg om at du har konfigurert Home Assistant riktig.",
+                        "introduction": "Sceneditoren lar deg lage og redigere scener. Følg lenken nedenfor for å lese instruksjonene for å forsikre deg om at du har konfigurert Safegate Pro riktig.",
                         "learn_more": "Lær mer om scener",
                         "no_scenes": "Vi fant ingen scener",
                         "only_editable": "Bare scener som er definert i scenes.yaml kan redigeres.",
@@ -2675,7 +2675,7 @@
                         "headers": {
                             "name": "Navn"
                         },
-                        "introduction": "Skripteditoren lar deg lage og redigere skript. Følg lenken nedenfor for å lese instruksjonene for å forsikre deg om at du har konfigurert Home Assistant riktig.",
+                        "introduction": "Skripteditoren lar deg lage og redigere skript. Følg lenken nedenfor for å lese instruksjonene for å forsikre deg om at du har konfigurert Safegate Pro riktig.",
                         "learn_more": "Lær mer om skript",
                         "no_scripts": "Vi fant ingen skript",
                         "run_script": "Kjør skript",
@@ -2684,7 +2684,7 @@
                 },
                 "server_control": {
                     "caption": "Server-kontroller",
-                    "description": "Start på nytt og stopp Home Assistant-serveren",
+                    "description": "Start på nytt og stopp Safegate Pro-serveren",
                     "section": {
                         "reloading": {
                             "automation": "Automasjoner",
@@ -2703,7 +2703,7 @@
                             "input_number": "Inndatanumre",
                             "input_select": "Inngang velges",
                             "input_text": "Inngangstekster",
-                            "introduction": "Noen deler av Home Assistant kan laste inn uten å kreve omstart. Hvis du trykker last på nytt, vil du bytte den nåværende konfigurasjonen med den nye.",
+                            "introduction": "Noen deler av Safegate Pro kan laste inn uten å kreve omstart. Hvis du trykker last på nytt, vil du bytte den nåværende konfigurasjonen med den nye.",
                             "min_max": "Min/maks enheter",
                             "mqtt": "Manuelt konfigurerte MQTT-enheter",
                             "person": "Personer",
@@ -2722,10 +2722,10 @@
                             "zone": "Soner"
                         },
                         "server_management": {
-                            "confirm_restart": "Er du sikker på at du vil starte Home Assistant på nytt?",
-                            "confirm_stop": "Er du sikker på at du vil stoppe Home Assistant?",
+                            "confirm_restart": "Er du sikker på at du vil starte Safegate Pro på nytt?",
+                            "confirm_stop": "Er du sikker på at du vil stoppe Safegate Pro?",
                             "heading": "Serveradministrasjon",
-                            "introduction": "Kontroller Home Assistant-serveren ... fra Home Assistant.",
+                            "introduction": "Kontroller Safegate Pro-serveren ... fra Safegate Pro.",
                             "restart": "Omstart",
                             "stop": "Stopp"
                         },
@@ -2778,7 +2778,7 @@
                         "password_not_match": "Passord samsvarer ikke"
                     },
                     "caption": "Brukere",
-                    "description": "Administrer Home Assistant-brukerkontoer",
+                    "description": "Administrer Safegate Pro-brukerkontoer",
                     "editor": {
                         "activate_user": "Aktiver bruker",
                         "active": "Aktiv",
@@ -3051,7 +3051,7 @@
                         "exclusion_failed": "Noden kunne ikke fjernes. Vennligst sjekk loggene for mer informasjon.",
                         "exclusion_finished": "Node {id} er fjernet fra Z-Wave-nettverket",
                         "follow_device_instructions": "Følg instruksjonene som fulgte med enheten for å utløse ekskludering på enheten",
-                        "introduction": "Fjern en node fra Z-Wave-nettverket, og fjern den tilknyttede enheten og entitetene fra Home Assistant",
+                        "introduction": "Fjern en node fra Z-Wave-nettverket, og fjern den tilknyttede enheten og entitetene fra Safegate Pro",
                         "start_exclusion": "Start ekskludering",
                         "title": "Fjern en Z-Wave-node"
                     }
@@ -3099,7 +3099,7 @@
                         "add_to_group": "Legg til gruppe",
                         "entities": "Entiteter fra denne noden",
                         "entity_info": "Entitetsinformasjon",
-                        "exclude_entity": "Ekskluder denne entiteten fra Home Assistant",
+                        "exclude_entity": "Ekskluder denne entiteten fra Safegate Pro",
                         "group": "Gruppe",
                         "header": "Z-Wave Node-administrasjon",
                         "introduction": "Kjør Z-Wave-kommandoer som påvirker en enkelt node. Velg en node for å se en liste over tilgjengelige kommandoer.",
@@ -3150,7 +3150,7 @@
             },
             "custom": {
                 "external_panel": {
-                    "complete_access": "Den vil ha tilgang til alle data i Home Assistant.",
+                    "complete_access": "Den vil ha tilgang til alle data i Safegate Pro.",
                     "hide_message": "Sjekk dokumenter for panel_custom-komponenten for å skjule denne meldingen",
                     "question_trust": "Stoler du på det eksterne panelet {name} på {link} ?"
                 }
@@ -3182,7 +3182,7 @@
                         "column_description": "Beskrivelse",
                         "column_example": "Eksempel",
                         "column_parameter": "",
-                        "description": "Tjenesteutviklingsverktøyet lar deg tilkalle alle tilgjengelige tjenester i Home Assistant.",
+                        "description": "Tjenesteutviklingsverktøyet lar deg tilkalle alle tilgjengelige tjenester i Safegate Pro.",
                         "fill_example_data": "Fyll ut eksempeldata",
                         "no_template_ui_support": "Brukergrensesnittet støtter ikke maler, du kan fortsatt bruke YAML-redigereren.",
                         "title": "Tjenester",
@@ -3195,7 +3195,7 @@
                         "attributes": "Attributter",
                         "copy_id": "Kopier ID til utklippstavlen",
                         "current_entities": "Gjeldende entiteter",
-                        "description1": "Angi gjeldende tilstandsrepresentasjon for en entitet i Home Assistant.",
+                        "description1": "Angi gjeldende tilstandsrepresentasjon for en entitet i Safegate Pro.",
                         "description2": "Hvis entiteten tilhører en enhet, vil det ikke være noen faktisk kommunikasjon med den enheten.",
                         "entity": "Entitet",
                         "filter_attributes": "Filtrere attributter",
@@ -3212,7 +3212,7 @@
                     },
                     "templates": {
                         "all_listeners": "Denne malen lytter etter alle tilstand endret hendelser.",
-                        "description": "Maler blir rendret ved hjelp av Jinja2-malmotoren med noen spesifikke utvidelser for Home Assistant.",
+                        "description": "Maler blir rendret ved hjelp av Jinja2-malmotoren med noen spesifikke utvidelser for Safegate Pro.",
                         "domain": "Domene",
                         "editor": "Maleditor",
                         "entity": "Entitet",
@@ -3221,7 +3221,7 @@
                         "no_listeners": "Denne malen lytter ikke etter noen hendelser og oppdateres ikke automatisk.",
                         "reset": "Tilbakestill til demomal",
                         "result_type": "Resultat type",
-                        "template_extensions": "Mal utvidelser for Home Assistant",
+                        "template_extensions": "Mal utvidelser for Safegate Pro",
                         "time": "Denne malen oppdateres i begynnelsen av hvert minutt",
                         "title": "Mal",
                         "unknown_error_template": "Ukjent feil ved rendring av mal"
@@ -3289,7 +3289,7 @@
                         "url": "Åpne vindu til {url_path}"
                     },
                     "safe-mode": {
-                        "description": "Home Assistant fikk problemer under lasting av konfigurasjonen og kjører nå i sikkermodus. Ta en titt på feilloggen for å se hva som gikk galt.",
+                        "description": "Safegate Pro fikk problemer under lasting av konfigurasjonen og kjører nå i sikkermodus. Ta en titt på feilloggen for å se hva som gikk galt.",
                         "header": "Sikkermodus aktivert"
                     },
                     "shopping-list": {
@@ -3300,7 +3300,7 @@
                         "reorder_items": "Bestill varer på nytt"
                     },
                     "starting": {
-                        "description": "Home Assistant starter, vennligst vent..."
+                        "description": "Safegate Pro starter, vennligst vent..."
                     }
                 },
                 "changed_toast": {
@@ -3468,7 +3468,7 @@
                             "name": "Luftfukter"
                         },
                         "iframe": {
-                            "description": "Websidekortet lar deg legge inn favorittwebsiden din direkte i Home Assistant.",
+                            "description": "Websidekortet lar deg legge inn favorittwebsiden din direkte i Safegate Pro.",
                             "name": "Webside"
                         },
                         "light": {
@@ -3628,7 +3628,7 @@
                     "migrate": {
                         "header": "Inkompatibel konfigurasjon",
                         "migrate": "Migrer konfigurasjon",
-                        "para_migrate": "Home Assistant kan legge til ID-er til alle kortene og visningene dine automatisk for deg ved å trykke på 'Migrer konfigurasjon' -knappen.",
+                        "para_migrate": "Safegate Pro kan legge til ID-er til alle kortene og visningene dine automatisk for deg ved å trykke på 'Migrer konfigurasjon' -knappen.",
                         "para_no_id": "Dette elementet har ingen ID. Vennligst legg til en ID på dette elementet i 'ui-lovelace.yaml'."
                     },
                     "move_card": {
@@ -3656,7 +3656,7 @@
                         "close": "Lukk",
                         "empty_config": "Start med et tomt instrumentbord",
                         "header": "Ta kontroll over Lovelace brukergrensesnittet ditt",
-                        "para": "Dette instrumentbordet vedlikeholdes for tiden av Home Assistant. Det oppdateres automatisk når nye enheter eller Lovelace brukergrensesnitt-komponenter blir tilgjengelige. Hvis du tar kontroll, vil dette instrumentbordet ikke lenger oppdateres automatisk. Du kan alltid lage et nytt instrumentbord i konfigurasjon å leke med.",
+                        "para": "Dette instrumentbordet vedlikeholdes for tiden av Safegate Pro. Det oppdateres automatisk når nye enheter eller Lovelace brukergrensesnitt-komponenter blir tilgjengelige. Hvis du tar kontroll, vil dette instrumentbordet ikke lenger oppdateres automatisk. Du kan alltid lage et nytt instrumentbord i konfigurasjon å leke med.",
                         "para_sure": "Er du sikker på at du vil ta kontroll over brukergrensesnittet ditt?",
                         "save": "Ta kontroll",
                         "yaml_config": "For å hjelpe deg med å starte, her er den gjeldende konfigurasjonen av dette instrumentbordet:",
@@ -3722,7 +3722,7 @@
                     "entity_non_numeric": "Entiteten er ikke-numerisk: {entity}",
                     "entity_not_found": "Entitet ikke tilgjengelig: {entity}",
                     "entity_unavailable": "Enheten er for øyeblikket ikke tilgjengelig: {entity}",
-                    "starting": "Home Assistant starter, kanskje ikke alt er tilgjengelig ennå"
+                    "starting": "Safegate Pro starter, kanskje ikke alt er tilgjengelig ennå"
                 }
             },
             "mailbox": {
@@ -3732,16 +3732,16 @@
                 "playback_title": "Meldingsavspilling"
             },
             "my": {
-                "component_not_loaded": "Denne viderekoblingen støttes ikke av Home Assistant-forekomsten. Du trenger integrasjonen {integration} å bruke denne viderekoblingen.",
+                "component_not_loaded": "Denne viderekoblingen støttes ikke av Safegate Pro-forekomsten. Du trenger integrasjonen {integration} å bruke denne viderekoblingen.",
                 "documentation": "dokumentasjon",
                 "error": "En ukjent feil har oppstått",
-                "faq_link": "Vanlige spørsmål om Min Home Assistant",
-                "no_supervisor": "Denne viderekoblingen støttes ikke av Home Assistant-installasjonen. Det trenger enten installasjonsmetoden Home Assistant OS eller Home Assistant Supervised. For mer informasjon, se {docs_link}.",
-                "not_supported": "Denne viderekoblingen støttes ikke av Home Assistant-forekomsten. Se på {link} for viderekoblinger som støttes, og hvilken versjon de ble introdusert."
+                "faq_link": "Vanlige spørsmål om Min Safegate Pro",
+                "no_supervisor": "Denne viderekoblingen støttes ikke av Safegate Pro-installasjonen. Det trenger enten installasjonsmetoden Safegate Pro OS eller Safegate Pro Supervised. For mer informasjon, se {docs_link}.",
+                "not_supported": "Denne viderekoblingen støttes ikke av Safegate Pro-forekomsten. Se på {link} for viderekoblinger som støttes, og hvilken versjon de ble introdusert."
             },
             "page-authorize": {
                 "abort_intro": "Innlogging avbrutt",
-                "authorizing_client": "Du er i ferd med å gi {clientId} tilgang til din Home Assistant",
+                "authorizing_client": "Du er i ferd med å gi {clientId} tilgang til din Safegate Pro",
                 "form": {
                     "error": "Feil: {error}",
                     "next": "Neste",
@@ -3843,8 +3843,8 @@
                 "cards": {
                     "demo": {
                         "demo_by": "ved {name}",
-                        "introduction": "Velkommen hjem! Du har nådd Home Assistant-demoen hvor vi viser frem de beste brukergrensesnittene som er opprettet av fellesskapet vårt.",
-                        "learn_more": "Lær mer om Home Assistant",
+                        "introduction": "Velkommen hjem! Du har nådd Safegate Pro-demoen hvor vi viser frem de beste brukergrensesnittene som er opprettet av fellesskapet vårt.",
+                        "learn_more": "Lær mer om Safegate Pro",
                         "next_demo": "Neste demo"
                     }
                 },
@@ -3891,16 +3891,16 @@
                 "core-config": {
                     "button_detect": "Oppdag",
                     "finish": "Neste",
-                    "intro": "Hei {name}, velkommen til Home Assistant. Hva ønsker du å kalle hjemmet ditt?",
+                    "intro": "Hei {name}, velkommen til Safegate Pro. Hva ønsker du å kalle hjemmet ditt?",
                     "intro_location": "Vi vil gjerne vite hvor du bor. Denne informasjonen vil bidra til å vise informasjon og sette opp automasjon basert på solen. Dette deles ikke ut av nettet ditt.",
                     "intro_location_detect": "Vi kan hjelpe deg med å fylle ut denne informasjonen ved å gjøre en engangsforespørsel til en ekstern tjeneste.",
-                    "location_name": "Navn på installasjonen av Home Assistant",
+                    "location_name": "Navn på installasjonen av Safegate Pro",
                     "location_name_default": "Hjem"
                 },
                 "finish": "Fullfør",
                 "integration": {
                     "finish": "Fullfør",
-                    "intro": "Enheter og tjenester er representert i Home Assistant som integrasjoner. Du kan sette dem opp nå eller gjøre det senere fra konfigurasjonen.",
+                    "intro": "Enheter og tjenester er representert i Safegate Pro som integrasjoner. Du kan sette dem opp nå eller gjøre det senere fra konfigurasjonen.",
                     "more_integrations": "Mer"
                 },
                 "intro": "Er du klar til å ta kontroll over hjemmet ditt, gjenvinne ditt privatliv og bli med i et verdensomspennende samfunn av entusiaster?",
@@ -3987,7 +3987,7 @@
                     "create_failed": "Kunne ikke opprette tilgangstoken.",
                     "created": "Opprettet {date}",
                     "delete_failed": "Kan ikke slette tilgangstokenet.",
-                    "description": "Opprett langvarige tilgangstokener slik at skriptene dine kan samhandle med din Home Assistant instans. Hver token vil være gyldig i 10 år fra opprettelsen. Følgende langvarige tilgangstokener er for tiden aktive.",
+                    "description": "Opprett langvarige tilgangstokener slik at skriptene dine kan samhandle med din Safegate Pro instans. Hver token vil være gyldig i 10 år fra opprettelsen. Følgende langvarige tilgangstokener er for tiden aktive.",
                     "empty_state": "Du har ingen langvarige tilgangstokener ennå.",
                     "header": "Langvarige tilgangstokener",
                     "learn_auth_requests": "Lær hvordan du lager godkjente forespørsler.",

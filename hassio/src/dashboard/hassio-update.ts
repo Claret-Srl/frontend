@@ -71,7 +71,7 @@ export class HassioUpdate extends LitElement {
         </h1>
         <div class="card-group">
           ${this._renderUpdateCard(
-            "Home Assistant Core",
+            "Safegate Pro Core",
             "core",
             this.supervisor.core,
             "hassio/homeassistant/update",
@@ -160,7 +160,7 @@ export class HassioUpdate extends LitElement {
     if (item.key === "core") {
       showDialogSupervisorUpdate(this, {
         supervisor: this.supervisor,
-        name: "Home Assistant Core",
+        name: "Safegate Pro Core",
         version: this.supervisor.core.version_latest,
         snapshotParams: {
           name: `core_${this.supervisor.core.version}`,

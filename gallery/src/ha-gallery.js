@@ -70,7 +70,7 @@ class HaGallery extends PolymerElement {
               class$="[[_computeHeaderButtonClass(_demo)]]"
             ></ha-icon-button>
             <div main-title>
-              [[_withDefault(_demo, "Home Assistant Gallery")]]
+              [[_withDefault(_demo, "Safegate Pro Gallery")]]
             </div>
           </app-toolbar>
         </app-header>

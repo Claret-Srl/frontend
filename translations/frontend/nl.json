@@ -144,11 +144,11 @@
                         "title": "AppArmor"
                     },
                     "auth_api": {
-                        "description": "Een invoegtoepassing kan gebruikers authenticeren bij Home Assistant met hun Home Assistant gebruikersnaam/wachtwoord. Hierdoor hebben invoegtoepassingen de mogelijkheid om gebruikers in te loggen bij applicaties die draaien in invoegtoepassingen. Deze badge geeft aan of de auteur van de invoegtoepassing deze mogelijkheid heeft aangevraagd.",
-                        "title": "Home Assistant Authenticatie"
+                        "description": "Een invoegtoepassing kan gebruikers authenticeren bij Safegate Pro met hun Safegate Pro gebruikersnaam/wachtwoord. Hierdoor hebben invoegtoepassingen de mogelijkheid om gebruikers in te loggen bij applicaties die draaien in invoegtoepassingen. Deze badge geeft aan of de auteur van de invoegtoepassing deze mogelijkheid heeft aangevraagd.",
+                        "title": "Safegate Pro Authenticatie"
                     },
                     "docker_api": {
-                        "description": "De auteur van deze invoegtoepassing heeft gevraagd of deze beheertoegang mag tot de Docker-instantie die op uw systeem draait. Deze modus geeft de invoegtoepassing volledige toegang en controle tot uw gehele Home Assistant-systeem, wat veiligheidsrisico's met zich mee brengt en bij misbruik uw systeem kan beschadigen. Daarom heeft deze functie een negatieve invloed op de beveiligingsscore van de invoegtoepassing.\n\nDit niveau van toegang wordt niet automatisch verleend en moet door u worden bevestigd. Om dit te doen moet u de beschermingsmodus op de invoegtoepassing handmatig uitschakelen. Schakel de beveiligingsmodus alleen uit als u de bron van deze invoegtoepassing kent, nodig hebt EN vertrouwt.",
+                        "description": "De auteur van deze invoegtoepassing heeft gevraagd of deze beheertoegang mag tot de Docker-instantie die op uw systeem draait. Deze modus geeft de invoegtoepassing volledige toegang en controle tot uw gehele Safegate Pro-systeem, wat veiligheidsrisico's met zich mee brengt en bij misbruik uw systeem kan beschadigen. Daarom heeft deze functie een negatieve invloed op de beveiligingsscore van de invoegtoepassing.\n\nDit niveau van toegang wordt niet automatisch verleend en moet door u worden bevestigd. Om dit te doen moet u de beschermingsmodus op de invoegtoepassing handmatig uitschakelen. Schakel de beveiligingsmodus alleen uit als u de bron van deze invoegtoepassing kent, nodig hebt EN vertrouwt.",
                         "title": "Volledige Docker toegang"
                     },
                     "full_access": {
@@ -156,23 +156,23 @@
                         "title": "Volledige hardware toegang"
                     },
                     "hassio_api": {
-                        "description": "Op verzoek van de auteur van de invoegtoepassing, heeft de invoegtoepassing toegang gekregen tot de Supervisor API. Standaard heeft deze toegang tot algemene versie-informatie van uw systeem. Wanneer de invoegtoepassing het toegangsniveau 'manager' of 'admin' tot de API aanvraagt, zal het toegang krijgen om meerdere delen van uw Home Assistant systeem te controleren. Deze toestemming wordt aangegeven met deze badge en zal de beveiligingsscore van de invoegtoepassing negatief beïnvloeden.",
+                        "description": "Op verzoek van de auteur van de invoegtoepassing, heeft de invoegtoepassing toegang gekregen tot de Supervisor API. Standaard heeft deze toegang tot algemene versie-informatie van uw systeem. Wanneer de invoegtoepassing het toegangsniveau 'manager' of 'admin' tot de API aanvraagt, zal het toegang krijgen om meerdere delen van uw Safegate Pro systeem te controleren. Deze toestemming wordt aangegeven met deze badge en zal de beveiligingsscore van de invoegtoepassing negatief beïnvloeden.",
                         "title": "Supervisor API Toegang"
                     },
                     "homeassistant_api": {
-                        "description": "Deze invoegtoepassing heeft rechtstreeks toegang tot uw actieve Home Assistant-instantie via de Home Assistant API. Deze modus handelt ook de authenticatie voor de invoegtoepassing af, waardoor een invoegtoepassing kan communiceren met Home Assistant zonder de noodzaak van extra authenticatietokens.",
-                        "title": "Home Assistant API Toegang"
+                        "description": "Deze invoegtoepassing heeft rechtstreeks toegang tot uw actieve Safegate Pro-instantie via de Safegate Pro API. Deze modus handelt ook de authenticatie voor de invoegtoepassing af, waardoor een invoegtoepassing kan communiceren met Safegate Pro zonder de noodzaak van extra authenticatietokens.",
+                        "title": "Safegate Pro API Toegang"
                     },
                     "host_network": {
                         "description": "Invoegtoepassingen draaien gewoonlijk in hun eigen geïsoleerde netwerklaag waardoor ze geen toegang hebben tot het netwerk van het host-besturingssysteem. In sommige gevallen kan deze netwerkisolatie invoegtoepassingen beperken in het leveren van hun diensten en daarom kan de isolatie worden opgeheven door de auteur van deze invoegtoepassingen. Hierdoor heeft de invoegtoepassing volledige toegang tot de netwerk mogelijkheden van de host-machine. De invoegtoepassing heeft dan meer netwerkmogelijkheden maar verlaagt de beveiliging. Vandaar dat de beveiligingsscore van de invoegtoepassing zal worden verlaagd als deze optie door de invoegtoepassing wordt gebruikt.",
                         "title": "Hostnetwerk"
                     },
                     "host_pid": {
-                        "description": "Gewoonlijk zijn de processen die de invoegtoepassing uitvoert, geïsoleerd van alle andere systeemprocessen. De auteur van de invoegtoepassing heeft toegang gevraagd  tot de systeemprocessen die op het host-systeem draaien en om toe te staan dat de invoegtoepassing ook processen op het host-systeem start. Deze modus geeft de invoegtoepassing volledige toegang tot en controle over uw gehele Home Assistant-systeem, wat veiligheidsrisico's toevoegt. Bij misbruik kan uw systeem beschadigd worden. Daarom heeft deze functie een negatieve invloed op de beveiligingsscore van de invoegtoepassing.\n\nDit niveau van toegang wordt niet automatisch verleend en moet door u worden bevestigd. Om dit te doen moet u de beschermingsmodus op de invoegtoepassing handmatig uitschakelen. Schakel de beveiligingsmodus alleen uit als u de bron van deze invoegtoepassing kent, nodig hebt EN vertrouwt.",
+                        "description": "Gewoonlijk zijn de processen die de invoegtoepassing uitvoert, geïsoleerd van alle andere systeemprocessen. De auteur van de invoegtoepassing heeft toegang gevraagd  tot de systeemprocessen die op het host-systeem draaien en om toe te staan dat de invoegtoepassing ook processen op het host-systeem start. Deze modus geeft de invoegtoepassing volledige toegang tot en controle over uw gehele Safegate Pro-systeem, wat veiligheidsrisico's toevoegt. Bij misbruik kan uw systeem beschadigd worden. Daarom heeft deze functie een negatieve invloed op de beveiligingsscore van de invoegtoepassing.\n\nDit niveau van toegang wordt niet automatisch verleend en moet door u worden bevestigd. Om dit te doen moet u de beschermingsmodus op de invoegtoepassing handmatig uitschakelen. Schakel de beveiligingsmodus alleen uit als u de bron van deze invoegtoepassing kent, nodig hebt EN vertrouwt.",
                         "title": "Host Processes Namespace"
                     },
                     "ingress": {
-                        "description": "Deze invoegtoepassing maakt gebruik van Ingress om zijn gebruikersinterface veilig te integreren in Home Assistant.",
+                        "description": "Deze invoegtoepassing maakt gebruik van Ingress om zijn gebruikersinterface veilig te integreren in Safegate Pro.",
                         "title": "Ingress"
                     },
                     "label": {
@@ -189,7 +189,7 @@
                         "stage": "stadium"
                     },
                     "rating": {
-                        "description": "Home Assistant geeft een veiligheidsscore aan elke add-on, die aangeeft welke risico's het gebruik van deze add-on met zich meebrengt. Hoe meer toegang een add-on tot je systeem vereist, hoe lager de score, waardoor de mogelijke veiligheidsrisico's toenemen.\n\nEen score is op een schaal van 1 tot 6. Waarbij 1 de laagste score is (beschouwd als het meest onveilige en het grootste risico) en een score van 6 de hoogste score is (beschouwd als het meest veilige en het minste risico).",
+                        "description": "Safegate Pro geeft een veiligheidsscore aan elke add-on, die aangeeft welke risico's het gebruik van deze add-on met zich meebrengt. Hoe meer toegang een add-on tot je systeem vereist, hoe lager de score, waardoor de mogelijke veiligheidsrisico's toenemen.\n\nEen score is op een schaal van 1 tot 6. Waarbij 1 de laagste score is (beschouwd als het meest onveilige en het grootste risico) en een score van 6 de hoogste score is (beschouwd als het meest veilige en het minste risico).",
                         "title": "Beveilingsscore Invoegtoepassing"
                     },
                     "role": {
@@ -210,7 +210,7 @@
                 "install": "installeren",
                 "new_update_available": "{name} {version} is beschikbaar",
                 "not_available_arch": "Deze add-on is niet compatibel met de processor van je apparaat of het besturingssysteem dat je op je apparaat hebt geïnstalleerd.",
-                "not_available_version": "Je draait Home Assistant {core_version_installed}. Om de add-on naar deze versie bij te werken moet je minimaal Home Assistant {core_version_needed} hebben.",
+                "not_available_version": "Je draait Safegate Pro {core_version_installed}. Om de add-on naar deze versie bij te werken moet je minimaal Safegate Pro {core_version_needed} hebben.",
                 "open_web_ui": "Open web UI",
                 "option": {
                     "auto_update": {
@@ -378,8 +378,8 @@
             "error_addon_not_found": "Invoegtoepassing niet gevonden",
             "error_addon_not_installed": "De gevraagde add-on is niet geïnstalleerd. Gelieve deze eerst te installeren",
             "error_addon_not_started": "De gevraagde add-on is niet actief. Start deze a.u.b. eerst",
-            "faq_link": "My Home Assistant FAQ",
-            "not_supported": "Deze redirect wordt niet ondersteund door uw Home Assistant instantie. Controleer de {link} voor de ondersteunde redirects en de versie waarin ze zijn geïntroduceerd."
+            "faq_link": "My Safegate Pro FAQ",
+            "not_supported": "Deze redirect wordt niet ondersteund door uw Safegate Pro instantie. Controleer de {link} voor de ondersteunde redirects en de versie waarin ze zijn geïntroduceerd."
         },
         "panel": {
             "dashboard": "Dashboard",
@@ -400,12 +400,12 @@
             "delete_snapshot_confirm": "verwijder",
             "delete_snapshot_text": "Wilt u {number} {number, plural,\n  one {snapshot}\n  other {snapshots}\n} verwijderen?",
             "delete_snapshot_title": "Verwijder snapshot",
-            "description": "Met snapshots kunt u gemakkelijk een back-up maken van alle gegevens van uw Home Assistant en ze herstellen.",
+            "description": "Met snapshots kunt u gemakkelijk een back-up maken van alle gegevens van uw Safegate Pro en ze herstellen.",
             "enter_password": "Voer een wachtwoord in.",
             "failed_to_delete": "Verwijderen mislukt",
             "folder": {
                 "addons/local": "Lokale invoegtoepassingen",
-                "homeassistant": "Home Assistant configuratie",
+                "homeassistant": "Safegate Pro configuratie",
                 "media": "Media",
                 "share": "Deel",
                 "ssl": "SSL"
@@ -474,16 +474,16 @@
                 "failed_to_set_option": "Instellen van Supervisor-optie is mislukt",
                 "failed_to_update": "Bijwerken van de Supervisor is mislukt",
                 "join_beta_action": "Word lid van het bèta-kanaal",
-                "join_beta_description": "Ontvang bèta-updates voor Home Assistant (RC's), Supervisor en host",
+                "join_beta_description": "Ontvang bèta-updates voor Safegate Pro (RC's), Supervisor en host",
                 "leave_beta_action": "Verlaat bèta-kanaal",
-                "leave_beta_description": "Krijg stabiele updates voor Home Assistant, Supervisor en host",
+                "leave_beta_description": "Krijg stabiele updates voor Safegate Pro, Supervisor en host",
                 "ram_usage": "Supervisor RAM-gebruik",
                 "reload_supervisor": "Herlaad de Supervisor",
                 "search": "Zoek",
                 "share_diagnostics": "Diagnostische gegevens delen",
                 "share_diagnostics_description": "Deel crash rapporten en diagnostische informatie.",
-                "share_diagonstics_description": "Zou je automatisch crash rapporten en diagnostische informatie willen delen wanneer de Supervisor onverwachte fouten tegenkomt? {line_break} Dit stelt ons in staat om de problemen op te lossen, de informatie is alleen toegankelijk voor het Home Assistant Core team en zal niet met anderen gedeeld worden.{line_break} De gegevens bevatten geen privé/gevoelige informatie en u kunt dit in de instellingen op elk gewenst moment uitschakelen.",
-                "share_diagonstics_title": "Help Home Assistant te verbeteren",
+                "share_diagonstics_description": "Zou je automatisch crash rapporten en diagnostische informatie willen delen wanneer de Supervisor onverwachte fouten tegenkomt? {line_break} Dit stelt ons in staat om de problemen op te lossen, de informatie is alleen toegankelijk voor het Safegate Pro Core team en zal niet met anderen gedeeld worden.{line_break} De gegevens bevatten geen privé/gevoelige informatie en u kunt dit in de instellingen op elk gewenst moment uitschakelen.",
+                "share_diagonstics_title": "Help Safegate Pro te verbeteren",
                 "unhealthy_description": "Het draaien van een onvolledige installatie zal problemen veroorzaken. Hieronder vindt u een lijst met problemen die gevonden zijn met uw installatie, klik op de links om te leren hoe u de problemen kunt oplossen.",
                 "unhealthy_reason": {
                     "docker": "De Docker omgeving werkt niet goed",
@@ -944,9 +944,9 @@
             "config_entry_system_options": {
                 "enable_new_entities_description": "Of nieuw ontdekte apparaten voor {integration} automatisch moeten worden toegevoegd.",
                 "enable_new_entities_label": "Voeg nieuwe entiteiten automatisch toe",
-                "enable_polling_description": "Of Home Assistant automatisch moet pollen voor {integration} entiteiten updates.",
+                "enable_polling_description": "Of Safegate Pro automatisch moet pollen voor {integration} entiteiten updates.",
                 "enable_polling_label": "Schakel polling voor updates in.",
-                "restart_home_assistant": "U moet Home Assistant opnieuw starten om uw wijzigingen door te voeren.",
+                "restart_home_assistant": "U moet Safegate Pro opnieuw starten om uw wijzigingen door te voeren.",
                 "title": "Systeeminstellingen voor {integration}",
                 "update": "Bijwerken"
             },
@@ -967,10 +967,10 @@
                     "delete": "Verwijderen",
                     "device_disabled": "Het apparaat van deze entiteit is uitgeschakeld.",
                     "enabled_cause": "Uitgeschakeld vanwege {cause}",
-                    "enabled_delay_confirm": "De ingeschakelde entiteiten worden over {delay} seconden aan Home Assistant toegevoegd",
-                    "enabled_description": "Uitgeschakelde entiteiten zullen niet aan Home Assistant worden toegevoegd",
+                    "enabled_delay_confirm": "De ingeschakelde entiteiten worden over {delay} seconden aan Safegate Pro toegevoegd",
+                    "enabled_description": "Uitgeschakelde entiteiten zullen niet aan Safegate Pro worden toegevoegd",
                     "enabled_label": "Schakel entiteit in",
-                    "enabled_restart_confirm": "Start Home Assistant opnieuw om het inschakelen van de entiteiten te voltooien",
+                    "enabled_restart_confirm": "Start Safegate Pro opnieuw om het inschakelen van de entiteiten te voltooien",
                     "entity_id": "Entiteits-ID",
                     "follow_device_area": "Volg het apparaatgebied",
                     "icon": "Pictogram",
@@ -998,7 +998,7 @@
                     "initial": "Beginwaarde",
                     "maximum": "Maximale waarde",
                     "minimum": "Minimale waarde",
-                    "restore": "Herstel de laatst bekende waarde wanneer Home Assistant start",
+                    "restore": "Herstel de laatst bekende waarde wanneer Safegate Pro start",
                     "step": "Stapgrootte"
                 },
                 "generic": {
@@ -1187,7 +1187,7 @@
                 "filter_placeholder": "Entiteitsfilter"
             },
             "voice_command": {
-                "did_not_hear": "Home Assistant heeft niets gehoord",
+                "did_not_hear": "Safegate Pro heeft niets gehoord",
                 "error": "Oeps, er is een fout opgetreden",
                 "found": "Ik heb het volgende voor je gevonden:",
                 "how_can_i_help": "Hoe kan ik helpen?",
@@ -1269,7 +1269,7 @@
                 "reboot": "Probeer een herstart van de host",
                 "system_health": "Controleer de systeemstatus",
                 "title": "Kan het supervisorpaneel niet laden!",
-                "wait": "Als Home Assistant net is gestart, zorg ervoor dat de supervisor genoeg tijd heeft gehad om op te starten."
+                "wait": "Als Safegate Pro net is gestart, zorg ervoor dat de supervisor genoeg tijd heeft gehad om op te starten."
             }
         },
         "login-form": {
@@ -1289,8 +1289,8 @@
             "dismiss": "Afwijzen",
             "integration_starting": "{integration} starten, niet alles is beschikbaar totdat het voltooid is.",
             "service_call_failed": "Kan service {service} niet aanroepen",
-            "started": "Home Assistant is gestart!",
-            "starting": "Home Assistant is aan het opstarten. Tijdens het opstarten is niet alles beschikbaar.",
+            "started": "Safegate Pro is gestart!",
+            "starting": "Safegate Pro is aan het opstarten. Tijdens het opstarten is niet alles beschikbaar.",
             "triggered": "Geactiveerd {name}",
             "wrapping_up_startup": "Opstarten aan het afronden, niet alles is beschikbaar totdat het voltooid is."
         },
@@ -1328,7 +1328,7 @@
                         "create_area": "Gebied maken",
                         "header": "Gebieden",
                         "integrations_page": "Integratiespagina",
-                        "introduction": "Gebieden worden gebruikt om te bepalen waar apparaten zijn. Deze informatie wordt overal in de Home Assistant gebruikt om je te helpen bij het organiseren van je interface, machtigingen en integraties met andere systemen.",
+                        "introduction": "Gebieden worden gebruikt om te bepalen waar apparaten zijn. Deze informatie wordt overal in de Safegate Pro gebruikt om je te helpen bij het organiseren van je interface, machtigingen en integraties met andere systemen.",
                         "introduction2": "Als u apparaten in een gebied wilt plaatsen, gebruikt u de onderstaande koppeling om naar de integratiespagina te gaan en vervolgens op een geconfigureerde integratie te klikken om naar de apparaatkaarten te gaan.",
                         "no_areas": "Het lijkt erop dat je nog geen gebieden hebt!"
                     }
@@ -1357,7 +1357,7 @@
                             "delete_confirm": "Wil je dit echt verwijderen?",
                             "duplicate": "Dupliceer",
                             "header": "Acties",
-                            "introduction": "De acties zijn wat Home Assistant zal doen wanneer de automatisering wordt geactiveerd.",
+                            "introduction": "De acties zijn wat Safegate Pro zal doen wanneer de automatisering wordt geactiveerd.",
                             "learn_more": "Meer informatie over acties",
                             "name": "Actie",
                             "type_select": "Type actie",
@@ -1562,7 +1562,7 @@
                             "duplicate": "Dupliceren",
                             "header": "",
                             "id": "Trigger-ID (gebruikt door de triggervoorwaarde)",
-                            "introduction": "Triggers starten de verwerking van een automatiseringsregel. Het is mogelijk om meerdere triggers voor dezelfde regel op te geven. Zodra een trigger start, valideert Home Assistant de eventuele voorwaarden en roept hij de actie aan.",
+                            "introduction": "Triggers starten de verwerking van een automatiseringsregel. Het is mogelijk om meerdere triggers voor dezelfde regel op te geven. Zodra een trigger start, valideert Safegate Pro de eventuele voorwaarden en roept hij de actie aan.",
                             "learn_more": "Meer informatie over triggers",
                             "name": "Trigger",
                             "type_select": "Trigger-type",
@@ -1673,7 +1673,7 @@
                         "headers": {
                             "name": "Naam"
                         },
-                        "introduction": "Met de automatiseringseditor editor kun je automatiseringen maken en bewerken. Volg de link hieronder om er zeker van te zijn dat je Home Assistant juist hebt geconfigureerd.",
+                        "introduction": "Met de automatiseringseditor editor kun je automatiseringen maken en bewerken. Volg de link hieronder om er zeker van te zijn dat je Safegate Pro juist hebt geconfigureerd.",
                         "learn_more": "Meer informatie over automatiseringen",
                         "no_automations": "We konden geen automatiseringen vinden",
                         "only_editable": "Alleen automatiseringen in automations.yaml kunnen worden bewerkt.",
@@ -1692,7 +1692,7 @@
                             "error_unsupported": "Daar konden we (nog) geen automatisering voor maken.",
                             "for_example": "Bijvoorbeeld:",
                             "header": "Een nieuwe automatisering maken",
-                            "introduction": "Typ hieronder wat deze automatisering zou moeten doen, en we zullen proberen om het om te zetten in een Home Assistant automatisering.",
+                            "introduction": "Typ hieronder wat deze automatisering zou moeten doen, en we zullen proberen om het om te zetten in een Safegate Pro automatisering.",
                             "language_note": "Opmerking: voorlopig wordt alleen Engels ondersteund."
                         }
                     }
@@ -1740,10 +1740,10 @@
                             "config_documentation": "Configuratie documentatie",
                             "disable": "uitschakelen",
                             "enable": "inschakelen",
-                            "enable_ha_skill": "Schakel de Home Assistant skill voor Alexa",
+                            "enable_ha_skill": "Schakel de Safegate Pro skill voor Alexa",
                             "enable_state_reporting": "Statusrapportage inschakelen",
-                            "info": "Met de Alexa integratie voor Home Assistant Cloud kun je al je Home Assistant apparaten bedienen via elk apparaat met Alexa-ondersteuning.",
-                            "info_state_reporting": "Als u statusrapportage inschakelt, stuurt Home Assistant alle statuswijzigingen van opengestelde entiteiten naar Amazon. Hiermee kunt u altijd de laatste status zien in de Alexa app en kunt u de statuswijzigingen gebruiken om routines te maken.",
+                            "info": "Met de Alexa integratie voor Safegate Pro Cloud kun je al je Safegate Pro apparaten bedienen via elk apparaat met Alexa-ondersteuning.",
+                            "info_state_reporting": "Als u statusrapportage inschakelt, stuurt Safegate Pro alle statuswijzigingen van opengestelde entiteiten naar Amazon. Hiermee kunt u altijd de laatste status zien in de Alexa app en kunt u de statuswijzigingen gebruiken om routines te maken.",
                             "manage_entities": "Entiteiten beheren",
                             "state_reporting_error": "Kan de rapportstatus niet {aanzetten_uitzetten}",
                             "sync_entities": "Entiteiten synchroniseren naar Amazon",
@@ -1757,15 +1757,15 @@
                         "google": {
                             "config_documentation": "Configuratie documentatie",
                             "devices_pin": "Pincode van beveiligingsapparaten",
-                            "enable_ha_skill": "Activeer Home Assistant voor Google Assistant",
+                            "enable_ha_skill": "Activeer Safegate Pro voor Google Assistant",
                             "enable_state_reporting": "Statusrapportage inschakelen",
                             "enter_pin_error": "Kan pincode niet opslaan:",
                             "enter_pin_hint": "Voer een pincode in om beveiligingsapparaten te gebruiken",
                             "enter_pin_info": "Voer een pincode in om te communiceren met beveiligingsapparaten. Beveiligingsapparaten zijn deuren, garagedeuren en sloten. U wordt gevraagd om deze pincode uit te spreken of in te voeren bij interactie met dergelijke apparaten via Google Assistant.",
-                            "info": "Met de Google Assistant integratie voor Home Assistant Cloud kun je al je Home Assistant apparaten bedienen via elk apparaat waarop Google Assistant is ingeschakeld.",
-                            "info_state_reporting": "Als u statusrapportage inschakelt, stuurt Home Assistant alle statuswijzigingen van blootgestelde entiteiten naar Google. Hierdoor kunt u altijd de meest actuele statussen in de Google-app zien.",
+                            "info": "Met de Google Assistant integratie voor Safegate Pro Cloud kun je al je Safegate Pro apparaten bedienen via elk apparaat waarop Google Assistant is ingeschakeld.",
+                            "info_state_reporting": "Als u statusrapportage inschakelt, stuurt Safegate Pro alle statuswijzigingen van blootgestelde entiteiten naar Google. Hierdoor kunt u altijd de meest actuele statussen in de Google-app zien.",
                             "manage_entities": "Entiteiten beheren",
-                            "not_configured_text": "Voordat u Google Assistant kunt gebruiken, moet u de Home Assistant Cloud-skill voor Google Assistant activeren in de Google Home-app.",
+                            "not_configured_text": "Voordat u Google Assistant kunt gebruiken, moet u de Safegate Pro Cloud-skill voor Google Assistant activeren in de Google Home-app.",
                             "not_configured_title": "Google Assistant is niet geactiveerd",
                             "security_devices": "Beveiligingsapparaten",
                             "sync_entities": "Synchroniseer entiteiten met Google",
@@ -1773,7 +1773,7 @@
                             "title": "Google Assistant"
                         },
                         "integrations": "Integraties",
-                        "integrations_introduction": "Met integraties voor Home Assistant Cloud kunt u verbinding maken met services in de cloud zonder dat u uw Home Assistant-instantie openbaar hoeft te maken op internet.",
+                        "integrations_introduction": "Met integraties voor Safegate Pro Cloud kunt u verbinding maken met services in de cloud zonder dat u uw Safegate Pro-instantie openbaar hoeft te maken op internet.",
                         "integrations_introduction2": "Kijk op de website voor",
                         "integrations_link_all_features": "alle beschikbare functies",
                         "manage_account": "Beheer account",
@@ -1783,19 +1783,19 @@
                             "access_is_being_prepared": "Toegang op afstand wordt voorbereid. We zullen u op de hoogte brengen wanneer het klaar is.",
                             "certificate_info": "Certificaatinfo",
                             "connected": "Verbonden",
-                            "info": "Home Assistant Cloud biedt een veilige externe verbinding met uw exemplaar terwijl u niet thuis bent.",
+                            "info": "Safegate Pro Cloud biedt een veilige externe verbinding met uw exemplaar terwijl u niet thuis bent.",
                             "instance_is_available": "Uw exemplaar is beschikbaar op",
                             "instance_will_be_available": "Uw exemplaar zal beschikbaar zijn op",
                             "link_learn_how_it_works": "Leer hoe het werkt",
                             "not_connected": "Niet verbonden",
                             "remote_enabled": {
                                 "caption": "Automatisch verbinden",
-                                "description": "Schakel deze optie in om ervoor te zorgen dat uw Home Assistant instantie altijd op afstand toegankelijk is."
+                                "description": "Schakel deze optie in om ervoor te zorgen dat uw Safegate Pro instantie altijd op afstand toegankelijk is."
                             },
                             "title": "Afstand Bediening"
                         },
                         "sign_out": "Afmelden",
-                        "thank_you_note": "Bedankt voor uw deelname aan Home Assistant Cloud. Het is vanwege mensen zoals u dat we een geweldige domotica-ervaring voor iedereen kunnen maken. Dank je!",
+                        "thank_you_note": "Bedankt voor uw deelname aan Safegate Pro Cloud. Het is vanwege mensen zoals u dat we een geweldige domotica-ervaring voor iedereen kunnen maken. Dank je!",
                         "tts": {
                             "default_language": "Standaardtaal om te gebruiken",
                             "dialog": {
@@ -1813,7 +1813,7 @@
                         },
                         "webhooks": {
                             "disable_hook_error_msg": "Kan webhook niet uitschakelen:",
-                            "info": "Alles wat is geconfigureerd om door een webhook te worden geactiveerd, kan een openbaar toegankelijke URL krijgen zodat u gegevens overal naar Home Assistant kunt terugsturen, zonder uw exemplaar aan internet bloot te stellen.",
+                            "info": "Alles wat is geconfigureerd om door een webhook te worden geactiveerd, kan een openbaar toegankelijke URL krijgen zodat u gegevens overal naar Safegate Pro kunt terugsturen, zonder uw exemplaar aan internet bloot te stellen.",
                             "link_learn_more": "Meer informatie over het maken van door webhook aangedreven automatiseringen.",
                             "loading": "Laden...",
                             "manage": "Beheer",
@@ -1889,11 +1889,11 @@
                         "email": "E-mail",
                         "email_error_msg": "Ongeldig e-mailadres",
                         "forgot_password": "Wachtwoord vergeten?",
-                        "introduction": "Home Assistant Cloud biedt u een veilige externe verbinding met uw Home Assistant terwijl u niet thuis bent. Hiermee kunt u ook verbinding maken met cloudservices: Amazon, Alexa en Google Assistant.",
+                        "introduction": "Safegate Pro Cloud biedt u een veilige externe verbinding met uw Safegate Pro terwijl u niet thuis bent. Hiermee kunt u ook verbinding maken met cloudservices: Amazon, Alexa en Google Assistant.",
                         "introduction2": "Deze service wordt uitgevoerd door onze partner ",
-                        "introduction2a": ", een bedrijf dat is opgericht door de oprichters van Home Assistent en Hass.io.",
-                        "introduction3": "Home Assistant Cloud is een abonnementsdienst met een gratis proefperiode van een maand. Geen betalingsinformatie nodig.",
-                        "learn_more_link": "Meer informatie over Home Assistant Cloud",
+                        "introduction2a": ", een bedrijf dat is opgericht door de oprichters van Safegate Pro en Hass.io.",
+                        "introduction3": "Safegate Pro Cloud is een abonnementsdienst met een gratis proefperiode van een maand. Geen betalingsinformatie nodig.",
+                        "learn_more_link": "Meer informatie over Safegate Pro Cloud",
                         "password": "Wachtwoord",
                         "password_error_msg": "Wachtwoorden moeten uit ten minste 8 tekens bestaan",
                         "sign_in": "Aanmelden",
@@ -1908,13 +1908,13 @@
                         "email_error_msg": "Ongeldig e-mailadres",
                         "feature_amazon_alexa": "Integratie met Amazon Alexa",
                         "feature_google_home": "Integratie met Google Assistent",
-                        "feature_remote_control": "Beheer van Home Assistant van buitenaf",
+                        "feature_remote_control": "Beheer van Safegate Pro van buitenaf",
                         "feature_webhook_apps": "Eenvoudige integratie met webhook gebaseerde apps zoals OwnTracks",
                         "headline": "Start uw gratis proefperiode",
-                        "information": "Maak een account om uw gratis proefperiode van een maand te starten met Home Assistant Cloud. Geen betalingsinformatie nodig.",
-                        "information2": "De proefversie geeft u toegang tot alle voordelen van Home Assistant Cloud, waaronder:",
+                        "information": "Maak een account om uw gratis proefperiode van een maand te starten met Safegate Pro Cloud. Geen betalingsinformatie nodig.",
+                        "information2": "De proefversie geeft u toegang tot alle voordelen van Safegate Pro Cloud, waaronder:",
                         "information3": "Deze service wordt uitgevoerd door onze partner",
-                        "information3a": ", een bedrijf dat is opgericht door de oprichters van Home Assistant en Hass.io.",
+                        "information3a": ", een bedrijf dat is opgericht door de oprichters van Safegate Pro en Hass.io.",
                         "information4": "Door het registreren van het account gaat u akkoord met de volgende voorwaarden.",
                         "link_privacy_policy": "Privacybeleid",
                         "link_terms_conditions": "Algemene voorwaarden",
@@ -1939,7 +1939,7 @@
                                 "documentation": "Voordat u dit inschakelt, moet u de analytics documentatie pagina {link} bezoeken om te begrijpen wat u verstuurt en hoe het wordt opgeslagen.",
                                 "header": "Analytics",
                                 "instance_id": "Instantie-ID: {huuid}",
-                                "introduction": "Deel uw installatie-informatie om Home Assistant te helpen verbeteren en ons te helpen fabrikanten te overtuigen om lokale controle en privacygerichte functies toe te voegen.",
+                                "introduction": "Deel uw installatie-informatie om Safegate Pro te helpen verbeteren en ons te helpen fabrikanten te overtuigen om lokale controle en privacygerichte functies toe te voegen.",
                                 "learn_more": "Hoe wij uw gegevens verwerken",
                                 "needs_base": "U moet basisanalyses inschakelen om deze optie beschikbaar te maken",
                                 "preference": {
@@ -1973,7 +1973,7 @@
                                 "imperial_example": "Fahrenheit, ponden",
                                 "internal_url": "Interne URL",
                                 "latitude": "Breedtegraad",
-                                "location_name": "Naam van Home Assistant installatie",
+                                "location_name": "Naam van Safegate Pro installatie",
                                 "longitude": "Lengtegraad",
                                 "metric_example": "Celsius, kilogram",
                                 "save_button": "Opslaan",
@@ -2059,7 +2059,7 @@
                         "user": "Gebruiker"
                     },
                     "enabled_cause": "Het apparaat is uitgeschakeld door {cause}.",
-                    "enabled_description": "Uitgeschakelde apparaten worden niet weergegeven en entiteiten die bij het apparaat horen, worden uitgeschakeld en niet toegevoegd aan Home Assistant.",
+                    "enabled_description": "Uitgeschakelde apparaten worden niet weergegeven en entiteiten die bij het apparaat horen, worden uitgeschakeld en niet toegevoegd aan Safegate Pro.",
                     "enabled_label": "Schakel apparaat in",
                     "entities": {
                         "add_entities_lovelace": "Voeg toe aan de Lovelace gebruikersinterface",
@@ -2104,12 +2104,12 @@
                     "picker": {
                         "disable_selected": {
                             "button": "Geselecteerde uitschakelen",
-                            "confirm_text": "Uitgeschakelde entiteiten zullen niet aan Home Assistant worden toegevoegd",
+                            "confirm_text": "Uitgeschakelde entiteiten zullen niet aan Safegate Pro worden toegevoegd",
                             "confirm_title": "Wilt u het volgende uitschakelen {number} {number, plural,\n  one {entiteit}\n  other {entiteiten}\n}?"
                         },
                         "enable_selected": {
                             "button": "Geselecteerde inschakelen",
-                            "confirm_text": "Dit maakt ze weer beschikbaar in Home Assistant als ze nu zijn uitgeschakeld.",
+                            "confirm_text": "Dit maakt ze weer beschikbaar in Safegate Pro als ze nu zijn uitgeschakeld.",
                             "confirm_title": "Wilt je {number} {number, plural,\n  one {entiteit}\n  other {entiteiten}\n} inschakelen?"
                         },
                         "filter": {
@@ -2128,11 +2128,11 @@
                             "name": "Naam",
                             "status": "Status"
                         },
-                        "introduction": "Home Assistant houdt een register bij van elke entiteit die het ooit heeft gezien en die uniek kan worden geïdentificeerd. Elk van deze entiteiten krijgt een entiteit-ID toegewezen die alleen voor deze entiteit wordt gereserveerd.",
-                        "introduction2": "Gebruik het entiteitenregister om de naam te overschrijven, de entiteits-ID te wijzigen of het item te verwijderen uit Home Assistant.",
+                        "introduction": "Safegate Pro houdt een register bij van elke entiteit die het ooit heeft gezien en die uniek kan worden geïdentificeerd. Elk van deze entiteiten krijgt een entiteit-ID toegewezen die alleen voor deze entiteit wordt gereserveerd.",
+                        "introduction2": "Gebruik het entiteitenregister om de naam te overschrijven, de entiteits-ID te wijzigen of het item te verwijderen uit Safegate Pro.",
                         "remove_selected": {
                             "button": "Verwijder geselecteerde",
-                            "confirm_partly_text": "U kunt alleen {removable} van de geselecteerde {selected} entiteiten verwijderen. Entiteiten kunnen alleen worden verwijderd als de integratie de entiteiten niet meer levert. Soms moet u Home Assistant opnieuw opstarten voordat u de entiteiten van een verwijderde integratie kunt verwijderen. Weet u zeker dat u de verwijderbare entiteiten wilt verwijderen?",
+                            "confirm_partly_text": "U kunt alleen {removable} van de geselecteerde {selected} entiteiten verwijderen. Entiteiten kunnen alleen worden verwijderd als de integratie de entiteiten niet meer levert. Soms moet u Safegate Pro opnieuw opstarten voordat u de entiteiten van een verwijderde integratie kunt verwijderen. Weet u zeker dat u de verwijderbare entiteiten wilt verwijderen?",
                             "confirm_partly_title": "Alleen {number} {number, plural,\n  one {geselecteerde entiteit}\n  other {geselecteerde entiteiten}\n} kunnen worden verwijderd.",
                             "confirm_text": "Je moet ze zelf nog verwijderen uit je Lovelace-configuratie en automatiseringen als ze deze entiteiten bevatten.",
                             "confirm_title": "Wilt u het volgende verwijderen {number} {number, plural,\n  one {entiteit}\n  other {entiteiten}\n}?"
@@ -2156,7 +2156,7 @@
                 "hassio": {
                     "button": "Configureer"
                 },
-                "header": "Configureer Home Assistant",
+                "header": "Configureer Safegate Pro",
                 "helpers": {
                     "caption": "Helpers",
                     "description": "Elementen die kunnen helpen bij het maken van automatiseringen",
@@ -2196,7 +2196,7 @@
                     "documentation": "Documentatie",
                     "frontend": "Frontend",
                     "frontend_version": "Frontend-versie: {version} - {type}",
-                    "home_assistant_logo": "Home Assistant-logo",
+                    "home_assistant_logo": "Safegate Pro-logo",
                     "icons_by": "Pictogrammen door",
                     "integrations": "Integraties",
                     "issues": "Problemen",
@@ -2230,7 +2230,7 @@
                         "device_unavailable": "Apparaat niet beschikbaar",
                         "devices": "{count} {count, plural,\n  one {apparaat}\n  other {apparaten}\n}",
                         "disable_error": "In- of uitschakelen van de integratie mislukt",
-                        "disable_restart_confirm": "Start Home Assistant opnieuw op om het uitzetten van deze integratie te voltooien",
+                        "disable_restart_confirm": "Start Safegate Pro opnieuw op om het uitzetten van deze integratie te voltooien",
                         "disable": {
                             "disable_confirm": "Weet je zeker dat je deze configuratie wilt uitschakelen? Al diens apparaten en entiteiten zullen worden uitgeschakeld.",
                             "disabled": "Uitgeschakeld",
@@ -2243,7 +2243,7 @@
                         },
                         "disabled_polling": "Automatische polling voor bijgewerkte gegevens uitgeschakeld",
                         "documentation": "Documentatie",
-                        "enable_restart_confirm": "Start Home Assistant opnieuw op om het opzetten van deze integratie te voltooien",
+                        "enable_restart_confirm": "Start Safegate Pro opnieuw op om het opzetten van deze integratie te voltooien",
                         "entities": "{count} {count, plural,\n  one {entiteit}\n  other {entiteiten}\n}",
                         "entity_unavailable": "Entiteit niet beschikbaar",
                         "firmware": "Firmware: {version}",
@@ -2256,9 +2256,9 @@
                         "provided_by_custom_integration": "Geleverd door een aangepaste integratie",
                         "reload": "Herlaad",
                         "reload_confirm": "De integratie is opnieuw geladen",
-                        "reload_restart_confirm": "Start Home Assistant opnieuw om het opnieuw laden van deze integratie te voltooien",
+                        "reload_restart_confirm": "Start Safegate Pro opnieuw om het opnieuw laden van deze integratie te voltooien",
                         "rename": "Naam wijzigen",
-                        "restart_confirm": "Herstart Home Assistant om het verwijderen van deze integratie te voltooien",
+                        "restart_confirm": "Herstart Safegate Pro om het verwijderen van deze integratie te voltooien",
                         "services": "{count} {count, plural,\n  one {service}\n  other {services}\n}",
                         "state": {
                             "failed_unload": "Uitladen mislukt",
@@ -2287,7 +2287,7 @@
                         "loading_first_time": "Even geduld a.u.b. terwijl de integratie wordt geïnstalleerd",
                         "next": "Volgende",
                         "not_all_required_fields": "Niet alle verplichte velden zijn ingevuld.",
-                        "not_loaded": "De integratie kan niet worden geladen, probeer Home Assistant opnieuw te starten.",
+                        "not_loaded": "De integratie kan niet worden geladen, probeer Safegate Pro opnieuw te starten.",
                         "pick_flow_step": {
                             "new_flow": "Nee, zet een andere instantie van {integration} op",
                             "title": "We hebben deze ontdekt. Wil je ze instellen?"
@@ -2306,7 +2306,7 @@
                         "show_disabled": "Toon uitgeschakelde integraties"
                     },
                     "discovered": "Ontdekt",
-                    "home_assistant_website": "Home Assistant-website",
+                    "home_assistant_website": "Safegate Pro-website",
                     "ignore": {
                         "confirm_delete_ignore": "Hierdoor verschijnt de integratie weer in uw ontdekte integraties wanneer deze wordt ontdekt. Dit kan een herstart vereisen of enige tijd duren.",
                         "confirm_delete_ignore_title": "Stop met negeren van {name}?",
@@ -2332,12 +2332,12 @@
                     "rename_input_label": "Invoernaam",
                     "search": "Zoek integraties"
                 },
-                "introduction": "Hier kunt u uw componenten en Home Assistant configureren. Het is nog niet mogelijk om alles te configureren vanuit de interface, maar we werken er aan.",
+                "introduction": "Hier kunt u uw componenten en Safegate Pro configureren. Het is nog niet mogelijk om alles te configureren vanuit de interface, maar we werken er aan.",
                 "logs": {
                     "caption": "Logboek",
                     "clear": "Wis",
                     "custom_integration": "aangepaste integratie",
-                    "description": "Home Assistant logboek bekijken",
+                    "description": "Safegate Pro logboek bekijken",
                     "details": "Logboekdetails ({level})",
                     "error_from_custom_integration": "Deze fout is ontstaan door een aangepaste integratie.",
                     "level": {
@@ -2347,7 +2347,7 @@
                         "info": "INFO",
                         "warning": "WAARSCHUWING"
                     },
-                    "load_full_log": "Laad volledige Home Assistant logboek",
+                    "load_full_log": "Laad volledige Safegate Pro logboek",
                     "loading_log": "Foutenlogboek laden...",
                     "multiple_messages": "bericht kwam voor het eerst om {time} en verschijnt {counter} keer",
                     "no_errors": "Er zijn geen fouten gemeld",
@@ -2552,7 +2552,7 @@
                     "select_instance": {
                         "header": "Selecteer een OpenZWave instantie",
                         "introduction": "Je hebt meer dan één OpenZWave instantie lopen. Welke instantie wil je beheren?",
-                        "none_found": "We konden geen OpenZWave-instantie vinden. Als u denkt dat dit niet klopt, controleer dan uw OpenZWave- en MQTT-instellingen en zorg ervoor dat Home Assistant kan communiceren met uw MQTT-broker."
+                        "none_found": "We konden geen OpenZWave-instantie vinden. Als u denkt dat dit niet klopt, controleer dan uw OpenZWave- en MQTT-instellingen en zorg ervoor dat Safegate Pro kan communiceren met uw MQTT-broker."
                     },
                     "services": {
                         "add_node": "Knooppunt toevoegen",
@@ -2566,7 +2566,7 @@
                     "confirm_delete": "Weet je zeker dat je deze persoon wilt verwijderen?",
                     "confirm_delete2": "Alle apparaten die behoren tot deze persoon zullen worden ontkoppeld.",
                     "create_person": "Persoon aanmaken",
-                    "description": "Beheer de personen die Home Assistant volgt",
+                    "description": "Beheer de personen die Safegate Pro volgt",
                     "detail": {
                         "admin": "Administrator",
                         "allow_login": "Persoon toestaan om in te loggen",
@@ -2585,7 +2585,7 @@
                         "no_device_tracker_available_intro": "Wanneer je apparaten hebt die de aanwezigheid van een persoon detecteren, kan je deze aan een persoon toewijzen. Je kan het eerste apparaat toevoegen door een integratie voor aanwezigheidsdetectie toe te voegen vanaf de integratiepagina.",
                         "update": "Bijwerken"
                     },
-                    "introduction": "Hier kan je personen toevoegen die gebruik maken van Home Assistant.",
+                    "introduction": "Hier kan je personen toevoegen die gebruik maken van Safegate Pro.",
                     "learn_more": "Meer informatie over personen",
                     "no_persons_created_yet": "Het lijkt erop dat je nog geen personen hebt aangemaakt.",
                     "note_about_persons_configured_in_yaml": "Opmerking: personen die zijn geconfigureerd via configuration.yaml kunnen niet worden bewerkt via de UI.",
@@ -2631,7 +2631,7 @@
                         "headers": {
                             "name": "Naam"
                         },
-                        "introduction": "Met de scene editor kun je scenes maken en bewerken. Volg de onderstaande link om de instructies te lezen om ervoor te zorgen dat je Home Assistant correct hebt geconfigureerd.",
+                        "introduction": "Met de scene editor kun je scenes maken en bewerken. Volg de onderstaande link om de instructies te lezen om ervoor te zorgen dat je Safegate Pro correct hebt geconfigureerd.",
                         "learn_more": "Meer informatie over scènes",
                         "no_scenes": "We konden geen scènes vinden",
                         "only_editable": "Alleen scènes die zijn gedefinieerd in scenes.yaml kunnen worden bewerkt.",
@@ -2683,7 +2683,7 @@
                         "headers": {
                             "name": "Naam"
                         },
-                        "introduction": "Met de editor kunt u scripts maken en bewerken. Volg de onderstaande link om de instructies te lezen om ervoor te zorgen dat u Home Assistant correct hebt geconfigureerd.",
+                        "introduction": "Met de editor kunt u scripts maken en bewerken. Volg de onderstaande link om de instructies te lezen om ervoor te zorgen dat u Safegate Pro correct hebt geconfigureerd.",
                         "learn_more": "Meer informatie over scripts",
                         "no_scripts": "We hebben geen scripts gevonden",
                         "run_script": "Script uitvoeren",
@@ -2692,7 +2692,7 @@
                 },
                 "server_control": {
                     "caption": "Serverbeheer",
-                    "description": "De Home Assistant-server opnieuw opstarten en stoppen",
+                    "description": "De Safegate Pro-server opnieuw opstarten en stoppen",
                     "section": {
                         "reloading": {
                             "automation": "Automatiseringen",
@@ -2711,7 +2711,7 @@
                             "input_number": "Input numbers",
                             "input_select": "Input selects",
                             "input_text": "Input texts",
-                            "introduction": "Sommige delen van Home Assistant kunnen opnieuw worden geladen zonder dat een herstart vereist is. Als je herladen gebruikt, wordt de huidige configuratie leeggemaakt en wordt de nieuwe geladen.",
+                            "introduction": "Sommige delen van Safegate Pro kunnen opnieuw worden geladen zonder dat een herstart vereist is. Als je herladen gebruikt, wordt de huidige configuratie leeggemaakt en wordt de nieuwe geladen.",
                             "min_max": "Min/max entiteiten",
                             "mqtt": "Handmatig geconfigureerde MQTT-entiteiten",
                             "person": "Personen",
@@ -2730,10 +2730,10 @@
                             "zone": "Zones"
                         },
                         "server_management": {
-                            "confirm_restart": "Weet je zeker dat je Home Assistant opnieuw wilt starten?",
-                            "confirm_stop": "Weet je zeker dat je Home Assistant wilt afsluiten?",
+                            "confirm_restart": "Weet je zeker dat je Safegate Pro opnieuw wilt starten?",
+                            "confirm_stop": "Weet je zeker dat je Safegate Pro wilt afsluiten?",
                             "heading": "Serverbeheer",
-                            "introduction": "Beheer uw Home Assistant-server... vanuit Home Assistant.",
+                            "introduction": "Beheer uw Safegate Pro-server... vanuit Safegate Pro.",
                             "restart": "Herstarten",
                             "stop": "Stop"
                         },
@@ -2786,7 +2786,7 @@
                         "password_not_match": "Wachtwoorden komen niet overeen"
                     },
                     "caption": "Gebruikers",
-                    "description": "Gebruikers van Home Assistant beheren",
+                    "description": "Gebruikers van Safegate Pro beheren",
                     "editor": {
                         "activate_user": "Activeer gebruiker",
                         "active": "Actief",
@@ -2895,7 +2895,7 @@
                         "add_members": "Leden toevoegen",
                         "caption": "Groepen",
                         "create": "Groep maken",
-                        "create_group": "Zigbee Home Automation - Aanmaken groep",
+                        "create_group": "Zigbee Safegate Pro - Aanmaken groep",
                         "create_group_details": "Voer de vereiste gegevens in om een nieuwe Zigbee groep te maken",
                         "creating_group": "Groep aanmaken",
                         "group_details": "Hier zijn alle details voor de geselecteerde Zigbee groep.",
@@ -3059,7 +3059,7 @@
                         "exclusion_failed": "Het knooppunt kon niet worden verwijderd. Controleer de logboeken voor meer informatie.",
                         "exclusion_finished": "Knooppunt {id} is verwijderd uit het Z-Wave-netwerk.",
                         "follow_device_instructions": "Volg de instructies die bij uw apparaat zijn geleverd om uitsluiting op het apparaat te activeren.",
-                        "introduction": "Verwijder een knooppunt uit uw Z-Wave-netwerk en verwijder het gekoppelde apparaat met bijbehorende entiteiten uit Home Assistant.",
+                        "introduction": "Verwijder een knooppunt uit uw Z-Wave-netwerk en verwijder het gekoppelde apparaat met bijbehorende entiteiten uit Safegate Pro.",
                         "start_exclusion": "Start uitsluiting",
                         "title": "Een Z-Wave Node verwijderen"
                     }
@@ -3107,7 +3107,7 @@
                         "add_to_group": "Toevoegen aan groep",
                         "entities": "Entiteiten van dit knooppunt",
                         "entity_info": "Entiteitsinformatie",
-                        "exclude_entity": "Sluit deze entiteit uit van Home Assistant",
+                        "exclude_entity": "Sluit deze entiteit uit van Safegate Pro",
                         "group": "Groep",
                         "header": "Z-Wave Knooppunt-beheer",
                         "introduction": "Voer Z-Wave commando's uit die een enkel knooppunt beïnvloeden. Kies een knooppunt om een lijst met beschikbare commando's te zien.",
@@ -3158,7 +3158,7 @@
             },
             "custom": {
                 "external_panel": {
-                    "complete_access": "Het geeft toegang tot alle data van Home Assistant.",
+                    "complete_access": "Het geeft toegang tot alle data van Safegate Pro.",
                     "hide_message": "Raadpleeg de documentatie voor de panel_custom component hoe deze melding te verbergen",
                     "question_trust": "Vertrouw je het externe paneel {name} op {link} ?"
                 }
@@ -3190,7 +3190,7 @@
                         "column_description": "Beschrijving",
                         "column_example": "Voorbeeld",
                         "column_parameter": "Parameter",
-                        "description": "Met het service ontwikkelhulpmiddel kunt je elke beschikbare service in Home Assistant aanroepen.",
+                        "description": "Met het service ontwikkelhulpmiddel kunt je elke beschikbare service in Safegate Pro aanroepen.",
                         "fill_example_data": "Voorbeeldgegeven invullen",
                         "no_template_ui_support": "De UI ondersteunt geen sjablonen, u kunt nog steeds de YAML editor gebruiken.",
                         "title": "Services",
@@ -3203,7 +3203,7 @@
                         "attributes": "Attributen",
                         "copy_id": "Kopieer ID naar klembord",
                         "current_entities": "Huidige entiteiten",
-                        "description1": "Stelt de weergave van een entiteit in Home Assistant in.",
+                        "description1": "Stelt de weergave van een entiteit in Safegate Pro in.",
                         "description2": "Als de entiteit tot een apparaat behoort, dan is er geen daadwerkelijke communicatie met dat apparaat.",
                         "entity": "Entiteit",
                         "filter_attributes": "Filter attributen",
@@ -3220,7 +3220,7 @@
                     },
                     "templates": {
                         "all_listeners": "Deze template luistert naar alle gebeurtenissen met gewijzigde status.",
-                        "description": "Sjablonen worden weergegeven met de Jinja2-sjabloonediter samen met enkele extensies van Home Assistant.",
+                        "description": "Sjablonen worden weergegeven met de Jinja2-sjabloonediter samen met enkele extensies van Safegate Pro.",
                         "domain": "Domein",
                         "editor": "Sjabloonediter",
                         "entity": "Entiteit",
@@ -3229,7 +3229,7 @@
                         "no_listeners": "Deze template luistert niet naar gebeurtenissen met statuswijziging en wordt niet automatisch bijgewerkt.",
                         "reset": "Resetten naar demosjabloon",
                         "result_type": "Resultaattype",
-                        "template_extensions": "Home Assistant sjabloon extensies",
+                        "template_extensions": "Safegate Pro sjabloon extensies",
                         "time": "Deze template wordt elke 60 seconden bijgewerkt na de laatste statuswijziging.",
                         "title": "Sjablonen",
                         "unknown_error_template": "Onbekende fout bij weergave sjabloon"
@@ -3244,7 +3244,7 @@
                     "reboot": "Probeer de host opnieuw op te starten",
                     "system_health": "Controleer de systeemstatus",
                     "title": "Kan het supervisor scherm niet laden!",
-                    "wait": "Als Home Assistant net is gestart, zorg ervoor dat de supervisor genoeg tijd heeft gehad om op te starten."
+                    "wait": "Als Safegate Pro net is gestart, zorg ervoor dat de supervisor genoeg tijd heeft gehad om op te starten."
                 }
             },
             "history": {
@@ -3297,7 +3297,7 @@
                         "url": "Open venster naar {url_path}"
                     },
                     "safe-mode": {
-                        "description": "Home Assistant heeft problemen ondervonden tijdens het laden van uw configuratie en werkt nu in de veilige modus. Bekijk het foutenlogboek om te zien wat er mis is gegaan.",
+                        "description": "Safegate Pro heeft problemen ondervonden tijdens het laden van uw configuratie en werkt nu in de veilige modus. Bekijk het foutenlogboek om te zien wat er mis is gegaan.",
                         "header": "Veilige modus geactiveerd"
                     },
                     "shopping-list": {
@@ -3308,7 +3308,7 @@
                         "reorder_items": "Artikelen opnieuw ordenen"
                     },
                     "starting": {
-                        "description": "Home Assistant is aan het opstarten, even geduld..."
+                        "description": "Safegate Pro is aan het opstarten, even geduld..."
                     }
                 },
                 "changed_toast": {
@@ -3476,7 +3476,7 @@
                             "name": "Bevochtiger"
                         },
                         "iframe": {
-                            "description": "Met de Webpage-kaart kunt u uw favoriete webpagina rechtstreeks in de Home Assistant insluiten.",
+                            "description": "Met de Webpage-kaart kunt u uw favoriete webpagina rechtstreeks in de Safegate Pro insluiten.",
                             "name": "Webpagina"
                         },
                         "light": {
@@ -3636,7 +3636,7 @@
                     "migrate": {
                         "header": "Configuratie incompatibel",
                         "migrate": "Configuratie migreren",
-                        "para_migrate": "Home Assistant kan automatisch ID's aan al je kaarten en weergaven toevoegen door op de knop 'Configuratie migreren' te drukken.",
+                        "para_migrate": "Safegate Pro kan automatisch ID's aan al je kaarten en weergaven toevoegen door op de knop 'Configuratie migreren' te drukken.",
                         "para_no_id": "Dit element heeft geen ID. Voeg een ID toe aan dit element in 'ui-lovelace.yaml'."
                     },
                     "move_card": {
@@ -3664,7 +3664,7 @@
                         "close": "Sluiten",
                         "empty_config": "Begin met een leeg dashboard",
                         "header": "Neem de controle over je Lovelace UI",
-                        "para": "Home Assistant onderhoudt je gebruikersinterface en update die met nieuwe entiteiten of Lovelace-onderdelen wanneer deze beschikbaar zijn. Als je het beheer overneemt, zullen we niet langer automatisch wijzigingen aanbrengen. Je kunt later altijd een nieuw dashboard in de configuratie toevoegen om mee te spelen.",
+                        "para": "Safegate Pro onderhoudt je gebruikersinterface en update die met nieuwe entiteiten of Lovelace-onderdelen wanneer deze beschikbaar zijn. Als je het beheer overneemt, zullen we niet langer automatisch wijzigingen aanbrengen. Je kunt later altijd een nieuw dashboard in de configuratie toevoegen om mee te spelen.",
                         "para_sure": "Weet je zeker dat je de controle wilt over je gebruikersinterface?",
                         "save": "Neem over",
                         "yaml_config": "Om je te helpen te beginnen, hier is de huidige configuratie van dit dashboard:",
@@ -3730,7 +3730,7 @@
                     "entity_non_numeric": "Entiteit is niet-numeriek: {entity}",
                     "entity_not_found": "Entiteit niet beschikbaar: {entity}",
                     "entity_unavailable": "Entiteit is momenteel niet beschikbaar: {entity}",
-                    "starting": "Home Assistant is aan het opstarten, nog niet alles is beschikbaar"
+                    "starting": "Safegate Pro is aan het opstarten, nog niet alles is beschikbaar"
                 }
             },
             "mailbox": {
@@ -3740,16 +3740,16 @@
                 "playback_title": "Bericht afspelen"
             },
             "my": {
-                "component_not_loaded": "Deze omleiding wordt niet ondersteund door uw Home Assistant-instantie. U heeft de integratie {integration} nodig om deze omleiding te gebruiken.",
+                "component_not_loaded": "Deze omleiding wordt niet ondersteund door uw Safegate Pro-instantie. U heeft de integratie {integration} nodig om deze omleiding te gebruiken.",
                 "documentation": "documentatie",
                 "error": "Er is een onbekende fout opgetreden",
-                "faq_link": "My Home Assistant FAQ",
-                "no_supervisor": "Deze omleiding wordt niet ondersteund door uw Home Assistant-installatie. Het vereist ofwel het Home Assistant besturingssysteem of de Home Assistant gecontroleerde installatiemethode. Voor meer informatie, zie de {docs_link}.",
-                "not_supported": "Deze redirect wordt niet ondersteund door uw Home Assistant instantie. Controleer de {link} voor de ondersteunde redirects en de versie waarin ze zijn geïntroduceerd."
+                "faq_link": "My Safegate Pro FAQ",
+                "no_supervisor": "Deze omleiding wordt niet ondersteund door uw Safegate Pro-installatie. Het vereist ofwel het Safegate Pro besturingssysteem of de Safegate Pro gecontroleerde installatiemethode. Voor meer informatie, zie de {docs_link}.",
+                "not_supported": "Deze redirect wordt niet ondersteund door uw Safegate Pro instantie. Controleer de {link} voor de ondersteunde redirects en de versie waarin ze zijn geïntroduceerd."
             },
             "page-authorize": {
                 "abort_intro": "Inloggen afgebroken",
-                "authorizing_client": "Je staat op het punt {clientId} toegang te geven tot je Home Assistant-instantie.",
+                "authorizing_client": "Je staat op het punt {clientId} toegang te geven tot je Safegate Pro-instantie.",
                 "form": {
                     "error": "Fout: {error}",
                     "next": "Volgende",
@@ -3851,8 +3851,8 @@
                 "cards": {
                     "demo": {
                         "demo_by": "door {name}",
-                        "introduction": "Welkom thuis! Je hebt de Home Assistant demo bereikt waar we de beste UI's van onze community laten zien.",
-                        "learn_more": "Meer informatie over Home Assistant",
+                        "introduction": "Welkom thuis! Je hebt de Safegate Pro demo bereikt waar we de beste UI's van onze community laten zien.",
+                        "learn_more": "Meer informatie over Safegate Pro",
                         "next_demo": "Volgende demo"
                     }
                 },
@@ -3899,16 +3899,16 @@
                 "core-config": {
                     "button_detect": "Detecteren",
                     "finish": "Volgende",
-                    "intro": "Hallo {name}, welkom bij Home Assistant. Welke naam wil je je huis geven?",
+                    "intro": "Hallo {name}, welkom bij Safegate Pro. Welke naam wil je je huis geven?",
                     "intro_location": "We willen graag weten waar je woont. Deze informatie zal helpen bij het weergeven van informatie en het instellen van op de zon gebaseerde automatiseringen. Deze gegevens worden nooit gedeeld buiten je netwerk.",
                     "intro_location_detect": "Wij kunnen u helpen deze informatie in te vullen door eenmalig een verbinding te maken met een externe service.",
-                    "location_name": "Naam van de Home Assistant installatie",
+                    "location_name": "Naam van de Safegate Pro installatie",
                     "location_name_default": "Huis"
                 },
                 "finish": "Voltooien",
                 "integration": {
                     "finish": "Voltooien",
-                    "intro": "Apparaten en services worden in Home Assistant weergegeven als integraties. U kunt ze nu instellen of later via het configuratiescherm.",
+                    "intro": "Apparaten en services worden in Safegate Pro weergegeven als integraties. U kunt ze nu instellen of later via het configuratiescherm.",
                     "more_integrations": "Meer"
                 },
                 "intro": "Ben je klaar om je huis wakker te maken, je privacy terug te winnen en deel te nemen aan een wereldwijde gemeenschap van knutselaars?",
@@ -3995,7 +3995,7 @@
                     "create_failed": "De toegangstoken kon niet worden aangemaakt.",
                     "created": "Gemaakt op {date}",
                     "delete_failed": "Verwijderen van de toegangstoken is mislukt.",
-                    "description": "Maak toegangstokens met een lange levensduur zodat je scripts kunnen communiceren met je Home Assistant-instantie. Elk token is tien jaar geldig vanaf de aanmaakdatum. De volgende langlevende toegangstokens zijn momenteel actief.",
+                    "description": "Maak toegangstokens met een lange levensduur zodat je scripts kunnen communiceren met je Safegate Pro-instantie. Elk token is tien jaar geldig vanaf de aanmaakdatum. De volgende langlevende toegangstokens zijn momenteel actief.",
                     "empty_state": "Je hebt nog geen langdurige toegangstokens.",
                     "header": "Toegangtokens met lange levensduur",
                     "learn_auth_requests": "Kom te weten hoe je geverifieerde verzoeken kunt maken",

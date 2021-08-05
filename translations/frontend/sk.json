@@ -138,7 +138,7 @@
                         "title": "AppArmor"
                     },
                     "auth_api": {
-                        "description": "Doplnok môže používateľov autentifikovať pomocou aplikácie Home Assistant, ktorá doplnkom umožňuje používateľom prihlásiť sa do aplikácií bežiacich v doplnkoch pomocou používateľského mena a hesla Home Assistant. Tento odznak označuje, či autor doplnku požaduje túto funkciu.",
+                        "description": "Doplnok môže používateľov autentifikovať pomocou aplikácie Safegate Pro, ktorá doplnkom umožňuje používateľom prihlásiť sa do aplikácií bežiacich v doplnkoch pomocou používateľského mena a hesla Safegate Pro. Tento odznak označuje, či autor doplnku požaduje túto funkciu.",
                         "title": "Home assistant Overenie"
                     },
                     "docker_api": {
@@ -148,7 +148,7 @@
                         "title": "Hostiteľská sieť"
                     },
                     "ingress": {
-                        "description": "Tento doplnok používa vniknutie na bezpečné vloženie svojho rozhrania do Home Assistant.",
+                        "description": "Tento doplnok používa vniknutie na bezpečné vloženie svojho rozhrania do Safegate Pro.",
                         "title": "Vniknutie"
                     },
                     "label": {
@@ -181,7 +181,7 @@
                 "install": "nainštalovať",
                 "new_update_available": "{name} {version}  je dostupná",
                 "not_available_arch": "Tento doplnok nie je kompatibilný s procesorom vášho zariadenia alebo operačným systémom, ktorý máte nainštalovaný na svojom zariadení.",
-                "not_available_version": "Používate službu Home Assistant {core_version_installed} , na aktualizáciu na túto verziu doplnku potrebujete minimálne verziu {core_version_needed} aplikácie Home Assistant",
+                "not_available_version": "Používate službu Safegate Pro {core_version_installed} , na aktualizáciu na túto verziu doplnku potrebujete minimálne verziu {core_version_needed} aplikácie Safegate Pro",
                 "open_web_ui": "Otvoriť web UI",
                 "option": {
                     "auto_update": {
@@ -341,8 +341,8 @@
         "my": {
             "error": "Vyskytla sa neznáma chyba",
             "error_addon_not_found": "Doplnok sa nenašiel",
-            "faq_link": "Najčastejšie otázky a odpovede o Home Assistant",
-            "not_supported": "Vaša inštancia Home Assistant toto presmerovanie nepodporuje. Na stránke {link} nájdete podporované presmerovania a verziu."
+            "faq_link": "Najčastejšie otázky a odpovede o Safegate Pro",
+            "not_supported": "Vaša inštancia Safegate Pro toto presmerovanie nepodporuje. Na stránke {link} nájdete podporované presmerovania a verziu."
         },
         "panel": {
             "dashboard": "Dashboard",
@@ -361,12 +361,12 @@
             "created": "Vytvorené",
             "delete_snapshot_confirm": "odstrániť",
             "delete_snapshot_title": "Vymazať zálohu",
-            "description": "Snapshoty ti umožňujú ľahko zálohovať a obnoviť všetky dáta Home Assistant",
+            "description": "Snapshoty ti umožňujú ľahko zálohovať a obnoviť všetky dáta Safegate Pro",
             "enter_password": "Prosím napíšte heslo.",
             "failed_to_delete": "Nepodarilo sa odstrániť",
             "folder": {
                 "addons/local": "Lokálne doplnky",
-                "homeassistant": "konfigurácia Home Asistenta",
+                "homeassistant": "konfigurácia Safegate Proa",
                 "media": "Médiá",
                 "share": "Zdieľať",
                 "ssl": "SSL"
@@ -433,16 +433,16 @@
                 "failed_to_set_option": "Nepodarilo sa nastaviť možnosť supervízora",
                 "failed_to_update": "Nepodarilo sa aktualizovať Supervízora",
                 "join_beta_action": "Pripojiť sa k beta programu?",
-                "join_beta_description": "Získanie beta aktualizácií pre Home Assistant (RCs), Supervízora a hostiteľa",
+                "join_beta_description": "Získanie beta aktualizácií pre Safegate Pro (RCs), Supervízora a hostiteľa",
                 "leave_beta_action": "Opustiť program beta",
-                "leave_beta_description": "Získajte aktualizácie stabilnej verzie pre Home Assistant, supervízora a hostiteľa",
+                "leave_beta_description": "Získajte aktualizácie stabilnej verzie pre Safegate Pro, supervízora a hostiteľa",
                 "ram_usage": "Využitie RAM supervízorom",
                 "reload_supervisor": "Znova načítať supervízora",
                 "search": "Hľadať",
                 "share_diagnostics": "Zdieľajte diagnostiku",
                 "share_diagnostics_description": "Zdieľajte správy o zlyhaní a diagnostické informácie.",
-                "share_diagonstics_description": "Chceli by ste automaticky zdieľať správy o zlyhaní a diagnostické informácie, keď sa Supervízor stretne s neočakávanými chybami? {line_break} Umožní nám to vyriešiť problémy, informácie sú prístupné iba tímu Home Assistant Core a nebudú sa zdieľať s ostatnými. {line_break} Údaje neobsahujú žiadne súkromné ani citlivé informácie, ktoré môžete kedykoľvek deaktivovať v nastaveniach.",
-                "share_diagonstics_title": "Pomôžte vylepšiť Home Assistant",
+                "share_diagonstics_description": "Chceli by ste automaticky zdieľať správy o zlyhaní a diagnostické informácie, keď sa Supervízor stretne s neočakávanými chybami? {line_break} Umožní nám to vyriešiť problémy, informácie sú prístupné iba tímu Safegate Pro Core a nebudú sa zdieľať s ostatnými. {line_break} Údaje neobsahujú žiadne súkromné ani citlivé informácie, ktoré môžete kedykoľvek deaktivovať v nastaveniach.",
+                "share_diagonstics_title": "Pomôžte vylepšiť Safegate Pro",
                 "unhealthy_description": "Spustenie nezdravej inštalácie spôsobí problémy. Nižšie je uvedený zoznam problémov zistených pri inštalácii. Kliknutím na odkazy sa dozviete, ako ich vyriešiť.",
                 "unhealthy_reason": {
                     "docker": "Prostredie Docker nefunguje správne",
@@ -866,10 +866,10 @@
                     "delete": "VYMAZAŤ",
                     "device_disabled": "Zariadenie tejto entity je vypnuté.",
                     "enabled_cause": "Zakázané {cause}",
-                    "enabled_delay_confirm": "Povolené entity budú do Home Assistant pridané o {delay} sekúnd",
-                    "enabled_description": "Zakázané entity nebudú pridané do Home Assistanta",
+                    "enabled_delay_confirm": "Povolené entity budú do Safegate Pro pridané o {delay} sekúnd",
+                    "enabled_description": "Zakázané entity nebudú pridané do Safegate Proa",
                     "enabled_label": "Povoliť entitu",
-                    "enabled_restart_confirm": "Reštartovať Home Assistant a dokončiť povolenie entít",
+                    "enabled_restart_confirm": "Reštartovať Safegate Pro a dokončiť povolenie entít",
                     "entity_id": "Entity ID",
                     "follow_device_area": "Sledovať oblasť zariadenia",
                     "icon": "Ikona",
@@ -1119,7 +1119,7 @@
         "notification_toast": {
             "connection_lost": "Prerušené spojenie. Opätovné pripájanie...",
             "service_call_failed": "Nepodarilo sa zavolať službu {service}.",
-            "started": "Home Assistant je spustený!",
+            "started": "Safegate Pro je spustený!",
             "triggered": "Spustené {name}"
         },
         "panel": {
@@ -1154,7 +1154,7 @@
                         "create_area": "Vytvoriť oblasť",
                         "header": "Register oblastí",
                         "integrations_page": "Stránka Integrácií",
-                        "introduction": "Oblasti sa používajú na usporiadanie zariadení. Tieto informácie sa použijú v službe Home Assistant, aby vám pomohli pri organizovaní rozhrania, povolení a integrácií s inými systémami.",
+                        "introduction": "Oblasti sa používajú na usporiadanie zariadení. Tieto informácie sa použijú v službe Safegate Pro, aby vám pomohli pri organizovaní rozhrania, povolení a integrácií s inými systémami.",
                         "introduction2": "Ak chcete umiestniť zariadenia do oblasti, pomocou odkazu nižšie prejdite na stránku integrácií a potom kliknite na nakonfigurovanú integráciu a prejdite na karty zariadení.",
                         "no_areas": "Vyzerá to, že ešte nemáte žiadne oblasti!"
                     }
@@ -1183,7 +1183,7 @@
                             "delete_confirm": "Ste si istý odstránením ? ",
                             "duplicate": "Duplikovať",
                             "header": "Akcie",
-                            "introduction": "Akcie predstavujú činnosti, ktoré Home Assistant vykoná po spustení automatizácie.",
+                            "introduction": "Akcie predstavujú činnosti, ktoré Safegate Pro vykoná po spustení automatizácie.",
                             "learn_more": "Získajte viac informácií o akciách",
                             "name": "Akcia",
                             "type_select": "Typ akcie",
@@ -1354,7 +1354,7 @@
                             "delete_confirm": "Naozaj to chcete odstrániť?",
                             "duplicate": "Duplikovať",
                             "header": "Spúšťače",
-                            "introduction": "Spúšťače spúšťajú spracovanie pravidla automatizácie. Pre rovnaké pravidlo je možné určiť viac spúšťačov. Po spustení spúšťača aplikácia Home Assistant overí prípadné podmienky a zavolá akciu. \n\n [Viac informácií o spúšťačov.](https://home-assistant.io/docs/automation/trigger/)",
+                            "introduction": "Spúšťače spúšťajú spracovanie pravidla automatizácie. Pre rovnaké pravidlo je možné určiť viac spúšťačov. Po spustení spúšťača aplikácia Safegate Pro overí prípadné podmienky a zavolá akciu. \n\n [Viac informácií o spúšťačov.](https://home-assistant.io/docs/automation/trigger/)",
                             "learn_more": "Získajte viac informácií o spúšťačoch",
                             "name": "Spúšťač",
                             "type_select": "Typ spúšťača",
@@ -1385,7 +1385,7 @@
                                 },
                                 "homeassistant": {
                                     "event": "Udalosť:",
-                                    "label": "Home Assistant",
+                                    "label": "Safegate Pro",
                                     "shutdown": "Vypnutie",
                                     "start": "Štart"
                                 },
@@ -1459,7 +1459,7 @@
                         "headers": {
                             "name": "Názov"
                         },
-                        "introduction": "Editor automatizácií vám umožňuje vytvárať a upravovať automatizácie. Prečítajte si prosím [pokyny](https://home-assistant.io/docs/automation/editor/), aby ste sa uistili, že ste nakonfigurovali Home Assistant správne.",
+                        "introduction": "Editor automatizácií vám umožňuje vytvárať a upravovať automatizácie. Prečítajte si prosím [pokyny](https://home-assistant.io/docs/automation/editor/), aby ste sa uistili, že ste nakonfigurovali Safegate Pro správne.",
                         "learn_more": "Získajte viac informácií o automatizáciách",
                         "no_automations": "Nepodarilo sa nájsť žiadne editovateľné automatizácie",
                         "only_editable": "Iba automatizácie definované v automations.yaml je možné upravovať.",
@@ -1508,10 +1508,10 @@
                     "account": {
                         "alexa": {
                             "config_documentation": "Dokumentácia konfigurácie",
-                            "enable_ha_skill": "Povoliť Home Assistant skill pre Alexu",
+                            "enable_ha_skill": "Povoliť Safegate Pro skill pre Alexu",
                             "enable_state_reporting": "Povoliť hlásenie stavu",
-                            "info": "Vďaka integrácii Alexa pre Home Assistant Cloud budete môcť ovládať všetky svoje zariadenia Home Assistant pomocou akéhokoľvek zariadenia s podporou Alexa.",
-                            "info_state_reporting": "Ak povolíte hlásenie stavu, Home Assistant odošle všetky zmeny stavov vystavených entít do Amazonu. To vám umožní vždy vidieť najnovšie stavy v aplikácii Alexa a pomocou zmien stavov vytvárať rutiny.",
+                            "info": "Vďaka integrácii Alexa pre Safegate Pro Cloud budete môcť ovládať všetky svoje zariadenia Safegate Pro pomocou akéhokoľvek zariadenia s podporou Alexa.",
+                            "info_state_reporting": "Ak povolíte hlásenie stavu, Safegate Pro odošle všetky zmeny stavov vystavených entít do Amazonu. To vám umožní vždy vidieť najnovšie stavy v aplikácii Alexa a pomocou zmien stavov vytvárať rutiny.",
                             "manage_entities": "Spravovať entity",
                             "sync_entities": "Synchronizovať entity s Amazonom",
                             "title": "Alexa"
@@ -1530,7 +1530,7 @@
                             "title": "Google Assistant"
                         },
                         "integrations": "Integrácie",
-                        "integrations_introduction": "Integrácia Home Assistant Cloud vám umožňuje pripojiť sa k službám v cloude bez toho, aby ste museli verejne publikovať inštanciu Home Assistant do internetu.",
+                        "integrations_introduction": "Integrácia Safegate Pro Cloud vám umožňuje pripojiť sa k službám v cloude bez toho, aby ste museli verejne publikovať inštanciu Safegate Pro do internetu.",
                         "integrations_introduction2": "Pozrite si webovú stránku  ",
                         "integrations_link_all_features": " všetky dostupné funkcie ",
                         "manage_account": "Spravovať účet",
@@ -1540,7 +1540,7 @@
                             "access_is_being_prepared": "Pripravuje sa vzdialený prístup. Budeme vás informovať, keď bude pripravený.",
                             "certificate_info": "Informácie o certifikáte",
                             "connected": "Pripojené",
-                            "info": "Home Assistant Cloud poskytuje zabezpečené vzdialené pripojenie k vašej inštancií kým ste mimo domova.",
+                            "info": "Safegate Pro Cloud poskytuje zabezpečené vzdialené pripojenie k vašej inštancií kým ste mimo domova.",
                             "instance_is_available": "Vaša inštancia je k dispozícii na stránke",
                             "instance_will_be_available": "Vaša inštancia bude k dispozícii na adrese",
                             "link_learn_how_it_works": "Zistite, ako to funguje",
@@ -1551,7 +1551,7 @@
                             "title": "Diaľkové ovládanie"
                         },
                         "sign_out": "Odhlásiť sa",
-                        "thank_you_note": "Ďakujeme, že ste sa stali súčasťou Home Assistant Cloudu. Vďaka ľuďom, ako ste vy, sme schopní urobiť skvelý zážitok z automatizácie domácnosti pre každého. Ďakujeme!",
+                        "thank_you_note": "Ďakujeme, že ste sa stali súčasťou Safegate Pro Cloudu. Vďaka ľuďom, ako ste vy, sme schopní urobiť skvelý zážitok z automatizácie domácnosti pre každého. Ďakujeme!",
                         "tts": {
                             "default_language": "Predvolený jazyk, ktorý sa má použiť",
                             "dialog": {
@@ -1569,7 +1569,7 @@
                         },
                         "webhooks": {
                             "disable_hook_error_msg": "Nepodarilo sa deaktivovať webhook:",
-                            "info": "Čokoľvek, čo je nakonfigurované na spúšťanie webhookom, môže dostať verejne prístupnú adresu URL, ktorá vám umožní odosielať údaje späť Home Assistant odkiaľkoľvek bez toho, aby ste svoju inštanciu vystavili na internete.",
+                            "info": "Čokoľvek, čo je nakonfigurované na spúšťanie webhookom, môže dostať verejne prístupnú adresu URL, ktorá vám umožní odosielať údaje späť Safegate Pro odkiaľkoľvek bez toho, aby ste svoju inštanciu vystavili na internete.",
                             "link_learn_more": "Prečítajte si viac informácií o vytváraní automatizácií na báze Webhook.",
                             "loading": "Načítava sa ...",
                             "manage": "Spravovať",
@@ -1638,11 +1638,11 @@
                         "email": "E-mail",
                         "email_error_msg": "Neplatný email",
                         "forgot_password": "Zabudnuté heslo?",
-                        "introduction": "Home Assistant Cloud vám poskytuje zabezpečené vzdialené pripojenie k vašej inštancii. Umožňuje tiež pripojiť sa do cloudových služieb Amazon Alexa a Google Assistant.",
+                        "introduction": "Safegate Pro Cloud vám poskytuje zabezpečené vzdialené pripojenie k vašej inštancii. Umožňuje tiež pripojiť sa do cloudových služieb Amazon Alexa a Google Assistant.",
                         "introduction2": "Túto službu poskytuje náš partner",
-                        "introduction2a": ", spoločnosť založená zakladateľmi Home Assistant a Hass.io.",
-                        "introduction3": "Cloud Home Assistant je predplatená služba s bezplatnou mesačnou skúšobnou verziou. Nie sú potrebné žiadne platobné informácie.",
-                        "learn_more_link": "Získajte viac informácií o Home Assistant Cloud",
+                        "introduction2a": ", spoločnosť založená zakladateľmi Safegate Pro a Hass.io.",
+                        "introduction3": "Cloud Safegate Pro je predplatená služba s bezplatnou mesačnou skúšobnou verziou. Nie sú potrebné žiadne platobné informácie.",
+                        "learn_more_link": "Získajte viac informácií o Safegate Pro Cloud",
                         "password": "Heslo",
                         "password_error_msg": "Heslá majú najmenej 8 znakov",
                         "sign_in": "Prihlásiť sa",
@@ -1660,10 +1660,10 @@
                         "feature_remote_control": "Vzdialené ovládanie domáceho asistenta",
                         "feature_webhook_apps": "Jednoduchá integrácia s webovými aplikáciami, ako napríklad OwnTracks",
                         "headline": "Spusťte bezplatnú skúšobnú verziu",
-                        "information": "Vytvorte si účet a začnite bezplatnú mesačnú skúšobnú verziu s cloudom Home Assistant. Nie sú potrebné žiadne platobné informácie.",
-                        "information2": "Skúšobná verzia vám umožní prístup ku všetkým výhodám cloudu Home Assistant vrátane:",
+                        "information": "Vytvorte si účet a začnite bezplatnú mesačnú skúšobnú verziu s cloudom Safegate Pro. Nie sú potrebné žiadne platobné informácie.",
+                        "information2": "Skúšobná verzia vám umožní prístup ku všetkým výhodám cloudu Safegate Pro vrátane:",
                         "information3": "Túto službu poskytuje náš partner",
-                        "information3a": ", spoločnosť založená zakladateľmi Home Assistant a Hass.io.",
+                        "information3a": ", spoločnosť založená zakladateľmi Safegate Pro a Hass.io.",
                         "information4": "Registráciou účtu súhlasíte s nasledujúcimi zmluvnými podmienkami.",
                         "link_privacy_policy": "Zásady ochrany osobných údajov",
                         "link_terms_conditions": "Zmluvné podmienky",
@@ -1703,7 +1703,7 @@
                                 "imperial_example": "Fahrenheita, libry",
                                 "internal_url": "Interná adresa URL",
                                 "latitude": "Zemepisná šírka",
-                                "location_name": "Názov vašej Home Assistant inštalácie",
+                                "location_name": "Názov vašej Safegate Pro inštalácie",
                                 "longitude": "Zemepisná dĺžka",
                                 "metric_example": "Celsia, kilogramy",
                                 "save_button": "Uložiť",
@@ -1773,7 +1773,7 @@
                         "user": "Používateľ"
                     },
                     "enabled_cause": "Zariadenie je vypnuté {cause}.",
-                    "enabled_description": "Zakázané zariadenia sa nebudú zobrazovať a entity patriace k danému zariadeniu budú deaktivované a nebudú pridané do aplikácie Home Assistant.",
+                    "enabled_description": "Zakázané zariadenia sa nebudú zobrazovať a entity patriace k danému zariadeniu budú deaktivované a nebudú pridané do aplikácie Safegate Pro.",
                     "enabled_label": "Povoliť zariadenie",
                     "entities": {
                         "add_entities_lovelace": "Pridať do Lovelace",
@@ -1813,12 +1813,12 @@
                     "picker": {
                         "disable_selected": {
                             "button": "Zrušiť vybraté",
-                            "confirm_text": "Zakázané entity nebudú pridané do Home Assistanta",
+                            "confirm_text": "Zakázané entity nebudú pridané do Safegate Proa",
                             "confirm_title": "Chcete zakázať {number} {number, plural,\n  one {entita}\n  other {entity}\n}?"
                         },
                         "enable_selected": {
                             "button": "Povoliť vybrané",
-                            "confirm_text": "Ak sú teraz deaktivované, budú v Home Assistant opäť sprístupnené.",
+                            "confirm_text": "Ak sú teraz deaktivované, budú v Safegate Pro opäť sprístupnené.",
                             "confirm_title": "Chcete povoliť {number} {number, plural,\n  one {entita}\n  other {entity}\n}?"
                         },
                         "filter": {
@@ -1836,8 +1836,8 @@
                             "name": "Názov",
                             "status": "Stav"
                         },
-                        "introduction": "Home Assistant vedie register všetkých subjektov, ktoré kedy videl a ktoré môžu byť jednoznačne identifikované. Každá z týchto entít bude mať pridelené ID, ktoré bude vyhradené len pre tento subjekt.",
-                        "introduction2": "Použite register entít na prepísanie mena, zmenu ID entity alebo odstránenie položky z Home Assistant. Poznámka: Odstránenie položky databázy entít neodstráni entitu. Postupujte podľa nižšie uvedeného odkazu a odstráňte ho z integračnej stránky.",
+                        "introduction": "Safegate Pro vedie register všetkých subjektov, ktoré kedy videl a ktoré môžu byť jednoznačne identifikované. Každá z týchto entít bude mať pridelené ID, ktoré bude vyhradené len pre tento subjekt.",
+                        "introduction2": "Použite register entít na prepísanie mena, zmenu ID entity alebo odstránenie položky z Safegate Pro. Poznámka: Odstránenie položky databázy entít neodstráni entitu. Postupujte podľa nižšie uvedeného odkazu a odstráňte ho z integračnej stránky.",
                         "remove_selected": {
                             "button": "Odstrániť vybraté",
                             "confirm_partly_title": "Iba {number} {number, plural,\n  one {vybraná entita}\n  other {vybrané entity}\n} môžu byť odstránené.",
@@ -1858,7 +1858,7 @@
                     "filtering_by": "Filtrovanie podľa",
                     "show": "Zobraziť"
                 },
-                "header": "Konfigurovať Home Assistant",
+                "header": "Konfigurovať Safegate Pro",
                 "helpers": {
                     "caption": "Pomocníci",
                     "description": "Prvky, ktoré pomáhajú pri vytváraní automatizácií",
@@ -1894,7 +1894,7 @@
                     "documentation": "Dokumentácia",
                     "frontend": "frontend-ui",
                     "frontend_version": "Verzia frontendu: {version} - {type}",
-                    "home_assistant_logo": "Home Assistant logo",
+                    "home_assistant_logo": "Safegate Pro logo",
                     "icons_by": "Ikony od",
                     "integrations": "Integrácie",
                     "license": "Publikované pod licenciou Apache 2.0",
@@ -1933,7 +1933,7 @@
                             "disabled_cause": "Vypnuté {cause}"
                         },
                         "documentation": "Dokumentácia",
-                        "enable_restart_confirm": "Reštartujte Home Assistant a dokončite povolenie tejto integrácie",
+                        "enable_restart_confirm": "Reštartujte Safegate Pro a dokončite povolenie tejto integrácie",
                         "entity_unavailable": "Entita nie je k dispozícii",
                         "firmware": "Firmvér: {version}",
                         "hub": "Pripojené cez",
@@ -1943,7 +1943,7 @@
                         "reload": "Znova načítať",
                         "reload_confirm": "Integrácia bola opätovne načítaná",
                         "rename": "Premenovať",
-                        "restart_confirm": "Ak chcete dokončiť odstránenie tejto integrácie, reštartujte Home Assistant",
+                        "restart_confirm": "Ak chcete dokončiť odstránenie tejto integrácie, reštartujte Safegate Pro",
                         "system_options": "Možnosti systému"
                     },
                     "config_flow": {
@@ -1980,7 +1980,7 @@
                         "show_disabled": "Zobraziť vypnuté integrácie"
                     },
                     "discovered": "Objavené",
-                    "home_assistant_website": "webovej stránke Home Assistant",
+                    "home_assistant_website": "webovej stránke Safegate Pro",
                     "ignore": {
                         "confirm_delete_ignore": "Potom, ako bude integrácia automaticky objavená (discovered), sa opäť ukáže medzi objavenými (discovered) integráciami.  Môže to chvíľu trvať, alebo vyžadovať reštart.",
                         "confirm_delete_ignore_title": "Prestať ignorovať {name} ?",
@@ -2003,10 +2003,10 @@
                     "reconfigure": "Prekonfigurovať",
                     "search": "Vyhľadať integrácie"
                 },
-                "introduction": "Tu je možné konfigurovať vaše komponenty a Home Assistant. Aktuálne sa z používateľského rozhrania nedá konfigurovať všetko, ale pracujeme na tom.",
+                "introduction": "Tu je možné konfigurovať vaše komponenty a Safegate Pro. Aktuálne sa z používateľského rozhrania nedá konfigurovať všetko, ale pracujeme na tom.",
                 "logs": {
                     "clear": "Vyčistiť",
-                    "description": "Prezrite si logy v Home Assistant",
+                    "description": "Prezrite si logy v Safegate Pro",
                     "details": "Podrobnosti denníka ( {level} )",
                     "load_full_log": "Načítať celý denník denníka asistenta",
                     "loading_log": "Načítava sa denník chýb...",
@@ -2168,7 +2168,7 @@
                     "confirm_delete": "Naozaj chcete túto osobu odstrániť?",
                     "confirm_delete2": "Všetky zariadenia patriace k tejto osobe sa stanú nepriradené.",
                     "create_person": "Vytvoriť osobu",
-                    "description": "Spravujte ľudí, ktorých Home Assistant sleduje",
+                    "description": "Spravujte ľudí, ktorých Safegate Pro sleduje",
                     "detail": {
                         "admin": "Administrator",
                         "allow_login": "Povoliť osobe prihlásiť sa",
@@ -2187,7 +2187,7 @@
                         "no_device_tracker_available_intro": "Ak máte zariadenia, ktoré zisťujú prítomnosť osoby, budete ich môcť priradiť tu. Prvé zariadenie môžete pridať pridaním integrácie na zisťovanie prítomnosti zo stránky integrácií.",
                         "update": "Aktualizovať"
                     },
-                    "introduction": "Tu môžete definovať každú osobu, ktorá vás zaujíma v Home Assistant.",
+                    "introduction": "Tu môžete definovať každú osobu, ktorá vás zaujíma v Safegate Pro.",
                     "learn_more": "Získajte viac informácií o osobách",
                     "no_persons_created_yet": "Zdá sa, že ste ešte nevytvorili žiadne osoby.",
                     "note_about_persons_configured_in_yaml": "Poznámka: Osoby konfigurované prostredníctvom configuration.yaml nie je možné upravovať prostredníctvom používateľského rozhrania.",
@@ -2232,7 +2232,7 @@
                         "headers": {
                             "name": "Názov"
                         },
-                        "introduction": "Editor scén vám umožňuje vytvárať a upravovať scény. Postupujte podľa odkazu nižšie a prečítajte si pokyny, aby ste sa uistili, že ste Home Assistant nakonfigurovali správne.",
+                        "introduction": "Editor scén vám umožňuje vytvárať a upravovať scény. Postupujte podľa odkazu nižšie a prečítajte si pokyny, aby ste sa uistili, že ste Safegate Pro nakonfigurovali správne.",
                         "learn_more": "Získajte viac informácií o scénach",
                         "no_scenes": "Nemohli sme nájsť žiadne editovateľné scény",
                         "only_editable": "Upraviť je možné iba scény zo scenes.yaml.",
@@ -2277,7 +2277,7 @@
                         "headers": {
                             "name": "Názov"
                         },
-                        "introduction": "Editor skriptov vám umožňuje vytvárať a upravovať skripty. Postupujte podľa odkazu nižšie a prečítajte si pokyny, aby ste sa uistili, že ste Home Assistant nakonfigurovali správne.",
+                        "introduction": "Editor skriptov vám umožňuje vytvárať a upravovať skripty. Postupujte podľa odkazu nižšie a prečítajte si pokyny, aby ste sa uistili, že ste Safegate Pro nakonfigurovali správne.",
                         "learn_more": "Viac informácií o skriptoch",
                         "no_scripts": "Nenašli sa žiadne editovateľné skripty",
                         "run_script": "Spustiť skript",
@@ -2286,7 +2286,7 @@
                 },
                 "server_control": {
                     "caption": "Správa servera",
-                    "description": "Reštartujte a zastavte server Home Assistant",
+                    "description": "Reštartujte a zastavte server Safegate Pro",
                     "section": {
                         "reloading": {
                             "automation": "Znova načítať automatizácie",
@@ -2305,7 +2305,7 @@
                             "input_number": "Znova načítať pomocníkov - čísla",
                             "input_select": "Znova načítať pomocníkov - výbery",
                             "input_text": "Znova načítať pomocníkov - texty",
-                            "introduction": "Niektoré časti aplikácie Home Assistant sa môžu načítať bez nutnosti reštartovania. Opätovným načítaním sa zahodí aktuálna konfigurácia a načíta sa nová.",
+                            "introduction": "Niektoré časti aplikácie Safegate Pro sa môžu načítať bez nutnosti reštartovania. Opätovným načítaním sa zahodí aktuálna konfigurácia a načíta sa nová.",
                             "min_max": "Znova načítať min/max entity",
                             "mqtt": "Znova načítať ručne nakonfigurované MQTT entity",
                             "person": "Znova načítať osoby",
@@ -2324,10 +2324,10 @@
                             "zone": "Znova načítať zóny"
                         },
                         "server_management": {
-                            "confirm_restart": "Naozaj chcete reštartovať Home Assistanta?",
-                            "confirm_stop": "Naozaj chcete zastaviť Home Assistanta?",
+                            "confirm_restart": "Naozaj chcete reštartovať Safegate Proa?",
+                            "confirm_stop": "Naozaj chcete zastaviť Safegate Proa?",
                             "heading": "Správa servera",
-                            "introduction": "Ovládajte Váš Home Assistant server... z aplikácie Home Assistant.",
+                            "introduction": "Ovládajte Váš Safegate Pro server... z aplikácie Safegate Pro.",
                             "restart": "Reštartovať",
                             "stop": "Zastaviť"
                         },
@@ -2371,7 +2371,7 @@
                         "password_not_match": "Heslá sa nezhodujú"
                     },
                     "caption": "Používatelia",
-                    "description": "Spravujte používateľské účty Home Assistant",
+                    "description": "Spravujte používateľské účty Safegate Pro",
                     "editor": {
                         "activate_user": "Aktivovať používateľa",
                         "active": "Aktívny",
@@ -2462,7 +2462,7 @@
                         "add_members": "Pridať členov",
                         "caption": "Skupiny",
                         "create": "Vytvoriť skupinu",
-                        "create_group": "Zigbee Home Automation - Vytvoriť skupinu",
+                        "create_group": "Zigbee Safegate Pro - Vytvoriť skupinu",
                         "create_group_details": "Zadajte požadované údaje na vytvorenie novej skupiny ZigBee",
                         "creating_group": "Vytvorenie skupiny",
                         "group_details": "Tu sú všetky podrobnosti o vybranej skupine Zigbee.",
@@ -2579,7 +2579,7 @@
                         "controller_in_exclusion_mode": "Váš Z-Wave kontrolér je teraz v režime vylúčenia.",
                         "exclusion_failed": "Uzol sa nepodarilo odstrániť. Ďalšie informácie nájdete v denníkoch.",
                         "exclusion_finished": "Uzol {id} bol odstránený z vašej siete Z-Wave.",
-                        "introduction": "Odstráňte uzol zo Z-Wave siete, priradené zariadenie a entity z Home Assistanta.",
+                        "introduction": "Odstráňte uzol zo Z-Wave siete, priradené zariadenie a entity z Safegate Proa.",
                         "start_exclusion": "Spustiť vylúčenie",
                         "title": "Odstráňte uzol Z-Wave"
                     }
@@ -2676,7 +2676,7 @@
                         "column_description": "Popis",
                         "column_example": "Príklad",
                         "column_parameter": "Parameter",
-                        "description": "Vývojársky nástroj vám umožňuje zavolať akúkoľvek dostupnú službu v Home Assistant.",
+                        "description": "Vývojársky nástroj vám umožňuje zavolať akúkoľvek dostupnú službu v Safegate Pro.",
                         "fill_example_data": "Vyplniť vzorové údaje",
                         "title": "Služby",
                         "ui_mode": "Prejdite do režimu používateľského rozhrania",
@@ -2687,7 +2687,7 @@
                         "attributes": "Atribúty",
                         "copy_id": "Kopírovať ID do schránky",
                         "current_entities": "Aktuálne entity",
-                        "description1": "Nastavte zobrazenie zariadenia v Home Assistant",
+                        "description1": "Nastavte zobrazenie zariadenia v Safegate Pro",
                         "description2": "Toto nebude komunikovať so skutočným zariadením.",
                         "entity": "Entita",
                         "filter_attributes": "Filtrovať atribúty",
@@ -2703,14 +2703,14 @@
                     },
                     "templates": {
                         "all_listeners": "Táto šablóna počúva všetky udalosti zmenené stavom.",
-                        "description": "Šablóny sa vykresľujú pomocou nástroja šablóny Jinja2 s niektorými špecifickými rozšíreniami  pre Home Assistant.",
+                        "description": "Šablóny sa vykresľujú pomocou nástroja šablóny Jinja2 s niektorými špecifickými rozšíreniami  pre Safegate Pro.",
                         "domain": "Doména",
                         "editor": "Editor šablóna",
                         "entity": "Entita",
                         "listeners": "Táto šablóna počúva nasledujúce udalosti zmenené stavom:",
                         "no_listeners": "Táto šablóna nepočúva žiadne udalosti a nebude sa automaticky aktualizovať.",
                         "result_type": "Typ výsledku",
-                        "template_extensions": "Rozšírenia šablóny Home Assistant",
+                        "template_extensions": "Rozšírenia šablóny Safegate Pro",
                         "time": "Táto šablóna sa aktualizuje na začiatku každej minúty.",
                         "title": "Šablóny"
                     }
@@ -2777,7 +2777,7 @@
                         "url": "Otvoriť okno na {url_path}"
                     },
                     "safe-mode": {
-                        "description": "Pri načítaní vašej konfigurácie sa Home Assistant dostal do problémov a teraz beží v núdzovom režime. Prezrite si denník chýb a zistite, čo sa stalo.",
+                        "description": "Pri načítaní vašej konfigurácie sa Safegate Pro dostal do problémov a teraz beží v núdzovom režime. Prezrite si denník chýb a zistite, čo sa stalo.",
                         "header": "Núdzový režim je aktivovaný"
                     },
                     "shopping-list": {
@@ -2788,7 +2788,7 @@
                         "reorder_items": "Zmena poradia položiek"
                     },
                     "starting": {
-                        "description": "Home Assistant sa spúšťa, čakajte prosím..."
+                        "description": "Safegate Pro sa spúšťa, čakajte prosím..."
                     }
                 },
                 "changed_toast": {
@@ -3091,7 +3091,7 @@
                     "migrate": {
                         "header": "Nekompatibilná konfigurácia",
                         "migrate": "Migrovať konfiguráciu",
-                        "para_migrate": "Home Assistant môže automaticky pridávať ID na všetky vaše karty a zobrazenia stlačením tlačidla 'Migrovať konfiguráciu'.",
+                        "para_migrate": "Safegate Pro môže automaticky pridávať ID na všetky vaše karty a zobrazenia stlačením tlačidla 'Migrovať konfiguráciu'.",
                         "para_no_id": "Tento prvok nemá žiadne ID. Doplňte, prosím, ID pre tento prvok v súbore 'ui-lovelace.yaml'."
                     },
                     "move_card": {
@@ -3118,7 +3118,7 @@
                         "close": "Zavrieť",
                         "empty_config": "Začnite s prázdnou tabuľou",
                         "header": "Prevziať kontrolu rozhrania Lovelace",
-                        "para": "Štandardne bude Home Assistant udržiavať vaše používateľské rozhranie a aktualizovať ho, keď budú k dispozícii nové entity alebo komponenty rozhrania Lovelace. Ak prevezmete kontrolu, už za vás nebudeme automaticky robiť zmeny.",
+                        "para": "Štandardne bude Safegate Pro udržiavať vaše používateľské rozhranie a aktualizovať ho, keď budú k dispozícii nové entity alebo komponenty rozhrania Lovelace. Ak prevezmete kontrolu, už za vás nebudeme automaticky robiť zmeny.",
                         "para_sure": "Skutočne chcete prevziať kontrolu vášho používateľského rozhrania?",
                         "save": "Prevziať kontrolu",
                         "yaml_config": "Na začiatok vám pomôžeme so súčasnou konfiguráciou tohto dashboardu:",
@@ -3183,7 +3183,7 @@
                     "entity_non_numeric": "Entita je nečíselná: {entity}",
                     "entity_not_found": "Entita nie je k dispozícií {entity}",
                     "entity_unavailable": "Entita je momentálne nedostupná: {entity}",
-                    "starting": "Home Assistant sa spúšťa, zatiaľ nemusí byť všetko k dispozícii"
+                    "starting": "Safegate Pro sa spúšťa, zatiaľ nemusí byť všetko k dispozícii"
                 }
             },
             "mailbox": {
@@ -3193,16 +3193,16 @@
                 "playback_title": "Prehrávanie správ"
             },
             "my": {
-                "component_not_loaded": "Inštancia Home Assistant toto presmerovanie nepodporuje. Na použitie tohto presmerovania potrebujete integráciu {integration}.",
+                "component_not_loaded": "Inštancia Safegate Pro toto presmerovanie nepodporuje. Na použitie tohto presmerovania potrebujete integráciu {integration}.",
                 "documentation": "dokumentácia",
                 "error": "Vyskytla sa neznáma chyba",
-                "faq_link": "Home Assistant otázky a odpovede",
-                "no_supervisor": "Vaša inštalácia Home Assistant nepodporuje toto presmerovanie. Potrebujete buď Home Assistant OS alebo Home Assistant Supervised. Ďalšie informácie nájdete v téme {docs_link}.",
-                "not_supported": "Toto presmerovanie nie je podporované inštanciou vášho Home Asistenta. Skontrolujte {link} pre podporované presmerovania a verziu."
+                "faq_link": "Safegate Pro otázky a odpovede",
+                "no_supervisor": "Vaša inštalácia Safegate Pro nepodporuje toto presmerovanie. Potrebujete buď Safegate Pro OS alebo Safegate Pro Supervised. Ďalšie informácie nájdete v téme {docs_link}.",
+                "not_supported": "Toto presmerovanie nie je podporované inštanciou vášho Safegate Proa. Skontrolujte {link} pre podporované presmerovania a verziu."
             },
             "page-authorize": {
                 "abort_intro": "Prihlásenie bolo zrušené",
-                "authorizing_client": "Chystáte sa poskytnúť {clientId} prístup k vašej inštancii Home Assistantu.",
+                "authorizing_client": "Chystáte sa poskytnúť {clientId} prístup k vašej inštancii Safegate Prou.",
                 "form": {
                     "next": "Ďalej",
                     "providers": {
@@ -3299,8 +3299,8 @@
                 "cards": {
                     "demo": {
                         "demo_by": "od {name}",
-                        "introduction": "Vitaj ! Dostali ste sa na demo Home Assistant, kde prezentujeme najlepšie používateľské rozhrania vytvorené našou komunitou.",
-                        "learn_more": "Získajte viac informácií o Home Assistant",
+                        "introduction": "Vitaj ! Dostali ste sa na demo Safegate Pro, kde prezentujeme najlepšie používateľské rozhrania vytvorené našou komunitou.",
+                        "learn_more": "Získajte viac informácií o Safegate Pro",
                         "next_demo": "Ďalšie demo"
                     }
                 },
@@ -3343,15 +3343,15 @@
                 "core-config": {
                     "button_detect": "Zistiť",
                     "finish": "Ďalej",
-                    "intro": "Dobrý deň, {name}, vitajte v Home Assistant. Ako by ste chceli pomenovať svoj domov?",
+                    "intro": "Dobrý deň, {name}, vitajte v Safegate Pro. Ako by ste chceli pomenovať svoj domov?",
                     "intro_location": "Radi by sme vedeli, kde žijete. Tieto informácie vám pomôžu pri zobrazovaní informácií a nastavovaní automatizácie na základe slnka. Tieto údaje sa nikdy nezdieľajú mimo vašej siete.",
                     "intro_location_detect": "Môžeme vám pomôcť vyplniť tieto informácie jednorazovou žiadosťou o externú službu.",
-                    "location_name": "Názov vašej inštalácie Home Assistant",
+                    "location_name": "Názov vašej inštalácie Safegate Pro",
                     "location_name_default": "Domov"
                 },
                 "integration": {
                     "finish": "Dokončiť",
-                    "intro": "Zariadenia a služby sú v systéme Home Assistant zobrazené ako integrácie. Môžete ich nastaviť teraz alebo to urobiť neskôr z konfiguračnej obrazovky.",
+                    "intro": "Zariadenia a služby sú v systéme Safegate Pro zobrazené ako integrácie. Môžete ich nastaviť teraz alebo to urobiť neskôr z konfiguračnej obrazovky.",
                     "more_integrations": "Viac"
                 },
                 "intro": "Ste pripravení prebudiť váš domov, získať vaše súkromie  a pripojiť sa k celosvetovej komunite bastličov?",
@@ -3433,7 +3433,7 @@
                     "create_failed": "Nepodarilo sa vytvoriť prístupový token.",
                     "created": "Vytvorené {date}",
                     "delete_failed": "Nepodarilo sa odstrániť prístupový token.",
-                    "description": "Vytvorte prístupové tokeny s dlhou životnosťou, ktoré umožnia vašim skriptom komunikovať s vašou inštanciou Home Assistant. Každý token bude platný 10 rokov od vytvorenia. Nasledujúce prístupové tokeny s dlhou životnosťou sú v súčasnosti aktívne.",
+                    "description": "Vytvorte prístupové tokeny s dlhou životnosťou, ktoré umožnia vašim skriptom komunikovať s vašou inštanciou Safegate Pro. Každý token bude platný 10 rokov od vytvorenia. Nasledujúce prístupové tokeny s dlhou životnosťou sú v súčasnosti aktívne.",
                     "empty_state": "Nemáte žiadne prístupové tokeny s dlhou životnosťou.",
                     "header": "Prístupové tokeny s dlhou životnosťou",
                     "learn_auth_requests": "Zistite, ako vytvárať overené požiadavky.",

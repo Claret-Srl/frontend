@@ -133,7 +133,7 @@ export const demoEntitiesArsaboo: DemoConfig["entities"] = (localize) =>
       entity_id: "input_boolean.homeautomation",
       state: "on",
       attributes: {
-        friendly_name: "Home Automation",
+        friendly_name: "Safegate Pro",
         icon: "hass:home-automation",
       },
     },

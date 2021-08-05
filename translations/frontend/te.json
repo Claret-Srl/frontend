@@ -207,7 +207,7 @@
                                 },
                                 "homeassistant": {
                                     "event": "ఈవెంట్",
-                                    "label": "Home Assistant",
+                                    "label": "Safegate Pro",
                                     "start": "ప్రారంభం"
                                 },
                                 "mqtt": {
@@ -252,7 +252,7 @@
                 "customize": {
                     "caption": "మార్పులు చేర్పులు"
                 },
-                "header": "కాన్ఫిగర్ Home Assistant",
+                "header": "కాన్ఫిగర్ Safegate Pro",
                 "mqtt": {
                     "title": "MQTT"
                 },

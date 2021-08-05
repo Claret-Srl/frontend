@@ -141,10 +141,10 @@
                         "title": "AppArmor"
                     },
                     "auth_api": {
-                        "title": "Home Assistant Hitelesítés"
+                        "title": "Safegate Pro Hitelesítés"
                     },
                     "docker_api": {
-                        "description": "A kiegészítő szerzője kérte a hozzáférését a rendszeren futó Docker-példányhoz. Ez a mód teljes hozzáférést és vezérlést biztosít a kiegészítőnek az egész Home Assistant rendszerhez, ami biztonsági kockázatokat jelent, és visszaélés esetén károsíthatja a rendszert. Ezért ez a szolgáltatás negatívan befolyásolja a Home assistant biztonságát\n\nEzt a hozzáférési szintet a program nem kapja meg automatikusan, ezt Önnek kell megerősítenie. Ehhez manuálisan le kell tiltania a kiegészítő védelmi módját. Csak akkor tiltsa le a védelmi módot, ha tudja, szükség van ÉS megbízik a kiegészítő forrásában.",
+                        "description": "A kiegészítő szerzője kérte a hozzáférését a rendszeren futó Docker-példányhoz. Ez a mód teljes hozzáférést és vezérlést biztosít a kiegészítőnek az egész Safegate Pro rendszerhez, ami biztonsági kockázatokat jelent, és visszaélés esetén károsíthatja a rendszert. Ezért ez a szolgáltatás negatívan befolyásolja a Home assistant biztonságát\n\nEzt a hozzáférési szintet a program nem kapja meg automatikusan, ezt Önnek kell megerősítenie. Ehhez manuálisan le kell tiltania a kiegészítő védelmi módját. Csak akkor tiltsa le a védelmi módot, ha tudja, szükség van ÉS megbízik a kiegészítő forrásában.",
                         "title": "Teljes Docker hozzáférés"
                     },
                     "full_access": {
@@ -155,14 +155,14 @@
                         "title": "Supervisor API hozzáférés"
                     },
                     "homeassistant_api": {
-                        "title": "Home Assistant API-hozzáférés"
+                        "title": "Safegate Pro API-hozzáférés"
                     },
                     "host_network": {
                         "description": "A bővítmények általában a saját elszigetelt hálózati rétegükben futnak, ami megakadályozza, hogy hozzáférjenek a gazdagép operációs rendszer hálózatához. Bizonyos esetekben ez a hálózati elkülönítés korlátozhatja a bővítményeket a szolgáltatásaik nyújtásában, ezért az elkülönítést a bővítmény szerzője feloldhatja, így a bővítmény teljes hozzáférést biztosít a gazdaszámítógép hálózati képességeihez. Ez több hálózati lehetőséget biztosít a bővítménynek, de csökkenti a biztonságot, ezért a bővítmény biztonsági besorolása csökken, ha ezt a beállítást a bővítmény használja.",
                         "title": "Gazdahálózat"
                     },
                     "host_pid": {
-                        "description": "Általában a kiegészítő futtatásának folyamatait elkülönítik az összes többi rendszerfolyamattól. A kiegészítő szerzője azt kérte, hogy a kiegészítő hozzáférjen a gazda rendszerpéldányon futó rendszerfolyamatokhoz, és engedélyezze a kiegészítő számára a folyamatok futtatását a fogadó rendszeren is. Ez a mód teljes hozzáférést és vezérlést biztosít a kiegészítőnek az egész Home Assistant rendszerhez, ami biztonsági kockázatokat jelent, és visszaélés esetén károsíthatja a rendszert. Ezért ez a szolgáltatás negatívan befolyásolja a Home assistant biztonságát.\n\nEzt a hozzáférési szintet a program nem kapja meg automatikusan, ezt Önnek kell megerősítenie. Ehhez manuálisan le kell tiltania a kiegészítő védelmi módját. Csak akkor tiltsa le a védelmi módot, ha tudja, szükség van ÉS megbízik a kiegészítő forrásában."
+                        "description": "Általában a kiegészítő futtatásának folyamatait elkülönítik az összes többi rendszerfolyamattól. A kiegészítő szerzője azt kérte, hogy a kiegészítő hozzáférjen a gazda rendszerpéldányon futó rendszerfolyamatokhoz, és engedélyezze a kiegészítő számára a folyamatok futtatását a fogadó rendszeren is. Ez a mód teljes hozzáférést és vezérlést biztosít a kiegészítőnek az egész Safegate Pro rendszerhez, ami biztonsági kockázatokat jelent, és visszaélés esetén károsíthatja a rendszert. Ezért ez a szolgáltatás negatívan befolyásolja a Home assistant biztonságát.\n\nEzt a hozzáférési szintet a program nem kapja meg automatikusan, ezt Önnek kell megerősítenie. Ehhez manuálisan le kell tiltania a kiegészítő védelmi módját. Csak akkor tiltsa le a védelmi módot, ha tudja, szükség van ÉS megbízik a kiegészítő forrásában."
                     },
                     "label": {
                         "apparmor": "apparmor",
@@ -356,7 +356,7 @@
             "error_addon_not_found": "A bővítmény nem található",
             "error_addon_not_installed": "A kért kiegészítő nincs telepítve. Kérjük, először telepítse",
             "error_addon_not_started": "A kért bővítmény nem fut. Kérjük, először indítsa el",
-            "faq_link": "My Home Assistant GYIK"
+            "faq_link": "My Safegate Pro GYIK"
         },
         "panel": {
             "dashboard": "Irányítópult",
@@ -377,12 +377,12 @@
             "delete_snapshot_confirm": "törlés",
             "delete_snapshot_text": "Törölni szeretné a {szám} {szám, többes szám,\n  egy {pillanatkép}\n  egyéb {pillanatképek}\n}?",
             "delete_snapshot_title": "Pillanatkép törlése",
-            "description": "A pillanatképekkel könnyen hozhatsz létre vagy tölthetsz vissza mentést a teljes Home Assistant példányodról.",
+            "description": "A pillanatképekkel könnyen hozhatsz létre vagy tölthetsz vissza mentést a teljes Safegate Pro példányodról.",
             "enter_password": "Add meg a jelszót",
             "failed_to_delete": "Nem sikerült törölni",
             "folder": {
                 "addons/local": "Helyi bővítmények",
-                "homeassistant": "Home Assistant konfiguráció",
+                "homeassistant": "Safegate Pro konfiguráció",
                 "media": "Média",
                 "share": "Megosztás",
                 "ssl": "SSL"
@@ -449,13 +449,13 @@
                 "failed_to_update": "Nem sikerült frissíteni a Supervisort",
                 "join_beta_action": "Csatlakozás a béta csatornához",
                 "leave_beta_action": "Kilépés a béta csatornából",
-                "leave_beta_description": "Stabil frissítések a Home Assistanthoz, a Supervisorhoz és a gazdagéphez",
+                "leave_beta_description": "Stabil frissítések a Safegate Prohoz, a Supervisorhoz és a gazdagéphez",
                 "ram_usage": "Supervisor RAM használat",
                 "reload_supervisor": "Supervisor újratöltése",
                 "search": "Keresés",
                 "share_diagnostics": "Diagnosztika megosztása",
                 "share_diagnostics_description": "Összeomlási jelentések és diagnosztikai információk megosztása.",
-                "share_diagonstics_title": "Segíts a Home Assistant fejlesztésében",
+                "share_diagonstics_title": "Segíts a Safegate Pro fejlesztésében",
                 "unhealthy_reason": {
                     "docker": "A Docker futtatókörnyezet nem működik megfelelően",
                     "setup": "A Supervisor beállítása sikertelen volt",
@@ -907,10 +907,10 @@
         },
         "dialogs": {
             "config_entry_system_options": {
-                "enable_new_entities_description": "Ha le van tiltva, akkor az újonnan felfedezett {integration} entitások nem lesznek automatikusan hozzáadva a Home Assistant-hoz.",
+                "enable_new_entities_description": "Ha le van tiltva, akkor az újonnan felfedezett {integration} entitások nem lesznek automatikusan hozzáadva a Safegate Pro-hoz.",
                 "enable_new_entities_label": "Újonnan hozzáadott entitások engedélyezése.",
                 "enable_polling_label": "A frissítések lekérdezésének engedélyezése.",
-                "restart_home_assistant": "A módosítások életbe lépéséhez újra kell indítania a Home Assistant alkalmazást.",
+                "restart_home_assistant": "A módosítások életbe lépéséhez újra kell indítania a Safegate Pro alkalmazást.",
                 "title": "{integration} rendszerbeállításai",
                 "update": "Frissítés"
             },
@@ -929,10 +929,10 @@
                     "delete": "Törlés",
                     "device_disabled": "Ennek az entitásnak az eszköze le van tiltva.",
                     "enabled_cause": "Letiltva. ({cause})",
-                    "enabled_delay_confirm": "Az engedélyezett entitások {delay} másodpercen belül hozzá lesznek adva a Home Assistant-hoz",
-                    "enabled_description": "A letiltott entitások nem lesznek hozzáadva a Home Assistant-hoz.",
+                    "enabled_delay_confirm": "Az engedélyezett entitások {delay} másodpercen belül hozzá lesznek adva a Safegate Pro-hoz",
+                    "enabled_description": "A letiltott entitások nem lesznek hozzáadva a Safegate Pro-hoz.",
                     "enabled_label": "Entitás engedélyezése",
-                    "enabled_restart_confirm": "Az entitások engedélyezésének befejezéséhez indítsd újra a Home Assistant-et",
+                    "enabled_restart_confirm": "Az entitások engedélyezésének befejezéséhez indítsd újra a Safegate Pro-et",
                     "entity_id": "Entitás ID",
                     "follow_device_area": "Kövesse a készülék területét",
                     "icon": "Ikon",
@@ -959,7 +959,7 @@
                     "initial": "Kezdeti érték",
                     "maximum": "Maximális érték",
                     "minimum": "Minimális érték",
-                    "restore": "Az utolsó ismert érték visszaállítása a Home Assistant indításakor",
+                    "restore": "Az utolsó ismert érték visszaállítása a Safegate Pro indításakor",
                     "step": "Lépés mérete"
                 },
                 "generic": {
@@ -1148,7 +1148,7 @@
                 "filter_placeholder": "Entitásszűrő"
             },
             "voice_command": {
-                "did_not_hear": "A Home Assistant nem hallott semmit",
+                "did_not_hear": "A Safegate Pro nem hallott semmit",
                 "error": "Hoppá, hiba történt",
                 "found": "A következőt találtam neked:",
                 "how_can_i_help": "Miben segíthetek?",
@@ -1243,8 +1243,8 @@
             "dismiss": "Elvetés",
             "integration_starting": "{integration} indítása folyamatban van, nem lesz elérhető, amíg ez be nem fejeződik.",
             "service_call_failed": "Nem sikerült meghívni a(z) {service} szolgáltatást.",
-            "started": "A Home Assistant indítása befejeződött!",
-            "starting": "A Home Assistant indítása folyamatban van. Nem lesz minden elérhető, amíg ez be nem fejeződik.",
+            "started": "A Safegate Pro indítása befejeződött!",
+            "starting": "A Safegate Pro indítása folyamatban van. Nem lesz minden elérhető, amíg ez be nem fejeződik.",
             "triggered": "Aktiválva {name}",
             "wrapping_up_startup": "Az indítás folyamatban. A folyamat befejezéséig nem minden lesz elérhető."
         },
@@ -1281,7 +1281,7 @@
                         "create_area": "Terület létrehozása",
                         "header": "Területek",
                         "integrations_page": "Integrációk oldal",
-                        "introduction": "A területekkel az eszközök elhelyezkedés szerint rendszerezhetők. Ezen információk felhasználásával a Home Assistant segíteni tud előkészíteni a felületet, a jogosultságokat és az integrációt más rendszerekkel.",
+                        "introduction": "A területekkel az eszközök elhelyezkedés szerint rendszerezhetők. Ezen információk felhasználásával a Safegate Pro segíteni tud előkészíteni a felületet, a jogosultságokat és az integrációt más rendszerekkel.",
                         "introduction2": "Az eszközök területekbe történő elhelyezéséhez használd az alábbi linket az integrációs oldalra való navigáláshoz, majd kattints egy konfigurált integrációra az eszközkártyák eléréséhez.",
                         "no_areas": "Úgy tűnik, még nincs egy területed sem!"
                     }
@@ -1310,7 +1310,7 @@
                             "delete_confirm": "Biztos, hogy ezt törölni szeretnéd?",
                             "duplicate": "Duplikálás",
                             "header": "Műveletek",
-                            "introduction": "A műveleteket hajtja végre a Home Assistant, ha egy automatizálás elindul. Kattints az alábbi linkre, ha többet szeretnél megtudni a műveletekről.",
+                            "introduction": "A műveleteket hajtja végre a Safegate Pro, ha egy automatizálás elindul. Kattints az alábbi linkre, ha többet szeretnél megtudni a műveletekről.",
                             "learn_more": "Tudj meg többet a műveletekről",
                             "name": "Művelet",
                             "type_select": "Művelet típusa",
@@ -1509,7 +1509,7 @@
                             "delete_confirm": "Biztos, hogy ezt törölni szeretnéd?",
                             "duplicate": "Duplikálás",
                             "header": "Eseményindítók",
-                            "introduction": "Az eseményindítók indítják el az automatizálási szabályok feldolgozását. Több eseményindítót is meg lehet adni egy szabályhoz. Ha egy eseményindító elindul, akkor a Home Assistant ellenőrzi a feltételeket - ha vannak -, majd meghívja a műveletet.",
+                            "introduction": "Az eseményindítók indítják el az automatizálási szabályok feldolgozását. Több eseményindítót is meg lehet adni egy szabályhoz. Ha egy eseményindító elindul, akkor a Safegate Pro ellenőrzi a feltételeket - ha vannak -, majd meghívja a műveletet.",
                             "learn_more": "Tudj meg többet az eseményindítókról",
                             "name": "Eseményindító",
                             "type_select": "Eseményindító típusa",
@@ -1542,7 +1542,7 @@
                                 },
                                 "homeassistant": {
                                     "event": "Esemény:",
-                                    "label": "Home Assistant",
+                                    "label": "Safegate Pro",
                                     "shutdown": "Leállás",
                                     "start": "Indulás"
                                 },
@@ -1619,7 +1619,7 @@
                         "headers": {
                             "name": "Név"
                         },
-                        "introduction": "Az automatizálás szerkesztő lehetővé teszi automatizálási szabályok létrehozását és szerkesztését. Kérlek, olvasd el az útmutatót az alábbi linken, hogy megbizonyosodj róla, hogy a Home Assistant helyesen van konfigurálva.",
+                        "introduction": "Az automatizálás szerkesztő lehetővé teszi automatizálási szabályok létrehozását és szerkesztését. Kérlek, olvasd el az útmutatót az alábbi linken, hogy megbizonyosodj róla, hogy a Safegate Pro helyesen van konfigurálva.",
                         "learn_more": "Tudj meg többet az automatizálásról",
                         "no_automations": "Nem találtunk szerkeszthető automatizálást",
                         "only_editable": "Csak az automations.yaml fájlban megadott automatizálások szerkeszthetők.",
@@ -1638,7 +1638,7 @@
                             "error_unsupported": "Ehhez (még?) nem tudunk automatizálást létrehozni.",
                             "for_example": "Például:",
                             "header": "Új automatizálás létrehozása",
-                            "introduction": "Írd be alább, hogy mit kellene tennie ennek az automatizálásnak, és megpróbáljuk átalakítani Home Assistant automatizálássá.",
+                            "introduction": "Írd be alább, hogy mit kellene tennie ennek az automatizálásnak, és megpróbáljuk átalakítani Safegate Pro automatizálássá.",
                             "language_note": "Megjegyzés: Egyelőre csak az angol nyelv támogatott."
                         }
                     }
@@ -1686,10 +1686,10 @@
                             "config_documentation": "Konfigurációs dokumentáció",
                             "disable": "letiltani",
                             "enable": "engedélyezni",
-                            "enable_ha_skill": "Home Assistant készség aktiválása Alexának",
+                            "enable_ha_skill": "Safegate Pro készség aktiválása Alexának",
                             "enable_state_reporting": "Állapotjelentés engedélyezése",
-                            "info": "Az Alexa integrációval a Home Assistant Felhő lehetőséget nyújt minden Home Assistant eszköz vezérlésére bármely Alexa képes eszközzel.",
-                            "info_state_reporting": "Ha engedélyezed az állapotjelentést, akkor a Home Assistant minden állapotváltozást el fog küldeni a feltárt entitásokról az Amazon-nak. Ez lehetővé teszi, hogy mindig láthasd a legfrissebb állapotokat az Alexa alkalmazásban, és az állapotváltozásokkal rutinokat hozhass létre.",
+                            "info": "Az Alexa integrációval a Safegate Pro Felhő lehetőséget nyújt minden Safegate Pro eszköz vezérlésére bármely Alexa képes eszközzel.",
+                            "info_state_reporting": "Ha engedélyezed az állapotjelentést, akkor a Safegate Pro minden állapotváltozást el fog küldeni a feltárt entitásokról az Amazon-nak. Ez lehetővé teszi, hogy mindig láthasd a legfrissebb állapotokat az Alexa alkalmazásban, és az állapotváltozásokkal rutinokat hozhass létre.",
                             "manage_entities": "Entitások kezelése",
                             "state_reporting_error": "Nem lehet {enable_disable} az állapotjelentést.",
                             "sync_entities": "Entitások szinkronizálása az Amazonnal",
@@ -1703,13 +1703,13 @@
                         "google": {
                             "config_documentation": "Konfigurációs dokumentáció",
                             "devices_pin": "Biztonsági eszközök pin kódja",
-                            "enable_ha_skill": "Home Assistant készség aktiválása a Google Asszisztensnek",
+                            "enable_ha_skill": "Safegate Pro készség aktiválása a Google Asszisztensnek",
                             "enable_state_reporting": "Állapotjelentés engedélyezése",
                             "enter_pin_error": "A PIN-kód nem tárolható:",
                             "enter_pin_hint": "Adj meg egy PIN-kódot a biztonsági eszközök használatához",
                             "enter_pin_info": "Kérlek, adj meg egy PIN-kódot a biztonsági eszközökkel való együttműködéshez. Biztonsági ezközök az ajtók, garázskapuk és zárak. Az ilyen eszközök vezérlésekor a Google Asszisztens kérheti ezt a kódot.",
-                            "info": "A Google Asszisztens integrációval a Home Assistant Felhő lehetőséget nyújt minden Home Assistant eszköz vezérlésére bármely Google Asszisztens képes eszközzel.",
-                            "info_state_reporting": "Ha engedélyezed az állapotjelentést, akkor a Home Assistant minden állapotváltozást el fog küldeni a feltárt entitásokról a Google-nak. Ez lehetővé teszi, hogy mindig láthasd a legfrissebb állapotokat a Google alkalmazásban.",
+                            "info": "A Google Asszisztens integrációval a Safegate Pro Felhő lehetőséget nyújt minden Safegate Pro eszköz vezérlésére bármely Google Asszisztens képes eszközzel.",
+                            "info_state_reporting": "Ha engedélyezed az állapotjelentést, akkor a Safegate Pro minden állapotváltozást el fog küldeni a feltárt entitásokról a Google-nak. Ez lehetővé teszi, hogy mindig láthasd a legfrissebb állapotokat a Google alkalmazásban.",
                             "manage_entities": "Entitások kezelése",
                             "not_configured_title": "A Google Assistant nincs aktiválva",
                             "security_devices": "Biztonsági eszközök",
@@ -1718,7 +1718,7 @@
                             "title": "Google Asszisztens"
                         },
                         "integrations": "Integrációk",
-                        "integrations_introduction": "A Home Assistant Felhő integrációi úgy biztosítanak lehetőséget felhő szolgáltatásokhoz való csatlakozáshoz, hogy közben nem kell kinyitnod a Home Assistant rendszered publikusan az interneten.",
+                        "integrations_introduction": "A Safegate Pro Felhő integrációi úgy biztosítanak lehetőséget felhő szolgáltatásokhoz való csatlakozáshoz, hogy közben nem kell kinyitnod a Safegate Pro rendszered publikusan az interneten.",
                         "integrations_introduction2": "Nézd meg a weboldalt a ",
                         "integrations_link_all_features": "az összes elérhető funkció",
                         "manage_account": "Fiók kezelése",
@@ -1728,7 +1728,7 @@
                             "access_is_being_prepared": "A távoli hozzáférés előkészítése folyamatban van. Értesíteni fogunk, ha készen áll.",
                             "certificate_info": "Tanúsítvány infó",
                             "connected": "Csatlakoztatva",
-                            "info": "A Home Assistant Felhő biztonságos távoli kapcsolatot nyújt a példányodhoz, miközben távol vagy.",
+                            "info": "A Safegate Pro Felhő biztonságos távoli kapcsolatot nyújt a példányodhoz, miközben távol vagy.",
                             "instance_is_available": "A példányod itt elérhető:",
                             "instance_will_be_available": "A példányod itt lesz elérhető:",
                             "link_learn_how_it_works": "Tudd meg, hogyan működik",
@@ -1739,7 +1739,7 @@
                             "title": "Távoli vezérlés"
                         },
                         "sign_out": "Kijelentkezés",
-                        "thank_you_note": "Köszönjük, hogy a Home Assistant Felhő részese vagy. Az olyan emberek miatt, mint te, vagyunk képesek mindenki számára nagyszerű otthoni automatizálási élményt nyújtani. Köszönjük!",
+                        "thank_you_note": "Köszönjük, hogy a Safegate Pro Felhő részese vagy. Az olyan emberek miatt, mint te, vagyunk képesek mindenki számára nagyszerű otthoni automatizálási élményt nyújtani. Köszönjük!",
                         "tts": {
                             "default_language": "Alapértelmezett nyelv",
                             "dialog": {
@@ -1757,7 +1757,7 @@
                         },
                         "webhooks": {
                             "disable_hook_error_msg": "Nem sikerült letiltani a webhookot:",
-                            "info": "Bármihez, ami úgy van beállítva, hogy egy webhook által elindulhasson, létrehozható egy nyilvánosan elérhető URL, ami lehetővé teszi, hogy adatokat küldhess vissza a Home Assistant számára bárhonnan, anélkül, hogy kinyitnád a rendszered az internet felé.",
+                            "info": "Bármihez, ami úgy van beállítva, hogy egy webhook által elindulhasson, létrehozható egy nyilvánosan elérhető URL, ami lehetővé teszi, hogy adatokat küldhess vissza a Safegate Pro számára bárhonnan, anélkül, hogy kinyitnád a rendszered az internet felé.",
                             "link_learn_more": "Tudj meg többet a webhook-alapú automatizálások létrehozásáról.",
                             "loading": "Betöltés...",
                             "manage": "Kezelés",
@@ -1833,11 +1833,11 @@
                         "email": "Email",
                         "email_error_msg": "Érvénytelen email",
                         "forgot_password": "Elfelejtett jelszó?",
-                        "introduction": "A Home Assistant Felhő biztonságos távoli kapcsolatot nyújt a példányodhoz, miközben távol vagy. Azt is lehetővé teszi, hogy csak felhőn alapuló szolgáltatásokhoz csatlakozz: Amazon Alexa, Google Asszisztens.",
+                        "introduction": "A Safegate Pro Felhő biztonságos távoli kapcsolatot nyújt a példányodhoz, miközben távol vagy. Azt is lehetővé teszi, hogy csak felhőn alapuló szolgáltatásokhoz csatlakozz: Amazon Alexa, Google Asszisztens.",
                         "introduction2": "Ezt a szolgáltatást partnerünk üzemelteti, a ",
-                        "introduction2a": ", amelyet a Home Assistant és a Hass.io alapítói hoztak létre.",
-                        "introduction3": "A Home Assistant Felhő egy előfizetéses szolgáltatás egy hónapos ingyenes próbaverzióval. Nincs szükség fizetési információk megadására.",
-                        "learn_more_link": "Tudj meg többet a Home Assistant Felhőről",
+                        "introduction2a": ", amelyet a Safegate Pro és a Hass.io alapítói hoztak létre.",
+                        "introduction3": "A Safegate Pro Felhő egy előfizetéses szolgáltatás egy hónapos ingyenes próbaverzióval. Nincs szükség fizetési információk megadására.",
+                        "learn_more_link": "Tudj meg többet a Safegate Pro Felhőről",
                         "password": "Jelszó",
                         "password_error_msg": "A jelszavak legalább 8 karakteresek",
                         "sign_in": "Bejelentkezés",
@@ -1852,13 +1852,13 @@
                         "email_error_msg": "Érvénytelen email",
                         "feature_amazon_alexa": "Integráció az Amazon Alexával",
                         "feature_google_home": "Integráció a Google Asszisztenssel",
-                        "feature_remote_control": "A Home Assistant vezérlése távolról",
+                        "feature_remote_control": "A Safegate Pro vezérlése távolról",
                         "feature_webhook_apps": "Egyszerű integráció webhook-alapú alkalmazásokkal, mint például az OwnTracks",
                         "headline": "Indítsd el az ingyenes próbaidőszakot",
-                        "information": "Hozz létre egy fiókot ahhoz, hogy elindíthasd az egy hónapos ingyenes Home Assistant Felhő próbaidőszakodat. Nincs szükség fizetési információk megadására.",
-                        "information2": "A próbaidőszak hozzáférést biztosít a Home Assistant Felhő minden előnyéhez, beleértve a következőket:",
+                        "information": "Hozz létre egy fiókot ahhoz, hogy elindíthasd az egy hónapos ingyenes Safegate Pro Felhő próbaidőszakodat. Nincs szükség fizetési információk megadására.",
+                        "information2": "A próbaidőszak hozzáférést biztosít a Safegate Pro Felhő minden előnyéhez, beleértve a következőket:",
                         "information3": "Ezt a szolgáltatást partnerünk üzemelteti, a ",
-                        "information3a": ", amelyet a Home Assistant és a Hass.io alapítói hoztak létre.",
+                        "information3a": ", amelyet a Safegate Pro és a Hass.io alapítói hoztak létre.",
                         "information4": "Fiók regisztrálásával elfogadod az alábbi feltételeket.",
                         "link_privacy_policy": "Adatvédelmi irányelvek",
                         "link_terms_conditions": "Felhasználási feltételek",
@@ -1912,7 +1912,7 @@
                                 "imperial_example": "Fahrenheit, font",
                                 "internal_url": "Belső URL",
                                 "latitude": "Szélesség",
-                                "location_name": "A Home Assistant rendszered neve",
+                                "location_name": "A Safegate Pro rendszered neve",
                                 "longitude": "Hosszúság",
                                 "metric_example": "Celsius, kilogramm",
                                 "save_button": "Mentés",
@@ -1997,7 +1997,7 @@
                         "user": "Felhasználó"
                     },
                     "enabled_cause": "Az eszköz le van tiltva. ({cause})",
-                    "enabled_description": "A letiltott eszközök nem jelennek meg, az eszközhöz tartozó entitások pedig le lesznek tiltva, és nem lesznek hozzáadva a Home Assistant programhoz.",
+                    "enabled_description": "A letiltott eszközök nem jelennek meg, az eszközhöz tartozó entitások pedig le lesznek tiltva, és nem lesznek hozzáadva a Safegate Pro programhoz.",
                     "enabled_label": "Eszköz engedélyezése",
                     "entities": {
                         "add_entities_lovelace": "Hozzáadás a Lovelace-hez",
@@ -2042,12 +2042,12 @@
                     "picker": {
                         "disable_selected": {
                             "button": "Kiválasztottak letiltása",
-                            "confirm_text": "A letiltott entitások nem lesznek hozzáadva a Home Assistant-hoz.",
+                            "confirm_text": "A letiltott entitások nem lesznek hozzáadva a Safegate Pro-hoz.",
                             "confirm_title": "Le szeretnél tiltani {number} {number, plural,\n  one {entitást}\n  other {entitást}\n}?"
                         },
                         "enable_selected": {
                             "button": "Kiválasztottak engedélyezése",
-                            "confirm_text": "Ezzel újra elérhetővé válnak a Home Assistant-ban, ha jelenleg le vannak tiltva.",
+                            "confirm_text": "Ezzel újra elérhetővé válnak a Safegate Pro-ban, ha jelenleg le vannak tiltva.",
                             "confirm_title": "Engedélyezni szeretnél {number} {number, plural,\n  one {entitást}\n  other {entitást}\n}?"
                         },
                         "filter": {
@@ -2066,11 +2066,11 @@
                             "name": "Név",
                             "status": "Állapot"
                         },
-                        "introduction": "A Home Assistant nyilvántartást vezet minden olyan entitásról, melyet valaha látott, és egyedileg azonosítható. Ezen entitások mindegyikéhez létrejön egy entitás ID, amely csak az adott entitáshoz van rendelve.",
-                        "introduction2": "Az entitás nyilvántartás használatával felülbírálhatod a nevet, módosíthatod az entitás ID-t vagy eltávolíthatod a bejegyzést a Home Assistant-ból.",
+                        "introduction": "A Safegate Pro nyilvántartást vezet minden olyan entitásról, melyet valaha látott, és egyedileg azonosítható. Ezen entitások mindegyikéhez létrejön egy entitás ID, amely csak az adott entitáshoz van rendelve.",
+                        "introduction2": "Az entitás nyilvántartás használatával felülbírálhatod a nevet, módosíthatod az entitás ID-t vagy eltávolíthatod a bejegyzést a Safegate Pro-ból.",
                         "remove_selected": {
                             "button": "Kiválasztottak eltávolítása",
-                            "confirm_partly_text": "A kiválasztott {selected} entitás közül csak {removable} távolítható el. Az entitások csak akkor távolíthatók el, ha az integráció már nem biztosítja azokat. Néha újra kell indítani a Home Assistant-et, mielőtt el tudnád távolítani egy már eltávolított integráció entitásait. Biztosan el szeretnéd távolítani az eltávolítható entitásokat?",
+                            "confirm_partly_text": "A kiválasztott {selected} entitás közül csak {removable} távolítható el. Az entitások csak akkor távolíthatók el, ha az integráció már nem biztosítja azokat. Néha újra kell indítani a Safegate Pro-et, mielőtt el tudnád távolítani egy már eltávolított integráció entitásait. Biztosan el szeretnéd távolítani az eltávolítható entitásokat?",
                             "confirm_partly_title": "Csak {number} {number, plural,\n  one {kiválasztott entitás}\n  other {kiválasztott entitás}\n} távolítható el.",
                             "confirm_text": "El kell távolítanod őket a Lovelace konfigurációból és az automatizálásokból, ha tartalmazzák ezeket az entitásokat.",
                             "confirm_title": "El szeretnél távolítani {number} {number, plural,\n  one {entitást}\n  other {entitást}\n}?"
@@ -2094,7 +2094,7 @@
                 "hassio": {
                     "button": "Konfigurál"
                 },
-                "header": "Home Assistant beállítása",
+                "header": "Safegate Pro beállítása",
                 "helpers": {
                     "caption": "Segítők",
                     "description": "Automatizálások létrehozását elősegítő elemek",
@@ -2134,7 +2134,7 @@
                     "documentation": "Dokumentáció",
                     "frontend": "frontend-ui",
                     "frontend_version": "Frontend verzió: {version} - {type}",
-                    "home_assistant_logo": "Home Assistant logó",
+                    "home_assistant_logo": "Safegate Pro logó",
                     "icons_by": "Ikonokat készítette:",
                     "integrations": "Integrációk",
                     "issues": "Problémák",
@@ -2167,7 +2167,7 @@
                         "device_unavailable": "Eszköz nem érhető el",
                         "devices": "{count} {count, plural,\n  one {eszköz}\n  other {eszköz}\n}",
                         "disable_error": "Az integráció engedélyezése vagy letiltása sikertelen volt",
-                        "disable_restart_confirm": "Indítsa újra a Home Assistant programot az integráció lekapcsolásának befejezéséhez",
+                        "disable_restart_confirm": "Indítsa újra a Safegate Pro programot az integráció lekapcsolásának befejezéséhez",
                         "disable": {
                             "disable_confirm": "Biztosan letiltja ezt a konfigurációs bejegyzést? Eszközeit és entitásait letiltjuk.",
                             "disabled": "Letiltva",
@@ -2180,7 +2180,7 @@
                         },
                         "disabled_polling": "A frissített adatok automatikus lekérdezése le van tiltva",
                         "documentation": "Dokumentáció",
-                        "enable_restart_confirm": "Indítsa újra a Home Assistant programot az integráció bekapcsolásának befejezéséhez",
+                        "enable_restart_confirm": "Indítsa újra a Safegate Pro programot az integráció bekapcsolásának befejezéséhez",
                         "entities": "{count} {count, plural,\n  one {entitás}\n  other {entitás}\n}",
                         "entity_unavailable": "Entitás nem érhető el",
                         "firmware": "Firmware: {version}",
@@ -2192,9 +2192,9 @@
                         "options": "Opciók",
                         "reload": "Újratöltés",
                         "reload_confirm": "Az integráció újra lett töltve",
-                        "reload_restart_confirm": "Indítsd újra a Home Assistant-et az integráció újratöltésének befejezéséhez",
+                        "reload_restart_confirm": "Indítsd újra a Safegate Pro-et az integráció újratöltésének befejezéséhez",
                         "rename": "Átnevezés",
-                        "restart_confirm": "Indítsd újra a Home Assistant-ot az integráció törlésének befejezéséhez",
+                        "restart_confirm": "Indítsd újra a Safegate Pro-ot az integráció törlésének befejezéséhez",
                         "services": "{count} {count, plural,\n  one {szolgáltatás}\n  other {szolgáltatás}\n}",
                         "state": {
                             "loaded": "Betöltve",
@@ -2222,7 +2222,7 @@
                         "loading_first_time": "Kérlek várj, amíg az integráció telepítésre kerül",
                         "next": "Következő",
                         "not_all_required_fields": "Nincs kitöltve minden szükséges mező.",
-                        "not_loaded": "Az integrációt nem sikerült betölteni. Próbálja meg újraindítani a Home Assistantot.",
+                        "not_loaded": "Az integrációt nem sikerült betölteni. Próbálja meg újraindítani a Safegate Proot.",
                         "pick_flow_step": {
                             "new_flow": "Nem, állítson be egy másik {integration}",
                             "title": "Felfedeztük ezeket, be akarod állítani őket?"
@@ -2241,7 +2241,7 @@
                         "show_disabled": "A letiltott integrációk megjelenítése"
                     },
                     "discovered": "Felfedezett",
-                    "home_assistant_website": "Home Assistant weboldal",
+                    "home_assistant_website": "Safegate Pro weboldal",
                     "ignore": {
                         "confirm_delete_ignore": "Ettől az integráció újra meg fog jelenni a felfedezett integrációk között a felfedezés során. Ehhez szükség lehet egy kis időre, vagy egy újraindításra.",
                         "confirm_delete_ignore_title": "{name} mellőzésének visszavonása?",
@@ -2267,12 +2267,12 @@
                     "rename_input_label": "Bejegyzés neve",
                     "search": "Integrációk keresése"
                 },
-                "introduction": "Ebben a nézetben lehetőség van a komponensek és a Home Assistant beállítására. Még nem lehet mindent a felületről, de dolgozunk rajta.",
+                "introduction": "Ebben a nézetben lehetőség van a komponensek és a Safegate Pro beállítására. Még nem lehet mindent a felületről, de dolgozunk rajta.",
                 "logs": {
                     "caption": "Napló",
                     "clear": "Törlés",
                     "custom_integration": "egyedi integráció",
-                    "description": "A Home Assistant naplófájlok megtekintése",
+                    "description": "A Safegate Pro naplófájlok megtekintése",
                     "details": "Naplóbejegyzés részletei ({level})",
                     "level": {
                         "critical": "KRITIKUS HIBA",
@@ -2281,7 +2281,7 @@
                         "info": "INFÓ",
                         "warning": "FIGYELMEZTETÉS"
                     },
-                    "load_full_log": "Teljes Home Assistant napló betöltése",
+                    "load_full_log": "Teljes Safegate Pro napló betöltése",
                     "loading_log": "Hibanapló betöltése...",
                     "multiple_messages": "az üzenet először a következő időpontban fordult elő: {time}, majd később {counter} alkalommal ismétlődött",
                     "no_errors": "Nem jelentettek hibát.",
@@ -2486,7 +2486,7 @@
                     "select_instance": {
                         "header": "OpenZWave példány kiválasztása",
                         "introduction": "Egynél több OpenZWave példány fut. Melyik példányt szeretnéd kezelni?",
-                        "none_found": "Nem található OpenZWave példány. Ha úgy gondolod, hogy ez helytelen, akkor ellenőrizd az OpenZWave és az MQTT beállításait, és győződj meg arról, hogy a Home Assistant képes kommunikálni az MQTT közvetítővel."
+                        "none_found": "Nem található OpenZWave példány. Ha úgy gondolod, hogy ez helytelen, akkor ellenőrizd az OpenZWave és az MQTT beállításait, és győződj meg arról, hogy a Safegate Pro képes kommunikálni az MQTT közvetítővel."
                     },
                     "services": {
                         "add_node": "Csomópont hozzáadása",
@@ -2500,7 +2500,7 @@
                     "confirm_delete": "Biztosan törölni szeretnéd ezt a személyt?",
                     "confirm_delete2": "Minden ehhez a személyhez tartozó eszköz hozzárendelés nélküli lesz.",
                     "create_person": "Személy létrehozása",
-                    "description": "A Home Assistant által követett személyek kezelése",
+                    "description": "A Safegate Pro által követett személyek kezelése",
                     "detail": {
                         "admin": "Adminisztrátor",
                         "allow_login": "Személy bejelentkezésének engedélyezése",
@@ -2519,7 +2519,7 @@
                         "no_device_tracker_available_intro": "Ha vannak olyan eszközeid, amelyek jelzik egy személy jelenlétét, akkor itt hozzá tudod rendelni őket egy személyhez. Az első eszköz hozzáadásához válassz egy jelenlét-érzékelő integrációt az integrációk oldalon.",
                         "update": "Frissítés"
                     },
-                    "introduction": "Itt adhatod meg a Home Assistant minden érdekelt személyét.",
+                    "introduction": "Itt adhatod meg a Safegate Pro minden érdekelt személyét.",
                     "learn_more": "Tudj meg többet az emberekről",
                     "no_persons_created_yet": "Úgy tűnik, még nem hoztál létre személyeket.",
                     "note_about_persons_configured_in_yaml": "Megjegyzés: a configuration.yaml fájlban konfigurált személyek nem szerkeszthetők a felhasználói felületen.",
@@ -2565,7 +2565,7 @@
                         "headers": {
                             "name": "Név"
                         },
-                        "introduction": "A jelenet szerkesztő lehetővé teszi jelenetek létrehozását és szerkesztését. Kérlek, olvasd el az útmutatót az alábbi linken, hogy megbizonyosodj róla, hogy a Home Assistant helyesen van konfigurálva.",
+                        "introduction": "A jelenet szerkesztő lehetővé teszi jelenetek létrehozását és szerkesztését. Kérlek, olvasd el az útmutatót az alábbi linken, hogy megbizonyosodj róla, hogy a Safegate Pro helyesen van konfigurálva.",
                         "learn_more": "Tudj meg többet a jelenetekről",
                         "no_scenes": "Nem találtunk szerkeszthető jeleneteket",
                         "only_editable": "Csak a scenes.yaml fájlban megadott jelenetek szerkeszthetők.",
@@ -2615,7 +2615,7 @@
                         "headers": {
                             "name": "Név"
                         },
-                        "introduction": "A szkript szerkesztő lehetővé teszi szkriptek létrehozását és szerkesztését. Kérlek, olvasd el az útmutatót az alábbi linken, hogy megbizonyosodj róla, hogy a Home Assistant helyesen van konfigurálva.",
+                        "introduction": "A szkript szerkesztő lehetővé teszi szkriptek létrehozását és szerkesztését. Kérlek, olvasd el az útmutatót az alábbi linken, hogy megbizonyosodj róla, hogy a Safegate Pro helyesen van konfigurálva.",
                         "learn_more": "Tudj meg többet a szkriptekről",
                         "no_scripts": "Nem találtunk szerkeszthető szkripteket",
                         "run_script": "Szkript futtatása",
@@ -2624,7 +2624,7 @@
                 },
                 "server_control": {
                     "caption": "Szerver vezérlés",
-                    "description": "A Home Assistant szerver újraindítása és leállítása",
+                    "description": "A Safegate Pro szerver újraindítása és leállítása",
                     "section": {
                         "reloading": {
                             "automation": "Automatizálások",
@@ -2643,7 +2643,7 @@
                             "input_number": "Szám bemenetek",
                             "input_select": "Választási bemenetek",
                             "input_text": "Szöveg bemenetek",
-                            "introduction": "A Home Assistant bizonyos részei újraindítás nélkül újratölthetőek. Újratöltéskor az aktuálisan betöltött YAML konfiguráció helyére betöltődik az új.",
+                            "introduction": "A Safegate Pro bizonyos részei újraindítás nélkül újratölthetőek. Újratöltéskor az aktuálisan betöltött YAML konfiguráció helyére betöltődik az új.",
                             "min_max": "Min/max entitások",
                             "mqtt": "Manuálisan konfigurált MQTT entitások",
                             "person": "Személyek",
@@ -2662,10 +2662,10 @@
                             "zone": "Zónák"
                         },
                         "server_management": {
-                            "confirm_restart": "Biztosan újra szeretnéd indítani a Home Assistant-ot?",
-                            "confirm_stop": "Biztosan le szeretnéd állítani a Home Assistant-ot?",
+                            "confirm_restart": "Biztosan újra szeretnéd indítani a Safegate Pro-ot?",
+                            "confirm_stop": "Biztosan le szeretnéd állítani a Safegate Pro-ot?",
                             "heading": "Szerver menedzsment",
-                            "introduction": "Home Assistant szerver vezérlése... a Home Assistant-ból.",
+                            "introduction": "Safegate Pro szerver vezérlése... a Safegate Pro-ból.",
                             "restart": "Újraindítás",
                             "stop": "Leállítás"
                         },
@@ -2718,7 +2718,7 @@
                         "password_not_match": "A jelszavak nem egyeznek"
                     },
                     "caption": "Felhasználók",
-                    "description": "Home Assistant felhasználói fiókok kezelése",
+                    "description": "Safegate Pro felhasználói fiókok kezelése",
                     "editor": {
                         "activate_user": "Felhasználó aktiválása",
                         "active": "Aktív",
@@ -2825,7 +2825,7 @@
                         "add_members": "Tagok hozzáadása",
                         "caption": "Csoportok",
                         "create": "Csoport létrehozása",
-                        "create_group": "Zigbee Home Automation - Csoport létrehozása",
+                        "create_group": "Zigbee Safegate Pro - Csoport létrehozása",
                         "create_group_details": "Add meg a szükséges adatokat egy új zigbee csoport létrehozásához",
                         "creating_group": "Csoport létrehozása",
                         "group_details": "Itt van minden részlet a kiválasztott zigbee csoportról.",
@@ -2990,7 +2990,7 @@
                         "add_to_group": "Hozzáadás a csoporthoz",
                         "entities": "A csomópont entitásai",
                         "entity_info": "Entitás adatai",
-                        "exclude_entity": "Entitás kizárása a Home Assistant-ból",
+                        "exclude_entity": "Entitás kizárása a Safegate Pro-ból",
                         "group": "Csoport",
                         "header": "Z-Wave csomópontkezelés",
                         "introduction": "Futtass egyetlen csomópontot érintő Z-Wave parancsokat. Válassz egy csomópontot az elérhető parancsok listájának megtekintéséhez.",
@@ -3041,7 +3041,7 @@
             },
             "custom": {
                 "external_panel": {
-                    "complete_access": "Hozzáférést fog kapni a Home Assistant összes adatához.",
+                    "complete_access": "Hozzáférést fog kapni a Safegate Pro összes adatához.",
                     "hide_message": "Ellenőrizd a panel_custom komponens dokumentációját ennek az üzenetnek az elrejtéséhez",
                     "question_trust": "Megbízol a(z) {name} külső panelben a következő linken: {link}?"
                 }
@@ -3072,7 +3072,7 @@
                         "column_description": "Leírás",
                         "column_example": "Példa",
                         "column_parameter": "Paraméter",
-                        "description": "A 'service dev' eszköz lehetővé teszi bármely Home Assistant-ban rendelkezésre álló szolgáltatás meghívását.",
+                        "description": "A 'service dev' eszköz lehetővé teszi bármely Safegate Pro-ban rendelkezésre álló szolgáltatás meghívását.",
                         "fill_example_data": "Kitöltés példaadatokkal",
                         "title": "Szolgáltatások",
                         "ui_mode": "Ugrás a felhasználói felület módra",
@@ -3084,7 +3084,7 @@
                         "attributes": "Attribútumok",
                         "copy_id": "Azonosító másolása a vágólapra",
                         "current_entities": "Jelenlegi entitások",
-                        "description1": "Egy eszköz állapotának beállítása a Home Assistant-ban.",
+                        "description1": "Egy eszköz állapotának beállítása a Safegate Pro-ban.",
                         "description2": "Ez nem fog kommunikálni az aktuális eszközzel.",
                         "entity": "Entitás",
                         "filter_attributes": "Attribútumok szűrése",
@@ -3101,7 +3101,7 @@
                     },
                     "templates": {
                         "all_listeners": "Ez a sablon az összes állapotváltozási eseményre figyel.",
-                        "description": "A sablonok a Jinja2 sablonmotor és néhány Home Assistant specifikus bővítmény segítségével kerülnek kiértékelésre.",
+                        "description": "A sablonok a Jinja2 sablonmotor és néhány Safegate Pro specifikus bővítmény segítségével kerülnek kiértékelésre.",
                         "domain": "Tartomány",
                         "editor": "Sablonszerkesztő",
                         "entity": "Entitás",
@@ -3110,7 +3110,7 @@
                         "no_listeners": "Ez a sablon nem figyel semmilyen eseményre, és ezért nem frissül automatikusan.",
                         "reset": "Példa sablon visszaállítása",
                         "result_type": "Eredmény típusa",
-                        "template_extensions": "Home Assistant sablon bővítmények",
+                        "template_extensions": "Safegate Pro sablon bővítmények",
                         "time": "Ez a sablon minden perc kezdetekor frissül.",
                         "title": "Sablon",
                         "unknown_error_template": "Ismeretlen hiba a sablon kiértékelésekor"
@@ -3176,7 +3176,7 @@
                         "url": "Ablak megnyitása: {url_path}"
                     },
                     "safe-mode": {
-                        "description": "A Home Assistant a konfiguráció betöltése során problémába ütközött, ezért most csökkentett módban fut. Vess egy pillantást a hibanaplóra, hogy megtudd, mi romlott el.",
+                        "description": "A Safegate Pro a konfiguráció betöltése során problémába ütközött, ezért most csökkentett módban fut. Vess egy pillantást a hibanaplóra, hogy megtudd, mi romlott el.",
                         "header": "Csökkentett mód aktiválva"
                     },
                     "shopping-list": {
@@ -3187,7 +3187,7 @@
                         "reorder_items": "Tételek átrendezése"
                     },
                     "starting": {
-                        "description": "A Home Assistant indítása folyamatban van, kérlek várj..."
+                        "description": "A Safegate Pro indítása folyamatban van, kérlek várj..."
                     }
                 },
                 "changed_toast": {
@@ -3355,7 +3355,7 @@
                             "name": "Párásító"
                         },
                         "iframe": {
-                            "description": "A Weblap kártya lehetővé teszi a kedvenc weboldalad beágyazását a Home Assistant-ba.",
+                            "description": "A Weblap kártya lehetővé teszi a kedvenc weboldalad beágyazását a Safegate Pro-ba.",
                             "name": "Weboldal"
                         },
                         "light": {
@@ -3515,7 +3515,7 @@
                     "migrate": {
                         "header": "Inkompatibilis Konfiguráció",
                         "migrate": "Konfiguráció áttelepítése",
-                        "para_migrate": "A Home Assistant a 'Konfiguráció áttelepítése' gomb megnyomásával az összes kártyához és nézethez automatikusan létre tud hozni ID-kat.",
+                        "para_migrate": "A Safegate Pro a 'Konfiguráció áttelepítése' gomb megnyomásával az összes kártyához és nézethez automatikusan létre tud hozni ID-kat.",
                         "para_no_id": "Ez az elem nem rendelkezik ID-val. Kérlek, adj hozzá egyet az 'ui-lovelace.yaml' fájlban!"
                     },
                     "move_card": {
@@ -3543,7 +3543,7 @@
                         "close": "Bezárás",
                         "empty_config": "Kezdj egy üres irányítópulttal",
                         "header": "Vedd át az irányítást a Lovelace UI felett",
-                        "para": "Ezt az irányítópultot jelenleg a Home Assistant kezeli. Automatikusan frissül, amikor új entitások vagy Lovelace komponensek válnak elérhetővé. Ha átveszed az irányítást, akkor ez az irányítópult nem fog többé automatikusan frissülni. Bármikor létre tudsz hozni egy új irányítópultot a konfigurációban a próbálgatáshoz.",
+                        "para": "Ezt az irányítópultot jelenleg a Safegate Pro kezeli. Automatikusan frissül, amikor új entitások vagy Lovelace komponensek válnak elérhetővé. Ha átveszed az irányítást, akkor ez az irányítópult nem fog többé automatikusan frissülni. Bármikor létre tudsz hozni egy új irányítópultot a konfigurációban a próbálgatáshoz.",
                         "para_sure": "Biztosan át szeretnéd venni az irányítást a felhasználói felületed felett?",
                         "save": "Irányítás átvétele",
                         "yaml_config": "A kezdéshez itt a jelenlegi konfigurációja ennek az irányítópultnak:",
@@ -3609,7 +3609,7 @@
                     "entity_non_numeric": "Entitás nem numerikus: {entity}",
                     "entity_not_found": "Entitás nem elérhető: {entity}",
                     "entity_unavailable": "Az entitás jelenleg nem érhető el: {entity}",
-                    "starting": "A Home Assistant indítása folyamatban van, ezért lehet hogy még nem minden érhető el."
+                    "starting": "A Safegate Pro indítása folyamatban van, ezért lehet hogy még nem minden érhető el."
                 }
             },
             "mailbox": {
@@ -3621,11 +3621,11 @@
             "my": {
                 "documentation": "dokumentáció",
                 "error": "Ismeretlen hiba történt",
-                "faq_link": "My Home Assistant GYIK"
+                "faq_link": "My Safegate Pro GYIK"
             },
             "page-authorize": {
                 "abort_intro": "Bejelentkezés megszakítva",
-                "authorizing_client": "Éppen a {clientId} számára készülsz hozzáférést biztosítani a Home Assistant példányodhoz.",
+                "authorizing_client": "Éppen a {clientId} számára készülsz hozzáférést biztosítani a Safegate Pro példányodhoz.",
                 "form": {
                     "error": "Hiba: {error}",
                     "next": "Tovább",
@@ -3727,8 +3727,8 @@
                 "cards": {
                     "demo": {
                         "demo_by": "készítette: {name}",
-                        "introduction": "Üdv itthon! Megnyitottad a Home Assistant demót, ahol bemutatjuk a közösségünk által létrehozott legjobb felhasználói felületeket.",
-                        "learn_more": "Tudj meg többet a Home Assistant-ról",
+                        "introduction": "Üdv itthon! Megnyitottad a Safegate Pro demót, ahol bemutatjuk a közösségünk által létrehozott legjobb felhasználói felületeket.",
+                        "learn_more": "Tudj meg többet a Safegate Pro-ról",
                         "next_demo": "Következő demó"
                     }
                 },
@@ -3774,16 +3774,16 @@
                 "core-config": {
                     "button_detect": "Észlelés",
                     "finish": "Tovább",
-                    "intro": "Hello {name}, üdvözöl a Home Assistant. Hogyan szeretnéd elnevezni az otthonodat?",
+                    "intro": "Hello {name}, üdvözöl a Safegate Pro. Hogyan szeretnéd elnevezni az otthonodat?",
                     "intro_location": "Szeretnénk tudni, hogy hol élsz. Ez segít az információk megjelenítésében és a nap alapú automatizálások beállításában. Ez az adat soha nem lesz megosztva a hálózatodon kívül.",
                     "intro_location_detect": "Segíthetünk neked kitölteni ezt az információt egy külső szolgáltatás egyszeri lekérdezésével.",
-                    "location_name": "A Home Assistant rendszered neve",
+                    "location_name": "A Safegate Pro rendszered neve",
                     "location_name_default": "Otthon"
                 },
                 "finish": "Befejezés",
                 "integration": {
                     "finish": "Befejezés",
-                    "intro": "Az eszközöket és szolgáltatásokat a Home Assistant integrációként kezeli. Beállíthatod őket most, vagy később a konfigurációs képernyőn.",
+                    "intro": "Az eszközöket és szolgáltatásokat a Safegate Pro integrációként kezeli. Beállíthatod őket most, vagy később a konfigurációs képernyőn.",
                     "more_integrations": "Több"
                 },
                 "intro": "Készen állsz arra, hogy felébreszd az otthonod, visszaszerezd a magánéleted és csatlakozz egy világhálós közösséghez?",
@@ -3870,7 +3870,7 @@
                     "create_failed": "Nem sikerült létrehozni a hozzáférési tokent.",
                     "created": "Létrehozva: {date}",
                     "delete_failed": "Nem sikerült törölni a hozzáférési tokent.",
-                    "description": "Hosszú életű hozzáférési tokenek létrehozásával engedélyezheted a szkriptjeid számára, hogy csatlakozzanak a Home Assistant példányodhoz. Minden token 10 évig érvényes a létrehozástól számítva. Jelenleg a következő hosszú életű hozzáférési tokenek aktívak.",
+                    "description": "Hosszú életű hozzáférési tokenek létrehozásával engedélyezheted a szkriptjeid számára, hogy csatlakozzanak a Safegate Pro példányodhoz. Minden token 10 évig érvényes a létrehozástól számítva. Jelenleg a következő hosszú életű hozzáférési tokenek aktívak.",
                     "empty_state": "Még nincsenek hosszú életű hozzáférési tokenjeid.",
                     "header": "Hosszú Életű Hozzáférési Tokenek",
                     "learn_auth_requests": "Tudj meg többet a hitelesített kérelmek létrehozásáról.",

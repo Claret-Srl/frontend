@@ -144,11 +144,11 @@
                         "title": "AppArmor"
                     },
                     "auth_api": {
-                        "description": "הרחבה יכולה לאמת משתמשים מול Home Assistant, דבר המאפשר להרחבות להעניק למשתמשים את האפשרות להיכנס ליישומים הפועלים בתוך הרחבות, באמצעות שם המשתמש/הסיסמה של Home Assistant שלהם. תג זה מציין אם מחבר ההרחבה מבקש יכולת זו.",
-                        "title": "אימות Home Assistant"
+                        "description": "הרחבה יכולה לאמת משתמשים מול Safegate Pro, דבר המאפשר להרחבות להעניק למשתמשים את האפשרות להיכנס ליישומים הפועלים בתוך הרחבות, באמצעות שם המשתמש/הסיסמה של Safegate Pro שלהם. תג זה מציין אם מחבר ההרחבה מבקש יכולת זו.",
+                        "title": "אימות Safegate Pro"
                     },
                     "docker_api": {
-                        "description": "מחבר ההרחבה ביקש שההרחבה תהיה בעלת גישת ניהול למופע Docker הפועל במערכת שלך. מצב זה מעניק להרחבה גישה ושליטה מלאה למערכת Home Assistant כולה, מה שמוסיף סיכוני אבטחה ועלול לגרום נזק למערכת בעת שימוש לרעה. לכן, תכונה זו משפיעה לרעה על תוצאת אבטחת ההרחבה.\n\nרמת גישה זו אינה מוענקת באופן אוטומטי ועליך להיות מאושרת על ידיך. כדי לעשות זאת, עליך להשבית את מצב ההגנה בהרחבה באופן ידני. הפוך את מצב ההגנה ללא זמין רק אם ידוע לך, עליך לתת אמון במקור של הרחבה זו.",
+                        "description": "מחבר ההרחבה ביקש שההרחבה תהיה בעלת גישת ניהול למופע Docker הפועל במערכת שלך. מצב זה מעניק להרחבה גישה ושליטה מלאה למערכת Safegate Pro כולה, מה שמוסיף סיכוני אבטחה ועלול לגרום נזק למערכת בעת שימוש לרעה. לכן, תכונה זו משפיעה לרעה על תוצאת אבטחת ההרחבה.\n\nרמת גישה זו אינה מוענקת באופן אוטומטי ועליך להיות מאושרת על ידיך. כדי לעשות זאת, עליך להשבית את מצב ההגנה בהרחבה באופן ידני. הפוך את מצב ההגנה ללא זמין רק אם ידוע לך, עליך לתת אמון במקור של הרחבה זו.",
                         "title": "גישה מלאה ל-docker"
                     },
                     "full_access": {
@@ -156,11 +156,11 @@
                         "title": "גישה מלאה לחומרה"
                     },
                     "hassio_api": {
-                        "description": "ההרחבה ניתנה גישה ל-API של המפקח, לבקשת מחבר ההרחבה. כברירת מחדל, ההרחבה יכולה לגשת למידע גירסה כללי של המערכת שלך. כאשר ההרחבה מבקשת גישה ברמת 'מנהל' או 'מנהל' ל-API, היא תקבל גישה לשליטה בחלקים מרובים של מערכת Home Assistant שלך. הרשאה זו מצוינת על ידי תג זה ותשפיע לרעה על תוצאת האבטחה של ההרחבה.",
+                        "description": "ההרחבה ניתנה גישה ל-API של המפקח, לבקשת מחבר ההרחבה. כברירת מחדל, ההרחבה יכולה לגשת למידע גירסה כללי של המערכת שלך. כאשר ההרחבה מבקשת גישה ברמת 'מנהל' או 'מנהל' ל-API, היא תקבל גישה לשליטה בחלקים מרובים של מערכת Safegate Pro שלך. הרשאה זו מצוינת על ידי תג זה ותשפיע לרעה על תוצאת האבטחה של ההרחבה.",
                         "title": "גישת API למפקח"
                     },
                     "homeassistant_api": {
-                        "description": "הרחבה זו מותרת לגשת למופע Home Assistant הפועל שלך ישירות באמצעות ה-API של Home Assistant. מצב זה מטפל באימות גם עבור ההרחבה, המאפשר להרחבה לקיים אינטראקציה עם Home Assistant ללא צורך באסימוני אימות נוספים.",
+                        "description": "הרחבה זו מותרת לגשת למופע Safegate Pro הפועל שלך ישירות באמצעות ה-API של Safegate Pro. מצב זה מטפל באימות גם עבור ההרחבה, המאפשר להרחבה לקיים אינטראקציה עם Safegate Pro ללא צורך באסימוני אימות נוספים.",
                         "title": "גישה ל-API של Assistant Home"
                     },
                     "host_network": {
@@ -168,11 +168,11 @@
                         "title": "רשת מארח"
                     },
                     "host_pid": {
-                        "description": "בדרך כלל, התהליכים שההרחבה מפעילה מבודדים מכל תהליכי המערכת האחרים. מחבר ההרחבה ביקש מההרחבה לקבל גישה לתהליכי המערכת הפועלים במופע המערכת המארחת, ולאפשר להרחבה להוליד תהליכים גם במערכת המארחת. מצב זה מעניק להרחבה גישה ושליטה מלאה למערכת Home Assistant כולה, מה שמוסיף סיכוני אבטחה ועלול לגרום נזק למערכת בעת שימוש לרעה. לכן, תכונה זו משפיעה לרעה על תוצאת אבטחת ההרחבה.\n\nרמת גישה זו אינה מוענקת באופן אוטומטי ועליך להיות מאושרת על-ידיך. כדי לעשות זאת, עליך להשבית את מצב ההגנה בהרחבה באופן ידני. הפוך את מצב ההגנה ללא זמין רק אם ידוע לך, עליך לתת אמון במקור של הרחבה זו.",
+                        "description": "בדרך כלל, התהליכים שההרחבה מפעילה מבודדים מכל תהליכי המערכת האחרים. מחבר ההרחבה ביקש מההרחבה לקבל גישה לתהליכי המערכת הפועלים במופע המערכת המארחת, ולאפשר להרחבה להוליד תהליכים גם במערכת המארחת. מצב זה מעניק להרחבה גישה ושליטה מלאה למערכת Safegate Pro כולה, מה שמוסיף סיכוני אבטחה ועלול לגרום נזק למערכת בעת שימוש לרעה. לכן, תכונה זו משפיעה לרעה על תוצאת אבטחת ההרחבה.\n\nרמת גישה זו אינה מוענקת באופן אוטומטי ועליך להיות מאושרת על-ידיך. כדי לעשות זאת, עליך להשבית את מצב ההגנה בהרחבה באופן ידני. הפוך את מצב ההגנה ללא זמין רק אם ידוע לך, עליך לתת אמון במקור של הרחבה זו.",
                         "title": "מרחב שמות של תהליכי מארח"
                     },
                     "ingress": {
-                        "description": "תוסף זה משתמש בכניסה כדי להטמיע את הממשק שלו בצורה מאובטחת ב-Home Assistant.",
+                        "description": "תוסף זה משתמש בכניסה כדי להטמיע את הממשק שלו בצורה מאובטחת ב-Safegate Pro.",
                         "title": "כניסה"
                     },
                     "label": {
@@ -189,7 +189,7 @@
                         "stage": "שלב"
                     },
                     "rating": {
-                        "description": "Home Assistant מספק דירוג אבטחה לכל אחת מההרחבות, המציין את הסיכונים הכרוכים בשימוש בהרחבה זו. ככל שההרחבה דורשת גישה רבה יותר למערכת שלך, כך הציון נמוך יותר, ובכך מעלה את סיכוני האבטחה האפשריים.\n\nציון הוא בסולם מ 1 עד 6. כאשר 1 הוא הציון הנמוך ביותר (נחשב לסיכון הגבוה ביותר וחסר ביטחון) וציון של 6 הוא הציון הגבוה ביותר (נחשב לסיכון הבטוח והנמוך ביותר).",
+                        "description": "Safegate Pro מספק דירוג אבטחה לכל אחת מההרחבות, המציין את הסיכונים הכרוכים בשימוש בהרחבה זו. ככל שההרחבה דורשת גישה רבה יותר למערכת שלך, כך הציון נמוך יותר, ובכך מעלה את סיכוני האבטחה האפשריים.\n\nציון הוא בסולם מ 1 עד 6. כאשר 1 הוא הציון הנמוך ביותר (נחשב לסיכון הגבוה ביותר וחסר ביטחון) וציון של 6 הוא הציון הגבוה ביותר (נחשב לסיכון הבטוח והנמוך ביותר).",
                         "title": "דירוג אבטחה של הרחבה"
                     },
                     "role": {
@@ -210,7 +210,7 @@
                 "install": "התקנה",
                 "new_update_available": "{name} {version} זמין",
                 "not_available_arch": "הרחבה זו אינה תואמת למעבד ההתקן או למערכת ההפעלה שהתקנת בהתקן שלך.",
-                "not_available_version": "אתה מפעיל את Home Assistant {core_version_installed} , כדי לעדכן לגרסה זו של התוסף אתה זקוק לפחות לגרסה {core_version_needed} של Home Assistant",
+                "not_available_version": "אתה מפעיל את Safegate Pro {core_version_installed} , כדי לעדכן לגרסה זו של התוסף אתה זקוק לפחות לגרסה {core_version_needed} של Safegate Pro",
                 "open_web_ui": "פתח ממשק משתמש אינטרנטי",
                 "option": {
                     "auto_update": {
@@ -378,8 +378,8 @@
             "error_addon_not_found": "התוסף לא נמצא",
             "error_addon_not_installed": "התוסף המבוקש אינו מותקן. אנא התקן אותו תחילה",
             "error_addon_not_started": "ההרחבה המבוקשת אינה פועלת. נא הפעל אותו תחילה",
-            "faq_link": "שאלות נפוצות על Home Assistant שלי",
-            "not_supported": "הפניה זו אינה נתמכת על ידי מופע ה-Home Assistant שלך. בדוק ב-{link} את ההפניות הנתמכות ואת הגרסה שהוצגה."
+            "faq_link": "שאלות נפוצות על Safegate Pro שלי",
+            "not_supported": "הפניה זו אינה נתמכת על ידי מופע ה-Safegate Pro שלך. בדוק ב-{link} את ההפניות הנתמכות ואת הגרסה שהוצגה."
         },
         "panel": {
             "dashboard": "לוח בקרה",
@@ -400,12 +400,12 @@
             "delete_snapshot_confirm": "מחיקה",
             "delete_snapshot_text": "האם אתה רוצה למחוק {number} {number, plural,\n  one {גיבוי}\n  other {גיבויים}\n}?",
             "delete_snapshot_title": "מחק גיבוי",
-            "description": "גיבויים מאפשרים לך לגבות ולשחזר בקלות את כל הנתונים של Home Assistant.",
+            "description": "גיבויים מאפשרים לך לגבות ולשחזר בקלות את כל הנתונים של Safegate Pro.",
             "enter_password": "נא הזן סיסמה.",
             "failed_to_delete": "המחיקה נכשלה",
             "folder": {
                 "addons/local": "תוספות מקומיות",
-                "homeassistant": "תצורת Home Assistant",
+                "homeassistant": "תצורת Safegate Pro",
                 "media": "תוכן",
                 "share": "שיתוף",
                 "ssl": "SSL"
@@ -474,16 +474,16 @@
                 "failed_to_set_option": "הגדרת אפשרות המפקח נכשלה",
                 "failed_to_update": "עדכון המפקח נכשל",
                 "join_beta_action": "הצטרף לערוץ ביטא",
-                "join_beta_description": "קבל עדכוני ביטא עבור Home Assistant, מפקח ומערכת ההפעלה",
+                "join_beta_description": "קבל עדכוני ביטא עבור Safegate Pro, מפקח ומערכת ההפעלה",
                 "leave_beta_action": "עזוב את ערוץ הביטא",
-                "leave_beta_description": "קבל עדכונים יציבים עבור Home Assistant, מפקח ומערכת ההפעלה",
+                "leave_beta_description": "קבל עדכונים יציבים עבור Safegate Pro, מפקח ומערכת ההפעלה",
                 "ram_usage": "שימוש בזיכרון RAM של מפקח",
                 "reload_supervisor": "טען מחדש את המפקח",
                 "search": "חיפוש",
                 "share_diagnostics": "שתף מידע אבחוני",
                 "share_diagnostics_description": "שתף דוחות קריסה ומידע אבחוני.",
-                "share_diagonstics_description": "האם ברצונך לשתף באופן אוטומטי דוחות קריסה ומידע אבחון כאשר המפקח נתקל בשגיאות בלתי צפויות? {line_break} זה יאפשר לנו לתקן את הבעיות, המידע נגיש רק לצוות הליבה של Home Assistant ולא ישותף עם אחרים. {line_break} הנתונים אינם כוללים מידע פרטי/רגיש ובאפשרותך להפוך מידע זה ללא זמין בהגדרות בכל עת שתרצה.",
-                "share_diagonstics_title": "עזור לשפר את Home Assistant",
+                "share_diagonstics_description": "האם ברצונך לשתף באופן אוטומטי דוחות קריסה ומידע אבחון כאשר המפקח נתקל בשגיאות בלתי צפויות? {line_break} זה יאפשר לנו לתקן את הבעיות, המידע נגיש רק לצוות הליבה של Safegate Pro ולא ישותף עם אחרים. {line_break} הנתונים אינם כוללים מידע פרטי/רגיש ובאפשרותך להפוך מידע זה ללא זמין בהגדרות בכל עת שתרצה.",
+                "share_diagonstics_title": "עזור לשפר את Safegate Pro",
                 "unhealthy_description": "הפעלת התקנה לא בריאה תגרום לבעיות. להלן רשימת הבעיות שנמצאו בהתקנה שלך, לחץ על הקישורים כדי ללמוד כיצד תוכל לפתור את הבעיות.",
                 "unhealthy_reason": {
                     "docker": "סביבת ה- Docker אינה פועלת כראוי",
@@ -944,9 +944,9 @@
             "config_entry_system_options": {
                 "enable_new_entities_description": "אם יש להוסיף באופן אוטומטי התקנים שהתגלו לאחרונה עבור {integration}.",
                 "enable_new_entities_label": "הפוך ישויות חדשות שנוספו לזמינות.",
-                "enable_polling_description": "אם Home Assistant אמור לתשאל אוטומטית {integration} עבור עדכונים.",
+                "enable_polling_description": "אם Safegate Pro אמור לתשאל אוטומטית {integration} עבור עדכונים.",
                 "enable_polling_label": "אפשר תשאול עבור עדכונים.",
-                "restart_home_assistant": "עליך להפעיל מחדש את Home Assistant כדי שהשינויים שלך ייכנסו לתוקף.",
+                "restart_home_assistant": "עליך להפעיל מחדש את Safegate Pro כדי שהשינויים שלך ייכנסו לתוקף.",
                 "title": "אפשרויות מערכת עבור {integration}",
                 "update": "עדכון"
             },
@@ -967,8 +967,8 @@
                     "delete": "מחק",
                     "device_disabled": "המכשיר של ישות זו מושבת.",
                     "enabled_cause": "מושבת עקב {סיבה}.",
-                    "enabled_delay_confirm": "הישויות המופעלות יתווספו ל-Home Assistant בעוד {delay} שניות",
-                    "enabled_description": "ישויות מושבתות לא יתווספו ל Home Assistant.",
+                    "enabled_delay_confirm": "הישויות המופעלות יתווספו ל-Safegate Pro בעוד {delay} שניות",
+                    "enabled_description": "ישויות מושבתות לא יתווספו ל Safegate Pro.",
                     "enabled_label": "הפוך ישות לזמינה",
                     "enabled_restart_confirm": "הפעל מחדש את Assistant Home כדי להפוך את היישויות לזמינות",
                     "entity_id": "מזהה ישות",
@@ -998,7 +998,7 @@
                     "initial": "ערך התחלתי",
                     "maximum": "ערך מרבי",
                     "minimum": "ערך מינימלי",
-                    "restore": "שחזור הערך הידוע האחרון בעת הפעלת Home Assistant",
+                    "restore": "שחזור הערך הידוע האחרון בעת הפעלת Safegate Pro",
                     "step": "גודל הצעד"
                 },
                 "generic": {
@@ -1187,7 +1187,7 @@
                 "filter_placeholder": "מסנן ישויות"
             },
             "voice_command": {
-                "did_not_hear": "Home Assistant לא שמע כלום",
+                "did_not_hear": "Safegate Pro לא שמע כלום",
                 "error": "אופס, אירעה שגיאה",
                 "found": "מצאתי עבורך את הדברים הבאים:",
                 "how_can_i_help": "איך אני יכול לעזור?",
@@ -1289,8 +1289,8 @@
             "dismiss": "בטל",
             "integration_starting": "מפעיל את {integration} , לא הכל יהיה זמין עד לסיום.",
             "service_call_failed": "נכשלה הקריאה לשירות {service} .",
-            "started": "Home Assistant עלה!",
-            "starting": "Home Assistant בעלייה, ייתכן שלא הכל יהיה זמין עד שהעליה תסתיים",
+            "started": "Safegate Pro עלה!",
+            "starting": "Safegate Pro בעלייה, ייתכן שלא הכל יהיה זמין עד שהעליה תסתיים",
             "triggered": "הופעל {name}",
             "wrapping_up_startup": "סיום העליה, לא הכל יהיה זמין עד לסיום."
         },
@@ -1328,7 +1328,7 @@
                         "create_area": "צור אזור",
                         "header": "אזורים",
                         "integrations_page": "דף אינטגרציות",
-                        "introduction": "אזורים משמשים לארגון המיקום של ההתקנים. Home Assistant יעשה שימוש במידע זה בכדי לסייע לך בארגון הממשק, ההרשאות והאינטגרציות שלך עם מערכות אחרות.",
+                        "introduction": "אזורים משמשים לארגון המיקום של ההתקנים. Safegate Pro יעשה שימוש במידע זה בכדי לסייע לך בארגון הממשק, ההרשאות והאינטגרציות שלך עם מערכות אחרות.",
                         "introduction2": "כדי למקם התקנים באזור זה, השתמש בקישור הבא כדי לנווט אל דף האינטגרציות ולאחר מכן לחץ על אינטגרציה מוגדרת כדי להגיע לכרטיסי המכשיר.",
                         "no_areas": "נראה שאין לך אזורים עדיין!"
                     }
@@ -1357,7 +1357,7 @@
                             "delete_confirm": "האם בוודאות ברצונך למחוק זאת?",
                             "duplicate": "שיכפול",
                             "header": "פעולות",
-                            "introduction": "הפעולות הן מה שHome Assistant יעשה כאשר אוטומציה מופעלת.",
+                            "introduction": "הפעולות הן מה שSafegate Pro יעשה כאשר אוטומציה מופעלת.",
                             "learn_more": "למד עוד על פעולות",
                             "name": "פעולה",
                             "type_select": "סוג פעולה",
@@ -1562,7 +1562,7 @@
                             "duplicate": "שיכפול",
                             "header": "טריגרים",
                             "id": "מזהה טריגר (בשימוש על ידי תנאי טריגר)",
-                            "introduction": "טריגרים הם מה שמתחיל כל אוטומציה. ניתן לציין מספר טריגרים עבור אותו כלל. לאחר הפעלת טריגר, Home Assistant יאמת את התנאים, אם ישנם, ויפעיל את הפעולה.",
+                            "introduction": "טריגרים הם מה שמתחיל כל אוטומציה. ניתן לציין מספר טריגרים עבור אותו כלל. לאחר הפעלת טריגר, Safegate Pro יאמת את התנאים, אם ישנם, ויפעיל את הפעולה.",
                             "learn_more": "למד עוד על טריגרים",
                             "name": "טריגר",
                             "type_select": "סוג מפעיל",
@@ -1595,7 +1595,7 @@
                                 },
                                 "homeassistant": {
                                     "event": "אירוע:",
-                                    "label": "Home Assistant",
+                                    "label": "Safegate Pro",
                                     "shutdown": "כיבוי",
                                     "start": "התחל"
                                 },
@@ -1673,7 +1673,7 @@
                         "headers": {
                             "name": "שם"
                         },
-                        "introduction": "עורך אוטומציה מאפשר לך ליצור ולערוך אוטומציות. אנא עקוב אחר הקישור למטה וקרא את ההוראות כדי לוודא שהגדרת את ה - Home Assistant כהלכה.",
+                        "introduction": "עורך אוטומציה מאפשר לך ליצור ולערוך אוטומציות. אנא עקוב אחר הקישור למטה וקרא את ההוראות כדי לוודא שהגדרת את ה - Safegate Pro כהלכה.",
                         "learn_more": "למד עוד על אוטומציות",
                         "no_automations": "לא הצלחנו למצוא אוטומציות",
                         "only_editable": "רק אוטומציות שהוגדרו ב automations.yaml ניתנות לעריכה.",
@@ -1692,7 +1692,7 @@
                             "error_unsupported": "לא יכולנו ליצור אוטומציה לזה (עדיין?).",
                             "for_example": "לדוגמה:",
                             "header": "צור אוטומציה חדשה",
-                            "introduction": "הקלד להלן את מה שאוטומציה זו צריכה לעשות, וננסה להמיר אותה לאוטומציה של Home Assistant.",
+                            "introduction": "הקלד להלן את מה שאוטומציה זו צריכה לעשות, וננסה להמיר אותה לאוטומציה של Safegate Pro.",
                             "language_note": "הערה: רק אנגלית נתמכת לעת עתה."
                         }
                     }
@@ -1740,10 +1740,10 @@
                             "config_documentation": "תיעוד תצורה",
                             "disable": "השבתה",
                             "enable": "אפשור",
-                            "enable_ha_skill": "הפעל את מיומנות Home Assistant עבור אלקסה",
+                            "enable_ha_skill": "הפעל את מיומנות Safegate Pro עבור אלקסה",
                             "enable_state_reporting": "הפוך דיווח מצב לזמין",
-                            "info": "עם האינטגרציה של Alexa עבור Home Assistant Cloud, תוכל לשלוט בכל מכשירי Home Assistant שלך באמצעות כל מכשיר המותאם לשימוש ב-Alexa.",
-                            "info_state_reporting": "אם תאפשר דיווח על מצב, Home Assistant ישלח כל שינוי מצב של ישויות חשופות לאמזון. זה יאפשר לך לראות תמיד את המצב העדכני באפליקציית Alexa ולהשתמש בשינויי המצב ליצירת שגרות.",
+                            "info": "עם האינטגרציה של Alexa עבור Safegate Pro Cloud, תוכל לשלוט בכל מכשירי Safegate Pro שלך באמצעות כל מכשיר המותאם לשימוש ב-Alexa.",
+                            "info_state_reporting": "אם תאפשר דיווח על מצב, Safegate Pro ישלח כל שינוי מצב של ישויות חשופות לאמזון. זה יאפשר לך לראות תמיד את המצב העדכני באפליקציית Alexa ולהשתמש בשינויי המצב ליצירת שגרות.",
                             "manage_entities": "נהל ישויות",
                             "state_reporting_error": "אין אפשרות לעשות {enable_disable} לדיווח מצב.",
                             "sync_entities": "סנכרן ישויות לאמזון",
@@ -1757,15 +1757,15 @@
                         "google": {
                             "config_documentation": "תיעוד תצורה",
                             "devices_pin": "PIN של התקני אבטחה",
-                            "enable_ha_skill": "הפעלת מיומנות הענן של Home Assistant עבור Google Assistant",
+                            "enable_ha_skill": "הפעלת מיומנות הענן של Safegate Pro עבור Google Assistant",
                             "enable_state_reporting": "אפשר דיווח מצב",
                             "enter_pin_error": "אין אפשרות לאחסן PIN:",
                             "enter_pin_hint": "הזן קוד PIN לשימוש בהתקני אבטחה",
                             "enter_pin_info": "נא הזן מספר זיהוי אישי (PIN) כדי לקיים אינטראקציה עם התקני אבטחה. מכשירי אבטחה הם דלתות, דלתות מוסך ומנעולים. תתבקש לומר/להזין מספר זיהוי אישי זה בעת אינטראקציה עם מכשירים כאלה באמצעות Google Assistant.",
-                            "info": "עם שילוב מסייע Google עבור ענן Home Assistant תוכל לשלוט בכל מכשירי Home Assistant שלך באמצעות כל מכשיר המקושר למסייע של Google.",
-                            "info_state_reporting": "אם תפעיל דיווח מצב, Home Assistant ישלח את כל שינויי המצבים של ישויות חשופות ל-Google. זה מאפשר לך תמיד לראות את המצבים האחרונים באפליקציה של גוגל.",
+                            "info": "עם שילוב מסייע Google עבור ענן Safegate Pro תוכל לשלוט בכל מכשירי Safegate Pro שלך באמצעות כל מכשיר המקושר למסייע של Google.",
+                            "info_state_reporting": "אם תפעיל דיווח מצב, Safegate Pro ישלח את כל שינויי המצבים של ישויות חשופות ל-Google. זה מאפשר לך תמיד לראות את המצבים האחרונים באפליקציה של גוגל.",
                             "manage_entities": "נהל ישויות",
-                            "not_configured_text": "לפני שתוכל להשתמש ב- Google Assistant, עליך להפעיל את Home Assistant Cloud skill עבור Google Assistant באפליקציית Google Home.",
+                            "not_configured_text": "לפני שתוכל להשתמש ב- Google Assistant, עליך להפעיל את Safegate Pro Cloud skill עבור Google Assistant באפליקציית Google Home.",
                             "not_configured_title": "Google Assistant אינו מופעל",
                             "security_devices": "התקני אבטחה",
                             "sync_entities": "סנכרן ישויות לגוגל",
@@ -1773,7 +1773,7 @@
                             "title": "Google Assistant"
                         },
                         "integrations": "שילובים",
-                        "integrations_introduction": "שילובים עבור ענן Home Assistant מאפשרים לך להתחבר לשירותים בענן מבלי שתצטרך לחשוף את המופע של Home Assistant שלך באופן ציבורי באינטרנט.",
+                        "integrations_introduction": "שילובים עבור ענן Safegate Pro מאפשרים לך להתחבר לשירותים בענן מבלי שתצטרך לחשוף את המופע של Safegate Pro שלך באופן ציבורי באינטרנט.",
                         "integrations_introduction2": "בדוק באתר האינטרנט ",
                         "integrations_link_all_features": " כל התכונות הזמינות",
                         "manage_account": "נהל חשבון",
@@ -1783,19 +1783,19 @@
                             "access_is_being_prepared": "מתבצעת הכנה של שליטה מרחוק. נודיע לך כשזה יהיה מוכן.",
                             "certificate_info": "פרטי התעודה",
                             "connected": "מחובר",
-                            "info": "ענן Home Assistant מספק חיבור מרוחק מאובטח למערכת שלך כשאתה רחוק מהבית.",
+                            "info": "ענן Safegate Pro מספק חיבור מרוחק מאובטח למערכת שלך כשאתה רחוק מהבית.",
                             "instance_is_available": "המופע שלך זמין ב",
                             "instance_will_be_available": "המופע שלך יהיה זמין ב",
                             "link_learn_how_it_works": "למד כיצד זה עובד",
                             "not_connected": "לא מחובר",
                             "remote_enabled": {
                                 "caption": "התחבר אוטומטית",
-                                "description": "אפשר אפשרות זו כדי לוודא שמופע ה-Home Assistant שלך תמיד נגיש מרחוק."
+                                "description": "אפשר אפשרות זו כדי לוודא שמופע ה-Safegate Pro שלך תמיד נגיש מרחוק."
                             },
                             "title": "שליטה מרחוק"
                         },
                         "sign_out": "התנתק",
-                        "thank_you_note": "תודה לך על היותך חלק בענן Home Assistant. בזכות אנשים כמוך אנחנו מסוגלים לייצר חווית בית חכם עבור כולם. תודה!",
+                        "thank_you_note": "תודה לך על היותך חלק בענן Safegate Pro. בזכות אנשים כמוך אנחנו מסוגלים לייצר חווית בית חכם עבור כולם. תודה!",
                         "tts": {
                             "default_language": "שפת ברירת מחדל לשימוש",
                             "dialog": {
@@ -1813,7 +1813,7 @@
                         },
                         "webhooks": {
                             "disable_hook_error_msg": "השבתת הwebhook נכשלה:",
-                            "info": "לכל דבר שתצורתו נקבעה כמופעלת על-ידי webhook יכולה להינתן כתובת URL ציבורית כדי לאפשר לך לשלוח נתונים בחזרה ל Home Assistant מכל מקום, מבלי לחשוף את המערכת שלך לאינטרנט.",
+                            "info": "לכל דבר שתצורתו נקבעה כמופעלת על-ידי webhook יכולה להינתן כתובת URL ציבורית כדי לאפשר לך לשלוח נתונים בחזרה ל Safegate Pro מכל מקום, מבלי לחשוף את המערכת שלך לאינטרנט.",
                             "link_learn_more": "למד עוד אודות יצירת אוטומציות המונעות על-ידי webhook.",
                             "loading": "טוען...",
                             "manage": "ניהול",
@@ -1889,11 +1889,11 @@
                         "email": "דוא\"ל",
                         "email_error_msg": "דואר אלקטרוני לא חוקי",
                         "forgot_password": "שכחת סיסמה?",
-                        "introduction": "שירות Home Assistant Cloud מספק לך חיבור מרוחק מאובטח למערכת שלך כשאתה מחוץ לבית. הוא גם מאפשר לך להתחבר לשירותים הזמינים בענן בלבד: Alexa ו-Google Assistant.",
+                        "introduction": "שירות Safegate Pro Cloud מספק לך חיבור מרוחק מאובטח למערכת שלך כשאתה מחוץ לבית. הוא גם מאפשר לך להתחבר לשירותים הזמינים בענן בלבד: Alexa ו-Google Assistant.",
                         "introduction2": "שירות זה מנוהל על ידי השותף שלנו ",
-                        "introduction2a": ", חברה שהוקמה על ידי מייסדי Home Assistant ו Hass.io.",
-                        "introduction3": "ענן Home Assistant הוא שירות מנוי עם ניסיון חינם למשך חודש. אין צורך באמצעי תשלום.",
-                        "learn_more_link": "למד עוד על ענן Home Assistant",
+                        "introduction2a": ", חברה שהוקמה על ידי מייסדי Safegate Pro ו Hass.io.",
+                        "introduction3": "ענן Safegate Pro הוא שירות מנוי עם ניסיון חינם למשך חודש. אין צורך באמצעי תשלום.",
+                        "learn_more_link": "למד עוד על ענן Safegate Pro",
                         "password": "סיסמה",
                         "password_error_msg": "סיסמאות הן לפחות 8 תווים",
                         "sign_in": "היכנס",
@@ -1908,13 +1908,13 @@
                         "email_error_msg": "דוא\"ל לא חוקי",
                         "feature_amazon_alexa": "אינטגרציה עם Amazon Alexa",
                         "feature_google_home": "אינטגרציה עם Google Assistant",
-                        "feature_remote_control": "שליטה ב Home Assistant הרחק מהבית",
+                        "feature_remote_control": "שליטה ב Safegate Pro הרחק מהבית",
                         "feature_webhook_apps": "אינטגרציה קלה עם אפליקציות מבוססות webhook כגון OwnTracks",
                         "headline": "התחל את תקופת הניסיון בחינם",
-                        "information": "צור חשבון כדי להתחיל את גירסת הניסיון של ענן Home Assistant לחודש אחד ללא תשלום. אין צורך באמצעי תשלום.",
-                        "information2": "הניסיון ייתן לך גישה לכל היתרונות של ענן Home Assistant, כולל:",
+                        "information": "צור חשבון כדי להתחיל את גירסת הניסיון של ענן Safegate Pro לחודש אחד ללא תשלום. אין צורך באמצעי תשלום.",
+                        "information2": "הניסיון ייתן לך גישה לכל היתרונות של ענן Safegate Pro, כולל:",
                         "information3": "שירות זה מנוהל על ידי השותף שלנו ",
-                        "information3a": ", חברה שהוקמה על ידי מייסדי Home Assistant ו Hass.io.",
+                        "information3a": ", חברה שהוקמה על ידי מייסדי Safegate Pro ו Hass.io.",
                         "information4": "על-ידי רישום חשבון אתה מסכים לתנאים ולהתניות הבאות.",
                         "link_privacy_policy": "מדיניות פרטיות",
                         "link_terms_conditions": "תנאי שימוש",
@@ -1939,7 +1939,7 @@
                                 "documentation": "לפני שתאפשר זאת וודא שאתה מבקר בדף תיעוד המידע {link} כדי להבין מה אתה שולח ואיך זה נשמר.",
                                 "header": "ניתוח",
                                 "instance_id": "מזהה מופע: {huuid}",
-                                "introduction": "שתף את פרטי ההתקנה שלך כדי לעזור לשפר את Home Assistant ולעזור לנו לשכנע יצרנים להוסיף שליטה מקומית ותכונות ממוקדות לפרטיות.",
+                                "introduction": "שתף את פרטי ההתקנה שלך כדי לעזור לשפר את Safegate Pro ולעזור לנו לשכנע יצרנים להוסיף שליטה מקומית ותכונות ממוקדות לפרטיות.",
                                 "learn_more": "כיצד אנו מעבדים את הנתונים שלך",
                                 "needs_base": "עליך לאפשר ניתוח בסיס כדי שאפשרות זו תהיה זמינה",
                                 "preference": {
@@ -2059,7 +2059,7 @@
                         "user": "משתמש"
                     },
                     "enabled_cause": "המכשיר מושבת על ידי {cause} .",
-                    "enabled_description": "מכשירים מושבתים לא יוצגו והישויות השייכות למכשיר יושבתו ולא יתווספו ל- Home Assistant.",
+                    "enabled_description": "מכשירים מושבתים לא יוצגו והישויות השייכות למכשיר יושבתו ולא יתווספו ל- Safegate Pro.",
                     "enabled_label": "הפעל מכשיר",
                     "entities": {
                         "add_entities_lovelace": "הוסף לממשק Lovelace",
@@ -2104,12 +2104,12 @@
                     "picker": {
                         "disable_selected": {
                             "button": "השבת מסומנים",
-                            "confirm_text": "ישויות מושבתות לא יתווספו ל Home Assistant.",
+                            "confirm_text": "ישויות מושבתות לא יתווספו ל Safegate Pro.",
                             "confirm_title": "האם אתה רוצה להשבית את ה{number} {number, plural,\n  one {ישות}\n  other {ישויות}\n}?"
                         },
                         "enable_selected": {
                             "button": "אפשר מסומנים",
-                            "confirm_text": "זה יהפוך אותם לזמינים ב Home Assistant שוב אם הם מושבתים כעת.",
+                            "confirm_text": "זה יהפוך אותם לזמינים ב Safegate Pro שוב אם הם מושבתים כעת.",
                             "confirm_title": "האם אתה רוצה להפעיל את ה{number} {number, plural,\n  one {ישות}\n  other {ישויות}\n}?"
                         },
                         "filter": {
@@ -2128,8 +2128,8 @@
                             "name": "שם",
                             "status": "סטטוס"
                         },
-                        "introduction": "Home Assistant מנהל רישום של כל ישות שנראתה אי פעם ואשר ניתנת לזיהוי ייחודי. לכל אחד מישויות אלו יהיה מזהה ישות שהוקצה ואשר יהה שמור רק עבור ישות זו.",
-                        "introduction2": "השתמש ברישום הישויות כדי לעקוף את השם, לשנות את מזהה הישות או להסיר את הערך מ-Home Assistant.",
+                        "introduction": "Safegate Pro מנהל רישום של כל ישות שנראתה אי פעם ואשר ניתנת לזיהוי ייחודי. לכל אחד מישויות אלו יהיה מזהה ישות שהוקצה ואשר יהה שמור רק עבור ישות זו.",
+                        "introduction2": "השתמש ברישום הישויות כדי לעקוף את השם, לשנות את מזהה הישות או להסיר את הערך מ-Safegate Pro.",
                         "remove_selected": {
                             "button": "הסר את המסומנים",
                             "confirm_partly_text": "אתה יכול להסיר רק את {removable} מהישויות שנבחרו {selected}. ניתן להסיר ישויות רק כאשר האינטגרציה כבר לא מספקת את הישויות. לפעמים אתה צריך להפעיל מחדש את עוזר הבית לפני שתוכל להסיר את הישויות של אינטגרציה שהוסרה. האם אתה בטוח שברצונך להסיר את הישויות הניתנות להסרה?",
@@ -2156,7 +2156,7 @@
                 "hassio": {
                     "button": "הגדר"
                 },
-                "header": "הגדר את Home Assistant",
+                "header": "הגדר את Safegate Pro",
                 "helpers": {
                     "caption": "מסייעים",
                     "description": "רכיבים המסייעים בבניית אוטומציות",
@@ -2196,7 +2196,7 @@
                     "documentation": "תיעוד",
                     "frontend": "frontend-ui",
                     "frontend_version": "גרסת ממשק המשתמש: {version} - {type}",
-                    "home_assistant_logo": "לוגו Home Assistant",
+                    "home_assistant_logo": "לוגו Safegate Pro",
                     "icons_by": "סמלים מאת",
                     "integrations": "אינטגרציות",
                     "issues": "בעיות",
@@ -2258,7 +2258,7 @@
                         "reload_confirm": "השילוב נטען מחדש",
                         "reload_restart_confirm": "הפעל מחדש את Assistant Home כדי לסיים את הטעינה מחדש של שילוב זה",
                         "rename": "שנה שם",
-                        "restart_confirm": "הפעל מחדש את Home Assistant כדי לסיים את הסרת השילוב",
+                        "restart_confirm": "הפעל מחדש את Safegate Pro כדי לסיים את הסרת השילוב",
                         "services": "{count} {count, plural,\n  one {שירות}\n  other {שירותים}\n}",
                         "state": {
                             "failed_unload": "ביטול הטעינה נכשל",
@@ -2287,7 +2287,7 @@
                         "loading_first_time": "אנא המתן בזמן שהאינטגרציה מותקנת",
                         "next": "הבא",
                         "not_all_required_fields": "לא כל שדות החובה מולאו.",
-                        "not_loaded": "לא ניתן היה לטעון את השילוב, נסה להפעיל מחדש את Home Assistant.",
+                        "not_loaded": "לא ניתן היה לטעון את השילוב, נסה להפעיל מחדש את Safegate Pro.",
                         "pick_flow_step": {
                             "new_flow": "לא, הגדר מופע אחר של {integration}",
                             "title": "גילינו את אלה, רוצים להגדיר אותם?"
@@ -2306,7 +2306,7 @@
                         "show_disabled": "הצג שילובים מושבתים"
                     },
                     "discovered": "זוהו",
-                    "home_assistant_website": "אתר Home Assistant",
+                    "home_assistant_website": "אתר Safegate Pro",
                     "ignore": {
                         "confirm_delete_ignore": "פעולה זו תגרום לשילוב להופיע בשילובים שהתגלו שוב כאשר היא תתגלה. ייתכן שתידרש הפעלה מחדש או להמתין כדי שזה יקרה.",
                         "confirm_delete_ignore_title": "הפסק להתעלם מ-{name}?",
@@ -2332,12 +2332,12 @@
                     "rename_input_label": "שם ישות",
                     "search": "חפש שילובים"
                 },
-                "introduction": "כאן ניתן להגדיר את הרכיבים ואת ה-Home Assistant. לא הכל ניתן להגדיר עם ממשק המשתמש עדיין, אבל אנחנו עובדים על זה.",
+                "introduction": "כאן ניתן להגדיר את הרכיבים ואת ה-Safegate Pro. לא הכל ניתן להגדיר עם ממשק המשתמש עדיין, אבל אנחנו עובדים על זה.",
                 "logs": {
                     "caption": "יומנים",
                     "clear": "נקה",
                     "custom_integration": "אינטגרציה מותאמת אישית",
-                    "description": "צפה ביומני Home Assistant",
+                    "description": "צפה ביומני Safegate Pro",
                     "details": "פרטי יומן האירועים ({level})",
                     "error_from_custom_integration": "מקור השגיאה הזו הוא אינטגרציה מותאמת אישית.",
                     "level": {
@@ -2347,7 +2347,7 @@
                         "info": "INFO",
                         "warning": "WARNING"
                     },
-                    "load_full_log": "טען את הלוג המלא של Home Assistant",
+                    "load_full_log": "טען את הלוג המלא של Safegate Pro",
                     "loading_log": "טוען יומן שגיאות...",
                     "multiple_messages": "ההודעה התרחשה לראשונה בשעה {time} והיא מופיעה {counter} פעמים",
                     "no_errors": "לא דווח על שגיאות",
@@ -2552,7 +2552,7 @@
                     "select_instance": {
                         "header": "בחר מופע OpenZWave",
                         "introduction": "רצים יותר ממופע OpenZWave אחד. איזה מופע ברצונך לנהל?",
-                        "none_found": "לא הצלחנו למצוא שרת OpenZWave. אם אתה סבור שזה לא נכון, בדוק את הגדרות OpenZWave ו- MQTT וודא ש Home Assistant יכול לתקשר עם ה MQTT broker."
+                        "none_found": "לא הצלחנו למצוא שרת OpenZWave. אם אתה סבור שזה לא נכון, בדוק את הגדרות OpenZWave ו- MQTT וודא ש Safegate Pro יכול לתקשר עם ה MQTT broker."
                     },
                     "services": {
                         "add_node": "הוסף צומת",
@@ -2566,7 +2566,7 @@
                     "confirm_delete": "האם אתה בטוח שברצונך למחוק אדם זה?",
                     "confirm_delete2": "כל ההתקנים השייכים לאדם זה לא יהיו מוקצים.",
                     "create_person": "צור אדם",
-                    "description": "נהל את האנשים ש-Home Assistant עוקב אחריהם.",
+                    "description": "נהל את האנשים ש-Safegate Pro עוקב אחריהם.",
                     "detail": {
                         "admin": "מנהל המערכת",
                         "allow_login": "אפשר לאדם להתחבר",
@@ -2585,7 +2585,7 @@
                         "no_device_tracker_available_intro": "כאשר יש לך התקנים המציינים את נוכחותו של אדם, כאן תוכל להקצותם לאדם זה. באפשרותך להוסיף את המכשיר הראשון על ידי הוספת שילוב של זיהוי נוכחות מעמוד השילובים.",
                         "update": "עדכון"
                     },
-                    "introduction": "כאן תוכלו להגדיר כל אדם ב Home Assistant.",
+                    "introduction": "כאן תוכלו להגדיר כל אדם ב Safegate Pro.",
                     "learn_more": "למד עוד על אנשים",
                     "no_persons_created_yet": "נראה שעדיין לא יצרת אנשים.",
                     "note_about_persons_configured_in_yaml": "הערה: לא ניתן באמצעות ממשק המשתמש לערוך אנשים המוגדרים ב configuration.yaml.",
@@ -2631,7 +2631,7 @@
                         "headers": {
                             "name": "שם"
                         },
-                        "introduction": "עורך הסצנות מאפשר לך ליצור ולערוך סצנות. נא עקוב אחר הקישור שלהלן כדי לקרוא את ההוראות כדי לוודא שתצורת Home Assistant נקבעה כראוי.",
+                        "introduction": "עורך הסצנות מאפשר לך ליצור ולערוך סצנות. נא עקוב אחר הקישור שלהלן כדי לקרוא את ההוראות כדי לוודא שתצורת Safegate Pro נקבעה כראוי.",
                         "learn_more": "למידע נוסף על סצנות",
                         "no_scenes": "לא הצלחנו למצוא סצנות",
                         "only_editable": "רק סצנות שהוגדרו ב-scenes.yaml ניתנות לעריכה.",
@@ -2683,7 +2683,7 @@
                         "headers": {
                             "name": "שם"
                         },
-                        "introduction": "עורך הסקריפטים מאפשר לך ליצור ולערוך סקריפטים. נא כנס לקישור שלמטה כדי לקרוא את ההוראות בכדי לוודא שקבעת את תצורת Home Assistant כהלה.",
+                        "introduction": "עורך הסקריפטים מאפשר לך ליצור ולערוך סקריפטים. נא כנס לקישור שלמטה כדי לקרוא את ההוראות בכדי לוודא שקבעת את תצורת Safegate Pro כהלה.",
                         "learn_more": "למד עוד אודות קבצי סקריפטים",
                         "no_scripts": "לא הצלחנו למצוא סקריפטים",
                         "run_script": "הרץ סקריפט",
@@ -2692,7 +2692,7 @@
                 },
                 "server_control": {
                     "caption": "פקדי שרת",
-                    "description": "אתחל וכבה את שרת ה Home Assistant",
+                    "description": "אתחל וכבה את שרת ה Safegate Pro",
                     "section": {
                         "reloading": {
                             "automation": "אוטומציות",
@@ -2711,7 +2711,7 @@
                             "input_number": "קלט מספרים",
                             "input_select": "קלט בחירה",
                             "input_text": "קלט טקסט",
-                            "introduction": "חלקים מסוימים של Home Assistant יכולים להטען מחדש ללא צורך בהפעלה מחדש.\nטעינה מחדש תשנה את התצורה הנוכחית ותטען תצורה חדשה.",
+                            "introduction": "חלקים מסוימים של Safegate Pro יכולים להטען מחדש ללא צורך בהפעלה מחדש.\nטעינה מחדש תשנה את התצורה הנוכחית ותטען תצורה חדשה.",
                             "min_max": "ישויות מינימום/מקסימום",
                             "mqtt": "ישויות MQTT שתצורתן נקבעה באופן ידני",
                             "person": "אנשים",
@@ -2730,10 +2730,10 @@
                             "zone": "אזורים"
                         },
                         "server_management": {
-                            "confirm_restart": "האם אתה בטוח שברצונך להפעיל מחדש את Home Assistant?",
-                            "confirm_stop": "האם אתה בטוח שברצונך לעצור את Home Assistant?",
+                            "confirm_restart": "האם אתה בטוח שברצונך להפעיל מחדש את Safegate Pro?",
+                            "confirm_stop": "האם אתה בטוח שברצונך לעצור את Safegate Pro?",
                             "heading": "ניהול שרת",
-                            "introduction": "לשלוט על שרת Home Assistant שלך... מ-Home Assistant.",
+                            "introduction": "לשלוט על שרת Safegate Pro שלך... מ-Safegate Pro.",
                             "restart": "הפעלה מחדש",
                             "stop": "עצור"
                         },
@@ -2786,7 +2786,7 @@
                         "password_not_match": "סיסמאות אינן תואמות"
                     },
                     "caption": "משתמשים",
-                    "description": "נהל את חשבונות המשתמש ב-Home Assistant",
+                    "description": "נהל את חשבונות המשתמש ב-Safegate Pro",
                     "editor": {
                         "activate_user": "הפעל משתמש",
                         "active": "פעיל",
@@ -3059,7 +3059,7 @@
                         "exclusion_failed": "לא היתה אפשרות להסיר את הצומת. יש לבדוק את יומני הרישום לקבלת מידע נוסף.",
                         "exclusion_finished": "צומת {id} הוסר מרשת Z-Wave שלך.",
                         "follow_device_instructions": "בצעו את ההוראות המצורף להתקן כדי להפעיל אי הכללה בהתקן.",
-                        "introduction": "הסר צומת מרשת Z-Wave שלך והסר את ההתקן והישויות המשויכים מ-Home Assistant.",
+                        "introduction": "הסר צומת מרשת Z-Wave שלך והסר את ההתקן והישויות המשויכים מ-Safegate Pro.",
                         "start_exclusion": "התחל אי הכללה",
                         "title": "הסר צומת Z-Wave"
                     }
@@ -3107,7 +3107,7 @@
                         "add_to_group": "הוסף לקבוצה",
                         "entities": "ישויות היחידה",
                         "entity_info": "מידע על הישות",
-                        "exclude_entity": "אל תכלול ישות זו ב Home Assistant",
+                        "exclude_entity": "אל תכלול ישות זו ב Safegate Pro",
                         "group": "קבוצה",
                         "header": "ניהול יחידות Z-Wave",
                         "introduction": "הפעל פקודות Z-Wave המשפיעות על יחידה בודדת. בחר יחידה כדי לראות רשימה של פקודות זמינות.",
@@ -3190,7 +3190,7 @@
                         "column_description": "תיאור",
                         "column_example": "דוגמא",
                         "column_parameter": "פרמטר",
-                        "description": "כלי הפיתוח של השירותים מאפשר לך לקרוא לכל שירות ב Home Assistant.",
+                        "description": "כלי הפיתוח של השירותים מאפשר לך לקרוא לכל שירות ב Safegate Pro.",
                         "fill_example_data": "מלא נתונים לדוגמה",
                         "no_template_ui_support": "ממשק המשתמש אינו תומך בתבניות, עדיין תוכל להשתמש בעורך ה YAML.",
                         "title": "שירותים",
@@ -3220,7 +3220,7 @@
                     },
                     "templates": {
                         "all_listeners": "תבנית זו מאזינה לכל האירועים שהשתנו על ידי המצב.",
-                        "description": "Templates are rendered using the Jinja2 template engine with some Home Assistant specific extensions.",
+                        "description": "Templates are rendered using the Jinja2 template engine with some Safegate Pro specific extensions.",
                         "domain": "תחום",
                         "editor": "Template editor",
                         "entity": "ישות",
@@ -3229,7 +3229,7 @@
                         "no_listeners": "תבנית זו אינה מאזינה לאירועים כלשהם ולא תתעדכן באופן אוטומטי.",
                         "reset": "איפוס לתבנית הדגמה",
                         "result_type": "סוג תוצאה",
-                        "template_extensions": "Home Assistant template extensions",
+                        "template_extensions": "Safegate Pro template extensions",
                         "time": "תבנית זו מתעדכנת בתחילת כל דקה.",
                         "title": "תבניות",
                         "unknown_error_template": "Unknown error rendering template"
@@ -3297,7 +3297,7 @@
                         "url": "פתח חלון ל- {url_path}"
                     },
                     "safe-mode": {
-                        "description": "Home Assistant נתקל בבעיות בעת טעינת התצורה שלך וכעת הוא פועל במצב בטוח. עיין ביומן השגיאות כדי לראות מה השתבש.",
+                        "description": "Safegate Pro נתקל בבעיות בעת טעינת התצורה שלך וכעת הוא פועל במצב בטוח. עיין ביומן השגיאות כדי לראות מה השתבש.",
                         "header": "מצב בטוח מופעל"
                     },
                     "shopping-list": {
@@ -3308,7 +3308,7 @@
                         "reorder_items": "סדר מחדש פריטים"
                     },
                     "starting": {
-                        "description": "Home Assistant בעלייה. אנא המתן..."
+                        "description": "Safegate Pro בעלייה. אנא המתן..."
                     }
                 },
                 "changed_toast": {
@@ -3476,7 +3476,7 @@
                             "name": "מכשיר אדים"
                         },
                         "iframe": {
-                            "description": "כרטיס דף האינטרנט מאפשר לך להטביע את דף האינטרנט המועדף עליך ישירות לתוך Home Assistant.",
+                            "description": "כרטיס דף האינטרנט מאפשר לך להטביע את דף האינטרנט המועדף עליך ישירות לתוך Safegate Pro.",
                             "name": "דף אינטרנט"
                         },
                         "light": {
@@ -3636,7 +3636,7 @@
                     "migrate": {
                         "header": "תצורה אינה תואמת",
                         "migrate": "העבר תצורה",
-                        "para_migrate": "Home Assistant יכול להוסיף מזהים לכל הכרטיסים והתצוגות שלך באופן אוטומטי עבורך על ידי לחיצה על לחצן 'העבר תצורה'.",
+                        "para_migrate": "Safegate Pro יכול להוסיף מזהים לכל הכרטיסים והתצוגות שלך באופן אוטומטי עבורך על ידי לחיצה על לחצן 'העבר תצורה'.",
                         "para_no_id": "האלמנט הנוכחי לא מכיל מזהה יחודיי. בבקשה הוסף מזהה יחודי לאלמט זה בקובץ 'ui-lovelace.yaml'."
                     },
                     "move_card": {
@@ -3664,7 +3664,7 @@
                         "close": "סגור",
                         "empty_config": "התחל עם לוח בקרה ריק",
                         "header": "קח שליטה על Lovelace ממשק המשתמש שלך",
-                        "para": "לוח המחוונים הזה מתוחזק כעת על ידי Home Assistant. זה מתעדכן אוטומטית כאשר ישויות חדשות או רכיבי ממשק משתמש Lovelace זמינים. אם אתה לוקח שליטה, לוח המחוונים הזה כבר לא יעודכן אוטומטית. אתה תמיד יכול ליצור לוח מחוונים חדש בתצורה כדי לשחק איתו.",
+                        "para": "לוח המחוונים הזה מתוחזק כעת על ידי Safegate Pro. זה מתעדכן אוטומטית כאשר ישויות חדשות או רכיבי ממשק משתמש Lovelace זמינים. אם אתה לוקח שליטה, לוח המחוונים הזה כבר לא יעודכן אוטומטית. אתה תמיד יכול ליצור לוח מחוונים חדש בתצורה כדי לשחק איתו.",
                         "para_sure": "האם אתה בטוח שאתה רוצה לקחת שליטה על ממשק המשתמש?",
                         "save": "קח שליטה",
                         "yaml_config": "כדי לעזור לך להתחיל הנה התצורה הנוכחית של לוח מחוונים זה:",
@@ -3730,7 +3730,7 @@
                     "entity_non_numeric": "הישות אינה מספרית: {entity}",
                     "entity_not_found": "הישות אינה זמינה: {entity}",
                     "entity_unavailable": "הישות אינה זמינה כרגע: {entity}",
-                    "starting": "Home Assistant בעלייה, ייתכן שלא הכל יהיה זמין"
+                    "starting": "Safegate Pro בעלייה, ייתכן שלא הכל יהיה זמין"
                 }
             },
             "mailbox": {
@@ -3740,16 +3740,16 @@
                 "playback_title": "הודעת ניגון"
             },
             "my": {
-                "component_not_loaded": "הפניה זו אינה נתמכת על ידי מופע ה-Home Assistant שלך. אתה זקוק לשילוב {integration} כדי להשתמש בהפניה מחדש.",
+                "component_not_loaded": "הפניה זו אינה נתמכת על ידי מופע ה-Safegate Pro שלך. אתה זקוק לשילוב {integration} כדי להשתמש בהפניה מחדש.",
                 "documentation": "תיעוד",
                 "error": "אירעה שגיאה לא ידועה",
-                "faq_link": "שאלות נפוצות על Home Assistant שלי",
-                "no_supervisor": "הפניה זו אינה נתמכת על ידי התקנת ה-Home Assistant שלך. זה זקוק למערכת ההפעלה Assistant Home או לשיטת ההתקנה בפיקוח Assistant Home. למידע נוסף, עיין ב-{docs_link}.",
-                "not_supported": "הפניה זו אינה נתמכת על ידי מופע ה-Home Assistant שלך. בדוק ב-{link} את ההפניות הנתמכות ואת הגרסה שהוצגה."
+                "faq_link": "שאלות נפוצות על Safegate Pro שלי",
+                "no_supervisor": "הפניה זו אינה נתמכת על ידי התקנת ה-Safegate Pro שלך. זה זקוק למערכת ההפעלה Assistant Home או לשיטת ההתקנה בפיקוח Assistant Home. למידע נוסף, עיין ב-{docs_link}.",
+                "not_supported": "הפניה זו אינה נתמכת על ידי מופע ה-Safegate Pro שלך. בדוק ב-{link} את ההפניות הנתמכות ואת הגרסה שהוצגה."
             },
             "page-authorize": {
                 "abort_intro": "הכניסה בוטלה",
-                "authorizing_client": "אתה עומד לתת גישה ל{clientId} עבור הHome Assistant שלך.",
+                "authorizing_client": "אתה עומד לתת גישה ל{clientId} עבור הSafegate Pro שלך.",
                 "form": {
                     "error": "שגיאה: {error}",
                     "next": "הבא",
@@ -3851,8 +3851,8 @@
                 "cards": {
                     "demo": {
                         "demo_by": "על ידי {name}",
-                        "introduction": "ברוך הבא הביתה! הגעת להדגמת Home Assistant שבה אנו מציגים את ה- UI הטובים ביותר שנוצרו על ידי הקהילה שלנו.",
-                        "learn_more": "למידע נוסף על Home Assistant",
+                        "introduction": "ברוך הבא הביתה! הגעת להדגמת Safegate Pro שבה אנו מציגים את ה- UI הטובים ביותר שנוצרו על ידי הקהילה שלנו.",
+                        "learn_more": "למידע נוסף על Safegate Pro",
                         "next_demo": "ההדגמה הבאה"
                     }
                 },
@@ -3899,16 +3899,16 @@
                 "core-config": {
                     "button_detect": "לזהות",
                     "finish": "הבא",
-                    "intro": "שלום {name} , ברוך הבא ל- Home Assistant. איך היית רוצה את שם הבית שלך?",
+                    "intro": "שלום {name} , ברוך הבא ל- Safegate Pro. איך היית רוצה את שם הבית שלך?",
                     "intro_location": "אנחנו רוצים לדעת איפה אתה גר. מידע זה יעזור עם הצגת מידע והגדרת אוטומציה מבוססת שמש. נתונים אלה לעולם אינם משותפים מחוץ לרשת שלך.",
                     "intro_location_detect": "אנו יכולים לעזור לך למלא מידע זה על ידי ביצוע בקשה חד פעמית לשירות חיצוני.",
-                    "location_name": "שם ההתקנה של Home Assistant שלך",
+                    "location_name": "שם ההתקנה של Safegate Pro שלך",
                     "location_name_default": "בית"
                 },
                 "finish": "סיום",
                 "integration": {
                     "finish": "סיום",
-                    "intro": "התקנים ושירותים מיוצגים ב- Home Assistant כאינטגרציות. באפשרותך להגדיר אותם כעת, או לעשות זאת מאוחר יותר ממסך התצורה.",
+                    "intro": "התקנים ושירותים מיוצגים ב- Safegate Pro כאינטגרציות. באפשרותך להגדיר אותם כעת, או לעשות זאת מאוחר יותר ממסך התצורה.",
                     "more_integrations": "עוד"
                 },
                 "intro": "האם אתה רוצה לקחת שליטה על הבית שלך ולהצטרף לקהילה הגדולה שלנו?",
@@ -3995,7 +3995,7 @@
                     "create_failed": "יצירת אסימון הגישה נכשלה.",
                     "created": "נוצר {date}",
                     "delete_failed": "מחיקת אסימון הגישה נכשלה.",
-                    "description": "צור אסימוני גישה ארוכי טווח כדי לאפשר לסקריפטים שלך לקיים אינטראקציה עם Home Assistant.\nאסימונים אלו פועלים כיום:",
+                    "description": "צור אסימוני גישה ארוכי טווח כדי לאפשר לסקריפטים שלך לקיים אינטראקציה עם Safegate Pro.\nאסימונים אלו פועלים כיום:",
                     "empty_state": "אין לך עדיין אסימוני גישה ארוכים.",
                     "header": "אסימוני גישה ארוכי חיים",
                     "learn_auth_requests": "למד כיצד לבצע בקשות מאומתות.",

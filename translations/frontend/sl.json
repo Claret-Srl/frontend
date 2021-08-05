@@ -507,7 +507,7 @@
         },
         "dialogs": {
             "config_entry_system_options": {
-                "enable_new_entities_description": "Če je onemogočeno, novo odkrite entitete za {integration} ne bodo samodejno dodane v Home Assistant.",
+                "enable_new_entities_description": "Če je onemogočeno, novo odkrite entitete za {integration} ne bodo samodejno dodane v Safegate Pro.",
                 "enable_new_entities_label": "Omogoči novo dodane entitete.",
                 "title": "Sistemske možnosti za {integration}",
                 "update": "Posodobite"
@@ -525,10 +525,10 @@
                     "delete": "Izbriši",
                     "device_disabled": "Naprava za to entiteto je onemogočena",
                     "enabled_cause": "Onemogočeno zaradi {cause}.",
-                    "enabled_delay_confirm": "Omogočene entitete bodo v Home Assistant dodane v {delay} sekundah",
-                    "enabled_description": "Onemogočene entitete ne bodo dodane v Home Assistant.",
+                    "enabled_delay_confirm": "Omogočene entitete bodo v Safegate Pro dodane v {delay} sekundah",
+                    "enabled_description": "Onemogočene entitete ne bodo dodane v Safegate Pro.",
                     "enabled_label": "Omogoči entiteto",
-                    "enabled_restart_confirm": "Znova zaženi Home Assistant, da dokončaš omogočanje entitet",
+                    "enabled_restart_confirm": "Znova zaženi Safegate Pro, da dokončaš omogočanje entitet",
                     "entity_id": "ID entitete",
                     "icon": "Ikona",
                     "icon_error": "Ikone morajo biti v obliki 'prefix:iconname', npr. 'mid:home'",
@@ -554,7 +554,7 @@
                     "initial": "Začetna vrednost",
                     "maximum": "Najvišja vrednost",
                     "minimum": "Najnižja vrednost",
-                    "restore": "Obnovi zadnjo znano vrednost ob naslednjem zagonu Home Assistant",
+                    "restore": "Obnovi zadnjo znano vrednost ob naslednjem zagonu Safegate Pro",
                     "step": "Velikost koraka"
                 },
                 "generic": {
@@ -734,7 +734,7 @@
                 "filter_placeholder": "Filter entitet"
             },
             "voice_command": {
-                "did_not_hear": "Home Assistant ni slišal ničesar",
+                "did_not_hear": "Safegate Pro ni slišal ničesar",
                 "error": "Ups, prišlo je do napake",
                 "found": "Za vas sem našel naslednje:",
                 "how_can_i_help": "Kako lahko pomagam?",
@@ -803,8 +803,8 @@
             "connection_lost": "Povezava prekinjena. Vnovično vzpostavljanje povezave...",
             "dismiss": "Opusti",
             "service_call_failed": "Storitve ni bilo mogoče poklicati {service}.",
-            "started": "Home Assistant se je zagnal!",
-            "starting": "Home Assistant se zaganja, vse ne bo na voljo, dokler se zagon ne konča.",
+            "started": "Safegate Pro se je zagnal!",
+            "starting": "Safegate Pro se zaganja, vse ne bo na voljo, dokler se zagon ne konča.",
             "triggered": "Sproženo {name}"
         },
         "panel": {
@@ -840,7 +840,7 @@
                         "create_area": "Ustvari območje",
                         "header": "Območja",
                         "integrations_page": "Stran za integracije",
-                        "introduction": "Področja se uporabljajo za organizacijo področja naprav. Te informacije bodo uporabljene v celotnem Home Assistant-u in vam bodo pomagale pri organizaciji vašega vmesnika, dovoljenj in integracij z drugimi sistemi.",
+                        "introduction": "Področja se uporabljajo za organizacijo področja naprav. Te informacije bodo uporabljene v celotnem Safegate Pro-u in vam bodo pomagale pri organizaciji vašega vmesnika, dovoljenj in integracij z drugimi sistemi.",
                         "introduction2": "Če želite napravo postaviti na neko območje, uporabite spodnjo povezavo, da odprete stran za integracije, nato pa kliknite na nastavljeno integracijo, da pridete do kartic naprave.",
                         "no_areas": "Videti je, da še nimate območij!"
                     }
@@ -869,7 +869,7 @@
                             "delete_confirm": "Ali ste prepričani, da želite to izbrisati?",
                             "duplicate": "Podvoji",
                             "header": "Akcije",
-                            "introduction": "Dejanja so tisto, kar bo Home Assistant izvedel, ko se sproži avtomatizacija.",
+                            "introduction": "Dejanja so tisto, kar bo Safegate Pro izvedel, ko se sproži avtomatizacija.",
                             "learn_more": "Preberite več o dejanjih",
                             "name": "Akcija",
                             "type_select": "Vrsta ukrepa",
@@ -1058,7 +1058,7 @@
                             "delete_confirm": "Ali ste prepričani, da želite to izbrisati?",
                             "duplicate": "Podvoji",
                             "header": "Sprožilci",
-                            "introduction": "Sprožilci so tisto, kar začne obdelavo pravila avtomatizacije. Za isto pravilo je mogoče določiti več sprožilcev. Ko se sprožilec sproži, bo Home Assistant preveril morebitne pogoje in izvedel dejanje.",
+                            "introduction": "Sprožilci so tisto, kar začne obdelavo pravila avtomatizacije. Za isto pravilo je mogoče določiti več sprožilcev. Ko se sprožilec sproži, bo Safegate Pro preveril morebitne pogoje in izvedel dejanje.",
                             "learn_more": "Preberite več o sprožilcih",
                             "name": "Sprožilec",
                             "type_select": "Tip sprožilca",
@@ -1090,7 +1090,7 @@
                                 },
                                 "homeassistant": {
                                     "event": "Dogodek:",
-                                    "label": "Home Assistant",
+                                    "label": "Safegate Pro",
                                     "shutdown": "Zaustavitev",
                                     "start": "Zagon"
                                 },
@@ -1166,7 +1166,7 @@
                         "headers": {
                             "name": "Ime"
                         },
-                        "introduction": "Urejevalnik za avtomatizacijo vam omogoča ustvarjanje in urejanje avtomatizacij. Prosimo, da preberete [navodila] (https://home-assistant.io/docs/automation/editor/), da preverite, ali ste pravilno nastavili Home Assistant-a.",
+                        "introduction": "Urejevalnik za avtomatizacijo vam omogoča ustvarjanje in urejanje avtomatizacij. Prosimo, da preberete [navodila] (https://home-assistant.io/docs/automation/editor/), da preverite, ali ste pravilno nastavili Safegate Pro-a.",
                         "learn_more": "Preberite več o avtomatizacijah",
                         "no_automations": "Ne moremo najti nobene avtomatizacije za urejanje",
                         "only_editable": "Urejajo se lahko samo avtomatizacije, definirane v automations.yaml.",
@@ -1185,7 +1185,7 @@
                             "error_unsupported": "Za to (še?) nismo mogli ustvariti avtomatizacije.",
                             "for_example": "Na primer:",
                             "header": "Ustvari novo avtomatizacijo",
-                            "introduction": "Spodaj vnesite, kaj naj naredi ta avtomatizacija, mi pa jo bomo poskušali pretvoriti v Home Assistant avtomatizacijo.",
+                            "introduction": "Spodaj vnesite, kaj naj naredi ta avtomatizacija, mi pa jo bomo poskušali pretvoriti v Safegate Pro avtomatizacijo.",
                             "language_note": "Opomba: Za zdaj je podprta le angleščina."
                         }
                     }
@@ -1231,10 +1231,10 @@
                             "config_documentation": "Konfiguracijska dokumentacija",
                             "disable": "onemogočiti",
                             "enable": "omogočiti",
-                            "enable_ha_skill": "Omogoči Home Assistant spretnost za Alexo",
+                            "enable_ha_skill": "Omogoči Safegate Pro spretnost za Alexo",
                             "enable_state_reporting": "Omogoči poročanje o stanju",
-                            "info": "Z integracijo Alexa za Home Assistant cloud boste lahko nadzirali vse svoje naprave s pomočjo katere koli naprave, ki podpira Alexa.",
-                            "info_state_reporting": "Če omogočite poročanje o stanju, bo Home Assistant Amazonu poslal vse spremembe stanja izpostavljenih entitet. To vam omogoča, da vedno vidite najnovejša stanja v aplikaciji Alexa.",
+                            "info": "Z integracijo Alexa za Safegate Pro cloud boste lahko nadzirali vse svoje naprave s pomočjo katere koli naprave, ki podpira Alexa.",
+                            "info_state_reporting": "Če omogočite poročanje o stanju, bo Safegate Pro Amazonu poslal vse spremembe stanja izpostavljenih entitet. To vam omogoča, da vedno vidite najnovejša stanja v aplikaciji Alexa.",
                             "manage_entities": "Upravljaj entitete",
                             "state_reporting_error": "Stanja poročila ni mogoče {enable_disable}.",
                             "sync_entities": "Sinhroniziranje entitet",
@@ -1248,13 +1248,13 @@
                         "google": {
                             "config_documentation": "Konfiguracijska dokumentacija",
                             "devices_pin": "Pin koda za varnostne naprave",
-                            "enable_ha_skill": "Aktivirajte spretnost Home Assistant za Pomočnika Google",
+                            "enable_ha_skill": "Aktivirajte spretnost Safegate Pro za Pomočnika Google",
                             "enable_state_reporting": "Omogoči poročanje o stanju",
                             "enter_pin_error": "PIN-a ni mogoče shraniti:",
                             "enter_pin_hint": "Vnesite kodo PIN za uporabo varnostnih naprav",
                             "enter_pin_info": "Prosimo vnesite kodo pin za interakcijo z varnostnimi napravami. Varnostne naprave so vrata, garažna vrata in ključavnice. Med interakcijo s takšnimi napravami prek Googlovega pomočnika boste morali povedati / vnesti ta pin.",
-                            "info": "Z integracijo Pomočnik Google za Home Assistant cloud boste lahko nadzirali vse svoje naprave s pomočjo katere koli naprave, ki ga podpirajo.",
-                            "info_state_reporting": "Če omogočite poročanje o stanju, bo Home Assistant Googlu poslal vse spremembe stanja izpostavljenih entitet. To vam omogoča, da vedno vidite najnovejša stanja v aplikaciji Google.",
+                            "info": "Z integracijo Pomočnik Google za Safegate Pro cloud boste lahko nadzirali vse svoje naprave s pomočjo katere koli naprave, ki ga podpirajo.",
+                            "info_state_reporting": "Če omogočite poročanje o stanju, bo Safegate Pro Googlu poslal vse spremembe stanja izpostavljenih entitet. To vam omogoča, da vedno vidite najnovejša stanja v aplikaciji Google.",
                             "manage_entities": "Upravljaj entitete",
                             "security_devices": "Varnostne naprave",
                             "sync_entities": "Sinhronizirajte entitete z Googlom",
@@ -1262,7 +1262,7 @@
                             "title": "Pomočnik Google"
                         },
                         "integrations": "Integracije",
-                        "integrations_introduction": "Integracija za Home Assistant Cloud vam omogoča povezovanje s storitvami v oblaku, ne da bi vam bilo treba Home Assistant javno izpostavljati po internetu.",
+                        "integrations_introduction": "Integracija za Safegate Pro Cloud vam omogoča povezovanje s storitvami v oblaku, ne da bi vam bilo treba Safegate Pro javno izpostavljati po internetu.",
                         "integrations_introduction2": "Preverite spletno stran za ",
                         "integrations_link_all_features": "vse razpoložljive funkcije",
                         "manage_account": "Upravljaj račun",
@@ -1272,14 +1272,14 @@
                             "access_is_being_prepared": "Oddaljeni dostop se pripravlja. Obvestili vas bomo, ko bo pripravljen.",
                             "certificate_info": "Informacije o potrdilu",
                             "connected": "Povezan",
-                            "info": "Home Assistant Cloud zagotavlja varno oddaljeno povezavo do vašega primerka, medtem ko ste zunaj doma.",
+                            "info": "Safegate Pro Cloud zagotavlja varno oddaljeno povezavo do vašega primerka, medtem ko ste zunaj doma.",
                             "instance_is_available": "Vaš primerek je na voljo na",
                             "instance_will_be_available": "Vaš primerek bo na voljo na",
                             "link_learn_how_it_works": "Naučite se, kako deluje",
                             "title": "Oddaljeno upravljanje"
                         },
                         "sign_out": "Izpis",
-                        "thank_you_note": "Zahvaljujemo se vam za to, da ste del Home Assistant Cloud-a. Zaradi ljudi, kot ste vi, smo sposobni narediti dobro izkušnjo avtomatizacije doma za vsakogar. hvala!",
+                        "thank_you_note": "Zahvaljujemo se vam za to, da ste del Safegate Pro Cloud-a. Zaradi ljudi, kot ste vi, smo sposobni narediti dobro izkušnjo avtomatizacije doma za vsakogar. hvala!",
                         "tts": {
                             "dialog": {
                                 "play": "Predvajaj",
@@ -1291,7 +1291,7 @@
                         },
                         "webhooks": {
                             "disable_hook_error_msg": "Ni uspelo onemogočiti webhook:",
-                            "info": "Vsemu, kar je nastavljeno tako, da se sproži webhook je mogoče dati javno dostopen URL, kar jim omogoča, pošljanje podatkov nazaj na Home Assistant od kjerkoli, ne da bi izpostavili vaš primerek na internetu.",
+                            "info": "Vsemu, kar je nastavljeno tako, da se sproži webhook je mogoče dati javno dostopen URL, kar jim omogoča, pošljanje podatkov nazaj na Safegate Pro od kjerkoli, ne da bi izpostavili vaš primerek na internetu.",
                             "link_learn_more": "Preberite več o ustvarjanju avtomatizacij, ki jih poganjajo webhook-i.",
                             "loading": "Nalaganje",
                             "manage": "Upravljanje",
@@ -1367,11 +1367,11 @@
                         "email": "E-poštni naslov",
                         "email_error_msg": "Neveljaven e-poštni naslov",
                         "forgot_password": "Pozabljeno geslo",
-                        "introduction": "Home Assistant Cloud vam tudi takrat, ko vas ni doma zagotavlja varno oddaljeno povezavo do vašega Home Assistant-a. Prav tako vam omogoča, da se povežete z ostalimi oblačnimi storitvami Amazon Alexa in Google Assistant.",
+                        "introduction": "Safegate Pro Cloud vam tudi takrat, ko vas ni doma zagotavlja varno oddaljeno povezavo do vašega Safegate Pro-a. Prav tako vam omogoča, da se povežete z ostalimi oblačnimi storitvami Amazon Alexa in Google Assistant.",
                         "introduction2": "To storitev upravlja naš partner ",
-                        "introduction2a": ", podjetje, ki so ga ustanovili ustanovitelji Home Assistant-a.",
-                        "introduction3": "Home Assistant Cloud je naročniška storitev z enomesečno brezplačno poizkusno dobo. Podatki o plačilnih karticah niso potrebni.",
-                        "learn_more_link": "Preberite več o Home Assistant Cloud-u",
+                        "introduction2a": ", podjetje, ki so ga ustanovili ustanovitelji Safegate Pro-a.",
+                        "introduction3": "Safegate Pro Cloud je naročniška storitev z enomesečno brezplačno poizkusno dobo. Podatki o plačilnih karticah niso potrebni.",
+                        "learn_more_link": "Preberite več o Safegate Pro Cloud-u",
                         "password": "Geslo",
                         "password_error_msg": "Gesla morajo biti dolga vsaj 8 znakov",
                         "sign_in": "Vpišite se",
@@ -1389,10 +1389,10 @@
                         "feature_remote_control": "Nadzor Home assistant-a zunaj doma",
                         "feature_webhook_apps": "Enostavna integracija s spletnimi aplikacijami, kot je OwnTracks",
                         "headline": "Začnite brezplačno preskusno različico",
-                        "information": "Ustvarite račun, če želite začeti brezplačno enomesečno preskušanje Home Assistant Cloud-a. Podatki o plačilu niso potrebni.",
-                        "information2": "Preizkus vam bo omogočil dostop do vseh prednosti Home Assistant Cloud, vključno z:",
+                        "information": "Ustvarite račun, če želite začeti brezplačno enomesečno preskušanje Safegate Pro Cloud-a. Podatki o plačilu niso potrebni.",
+                        "information2": "Preizkus vam bo omogočil dostop do vseh prednosti Safegate Pro Cloud, vključno z:",
                         "information3": "To storitev upravlja naš partner ",
-                        "information3a": ", podjetje, ki so ga ustanovili ustanovitelji Home Assistant-a.",
+                        "information3a": ", podjetje, ki so ga ustanovili ustanovitelji Safegate Pro-a.",
                         "information4": "Z registracijo računa se strinjate z naslednjimi pravili in pogoji.",
                         "link_privacy_policy": "Politika zasebnosti",
                         "link_terms_conditions": "Pravila in Pogoji",
@@ -1421,7 +1421,7 @@
                                 "imperial_example": "Fahrenheit, funtov",
                                 "internal_url": "Notranji URL",
                                 "latitude": "Zemljepisna širina",
-                                "location_name": "Ime vašega instalacije vašega Home Assistant-a.",
+                                "location_name": "Ime vašega instalacije vašega Safegate Pro-a.",
                                 "longitude": "Zemljepisna dolžina",
                                 "metric_example": "Celzija, kilogramov",
                                 "save_button": "Shrani",
@@ -1506,7 +1506,7 @@
                         "user": "Uporabnik"
                     },
                     "enabled_cause": "Naprava je onmogočena zaradi {cause}",
-                    "enabled_description": "Onemogočene naprave ne bodo prikazane, entitete, ki pripadajo napravi, pa bodo onemogočene in ne bodo dodane v Home Assistant.",
+                    "enabled_description": "Onemogočene naprave ne bodo prikazane, entitete, ki pripadajo napravi, pa bodo onemogočene in ne bodo dodane v Safegate Pro.",
                     "enabled_label": "Omogoči napravo",
                     "entities": {
                         "add_entities_lovelace": "Dodaj v Lovelace",
@@ -1551,12 +1551,12 @@
                     "picker": {
                         "disable_selected": {
                             "button": "Onemogoči izbrane",
-                            "confirm_text": "Onemogočene entitete ne bodo dodane v Home Assistant.",
+                            "confirm_text": "Onemogočene entitete ne bodo dodane v Safegate Pro.",
                             "confirm_title": "Ali želite odstraniti {number} {number, plural,\n  one {entiteto}\n  two {entiteti}\n  other {entitete}\n}?"
                         },
                         "enable_selected": {
                             "button": "Omogoči izbrane",
-                            "confirm_text": "Naprave bodo znova na voljo v  Home Assistant-u, če so zdaj onemogočene.",
+                            "confirm_text": "Naprave bodo znova na voljo v  Safegate Pro-u, če so zdaj onemogočene.",
                             "confirm_title": "Ali želite omogočiti {number} {number, plural,\n  one {entiteto}\n  two {entiteti}\n  other {entitete}\n}?"
                         },
                         "filter": {
@@ -1575,11 +1575,11 @@
                             "name": "Ime",
                             "status": "Stanje"
                         },
-                        "introduction": "Home Assistant vodi register vseh entitet, ki jih je kdajkoli videl in jih je mogoče enolično identificirati. Vsak od teh entitet ima dodeljen ID entitete, ki bo rezerviran samo za to entiteto.",
-                        "introduction2": "Z registrom entitet lahko nadomestite ime, spremenite ID entitete ali odstranite vnos iz programa Home Assistant.",
+                        "introduction": "Safegate Pro vodi register vseh entitet, ki jih je kdajkoli videl in jih je mogoče enolično identificirati. Vsak od teh entitet ima dodeljen ID entitete, ki bo rezerviran samo za to entiteto.",
+                        "introduction2": "Z registrom entitet lahko nadomestite ime, spremenite ID entitete ali odstranite vnos iz programa Safegate Pro.",
                         "remove_selected": {
                             "button": "Odstrani izbrane",
-                            "confirm_partly_text": "Lahko odstranite le {removable} izbranih {selected} entitet. Entitete je mogoče odstraniti le, če integracija ne zagotavlja več entitet. Včasih morate znova zagnati Home Assistant, preden lahko odstranite entitete odstranjene integracije. Ali ste prepričani, da želite odstraniti odstranljive entitete?",
+                            "confirm_partly_text": "Lahko odstranite le {removable} izbranih {selected} entitet. Entitete je mogoče odstraniti le, če integracija ne zagotavlja več entitet. Včasih morate znova zagnati Safegate Pro, preden lahko odstranite entitete odstranjene integracije. Ali ste prepričani, da želite odstraniti odstranljive entitete?",
                             "confirm_partly_title": "Samo {number} {number, plural,\n one {izbrana entiteta}\n two {izbrani entiteti}\n tree {izbrane entitete}\n four {izbrane entitete}\n other {izbranih entitet}\n} je lahko odstranjenih.",
                             "confirm_text": "Če vsebujejo te entitete, bi jih morali odstraniti iz vašega Lovelace config-a in avtomatizacije.",
                             "confirm_title": "Ali želite odstraniti {number} {number, plural,\n  one {entiteto}\n  two {entiteti}\n  other {entitete}\n}?"
@@ -1599,7 +1599,7 @@
                     "clear": "Počisti",
                     "filtering_by": "Filtriranje po"
                 },
-                "header": "Konfiguriraj Home Assistant",
+                "header": "Konfiguriraj Safegate Pro",
                 "helpers": {
                     "caption": "Pomočniki",
                     "description": "Upravljanje elementov, s katerimi si lahko pomagate pri gradnji avtomatizacij.",
@@ -1634,12 +1634,12 @@
                     "copy_github": "Za GitHub",
                     "copy_raw": "Surovo besedilo",
                     "custom_uis": "Uporabniški vmesniki po meri:",
-                    "description": "Ogled informacij o namestitvi Home Assistant",
+                    "description": "Ogled informacij o namestitvi Safegate Pro",
                     "developed_by": "Razvija ga kup osupljivih ljudi.",
                     "documentation": "Dokumentacija",
                     "frontend": "frontend-ui",
                     "frontend_version": "Frontend različica: {version} - {type}",
-                    "home_assistant_logo": "Home Assistant logotip",
+                    "home_assistant_logo": "Safegate Pro logotip",
                     "icons_by": "Ikone ustvarili z",
                     "integrations": "Integracije",
                     "issues": "Težave",
@@ -1678,9 +1678,9 @@
                         "options": "Možnosti",
                         "reload": "Znova naloži",
                         "reload_confirm": "Integracija je bila znova naložena",
-                        "reload_restart_confirm": "Znova zaženi Home Assistant, da dokončate ponovno nalaganje te integracije",
+                        "reload_restart_confirm": "Znova zaženi Safegate Pro, da dokončate ponovno nalaganje te integracije",
                         "rename": "Preimenuj",
-                        "restart_confirm": "Znova zaženite Home Assistant-a, da dokončate odstranitev te integracije",
+                        "restart_confirm": "Znova zaženite Safegate Pro-a, da dokončate odstranitev te integracije",
                         "services": "{count} {count, plural,\n  one {storitev}\n  two {storitvi}\n  other {storitve}\n}",
                         "system_options": "Sistemske možnosti",
                         "unnamed_entry": "Neimenovani vnos"
@@ -1705,7 +1705,7 @@
                     "description": "Upravljanje integracij",
                     "details": "Podrobnosti integracije",
                     "discovered": "Odkrito",
-                    "home_assistant_website": "spletne strani Home Assistant",
+                    "home_assistant_website": "spletne strani Safegate Pro",
                     "ignore": {
                         "confirm_delete_ignore": "Zaradi tega bo integracija spet prikazana v vaših odkritih integracijah, ko bodo odkrite. To lahko zahteva ponovni zagon ali traja nekaj časa.",
                         "confirm_delete_ignore_title": "Ali želite prenehati ignorirati {name}?",
@@ -1731,13 +1731,13 @@
                     "rename_input_label": "Ime vnosa",
                     "search": "Iskanje integracij"
                 },
-                "introduction": "V tem pogledu je mogoče konfigurirati komponente in nastavitve za Home Assistant. Iz uporabniškega vmesnika še ni mogoče konfigurirati vsega, vendar delamo na tem.",
+                "introduction": "V tem pogledu je mogoče konfigurirati komponente in nastavitve za Safegate Pro. Iz uporabniškega vmesnika še ni mogoče konfigurirati vsega, vendar delamo na tem.",
                 "logs": {
                     "caption": "Dnevniki",
                     "clear": "Počisti",
-                    "description": "Oglejte si Home Assistant dnevnike",
+                    "description": "Oglejte si Safegate Pro dnevnike",
                     "details": "Podrobnosti dnevnika ({level})",
-                    "load_full_log": "Naloži celoten dnevnik Home Assistant-a",
+                    "load_full_log": "Naloži celoten dnevnik Safegate Pro-a",
                     "loading_log": "Nalaganje dnevnika napak ...",
                     "multiple_messages": "sporočilo se je prvič pojavilo ob {time} in se prikaže {counter} krat",
                     "no_errors": "Ni prijavljenih napak.",
@@ -1942,7 +1942,7 @@
                     "select_instance": {
                         "header": "Izberite OpenZWave instanco",
                         "introduction": "Izvaja se več kot ena OpenZWave instanca. S katero instanco bi radi upravljali?",
-                        "none_found": "OpenZWave instance ni bilo mogoče najti. Če menite, da je prišlo do napake, preverite vašo OpenZWave in MQTT konfiguracijo in zagotovite, da Home Assistant lahko komunicira z vašim MQTT posrednikom."
+                        "none_found": "OpenZWave instance ni bilo mogoče najti. Če menite, da je prišlo do napake, preverite vašo OpenZWave in MQTT konfiguracijo in zagotovite, da Safegate Pro lahko komunicira z vašim MQTT posrednikom."
                     },
                     "services": {
                         "add_node": "Dodaj vozlišče",
@@ -1956,7 +1956,7 @@
                     "confirm_delete": "Ali ste prepričani, da želite izbrisati to osebo?",
                     "confirm_delete2": "Vse naprave, ki pripadajo tej osebi, bodo postale nedodeljene.",
                     "create_person": "Ustvari osebo",
-                    "description": "Upravljanje oseb, ki jim sledi Home Assistant.",
+                    "description": "Upravljanje oseb, ki jim sledi Safegate Pro.",
                     "detail": {
                         "admin": "Skrbnik",
                         "allow_login": "Dovoli osebi, da se prijavi",
@@ -1975,7 +1975,7 @@
                         "no_device_tracker_available_intro": "Ko imate naprave, ki kažejo na prisotnost osebe, jih boste lahko tukaj dodelili osebi. Svojo prvo napravo lahko dodate tako, da na strani z integracijami dodate zaznavanje prisotnosti.",
                         "update": "Posodobite"
                     },
-                    "introduction": "Tu lahko določite vsako osebo (uporabnika) v Home Assistant-a.",
+                    "introduction": "Tu lahko določite vsako osebo (uporabnika) v Safegate Pro-a.",
                     "learn_more": "Preberite več o osebah",
                     "no_persons_created_yet": "Videti je, da še niste ustvarili nobene osebe.",
                     "note_about_persons_configured_in_yaml": "Opomba: oseb, konfiguriranih prek config.yaml, ni mogoče urejati prek uporabniškega vmesnika.",
@@ -2020,7 +2020,7 @@
                         "headers": {
                             "name": "Ime"
                         },
-                        "introduction": "Urejevalnik scen vam omogoča njihovo ustvarjanje in urejanje. Upoštevajte spodnjo povezavo in si preberite navodila, da se prepričate, da ste pravilno konfigurirali Home Assistant.",
+                        "introduction": "Urejevalnik scen vam omogoča njihovo ustvarjanje in urejanje. Upoštevajte spodnjo povezavo in si preberite navodila, da se prepričate, da ste pravilno konfigurirali Safegate Pro.",
                         "learn_more": "Preberite več o scenah",
                         "no_scenes": "Nismo našli nobene scene za urejanje",
                         "only_editable": "Urejajo se lahko samo scene, definirane v scenes.yaml.",
@@ -2070,7 +2070,7 @@
                         "headers": {
                             "name": "Ime"
                         },
-                        "introduction": "Urejevalnik skript vam omogoča njihovo ustvarjanje in urejanje. Upoštevajte spodnjo povezavo in si preberite navodila, da se prepričate, da ste pravilno konfigurirali Home Assistant-a.",
+                        "introduction": "Urejevalnik skript vam omogoča njihovo ustvarjanje in urejanje. Upoštevajte spodnjo povezavo in si preberite navodila, da se prepričate, da ste pravilno konfigurirali Safegate Pro-a.",
                         "learn_more": "Preberite več o skriptah",
                         "no_scripts": "Nismo našli nobene skripte za urejanje",
                         "run_script": "Zaženi skript",
@@ -2079,7 +2079,7 @@
                 },
                 "server_control": {
                     "caption": "Nadzor strežnika",
-                    "description": "Znova zaženite in ustavite strežnik Home Assistant",
+                    "description": "Znova zaženite in ustavite strežnik Safegate Pro",
                     "section": {
                         "reloading": {
                             "automation": "Znova naloži avtomatizacije",
@@ -2098,7 +2098,7 @@
                             "input_number": "Ponovno naloži vhodne številke",
                             "input_select": "Ponovno naloži izbirne vnose",
                             "input_text": "Ponovno naloži vhodna besedila",
-                            "introduction": "Nekateri deli programa Home Assistant se lahko naložijo brez ponovnega zagona. S ponovnim nalaganjem se trenutna konfiguracija YAML zamenja in naloži nova.",
+                            "introduction": "Nekateri deli programa Safegate Pro se lahko naložijo brez ponovnega zagona. S ponovnim nalaganjem se trenutna konfiguracija YAML zamenja in naloži nova.",
                             "min_max": "Znova naloži entitete min/max",
                             "mqtt": "Znova naložite ročno konfigurirane entitete MQTT",
                             "person": "Ponovno naloži osebe",
@@ -2117,10 +2117,10 @@
                             "zone": "Ponovno naloži območja"
                         },
                         "server_management": {
-                            "confirm_restart": "Ali ste prepričani, da želite znova zagnati Home Assistant?",
-                            "confirm_stop": "Ali ste prepričani, da želite za ustaviti Home Assistant?",
+                            "confirm_restart": "Ali ste prepričani, da želite znova zagnati Safegate Pro?",
+                            "confirm_stop": "Ali ste prepričani, da želite za ustaviti Safegate Pro?",
                             "heading": "Upravljanje strežnika",
-                            "introduction": "Nadzirajte strežnik Home Assistant... iz Home Assistant.",
+                            "introduction": "Nadzirajte strežnik Safegate Pro... iz Safegate Pro.",
                             "restart": "Ponovni zagon",
                             "stop": "Zaustavitev"
                         },
@@ -2273,7 +2273,7 @@
                         "add_members": "Dodajte člane",
                         "caption": "Skupine",
                         "create": "Ustvari skupino",
-                        "create_group": "Zigbee Home Automation - Ustvari skupino",
+                        "create_group": "Zigbee Safegate Pro - Ustvari skupino",
                         "create_group_details": "Da ustvarite novo skupino Zigbee vnesite zahtevane podrobnosti.",
                         "creating_group": "Ustvarjanje skupine",
                         "group_details": "Tu so vse podrobnosti za izbrano skupino Zigbee.",
@@ -2406,7 +2406,7 @@
                         "add_to_group": "Dodaj v skupino",
                         "entities": "Entitete tega vozlišča",
                         "entity_info": "Podatki o entiteti",
-                        "exclude_entity": "Izključite to entiteto iz Home Assistant-a",
+                        "exclude_entity": "Izključite to entiteto iz Safegate Pro-a",
                         "group": "Skupina",
                         "header": "Upravljanje Z-Wave vozlišč",
                         "introduction": "Poženite ukaze Z-Wave, ki vplivajo na posamezno vozlišče. Izberite vozlišče in si oglejte seznam razpoložljivih ukazov.",
@@ -2457,7 +2457,7 @@
             },
             "custom": {
                 "external_panel": {
-                    "complete_access": "Imela bo dostop do vseh podatkov v Home Assistant-u.",
+                    "complete_access": "Imela bo dostop do vseh podatkov v Safegate Pro-u.",
                     "hide_message": "Preverite dokumente za komponento panel_custom, da skrijete to sporočilo",
                     "question_trust": "Ali zaupate zunanji plošči {name} na {link} ?"
                 }
@@ -2487,7 +2487,7 @@
                         "column_description": "Opis",
                         "column_example": "Primer",
                         "column_parameter": "Parameter",
-                        "description": "Storitev dev orodje vam omogoča, da pokličete vse razpoložljive storitve v Home Assistant.",
+                        "description": "Storitev dev orodje vam omogoča, da pokličete vse razpoložljive storitve v Safegate Pro.",
                         "fill_example_data": "Izpolnite primer podatkov",
                         "title": "Storitve"
                     },
@@ -2495,7 +2495,7 @@
                         "alert_entity_field": "Entiteta je obvezno polje",
                         "attributes": "Lastnosti",
                         "current_entities": "Trenutne entitete",
-                        "description1": "Nastavite predstavitev naprave v programu Home Assistant.",
+                        "description1": "Nastavite predstavitev naprave v programu Safegate Pro.",
                         "description2": "To ne bo komuniciralo z dejansko napravo.",
                         "entity": "Subjekt",
                         "filter_attributes": "Filter atributov",
@@ -2512,7 +2512,7 @@
                     },
                     "templates": {
                         "all_listeners": "Ta predloga motri vse dogodke, ki so posledica spremembe stanja.",
-                        "description": "Predloge so upodobljene s pomočjo mehanizma za predloge Jinja2 z nekaterimi posebnimi razširitvami Home Assistant.",
+                        "description": "Predloge so upodobljene s pomočjo mehanizma za predloge Jinja2 z nekaterimi posebnimi razširitvami Safegate Pro.",
                         "domain": "Domena",
                         "editor": "Urejevalnik predlog",
                         "entity": "Entiteta",
@@ -2521,7 +2521,7 @@
                         "no_listeners": "Ta predloga ne motri nobenih dogodkov in se ne bo samodejno posodabljala.",
                         "reset": "Ponastavi na demo predlogo",
                         "result_type": "Vrsta rezultata",
-                        "template_extensions": "Home Assistant razširitvene predloge",
+                        "template_extensions": "Safegate Pro razširitvene predloge",
                         "time": "Ta predloga se posodobi na začetku vsake minute.",
                         "title": "Predloge",
                         "unknown_error_template": "Neznana napaka upodabljanju predloge"
@@ -2574,7 +2574,7 @@
                         "url": "Odprite okno za {url_path}"
                     },
                     "safe-mode": {
-                        "description": "Home Assistant je med nalaganjem konfiguracije naletel na težave in zdaj deluje v varnem načinu. Oglejte si dnevnik napak in preverite kaj je šlo narobe.",
+                        "description": "Safegate Pro je med nalaganjem konfiguracije naletel na težave in zdaj deluje v varnem načinu. Oglejte si dnevnik napak in preverite kaj je šlo narobe.",
                         "header": "Aktiviran varni način"
                     },
                     "shopping-list": {
@@ -2585,7 +2585,7 @@
                         "reorder_items": "Prerazporedite elemente"
                     },
                     "starting": {
-                        "description": "Home Assistant se zaganja, prosimo počakajte ..."
+                        "description": "Safegate Pro se zaganja, prosimo počakajte ..."
                     }
                 },
                 "changed_toast": {
@@ -2751,7 +2751,7 @@
                             "name": "Vlažilec"
                         },
                         "iframe": {
-                            "description": "Kartica webpage vam omogoča, da svojo najljubšo spletno stran vdelate Home Assistant.",
+                            "description": "Kartica webpage vam omogoča, da svojo najljubšo spletno stran vdelate Safegate Pro.",
                             "name": "Spletna stran"
                         },
                         "light": {
@@ -2909,7 +2909,7 @@
                     "migrate": {
                         "header": "Nastavitve so nezdružljiva",
                         "migrate": "Selitev konfiguracije",
-                        "para_migrate": "Home Assistant lahko samodejno doda ID na vse vaše kartice in poglede s pritiskom na gumb »Preseli konfiguracijo«.",
+                        "para_migrate": "Safegate Pro lahko samodejno doda ID na vse vaše kartice in poglede s pritiskom na gumb »Preseli konfiguracijo«.",
                         "para_no_id": "Ta element nima ID-ja. Prosimo, dodajte ID tega elementa v 'ui-lovelace.yaml'."
                     },
                     "move_card": {
@@ -2935,7 +2935,7 @@
                         "close": "Zapri",
                         "empty_config": "Začnite s prazno nadzorno ploščo",
                         "header": "Prevzemite nadzor nad lovelace vmesnikom",
-                        "para": "To nadzorno ploščo trenutno vzdržuje Home Assistant. Samodejno se posodobi, ko bodo na voljo nove entitete ali komponente Lovelace UI. Če prevzamete nadzor, se ta nadzorna plošča ne bo več samodejno posodabljala. Vedno lahko ustvarite novo nadzorno ploščo v konfiguraciji, s katero se lahko igrate.",
+                        "para": "To nadzorno ploščo trenutno vzdržuje Safegate Pro. Samodejno se posodobi, ko bodo na voljo nove entitete ali komponente Lovelace UI. Če prevzamete nadzor, se ta nadzorna plošča ne bo več samodejno posodabljala. Vedno lahko ustvarite novo nadzorno ploščo v konfiguraciji, s katero se lahko igrate.",
                         "para_sure": "Ali ste prepričani, da želite prevzeti nadzor nad vašim vmesnikom?",
                         "save": "Prevzemite nadzor",
                         "yaml_config": "Za začetek vam lahko pomaga trenutne nastavitve te nadzorne plošče:",
@@ -3001,7 +3001,7 @@
                     "entity_non_numeric": "Entiteta je neštevilska: {entity}",
                     "entity_not_found": "Entiteta ni na voljo: {entity}",
                     "entity_unavailable": "{entity} trenutno ni na voljo",
-                    "starting": "Home Assistant se zaganja, morda še ni vse na voljo"
+                    "starting": "Safegate Pro se zaganja, morda še ni vse na voljo"
                 }
             },
             "mailbox": {
@@ -3012,7 +3012,7 @@
             },
             "page-authorize": {
                 "abort_intro": "Prijava prekinjena",
-                "authorizing_client": "Dali boste {clientId} dostop do vašega Home Assistanta.",
+                "authorizing_client": "Dali boste {clientId} dostop do vašega Safegate Proa.",
                 "form": {
                     "error": "Napaka: {error}",
                     "next": "Naslednji",
@@ -3113,8 +3113,8 @@
                 "cards": {
                     "demo": {
                         "demo_by": "avtor: {name}",
-                        "introduction": "Dobrodošli doma! Dosegli ste predstavitev Home Assistant-a, kjer smo predstavili najboljše uporabniške vmesnike, ki jih je ustvarila naša skupnost.",
-                        "learn_more": "Preberite več o Home Assistant",
+                        "introduction": "Dobrodošli doma! Dosegli ste predstavitev Safegate Pro-a, kjer smo predstavili najboljše uporabniške vmesnike, ki jih je ustvarila naša skupnost.",
+                        "learn_more": "Preberite več o Safegate Pro",
                         "next_demo": "Naslednja predstavitev"
                     }
                 },
@@ -3157,15 +3157,15 @@
                 "core-config": {
                     "button_detect": "Odkrij",
                     "finish": "Naslednji",
-                    "intro": "Pozdravljeni {name}, dobrodošli v Home Assistantu. Kako bi radi poimenovali vaš dom?",
+                    "intro": "Pozdravljeni {name}, dobrodošli v Safegate Prou. Kako bi radi poimenovali vaš dom?",
                     "intro_location": "Radi bi vedeli, kje živite. Te informacije vam bodo pomagale pri prikazovanju informacij in postavitvi avtomatizacij, ki temeljijo na soncu. Ti podatki se nikoli ne delijo izven vašega omrežja.",
                     "intro_location_detect": "Lahko vam pomagamo izpolniti te informacije z enkratno zahtevo za zunanjo storitev.",
-                    "location_name": "Ime namestitve Home Assistant",
+                    "location_name": "Ime namestitve Safegate Pro",
                     "location_name_default": "Dom"
                 },
                 "integration": {
                     "finish": "Dokončaj",
-                    "intro": "Naprave in storitve so v Home Assistantu predstavljene kot integracije. Zdaj jih lahko nastavite ali pa to storite kasneje iz konfiguracijske strani.",
+                    "intro": "Naprave in storitve so v Safegate Prou predstavljene kot integracije. Zdaj jih lahko nastavite ali pa to storite kasneje iz konfiguracijske strani.",
                     "more_integrations": "Več"
                 },
                 "intro": "Ali ste pripravljeni prebuditi svoj dom, povrniti svojo zasebnost in se pridružiti svetovni skupnosti ustvarjalcev?",
@@ -3242,7 +3242,7 @@
                     "create_failed": "Ni bilo mogoče ustvariti žetona za dostop.",
                     "created": "Ustvarjeno {date}",
                     "delete_failed": "Ni bilo mogoče ustvariti žetona za dostop.",
-                    "description": "Ustvarite dolgožive žetone dostopa, s katerimi lahko skripte komunicirajo z vašim primerkom Home Assistanta. Vsak žeton bo veljaven 10 let od nastanka. Trenutno so aktivni naslednji dolgotrajni dostopni žetoni.",
+                    "description": "Ustvarite dolgožive žetone dostopa, s katerimi lahko skripte komunicirajo z vašim primerkom Safegate Proa. Vsak žeton bo veljaven 10 let od nastanka. Trenutno so aktivni naslednji dolgotrajni dostopni žetoni.",
                     "empty_state": "Nimate dostopnih žetonov z daljšim rokom trajanja.",
                     "header": "Dolgotrajni dostopni žetoni",
                     "learn_auth_requests": "Naučite se, kako naredite preverjene zahteve.",

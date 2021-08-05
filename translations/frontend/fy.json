@@ -250,7 +250,7 @@
                     }
                 },
                 "info": {
-                    "description": "Ynformaasje oer dyn Home Assistant ynstallaasje"
+                    "description": "Ynformaasje oer dyn Safegate Pro ynstallaasje"
                 },
                 "integrations": {
                     "config_entry": {
@@ -340,7 +340,7 @@
             "lovelace": {
                 "cards": {
                     "starting": {
-                        "description": "Home Assistant komt op gong, eefkes geduld..."
+                        "description": "Safegate Pro komt op gong, eefkes geduld..."
                     }
                 },
                 "editor": {

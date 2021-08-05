@@ -155,7 +155,7 @@
                     },
                     "homeassistant_api": {
                         "description": "このアドオンは、ホームアシスタント API を介して直接、実行中のホームアシスタントインスタンスにアクセスできます。このモードはアドオンの認証も処理するため、アドオンは追加の認証トークンを必要とせずにホームアシスタントと対話できます。",
-                        "title": "Home AssistantAPIアクセス"
+                        "title": "Safegate ProAPIアクセス"
                     },
                     "host_network": {
                         "description": "アドオンは通常、独自の隔離されたネットワークレイヤーで実行され、ホストオペレーティングシステムのネットワークにアクセスすることができません。場合によっては、このネットワーク隔離によってアドオンのサービス提供が制限されることがあります。そのため、アドオンの作者が隔離を解除して、アドオンがホストマシンのネットワーク機能にフルアクセスできるようにすることができます。これにより、アドオンはより多くのネットワーク機能を得ることができますが、セキュリティが低下するため、アドオンでこのオプションを使用すると、アドオンのセキュリティ評価が低くなります。",
@@ -394,7 +394,7 @@
             "delete_snapshot_confirm": "削除",
             "delete_snapshot_text": "{number}を削除しますか？{number, plural,\n  one {snapshot}\n  other {snapshots}\n}?",
             "delete_snapshot_title": "スナップショットの削除",
-            "description": "スナップショットでは、Home Assistantインスタンスのすべてのデータを簡単にバックアップして復元することができます。",
+            "description": "スナップショットでは、Safegate Proインスタンスのすべてのデータを簡単にバックアップして復元することができます。",
             "enter_password": "パスワードを入力してください。",
             "failed_to_delete": "削除できませんでした",
             "folder": {
@@ -468,9 +468,9 @@
                 "failed_to_set_option": "Supervisorオプションの設定に失敗しました",
                 "failed_to_update": "Supervisorの更新に失敗しました",
                 "join_beta_action": "ベータチャンネルに参加",
-                "join_beta_description": "Home Assistant（RC）、Supervisor、ホストのベータ版アップデートを入手する",
+                "join_beta_description": "Safegate Pro（RC）、Supervisor、ホストのベータ版アップデートを入手する",
                 "leave_beta_action": "ベータチャンネルを離れる",
-                "leave_beta_description": "Home Assistant、Supervisor、およびホストの安定した更新を取得する",
+                "leave_beta_description": "Safegate Pro、Supervisor、およびホストの安定した更新を取得する",
                 "ram_usage": "SupervisorのRAM使用量",
                 "reload_supervisor": "リロード Supervisor",
                 "search": "検索",
@@ -934,7 +934,7 @@
         },
         "dialogs": {
             "config_entry_system_options": {
-                "enable_new_entities_description": "無効にするには、 {integration} から検出された新しいエンティティは Home Assistant に自動的に追加されません。",
+                "enable_new_entities_description": "無効にするには、 {integration} から検出された新しいエンティティは Safegate Pro に自動的に追加されません。",
                 "enable_new_entities_label": "新しく追加されたエンティティを有効にします。",
                 "enable_polling_description": "ホームアシスタントが{integration}エンティティの更新情報を自動的にポーリングする場合。",
                 "enable_polling_label": "更新のポーリングを有効にします。",
@@ -960,7 +960,7 @@
                     "device_disabled": "このエンティティのデバイスは無効になっています。",
                     "enabled_cause": "{cause} によって無効にされました。",
                     "enabled_delay_confirm": "有効なエンティティは {delay} 秒でホーム アシスタントに追加されます",
-                    "enabled_description": "無効化されたエンティティは Home Assistant に追加されません。",
+                    "enabled_description": "無効化されたエンティティは Safegate Pro に追加されません。",
                     "enabled_label": "エンティティを有効化",
                     "enabled_restart_confirm": "ホーム アシスタントを再起動してエンティティの有効化を完了",
                     "entity_id": "エンティティ ID",
@@ -1179,7 +1179,7 @@
                 "filter_placeholder": "エンティティフィルター"
             },
             "voice_command": {
-                "did_not_hear": "Home Assistant は何も聞きませんでした",
+                "did_not_hear": "Safegate Pro は何も聞きませんでした",
                 "error": "エラーが発生しました",
                 "found": "以下の結果は見つけました：",
                 "how_can_i_help": "どうなご用でしょう？",
@@ -1282,7 +1282,7 @@
             "integration_starting": "{integration}の開始、完了するまですべてが利用できるわけではありません。",
             "service_call_failed": "サービス{service}の呼び出しに失敗しました。",
             "started": "ホームアシスタントが開始されました！",
-            "starting": "Home Assistantが起動中です。全て利用可能なるまでもうしばらくお待ち下さい。",
+            "starting": "Safegate Proが起動中です。全て利用可能なるまでもうしばらくお待ち下さい。",
             "triggered": "トリガーしました {name}",
             "wrapping_up_startup": "起動開始、起動完了するまですべてが利用できるわけではありません。"
         },
@@ -1349,7 +1349,7 @@
                             "delete_confirm": "本当に削除しますか？",
                             "duplicate": "デュプリケート",
                             "header": "アクション",
-                            "introduction": "アクションは、オートメーションがトリガーされたときにHome Assistantが実行するものです。\n\n [アクションの詳細]（https://home-assistant.io/docs/automation/action/）",
+                            "introduction": "アクションは、オートメーションがトリガーされたときにSafegate Proが実行するものです。\n\n [アクションの詳細]（https://home-assistant.io/docs/automation/action/）",
                             "learn_more": "アクションの詳細",
                             "name": "アクション",
                             "type_select": "アクションの種類",
@@ -1548,7 +1548,7 @@
                             "delete_confirm": "本当に削除しますか？",
                             "duplicate": "複製",
                             "header": "トリガー",
-                            "introduction": "トリガーはオートメーションルールの処理を開始させます。同じルールに対して複数のトリガーを指定することが可能です。トリガーが開始されると、Home Assistantは条件があれば確認し、アクションを呼び出します。\n\n[トリガーについて](https://home-assistant.io/docs/automation/trigger/)",
+                            "introduction": "トリガーはオートメーションルールの処理を開始させます。同じルールに対して複数のトリガーを指定することが可能です。トリガーが開始されると、Safegate Proは条件があれば確認し、アクションを呼び出します。\n\n[トリガーについて](https://home-assistant.io/docs/automation/trigger/)",
                             "learn_more": "トリガーの詳細",
                             "name": "トリガー",
                             "type_select": "トリガーの種類",
@@ -1581,7 +1581,7 @@
                                 },
                                 "homeassistant": {
                                     "event": "イベント：",
-                                    "label": "Home Assistant",
+                                    "label": "Safegate Pro",
                                     "shutdown": "停止",
                                     "start": "起動"
                                 },
@@ -1726,9 +1726,9 @@
                             "config_documentation": "設定に関するドキュメント",
                             "disable": "無効",
                             "enable": "有効",
-                            "enable_ha_skill": "AlexaのHome Assistantスキルを有効にする",
+                            "enable_ha_skill": "AlexaのSafegate Proスキルを有効にする",
                             "enable_state_reporting": "状態レポートを有効にする",
-                            "info": "AlexaとHome Assistant Cloudの統合により、すべてのAlexa対応デバイスを介してすべてのHome Assistantデバイスを制御できます。",
+                            "info": "AlexaとSafegate Pro Cloudの統合により、すべてのAlexa対応デバイスを介してすべてのSafegate Proデバイスを制御できます。",
                             "info_state_reporting": "状態レポートを有効にすると、ホームアシスタントは公開されたエンティティのすべての状態変更を Amazon に送信します。これにより、常にAlexaアプリで最新の状態を表示し、状態の変更を使用してルーチンを作成できます。",
                             "manage_entities": "エンティティの管理",
                             "state_reporting_error": "状態を{enable_disable}報告できません。",
@@ -1743,7 +1743,7 @@
                         "google": {
                             "config_documentation": "設定に関するドキュメント",
                             "devices_pin": "セキュリティデバイス PIN",
-                            "enable_ha_skill": "GoogleアシスタントのHome Assistantスキルを有効にする",
+                            "enable_ha_skill": "GoogleアシスタントのSafegate Proスキルを有効にする",
                             "enable_state_reporting": "状態レポートを有効にする",
                             "enter_pin_error": "ピンを保存できません：",
                             "enter_pin_hint": "セキュリティデバイスを使用するには PIN を入力してください",
@@ -1769,7 +1769,7 @@
                             "access_is_being_prepared": "リモート アクセスの準備中です。準備ができたらお知らせします。",
                             "certificate_info": "証明書情報",
                             "connected": "接続",
-                            "info": "Home Assistant Cloud は、自宅の外からインスタンスへの安全なリモート接続を提供します。",
+                            "info": "Safegate Pro Cloud は、自宅の外からインスタンスへの安全なリモート接続を提供します。",
                             "instance_is_available": "インスタンスは次の場所にあります",
                             "instance_will_be_available": "インスタンスは次の時点で利用可能になります。",
                             "link_learn_how_it_works": "仕組みを学ぶ",
@@ -1781,7 +1781,7 @@
                             "title": "リモートコントロール"
                         },
                         "sign_out": "サインアウト",
-                        "thank_you_note": "Home Assistant Cloudにご参加いただきありがとうございます。私たちは皆のために優れたホームオートメーション体験を作ることができるのはあなたのような人々のおかげです。ありがとうございました！",
+                        "thank_you_note": "Safegate Pro Cloudにご参加いただきありがとうございます。私たちは皆のために優れたホームオートメーション体験を作ることができるのはあなたのような人々のおかげです。ありがとうございました！",
                         "tts": {
                             "default_language": "使用するデフォルト言語",
                             "dialog": {
@@ -1875,11 +1875,11 @@
                         "email": "Eメール",
                         "email_error_msg": "無効な電子メール",
                         "forgot_password": "パスワードをお忘れですか？",
-                        "introduction": "Home Assistant Cloudは、外出中のインスタンスへの安全なリモート接続を提供します。また、AmazonのAlexaやGoogleアシスタントなどのクラウド専用サービスに接続することもできます。",
+                        "introduction": "Safegate Pro Cloudは、外出中のインスタンスへの安全なリモート接続を提供します。また、AmazonのAlexaやGoogleアシスタントなどのクラウド専用サービスに接続することもできます。",
                         "introduction2": "このサービスはパートナーによって運営されています",
-                        "introduction2a": "、Home AssistantとHass.ioの創設者によって設立された会社。",
-                        "introduction3": "Home Assistant Cloudは、1か月間の無料トライアル付きのサブスクリプションサービスです。支払い情報は必要ありません。",
-                        "learn_more_link": "Home Assistant Cloud の情報をもっと見る。",
+                        "introduction2a": "、Safegate ProとHass.ioの創設者によって設立された会社。",
+                        "introduction3": "Safegate Pro Cloudは、1か月間の無料トライアル付きのサブスクリプションサービスです。支払い情報は必要ありません。",
+                        "learn_more_link": "Safegate Pro Cloud の情報をもっと見る。",
                         "password": "パスワード",
                         "password_error_msg": "パスワードは8文字以上です",
                         "sign_in": "サインイン",
@@ -1894,11 +1894,11 @@
                         "email_error_msg": "無効な電子メール",
                         "feature_amazon_alexa": "Amazon Alexa との統合",
                         "feature_google_home": "Google Assistant との統合",
-                        "feature_remote_control": "家の外でのHome Assistantの制御",
+                        "feature_remote_control": "家の外でのSafegate Proの制御",
                         "feature_webhook_apps": "OwnTracksなどのWebhookベースのアプリとの簡単な統合",
                         "headline": "無料試用を開始",
-                        "information": "アカウントを作成して、Home Assistant Cloudで1か月間の無料トライアルを開始してください。支払い情報は必要ありません。",
-                        "information2": "試用版では、Home Assistant Cloud すべての特典にアクセスできます、例えば：",
+                        "information": "アカウントを作成して、Safegate Pro Cloudで1か月間の無料トライアルを開始してください。支払い情報は必要ありません。",
+                        "information2": "試用版では、Safegate Pro Cloud すべての特典にアクセスできます、例えば：",
                         "information3": "このサービスはパートナーが運営しています。",
                         "information3a": "ホームアシスタントとHass.ioの創業者によって設立された会社。",
                         "information4": "アカウントを登録することにより、以下の条件に同意するものとします。",
@@ -1959,7 +1959,7 @@
                                 "imperial_example": "華氏、ポンド",
                                 "internal_url": "内部 URL",
                                 "latitude": "緯度",
-                                "location_name": "Home Assistantインストールの名前",
+                                "location_name": "Safegate Proインストールの名前",
                                 "longitude": "経度",
                                 "metric_example": "摂氏、キログラム",
                                 "save_button": "保存",
@@ -2090,7 +2090,7 @@
                     "picker": {
                         "disable_selected": {
                             "button": "選択を無効にする",
-                            "confirm_text": "無効化されたエンティティはHome Assistantに追加されません。",
+                            "confirm_text": "無効化されたエンティティはSafegate Proに追加されません。",
                             "confirm_title": "{number}エンティティを無効にしますか？"
                         },
                         "enable_selected": {
@@ -2114,11 +2114,11 @@
                             "name": "名前",
                             "status": "ステータス"
                         },
-                        "introduction": "Home Assistantは、一意に識別できる、これまでに見たすべてのエンティティのレジストリを保持します。これらの各エンティティには、エンティティIDが割り当てられ、このエンティティだけに予約されます。",
+                        "introduction": "Safegate Proは、一意に識別できる、これまでに見たすべてのエンティティのレジストリを保持します。これらの各エンティティには、エンティティIDが割り当てられ、このエンティティだけに予約されます。",
                         "introduction2": "エンティティ レジストリを使用して、名前を上書きするか、エンティティ ID を変更するか、またはホーム アシスタントからエントリを削除します。",
                         "remove_selected": {
                             "button": "選択したものを削除",
-                            "confirm_partly_text": "選択した{selected}エンティティの{selected}削除{removable}のみを削除できます。エンティティが削除できるのは、統合によってエンティティが提供されなくなった場合のみです。削除された統合のエンティティを削除する前に、Home Assistantを再起動する必要がある場合があります。削除可能なエンティティを削除してもよろしいですか？",
+                            "confirm_partly_text": "選択した{selected}エンティティの{selected}削除{removable}のみを削除できます。エンティティが削除できるのは、統合によってエンティティが提供されなくなった場合のみです。削除された統合のエンティティを削除する前に、Safegate Proを再起動する必要がある場合があります。削除可能なエンティティを削除してもよろしいですか？",
                             "confirm_partly_title": "削除できるのは、選択された{number}エンティティのみです。",
                             "confirm_text": "これらのエンティティが含まれている場合は、Lovelace の設定および自動化からそれらを削除する必要があります。Lovelace",
                             "confirm_title": "{number}エンティティを削除しますか？"
@@ -2142,7 +2142,7 @@
                 "hassio": {
                     "button": "設定"
                 },
-                "header": "Home Assistant の設定",
+                "header": "Safegate Pro の設定",
                 "helpers": {
                     "caption": "ヘルパー",
                     "description": "自動化の構築に役立つ要素を管理する",
@@ -2229,7 +2229,7 @@
                         },
                         "disabled_polling": "更新されたデータの自動ポーリングが無効",
                         "documentation": "ドキュメント",
-                        "enable_restart_confirm": "Home Assistantを再起動して、このintegrationを有効にします",
+                        "enable_restart_confirm": "Safegate Proを再起動して、このintegrationを有効にします",
                         "entities": "{count} {count, plural,\n  one {エンティティ}\n  other {エントリー}\n}",
                         "entity_unavailable": "エンティティは利用できません",
                         "firmware": "ファームウェア： {version}",
@@ -2292,7 +2292,7 @@
                         "show_disabled": "無効なintegrationを表示"
                     },
                     "discovered": "発見",
-                    "home_assistant_website": "Home Assistant のウェブサイト",
+                    "home_assistant_website": "Safegate Pro のウェブサイト",
                     "ignore": {
                         "confirm_delete_ignore": "これにより、検出された統合が検出されると、統合が再び表示されます。再起動が必要な場合や、しばらく時間がかかる場合があります。",
                         "confirm_delete_ignore_title": "{name} の無視を停止しますか？",
@@ -2318,12 +2318,12 @@
                     "rename_input_label": "エントリー名",
                     "search": "インテグレーションを検索"
                 },
-                "introduction": "このビューでは、コンポーネントとHome Assistantを設定できます。まだすべてをUIから設定できるわけではありませんが、現在取り組んでいます。",
+                "introduction": "このビューでは、コンポーネントとSafegate Proを設定できます。まだすべてをUIから設定できるわけではありませんが、現在取り組んでいます。",
                 "logs": {
                     "caption": "ログ",
                     "clear": "消去",
                     "custom_integration": "カスタム・インテグレーション",
-                    "description": "Home Assistantログを表示する",
+                    "description": "Safegate Proログを表示する",
                     "details": "ログの詳細（ {level} ）",
                     "error_from_custom_integration": "このエラーは、カスタム統合から発生しました。",
                     "level": {
@@ -2333,7 +2333,7 @@
                         "info": "情報",
                         "warning": "警告"
                     },
-                    "load_full_log": "完全な Home Assistant ログを読み込む",
+                    "load_full_log": "完全な Safegate Pro ログを読み込む",
                     "loading_log": "エラーログを読み込んでいます…",
                     "multiple_messages": "メッセージは最初に{time}発生し、 {counter}回表示されます",
                     "no_errors": "エラーは報告されていません。",
@@ -2552,7 +2552,7 @@
                     "confirm_delete": "このユーザーを削除しますか?",
                     "confirm_delete2": "このユーザーに属するすべてのデバイスは割り当て解除されます。",
                     "create_person": "人を作成",
-                    "description": "Home Assistant を追跡している人の管理。",
+                    "description": "Safegate Pro を追跡している人の管理。",
                     "detail": {
                         "admin": "管理者",
                         "allow_login": "ユーザーにログインを許可する",
@@ -2571,7 +2571,7 @@
                         "no_device_tracker_available_intro": "人の存在を示すデバイスがある場合は、ここでその人をその人に割り当てることができます。統合ページからプレゼンス検出統合を追加することで、最初のデバイスを追加できます。",
                         "update": "更新"
                     },
-                    "introduction": "ここでは、Home Assistantで関心のある各人を定義できます。",
+                    "introduction": "ここでは、Safegate Proで関心のある各人を定義できます。",
                     "learn_more": "ユーザーの詳細",
                     "no_persons_created_yet": "まだ人を作成していないようです。",
                     "note_about_persons_configured_in_yaml": "注：configuration.yaml で設定された人は、UI で編集できません。",
@@ -2667,7 +2667,7 @@
                         "headers": {
                             "name": "名前"
                         },
-                        "introduction": "スクリプトエディタを使用すると、スクリプトを作成および編集できます。以下のリンクに従って手順を読み、Home Assistantが正しく設定されていることを確認してください。",
+                        "introduction": "スクリプトエディタを使用すると、スクリプトを作成および編集できます。以下のリンクに従って手順を読み、Safegate Proが正しく設定されていることを確認してください。",
                         "learn_more": "スクリプトの詳細",
                         "no_scripts": "編集可能なスクリプトが見つかりませんでした",
                         "run_script": "スクリプトを実行する",
@@ -2676,7 +2676,7 @@
                 },
                 "server_control": {
                     "caption": "サーバー コントロール",
-                    "description": "Home Assistant サーバーの再起動と停止",
+                    "description": "Safegate Pro サーバーの再起動と停止",
                     "section": {
                         "reloading": {
                             "automation": "オートメーションの再読込",
@@ -2695,7 +2695,7 @@
                             "input_number": "入力番号を再読み込み",
                             "input_select": "入力選択の再読み込み",
                             "input_text": "入力テキストを再読み込み",
-                            "introduction": "Home Assistant の一部は、再起動を必要とせずに再読込できます。再読込を押すと、現在の設定をアンロードし、新しい設定を読み込みます。",
+                            "introduction": "Safegate Pro の一部は、再起動を必要とせずに再読込できます。再読込を押すと、現在の設定をアンロードし、新しい設定を読み込みます。",
                             "min_max": "最小/最大エンティティを再読み込み",
                             "mqtt": "mqtt エンティティの再読み込み",
                             "person": "人",
@@ -2714,10 +2714,10 @@
                             "zone": "ゾーンの再読込"
                         },
                         "server_management": {
-                            "confirm_restart": "Home Assistant を再起動してもよろしいですか？",
-                            "confirm_stop": "Home Assistantを停止してもよろしいですか？",
+                            "confirm_restart": "Safegate Pro を再起動してもよろしいですか？",
+                            "confirm_stop": "Safegate Proを停止してもよろしいですか？",
                             "heading": "サーバー管理",
-                            "introduction": "Home Assistant から Home Assistant サーバーを操作します。",
+                            "introduction": "Safegate Pro から Safegate Pro サーバーを操作します。",
                             "restart": "再起動",
                             "stop": "停止"
                         },
@@ -3091,7 +3091,7 @@
                         "add_to_group": "グループに追加",
                         "entities": "このノードのエンティティ",
                         "entity_info": "エンティティ情報",
-                        "exclude_entity": "このエンティティをHome Assistantから除外する",
+                        "exclude_entity": "このエンティティをSafegate Proから除外する",
                         "group": "グループ",
                         "header": "Z-Waveノード管理",
                         "introduction": "単一ノードに影響するZ-Waveコマンドを実行します。ノードを選択すると、使用可能なコマンドのリストが表示されます。",
@@ -3142,7 +3142,7 @@
             },
             "custom": {
                 "external_panel": {
-                    "complete_access": "Home Assistant のすべてのデータにアクセスできます。",
+                    "complete_access": "Safegate Pro のすべてのデータにアクセスできます。",
                     "hide_message": "このメッセージを非表示にするには、ドキュメントから panel_custom コンポーネントを確認してください",
                     "question_trust": "{link} から外部パネル {name} を信頼していますか？"
                 }
@@ -3187,7 +3187,7 @@
                         "attributes": "属性",
                         "copy_id": "ID をクリップボードにコピー",
                         "current_entities": "現在のエンティティ",
-                        "description1": "Home Assistant内でデバイスの表現を設定します。",
+                        "description1": "Safegate Pro内でデバイスの表現を設定します。",
                         "description2": "実際のデバイスと通信しません。",
                         "entity": "エンティティ",
                         "filter_attributes": "フィルター属性",
@@ -3281,7 +3281,7 @@
                         "url": "{url_path}へのウィンドウを開く"
                     },
                     "safe-mode": {
-                        "description": "Home Assistant は、設定の読み込み中に問題が発生し、セーフモードで実行されています。エラーログを見て、何が問題だったかを確認してください。",
+                        "description": "Safegate Pro は、設定の読み込み中に問題が発生し、セーフモードで実行されています。エラーログを見て、何が問題だったかを確認してください。",
                         "header": "セーフモードがアクティブになりました"
                     },
                     "shopping-list": {
@@ -3620,7 +3620,7 @@
                     "migrate": {
                         "header": "設定に互換性がありません",
                         "migrate": "設定を移行する",
-                        "para_migrate": "Home Assistantは、「設定の移行」ボタンを押すことで、すべてのカードとビューにIDを自動的に追加できます。",
+                        "para_migrate": "Safegate Proは、「設定の移行」ボタンを押すことで、すべてのカードとビューにIDを自動的に追加できます。",
                         "para_no_id": "この要素には ID がありません。'ui-lovelace.yaml' のこの要素に ID を追加してください。"
                     },
                     "move_card": {
@@ -3648,7 +3648,7 @@
                         "close": "閉じる",
                         "empty_config": "新しいダッシュボードから開始する",
                         "header": "Lovelace UIを制御する",
-                        "para": "このダッシュボードは現在、Home Assistantによって管理されています。新しいエンティティまたはLovelace UIコンポーネントが利用可能になると、自動的に更新されます。制御すると、このダッシュボードは自動的に更新されなくなります。いつでも設定\nで新しいダッシュボードを作成して、変更することができます。",
+                        "para": "このダッシュボードは現在、Safegate Proによって管理されています。新しいエンティティまたはLovelace UIコンポーネントが利用可能になると、自動的に更新されます。制御すると、このダッシュボードは自動的に更新されなくなります。いつでも設定\nで新しいダッシュボードを作成して、変更することができます。",
                         "para_sure": "ユーザー インターフェイスを制御しますか?",
                         "save": "制御する",
                         "yaml_config": "ここではダッシュボードの現在の設定を説明します。",
@@ -3714,7 +3714,7 @@
                     "entity_non_numeric": "エンティティが数値ではありません： {entity}",
                     "entity_not_found": "エンティティが使用できません： {entity}",
                     "entity_unavailable": "{entity}は現在利用できません",
-                    "starting": "Home Assistantが起動中です。全て利用可能なるまでもうしばらくお待ち下さい。"
+                    "starting": "Safegate Proが起動中です。全て利用可能なるまでもうしばらくお待ち下さい。"
                 }
             },
             "mailbox": {
@@ -3733,7 +3733,7 @@
             },
             "page-authorize": {
                 "abort_intro": "ログインが中止されました",
-                "authorizing_client": "{clientId} Home Assistantインスタンスへのアクセスを許可しようとしています。",
+                "authorizing_client": "{clientId} Safegate Proインスタンスへのアクセスを許可しようとしています。",
                 "form": {
                     "error": "エラー： {error}",
                     "next": "次",
@@ -3836,7 +3836,7 @@
                     "demo": {
                         "demo_by": "{name}",
                         "introduction": "おかえりなさい！ホームアシスタントのデモに到達しました。デモでは、コミュニティによって作成された最高のUIを紹介します。",
-                        "learn_more": "Home Assistantの詳細",
+                        "learn_more": "Safegate Proの詳細",
                         "next_demo": "次のデモ"
                     }
                 },
@@ -3892,7 +3892,7 @@
                 "finish": "終了",
                 "integration": {
                     "finish": "完了",
-                    "intro": "デバイスとサービスは、統合としてHome Assistantに表示されます。今すぐ設定することも、後で設定画面から設定することもできます。",
+                    "intro": "デバイスとサービスは、統合としてSafegate Proに表示されます。今すぐ設定することも、後で設定画面から設定することもできます。",
                     "more_integrations": "もっと見る"
                 },
                 "intro": "あなたはあなたの家を目覚めさせ、あなたのプライバシーを取り戻し、ティンカーの世界的なコミュニティに参加する準備ができていますか?",
