@@ -126,12 +126,12 @@ class HassioCoreInfo extends LitElement {
       title: this.supervisor.localize(
         "confirm.restart.title",
         "name",
-        "Safegate Pro Core"
+        "Home Assistant Core"
       ),
       text: this.supervisor.localize(
         "confirm.restart.text",
         "name",
-        "Safegate Pro Core"
+        "Home Assistant Core"
       ),
       confirmText: this.supervisor.localize("common.restart"),
       dismissText: this.supervisor.localize("common.cancel"),
@@ -150,7 +150,7 @@ class HassioCoreInfo extends LitElement {
           title: this.supervisor.localize(
             "common.failed_to_restart_name",
             "name",
-            "Safegate ProCore"
+            "Home AssistantCore"
           ),
           text: extractApiErrorMessage(err),
         });
@@ -163,7 +163,7 @@ class HassioCoreInfo extends LitElement {
   private async _coreUpdate(): Promise<void> {
     showDialogSupervisorUpdate(this, {
       supervisor: this.supervisor,
-      name: "Safegate Pro Core",
+      name: "Home Assistant Core",
       version: this.supervisor.core.version_latest,
       snapshotParams: {
         name: `core_${this.supervisor.core.version}`,

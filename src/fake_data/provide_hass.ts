@@ -131,7 +131,7 @@ export const provideHass = (
   const noop = () => undefined;
 
   const hassObj: MockHomeAssistant = {
-    // Safegate Pro properties
+    // Home Assistant properties
     auth: {
       data: {
         hassUrl: "",

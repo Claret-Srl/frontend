@@ -35,7 +35,7 @@ const _computeFolders = (folders): CheckboxItem[] => {
   if (folders.includes("homeassistant")) {
     list.push({
       slug: "homeassistant",
-      name: "Safegate Pro configuration",
+      name: "Home Assistant configuration",
       checked: false,
     });
   }
@@ -175,7 +175,7 @@ export class SupervisorSnapshotContent extends LitElement {
               ? html`
                   <ha-formfield
                     .label=${html`<supervisor-formfield-label
-                      label="Safegate Pro"
+                      label="Home Assistant"
                       .iconPath=${mdiHomeAssistant}
                       .version=${this.snapshot.homeassistant}
                     >

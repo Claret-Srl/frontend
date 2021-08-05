@@ -43,7 +43,7 @@ class ConfigAnalytics extends LitElement {
           ${error ? html`<div class="error">${error}</div>` : ""}
           <p>
             Share anonymized information from your installation to help make
-            Safegate Pro better and help us convince manufacturers to add
+            Home Assistant better and help us convince manufacturers to add
             local control and privacy-focused features.
           </p>
           <ha-analytics

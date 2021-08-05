@@ -310,7 +310,7 @@ export const getLovelaceCollection = (
       )
   );
 
-// Legacy functions to support cast for Safegate Pro < 0.107
+// Legacy functions to support cast for Home Assistion < 0.107
 const fetchLegacyConfig = (
   conn: Connection,
   force: boolean

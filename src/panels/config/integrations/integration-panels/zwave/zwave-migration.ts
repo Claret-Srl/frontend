@@ -113,7 +113,7 @@ export class ZwaveMigration extends LitElement {
                             <li>Stop the Z-Wave network</li>
                             <li>
                               <i
-                                >If running Safegate Pro Core in Docker or in
+                                >If running Home Assistant Core in Docker or in
                                 Python venv:</i
                               >
                               Configure and start OZWDaemon
@@ -146,7 +146,7 @@ export class ZwaveMigration extends LitElement {
                         <div class="card-content">
                           <p>
                             We need to stop the Z-Wave network to perform the
-                            migration. Safegate Pro will not be able to
+                            migration. Home Assistant will not be able to
                             control Z-Wave devices while the network is stopped.
                           </p>
                           ${this._stoppingNetwork
@@ -176,14 +176,14 @@ export class ZwaveMigration extends LitElement {
                           ${isComponentLoaded(this.hass, "hassio")
                             ? html`
                                 <p>
-                                  The OZWDaemon runs in a Safegate Pro addon
+                                  The OZWDaemon runs in a Home Assistant addon
                                   that will be setup next. Make sure to check
                                   the checkbox for the addon.
                                 </p>
                               `
                             : html`
                                 <p>
-                                  If you're using Safegate Pro Core in Docker
+                                  If you're using Home Assistant Core in Docker
                                   or a Python venv, see the
                                   <a
                                     href="https://github.com/OpenZWave/qt-openzwave/blob/master/README.md"
@@ -395,7 +395,7 @@ export class ZwaveMigration extends LitElement {
         title: "Failed to get migration data!",
         text:
           err.code === "unknown_command"
-            ? "Restart Safegate Pro and try again."
+            ? "Restart Home Assistant and try again."
             : err.message,
       });
       return;

@@ -260,9 +260,9 @@ class HassioSupervisorInfo extends LitElement {
           <br /><br />
           ${this.supervisor.localize("system.supervisor.beta_release_items")}
           <ul>
-            <li>Safegate Pro Core</li>
-            <li>Safegate Pro Supervisor</li>
-            <li>Safegate Pro Operating System</li>
+            <li>Home Assistant Core</li>
+            <li>Home Assistant Supervisor</li>
+            <li>Home Assistant Operating System</li>
           </ul>
           <br />
           ${this.supervisor.localize("system.supervisor.beta_join_confirm")}`,
